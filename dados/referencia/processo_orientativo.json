@@ -1,0 +1,400 @@
+{
+  "objetivo": "Estabelecer procedimento institucional padronizado para proposição, análise, aprovação, formalização, publicação, implantação, acompanhamento, alteração e encerramento de instrumentos de cooperação, delegação e parceria celebrados pela AGERGS, com responsabilidades, documentos e critérios de transição definidos.",
+  "problemas_diagnosticados": [
+    {
+      "descricao": "Não existe fluxo institucional único que padronize responsabilidades, documentos, produtos e critérios entre etapas (Anexo v1 e Justificativa).",
+      "evidencia": "não existe um fluxo institucional único que estabeleça de forma padronizada as responsabilidades das unidades envolvidas"
+    },
+    {
+      "descricao": "Critérios de transição entre etapas não estão definidos de forma padronizada.",
+      "evidencia": "os critérios de transição entre as etapas do processo."
+    },
+    {
+      "descricao": "Procedimentos atuais são conduzidos com base em práticas administrativas, não em fluxo formal.",
+      "evidencia": "Atualmente, tais procedimentos são conduzidos com base em práticas administrativas consolidadas"
+    },
+    {
+      "descricao": "Falta de definição de competências gera retrabalho e conflitos de atribuições (benefício declarado da padronização).",
+      "evidencia": "A definição clara das competências reduz retrabalho, conflitos de atribuições e encaminhamentos desnecessários"
+    },
+    {
+      "descricao": "Dependência de conhecimento individual e risco de descontinuidade administrativa.",
+      "evidencia": "A padronização reduz a dependência de conhecimento individual"
+    },
+    {
+      "descricao": "Risco de mobilização prematura da Procuradoria Setorial em propostas sem aderência institucional.",
+      "evidencia": "evita análises institucionais prematuras e reduz o risco de mobilização desnecessária da Procuradoria Setorial"
+    },
+    {
+      "descricao": "A DTM questiona impactos sobre suas competências e pede prazo adicional (pendência aberta).",
+      "evidencia": "quanto aos impactos sobre as competências e atribuições desta Diretoria"
+    },
+    {
+      "descricao": "Demanda recorrente por atualização de instrumentos existentes e por novas parcerias.",
+      "evidencia": "a necessidade de atualização de instrumentos existentes"
+    },
+    {
+      "descricao": "Divergência de escopo da DSI entre Justificativa (saneamento e irrigação) e Anexo (inclui drenagem e resíduos).",
+      "evidencia": "a DSI atua nos temas relacionados ao saneamento básico e irrigação;"
+    },
+    {
+      "descricao": "Inconsistência de numeração: o regramento de deliberação cita a Etapa 8, mas a deliberação é a Etapa 7.",
+      "evidencia": "Regramento da Etapa 8 (Deliberação):"
+    }
+  ],
+  "tipos_de_instrumento": [
+    "Contrato de delegação do exercício da regulação",
+    "Convênio de regulação (delegação municipal)",
+    "Alteração relevante de contrato ou convênio regulatório",
+    "Acordo e convênio de cooperação técnica",
+    "Acordo de cooperação institucional",
+    "Protocolo de intenções",
+    "Termo de parceria",
+    "Instrumentos de cooperação técnica, científica ou tecnológica",
+    "Instrumentos firmados com universidades e instituições de pesquisa",
+    "Instrumentos firmados com conselhos profissionais, órgãos de controle, entidades reguladoras e organismos nacionais ou internacionais",
+    "Termos aditivos, renovações, prorrogações, revisões e instrumentos de encerramento",
+    "Parcerias estratégicas de grande impacto institucional",
+    "Outros ajustes congêneres admitidos pela legislação"
+  ],
+  "etapas_propostas": [
+    {
+      "ordem": 1,
+      "nome": "Identificação da necessidade, abertura do processo e instrução inicial",
+      "responsavel_unidade": "Unidade Proponente / DAI",
+      "entradas": "Demanda ou manifestação formal de órgão externo; proposta da Presidência, da DAI ou de unidade da AGERGS",
+      "saidas_documentos_sei": "Processo administrativo autuado; demanda registrada; documentação inicial incorporada; unidade técnica definida, quando necessária",
+      "tipo_documento_sei": "Processo administrativo autuado (classificação conforme o objeto, não especificada)",
+      "prazo_se_houver": null,
+      "decisao_ou_gateway": "Identificar a unidade técnica competente; se for delegação da regulação, a DAI coordena desde a origem",
+      "evidencia": "Identificar e registrar demanda, necessidade ou oportunidade de celebração de instrumento de cooperação, delegação ou parceria institucional"
+    },
+    {
+      "ordem": 2,
+      "nome": "Articulação institucional, definição do objeto e coleta documental",
+      "responsavel_unidade": "DAI",
+      "entradas": "Processo autuado; demanda; documentação inicial",
+      "saidas_documentos_sei": "Dossiê documental preliminar; definição preliminar do objeto e do escopo; registro dos alinhamentos",
+      "tipo_documento_sei": "não especificado no texto",
+      "prazo_se_houver": null,
+      "decisao_ou_gateway": "Objeto suficientemente definido e documentação mínima disponível para análise técnica",
+      "evidencia": "Definir o objeto, os resultados esperados e o escopo preliminar da cooperação, delegação ou parceria"
+    },
+    {
+      "ordem": 3,
+      "nome": "Análise técnica e de viabilidade",
+      "responsavel_unidade": "Unidade técnica competente em razão do objeto (DSI, DEGIP, DTM, DAF, DTI ou outra)",
+      "entradas": "Dossiê preliminar; objeto definido; documentação mínima",
+      "saidas_documentos_sei": "Nota Técnica ou Manifestação Técnica de Viabilidade",
+      "tipo_documento_sei": "Nota Técnica ou Manifestação (Informação) Técnica de Viabilidade",
+      "prazo_se_houver": null,
+      "decisao_ou_gateway": "Conclusão favorável, favorável com condicionantes ou desfavorável; avança somente com conclusão favorável (condicionada ou não)",
+      "evidencia": "Avaliar a viabilidade técnica, regulatória e operacional da proposta e identificar requisitos, condições, obrigações, riscos e resultados esperados"
+    },
+    {
+      "ordem": 4,
+      "nome": "Validação institucional e autorização de prosseguimento",
+      "responsavel_unidade": "Diretoria-Geral (DG), com DAI e unidades impactadas",
+      "entradas": "Manifestação técnica de viabilidade; objeto proposto; obrigações pretendidas para a AGERGS",
+      "saidas_documentos_sei": "Manifestação da Diretoria-Geral quanto à continuidade da instrução",
+      "tipo_documento_sei": "Manifestação da Diretoria-Geral (tipo não especificado)",
+      "prazo_se_houver": null,
+      "decisao_ou_gateway": "Continuidade; continuidade condicionada a providências; ou não continuidade da proposta",
+      "evidencia": "Avaliar, com base nos elementos produzidos pelas etapas anteriores, a conveniência institucional da proposta"
+    },
+    {
+      "ordem": 5,
+      "nome": "Estruturação jurídica e controle de legalidade",
+      "responsavel_unidade": "Procuradoria Setorial (PSE)",
+      "entradas": "Autorização da DG; manifestação técnica; documentação da entidade interessada",
+      "saidas_documentos_sei": "Minuta final do instrumento; parecer jurídico conclusivo; indicação da instância decisória",
+      "tipo_documento_sei": "Manifestação jurídica conclusiva; minuta do instrumento",
+      "prazo_se_houver": null,
+      "decisao_ou_gateway": "Manifestação jurídica favorável com instrução suficiente; PSE pode solicitar complementações ou ajustes",
+      "evidencia": "Definir a modalidade jurídica adequada, estruturar o instrumento, realizar o controle preventivo de legalidade"
+    },
+    {
+      "ordem": 6,
+      "nome": "Definição do rito decisório e encaminhamento",
+      "responsavel_unidade": "Gabinete da Presidência e Presidência (GP)",
+      "entradas": "Manifestação jurídica; natureza do instrumento; competência decisória",
+      "saidas_documentos_sei": "Rito decisório definido; processo encaminhado; distribuição ao Conselho Superior, quando cabível",
+      "tipo_documento_sei": "não especificado no texto",
+      "prazo_se_houver": null,
+      "decisao_ou_gateway": "Presidência (competência legal ou administrativa) ou Conselho Superior (delegação da regulação, determinação legal ou decisão da Presidência)",
+      "evidencia": "Definir e promover o encaminhamento do processo à autoridade ou instância competente para aprovação."
+    },
+    {
+      "ordem": 7,
+      "nome": "Análise e deliberação institucional",
+      "responsavel_unidade": "Presidência ou Conselho Superior, conforme a competência",
+      "entradas": "Processo encaminhado; manifestações técnica, jurídica e de governança",
+      "saidas_documentos_sei": "Despacho ou ato de aprovação da Presidência; voto do relator; Resolução Decisória do Conselho Superior",
+      "tipo_documento_sei": "Resolução Decisória (Conselho Superior); despacho ou ato de aprovação (Presidência)",
+      "prazo_se_houver": null,
+      "decisao_ou_gateway": "Aprovar; aprovar com condicionantes; rejeitar ou devolver para ajustes",
+      "evidencia": "Analisar a conveniência, a oportunidade, a regularidade e o interesse institucional da celebração do instrumento."
+    },
+    {
+      "ordem": 8,
+      "nome": "Formalização e assinatura",
+      "responsavel_unidade": "DAI",
+      "entradas": "Decisão de aprovação; minuta aprovada sem alteração material; condicionantes",
+      "saidas_documentos_sei": "Instrumento formalmente celebrado e registrado no processo SEI",
+      "tipo_documento_sei": "Instrumento assinado (juntado ao processo)",
+      "prazo_se_houver": null,
+      "decisao_ou_gateway": "Conferência prévia: condicionantes atendidos, texto mantido, representação regular, documentos e datas atualizados",
+      "evidencia": "Formalizar o instrumento aprovado, coletar as assinaturas e assegurar seu registro no processo administrativo."
+    },
+    {
+      "ordem": 9,
+      "nome": "Publicação e comunicação institucional",
+      "responsavel_unidade": "Diretoria-Geral (DG), com ACS, DAF, DAI, GP e unidade técnica",
+      "entradas": "Instrumento celebrado; manifestação jurídica (base para definir publicidade)",
+      "saidas_documentos_sei": "Extrato ou ato publicado, quando exigível; comprovante de publicação; comunicação institucional",
+      "tipo_documento_sei": "Comprovante de publicação; extrato",
+      "prazo_se_houver": null,
+      "decisao_ou_gateway": "Necessidade de publicação de extrato, veículo, prazo e conteúdo mínimo a definir caso a caso",
+      "evidencia": "Coordenar a publicidade legal e a comunicação institucional do instrumento celebrado."
+    },
+    {
+      "ordem": 10,
+      "nome": "Implantação e início da execução",
+      "responsavel_unidade": "DG (coordenação executiva); unidade técnica, DAF, DTI, DAU, ACS, DAI",
+      "entradas": "Instrumento celebrado e publicado; obrigações assumidas pela AGERGS",
+      "saidas_documentos_sei": "Providências distribuídas; pendências registradas; data de início efetivo; instrumento implantado",
+      "tipo_documento_sei": "Registros de implantação e acompanhamento",
+      "prazo_se_houver": null,
+      "decisao_ou_gateway": "Providências iniciais concluídas, responsáveis identificados e início da vigência operacional registrado",
+      "evidencia": "Coordenar as providências internas necessárias para tornar o instrumento efetivamente executável."
+    },
+    {
+      "ordem": 11,
+      "nome": "Monitoramento, alteração, renovação e encerramento",
+      "responsavel_unidade": "DAI (coordenação institucional); unidade técnica ou gestora designada (gestão técnica)",
+      "entradas": "Instrumento vigente; plano de trabalho; obrigações e prazos pactuados",
+      "saidas_documentos_sei": "Relatórios de acompanhamento; termos aditivos; prorrogações; relatório final; termo ou despacho de encerramento",
+      "tipo_documento_sei": "Relatório de acompanhamento; termo aditivo; relatório final; termo ou despacho de encerramento",
+      "prazo_se_houver": null,
+      "decisao_ou_gateway": "Continuidade, alteração (termo aditivo submetido à PSE), renovação ou encerramento",
+      "evidencia": "Acompanhar a execução, o cumprimento das obrigações, os prazos e os resultados do instrumento durante toda a sua vigência."
+    }
+  ],
+  "documentacao_minima_exigida": [
+    {
+      "item": "Ofício ou manifestação formal do município",
+      "evidencia": "Ofício ou manifestação formal do município"
+    },
+    {
+      "item": "Lei municipal autorizativa, quando aplicável",
+      "evidencia": "Lei municipal autorizativa, quando aplicável"
+    },
+    {
+      "item": "Contrato de concessão, contrato de programa ou instrumento equivalente",
+      "evidencia": "Contrato de concessão, contrato de programa ou instrumento equivalente"
+    },
+    {
+      "item": "Termo Aditivo de Adequação Contratual (TAAC), quando existente",
+      "evidencia": "Termo Aditivo de Adequação Contratual (TAAC), quando existente"
+    },
+    {
+      "item": "Plano Municipal de Saneamento Básico (PMSB), quando aplicável",
+      "evidencia": "Plano Municipal de Saneamento Básico (PMSB), quando aplicável"
+    },
+    {
+      "item": "Minuta do instrumento de delegação regulatória",
+      "evidencia": "Minuta do instrumento de delegação regulatória"
+    },
+    {
+      "item": "Nota Técnica ou Informação da unidade competente (viabilidade técnica)",
+      "evidencia": "Nota Técnica ou Informação da unidade competente (viabilidade técnica)"
+    },
+    {
+      "item": "Manifestação da Diretoria-Geral quanto à continuidade da instrução",
+      "evidencia": "Manifestação da Diretoria-Geral quanto à continuidade da instrução"
+    },
+    {
+      "item": "Manifestação jurídica da Procuradoria Setorial",
+      "evidencia": "Manifestação Jurídica da Procuradoria Setorial"
+    },
+    {
+      "item": "Resolução Decisória do Conselho Superior (ou deliberação, despacho ou autorização da instância competente)",
+      "evidencia": "Resolução Decisória do Conselho Superior"
+    },
+    {
+      "item": "Instrumento firmado pelas partes",
+      "evidencia": "Instrumento firmado pelas partes"
+    },
+    {
+      "item": "Comprovante de publicação, quando exigível",
+      "evidencia": "Comprovante de publicação, quando exigível"
+    },
+    {
+      "item": "Registros de implantação, acompanhamento e encerramento",
+      "evidencia": "Registros de implantação, acompanhamento e encerramento."
+    },
+    {
+      "item": "Justificativa institucional",
+      "evidencia": "justificativa institucional"
+    },
+    {
+      "item": "Manifestação técnica de viabilidade",
+      "evidencia": "manifestação técnica de viabilidade"
+    },
+    {
+      "item": "Manifestação de governança",
+      "evidencia": "manifestação de governança"
+    },
+    {
+      "item": "Plano de trabalho, quando aplicável",
+      "evidencia": "plano de trabalho, quando aplicável"
+    },
+    {
+      "item": "Atos constitutivos e documentos de representação das entidades participantes",
+      "evidencia": "Atos constitutivos e documentos de representação das entidades participantes"
+    }
+  ],
+  "papeis_unidades": [
+    {
+      "unidade": "Unidade Proponente",
+      "atribuicoes": "Identificação da necessidade, abertura do processo administrativo e instrução inicial."
+    },
+    {
+      "unidade": "DAI",
+      "atribuicoes": "Coordenação institucional (desde a origem nos casos de delegação da regulação), interlocução com municípios e entidades, definição do objeto, formalização e acompanhamento institucional dos instrumentos."
+    },
+    {
+      "unidade": "DSI",
+      "atribuicoes": "Análise técnica e regulatória de saneamento básico (água, esgoto, drenagem), resíduos sólidos e irrigação; manifestação técnica de viabilidade."
+    },
+    {
+      "unidade": "DEGIP",
+      "atribuicoes": "Análise técnica e regulatória de energia elétrica e gás canalizado."
+    },
+    {
+      "unidade": "DTM",
+      "atribuicoes": "Análise técnica e regulatória de transporte intermunicipal, rodovias concedidas e temas de sua competência."
+    },
+    {
+      "unidade": "DAF",
+      "atribuicoes": "Impactos orçamentários, financeiros e patrimoniais; providências financeiras decorrentes do instrumento."
+    },
+    {
+      "unidade": "DTI",
+      "atribuicoes": "Impactos tecnológicos, sistemas, integrações e segurança da informação necessários à execução."
+    },
+    {
+      "unidade": "DAU",
+      "atribuicoes": "Participação quando o instrumento impactar atendimento aos usuários ou canais de relacionamento."
+    },
+    {
+      "unidade": "ACS",
+      "atribuicoes": "Apoio à divulgação institucional, comunicação pública e atualização dos meios oficiais."
+    },
+    {
+      "unidade": "PSE (Procuradoria Setorial)",
+      "atribuicoes": "Definição da modalidade jurídica, elaboração ou revisão de minutas, controle preventivo de legalidade e manifestação jurídica conclusiva."
+    },
+    {
+      "unidade": "Diretoria-Geral (DG)",
+      "atribuicoes": "Validação institucional e autorização de prosseguimento; coordenação executiva após a formalização, publicação e implantação. Não atua como executora de negociação, análise técnica ou elaboração jurídica."
+    },
+    {
+      "unidade": "GP / Presidência",
+      "atribuicoes": "Formalização administrativa, definição do rito decisório, encaminhamento e assinatura dos instrumentos aprovados."
+    },
+    {
+      "unidade": "Conselho Superior",
+      "atribuicoes": "Deliberação colegiada de instrumentos com exercício de competência regulatória, como contratos de delegação da regulação."
+    },
+    {
+      "unidade": "Secretaria Executiva do Conselho Superior",
+      "atribuicoes": "Distribuição do processo, designação de relator e revisor, quando aplicável."
+    }
+  ],
+  "normas_citadas": [
+    {
+      "norma": "Lei Estadual nº 16.266/2024",
+      "trecho literal": "Lei Estadual nº 16.266/2024",
+      "evidencia": "A proposta está alinhada à reorganização administrativa promovida pela Lei Estadual nº 16.266/2024"
+    },
+    {
+      "norma": "Lei Federal nº 11.445/2007",
+      "trecho literal": "Lei Federal nº 11.445/2007 (Diretrizes Nacionais para o Saneamento Básico)",
+      "evidencia": "Lei Federal nº 11.445/2007 (Diretrizes Nacionais para o Saneamento Básico)"
+    },
+    {
+      "norma": "Lei Federal nº 14.026/2020",
+      "trecho literal": "Lei Federal nº 14.026/2020 (Novo Marco Legal do Saneamento)",
+      "evidencia": "Lei Federal nº 14.026/2020 (Novo Marco Legal do Saneamento)"
+    },
+    {
+      "norma": "Lei Federal nº 14.133/2021",
+      "trecho literal": "Lei Federal nº 14.133/2021, quando aplicável",
+      "evidencia": "Lei Federal nº 14.133/2021, quando aplicável"
+    },
+    {
+      "norma": "Regimento Interno da AGERGS",
+      "trecho literal": "Regimento Interno da AGERGS e atos normativos correlatos",
+      "evidencia": "Regimento Interno da AGERGS e atos normativos correlatos"
+    },
+    {
+      "norma": "Medida Provisória nº 2.200-2/2001 (assinatura eletrônica)",
+      "trecho literal": "conforme Medida Provisória nº 2.200-2/2001",
+      "evidencia": "conforme Medida Provisória nº 2.200-2/2001"
+    },
+    {
+      "norma": "Instrução Normativa (formalização futura, sem número)",
+      "trecho literal": "Instrução Normativa ou instrumento equivalente",
+      "evidencia": "Instrução Normativa ou instrumento equivalente"
+    }
+  ],
+  "tipos_processo_sei_propostos": [
+    "Processo de Celebração de Instrumentos de Cooperação, Delegação e Parceria Institucional (processo-mãe proposto no Anexo v1)",
+    "Convênios Regulação (Documentação Base SEI 0616428, delegação da regulação)",
+    "Celebração Instrumentos (Documentação Base SEI 0620048, instrumentos gerais)",
+    "Classificação processual SEI conforme o objeto (a definir; o texto não especifica os tipos)"
+  ],
+  "pontos_de_controle_ou_checklists": [
+    "Etapa 1: processo autuado e instruído com elementos mínimos (critério para avançar).",
+    "Etapa 2: objeto suficientemente definido e documentação mínima disponível.",
+    "Etapa 3: conclusão técnica favorável, mesmo que condicionada a ajustes identificados.",
+    "Etapa 4: autorização da DG para prosseguimento e encaminhamento à análise jurídica.",
+    "Etapa 5: manifestação jurídica favorável e instrução suficiente; checklist de completude (5.3) e controle de legalidade (5.5).",
+    "Etapa 6: processo recebido pela autoridade ou instância competente, com rito decisório formalizado.",
+    "Etapa 7: aprovação da celebração e da versão final pela autoridade ou instância competente.",
+    "Etapa 8.1: antes da assinatura, conferir condicionantes, texto aprovado, representação das partes, documentos, datas e prazos.",
+    "Etapa 8.4: instrumento assinado por todos os partícipes e anexos incorporados ao processo.",
+    "Etapa 9: formalidades de publicidade e comunicação cumpridas antes do início da execução.",
+    "Etapa 10: providências iniciais concluídas, responsáveis identificados e início da vigência registrado.",
+    "Etapa 11: encerramento formal após cumprimento ou extinção das obrigações e tratamento das pendências.",
+    "Documentação para delegação da regulação (0616428): manifestação formal do município, instrumento de delegação, viabilidade técnica e jurídica, aprovação pelo Conselho Superior."
+  ],
+  "lacunas_ou_pontos_em_aberto": [
+    "Não há prazos por etapa; o único prazo do processo é de 15 dias úteis para manifestação das unidades (Encaminhamento 3714, seq 6).",
+    "A forma normativa de formalização (Instrução Normativa ou instrumento equivalente) ainda não foi decidida (memorando seq 1 e encaminhamento seq 6, alínea b).",
+    "O regramento de deliberação cita 'Etapa 8', mas a deliberação é a Etapa 7 no texto; a numeração deve ser revista.",
+    "Para parcerias estratégicas de grande impacto, a escolha entre Presidência e Conselho Superior fica 'conforme decisão da Administração', sem critério objetivo.",
+    "A lista de documentos é indicativa ('poderão ser solicitados'; 'conforme a natureza do instrumento'); não há checklist mínimo por modalidade.",
+    "A classificação processual SEI aplicável a cada objeto não está definida no texto.",
+    "A unidade gestora é 'unidade técnica competente ou unidade expressamente designada', mas não se define quem designa.",
+    "O regramento sobre o rito do Conselho Superior (Secretaria Executiva, relator e revisor) remete ao rito aplicável, não descrito no anexo.",
+    "A Justificativa (seq 3) define a DSI como responsável por saneamento e irrigação; o Anexo amplia para drenagem e resíduos sólidos.",
+    "A Documentação Base de convênios de regulação (0616428) fixa unidades (DSI, GP, PSE, Conselho Superior), enquanto o Anexo usa competência por tema.",
+    "O Anexo diz que a DG 'não deverá atuar como unidade executora', mas aparece como responsável das Etapas 4, 9 e 10; o alcance da coordenação deve ser esclarecido.",
+    "Pendente: manifestações das unidades (DAI, PSE, DEGIP, DTM, DAF, DTI); nos autos só há o pedido de prazo da DTM (seq 7), sem deferimento.",
+    "Pendente: a Reunião de Gestão de 11/09/2026 citada no memorando não consta dos documentos."
+  ],
+  "encaminhamentos_e_manifestacoes_posteriores": [
+    {
+      "seq": 6,
+      "unidade": "Diretoria-Geral (DG)",
+      "conteudo": "Encaminha os autos às DAI, PSE, DEGIP, DTM, DAF e DTI para manifestação sobre o fluxo, a conveniência da formalização e o instrumento normativo, em 15 dias úteis, com retorno à DG para consolidação e deliberação."
+    },
+    {
+      "seq": 7,
+      "unidade": "Diretoria de Transportes e Mobilidade (DTM)",
+      "conteudo": "Solicita prazo adicional para manifestação, por férias da titular e acúmulo de demandas, para analisar os impactos sobre as competências da DTM; não há deferimento nos autos."
+    }
+  ]
+}

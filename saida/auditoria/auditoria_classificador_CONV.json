@@ -1,0 +1,179 @@
+{
+ "pecas": 97,
+ "rotuladas_auditor": 97,
+ "concordancia_atividade": 72.2,
+ "concordancia_tarefa": 78.4,
+ "substantivas": 87,
+ "concordancia_tarefa_substantivas": 81.6,
+ "criterio": "≥ 85% nas peças substantivas (concordância na tarefa do modelo)",
+ "divergencias": [
+  {
+   "id": "Alecrim#3",
+   "rotulo_ficha": "assinatura_instrumento",
+   "rotulo_auditor": "deliberacao_conselho_superior",
+   "mesma_atividade": false,
+   "mesma_tarefa": false,
+   "substantiva": true
+  },
+  {
+   "id": "Arambare#13",
+   "rotulo_ficha": "arquivamento_encerramento",
+   "rotulo_auditor": "encaminhamento_interno",
+   "mesma_atividade": false,
+   "mesma_tarefa": false,
+   "substantiva": true
+  },
+  {
+   "id": "Campinas_das_Missoes#5",
+   "rotulo_ficha": "comunicacao_interna_pos_assinatura",
+   "rotulo_auditor": "encaminhamento_interno",
+   "mesma_atividade": false,
+   "mesma_tarefa": false,
+   "substantiva": true
+  },
+  {
+   "id": "Campinas_das_Missoes#8",
+   "rotulo_ficha": "envio_minuta_ao_municipio",
+   "rotulo_auditor": "elaboracao_minuta",
+   "mesma_atividade": false,
+   "mesma_tarefa": false,
+   "substantiva": true
+  },
+  {
+   "id": "Capao_Bonito_do_Sul#10",
+   "rotulo_ficha": "autuacao_abertura",
+   "rotulo_auditor": "decisao_presidencia_diretoria",
+   "mesma_atividade": false,
+   "mesma_tarefa": false,
+   "substantiva": true
+  },
+  {
+   "id": "Capao_Bonito_do_Sul#2",
+   "rotulo_ficha": "autuacao_abertura",
+   "rotulo_auditor": "encaminhamento_interno",
+   "mesma_atividade": false,
+   "mesma_tarefa": false,
+   "substantiva": true
+  },
+  {
+   "id": "Capao_Bonito_do_Sul#5",
+   "rotulo_ficha": "analise_juridica",
+   "rotulo_auditor": "manifestacao_pge",
+   "mesma_atividade": false,
+   "mesma_tarefa": false,
+   "substantiva": true
+  },
+  {
+   "id": "Chiapetta#6",
+   "rotulo_ficha": "comunicacao_interna_pos_assinatura",
+   "rotulo_auditor": "encaminhamento_interno",
+   "mesma_atividade": false,
+   "mesma_tarefa": false,
+   "substantiva": true
+  },
+  {
+   "id": "Liberato_Salzano#12",
+   "rotulo_ficha": "outro",
+   "rotulo_auditor": "tratativa_com_municipio",
+   "mesma_atividade": false,
+   "mesma_tarefa": false,
+   "substantiva": false
+  },
+  {
+   "id": "Liberato_Salzano#9",
+   "rotulo_ficha": "juntada_documentos_municipio",
+   "rotulo_auditor": "solicitacao_municipio",
+   "mesma_atividade": false,
+   "mesma_tarefa": false,
+   "substantiva": true
+  },
+  {
+   "id": "Mapituba#13",
+   "rotulo_ficha": "analise_tecnica",
+   "rotulo_auditor": "encaminhamento_interno",
+   "mesma_atividade": false,
+   "mesma_tarefa": false,
+   "substantiva": true
+  },
+  {
+   "id": "Mata#9",
+   "rotulo_ficha": "documento_externo_anexo",
+   "rotulo_auditor": "tratativa_com_municipio",
+   "mesma_atividade": false,
+   "mesma_tarefa": false,
+   "substantiva": true
+  },
+  {
+   "id": "Panambi#11",
+   "rotulo_ficha": "outro",
+   "rotulo_auditor": "tratativa_com_municipio",
+   "mesma_atividade": false,
+   "mesma_tarefa": false,
+   "substantiva": false
+  },
+  {
+   "id": "Panambi#12",
+   "rotulo_ficha": "comunicacao_interna_pos_assinatura",
+   "rotulo_auditor": "tratativa_com_municipio",
+   "mesma_atividade": false,
+   "mesma_tarefa": false,
+   "substantiva": true
+  },
+  {
+   "id": "Passa_Sete#1",
+   "rotulo_ficha": "outro",
+   "rotulo_auditor": "assinatura_instrumento",
+   "mesma_atividade": false,
+   "mesma_tarefa": false,
+   "substantiva": false
+  },
+  {
+   "id": "Passo_Fundo#14",
+   "rotulo_ficha": "decisao_presidencia_diretoria",
+   "rotulo_auditor": "comunicacao_prestador",
+   "mesma_atividade": false,
+   "mesma_tarefa": false,
+   "substantiva": true
+  },
+  {
+   "id": "Passo_Fundo#21",
+   "rotulo_ficha": "encaminhamento_interno",
+   "rotulo_auditor": "tratativa_com_municipio",
+   "mesma_atividade": false,
+   "mesma_tarefa": false,
+   "substantiva": false
+  },
+  {
+   "id": "Passo_Fundo#57",
+   "rotulo_ficha": "outro",
+   "rotulo_auditor": "tratativa_com_municipio",
+   "mesma_atividade": false,
+   "mesma_tarefa": false,
+   "substantiva": false
+  },
+  {
+   "id": "Passo_Fundo#93",
+   "rotulo_ficha": "cadastro_controle",
+   "rotulo_auditor": "outro",
+   "mesma_atividade": false,
+   "mesma_tarefa": false,
+   "substantiva": true
+  },
+  {
+   "id": "Unistalda#11",
+   "rotulo_ficha": "documento_externo_anexo",
+   "rotulo_auditor": "tratativa_com_municipio",
+   "mesma_atividade": false,
+   "mesma_tarefa": false,
+   "substantiva": true
+  },
+  {
+   "id": "Unistalda#8",
+   "rotulo_ficha": "revisao_ajuste_minuta",
+   "rotulo_auditor": "assinatura_instrumento",
+   "mesma_atividade": false,
+   "mesma_tarefa": false,
+   "substantiva": true
+  }
+ ]
+}

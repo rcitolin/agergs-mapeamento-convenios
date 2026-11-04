@@ -1,0 +1,128 @@
+{
+  "processo": "Vila_nova_do_Sul",
+  "numero_sei": "001132-39.00/19-0",
+  "municipio": "Vila Nova do Sul (RS)",
+  "instrumento": "convenio_delegacao",
+  "servico": "agua_esgoto",
+  "prestador": "CORSAN (Companhia Riograndense de Saneamento)",
+  "fundamento_legal": [
+    "Lei Estadual nº 10.931/1997",
+    "Lei Estadual nº 11.075/1998",
+    "Lei Federal nº 11.445/2007",
+    "Lei Federal nº 8.666/1993, art. 38, parágrafo único",
+    "Lei Municipal nº 1.665/2019, arts. 2º a 4º"
+  ],
+  "situacao_final": "assinado_e_publicado",
+  "evidencia_situacao": "SÚMULA DE CONVÊNIOS (seq 17)",
+  "marcos": [
+    {
+      "marco": "abertura",
+      "seq": 5,
+      "data": "2019-09-17"
+    },
+    {
+      "marco": "pedido_municipio",
+      "seq": 1,
+      "data": null
+    },
+    {
+      "marco": "lei_autorizativa",
+      "seq": 3,
+      "data": "2019-09-03"
+    },
+    {
+      "marco": "parecer_juridico",
+      "seq": 8,
+      "data": "2019-09-23"
+    },
+    {
+      "marco": "minuta_enviada",
+      "seq": 10,
+      "data": "2019-09-23"
+    },
+    {
+      "marco": "assinatura_agergs",
+      "seq": 16,
+      "data": null
+    },
+    {
+      "marco": "assinatura_municipio",
+      "seq": 16,
+      "data": null
+    },
+    {
+      "marco": "publicacao",
+      "seq": 17,
+      "data": "2020-01-16"
+    }
+  ],
+  "sequencia_etapas": [
+    "solicitacao_municipio",
+    "tratativa_com_municipio",
+    "lei_autorizativa",
+    "documento_externo_anexo",
+    "encaminhamento_interno",
+    "tratativa_com_municipio",
+    "tratativa_com_municipio",
+    "analise_juridica",
+    "elaboracao_minuta",
+    "analise_juridica",
+    "tratativa_com_municipio",
+    "encaminhamento_interno",
+    "encaminhamento_interno",
+    "encaminhamento_interno",
+    "encaminhamento_interno",
+    "assinatura_instrumento",
+    "publicacao_extrato"
+  ],
+  "unidades_envolvidas": [
+    "Município de Vila Nova do Sul (Procuradoria/assessoria jurídica e Prefeito)",
+    "Diretoria de Assuntos Jurídicos (DJ)",
+    "Diretoria-Geral (DG)",
+    "Gabinete da Presidência (GP)",
+    "CORSAN (interveniente)",
+    "FAMURS (interveniente)",
+    "Diário Oficial do Estado"
+  ],
+  "desvios_e_retrabalho": [
+    {
+      "descricao": "CNPJ do Município diverge em dígitos entre o e-mail de resposta e a minuta e o convênio; não há correção registrada.",
+      "seq": [
+        7,
+        9,
+        16
+      ],
+      "evidencia": "CNPJ: 94.444.189/0001-55"
+    },
+    {
+      "descricao": "Pedido do Município sobre cópia assinada e lista de espera do convênio, sem resposta formal ao Município no processo antes da publicação.",
+      "seq": [
+        13,
+        15
+      ],
+      "evidencia": "Gostaria de solicitar cópia digitalizada com assinatura do convênio"
+    },
+    {
+      "descricao": "Localização do convênio informada de forma divergente: FAMURS (seq 13 e 14) e controle de assinatura no Gabinete (seq 15).",
+      "seq": [
+        13,
+        15
+      ],
+      "evidencia": "o Convênio se encontra na FAMURS para assinatura"
+    }
+  ],
+  "gargalos_percebidos": [
+    "Cerca de três meses sem movimentação entre o memorando 96 (seq 12, 03/10/2019) e o pedido do Município (seq 13, 07/01/2020).",
+    "Assinatura centralizada no Gabinete, com redirecionamento do expediente ao GP (seq 15).",
+    "Questionamento do Ministério Público sobre o Município pressiona o andamento (seq 13 e 14).",
+    "Dados cadastrais do Município divergentes entre peças (seq 7 e seq 9/16)."
+  ],
+  "documentos_exigidos_do_municipio": [
+    "Dados cadastrais do Município e nome do Prefeito (seq 6 e 7)",
+    "Lei municipal autorizativa (seq 3)",
+    "Contrato de concessão vigente com a CORSAN (seq 4)",
+    "Minuta assinada e indicação de vias para remessa (seq 11)"
+  ],
+  "diferencas_vs_padrao": "Fluxo com a sequência padrão até a aprovação jurídica (seq 3 a 10, em set/2019), mas sem manifestação da PGE e sem deliberação do Conselho Superior neste processo. A assinatura ficou no Gabinete por cerca de três meses (seq 12 a 15), e o instrumento teve intervenientes (CORSAN e FAMURS). Publicação em 16/01/2020 (seq 17).",
+  "observacoes": "Seqs 1 a 4 com texto ilegível ou só rodapés (fonte codificada); conteúdo não verificado. Seq 16 sem data do dia e sem assinaturas legíveis no texto; a publicação (seq 17) é a única evidência de conclusão. Horas são hipóteses."
+}

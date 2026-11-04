@@ -1,0 +1,343 @@
+{
+ "codigo": "CONV",
+ "nome": "Celebração de convênio ou contrato de delegação da regulação (AS-IS)",
+ "escopo": "Do pedido do município para delegar a regulação à AGERGS até a assinatura, publicação, comunicação ao prestador e arquivamento do processo",
+ "raias": [
+  {
+   "id": "MUN",
+   "nome": "Município e prestador (MUN, EXT)"
+  },
+  {
+   "id": "GP",
+   "nome": "Gabinete da Presidência (GP)"
+  },
+  {
+   "id": "DG",
+   "nome": "Diretoria-Geral e apoio (DG, DTI, DAI, DAF, DAU)"
+  },
+  {
+   "id": "TEC",
+   "nome": "Diretorias técnicas (DSI, DQS, DT, DTM)"
+  },
+  {
+   "id": "DAJ",
+   "nome": "Diretoria de Assuntos Jurídicos (DAJ)"
+  },
+  {
+   "id": "PSE",
+   "nome": "Procuradoria Setorial da PGE (PSE)"
+  },
+  {
+   "id": "CS",
+   "nome": "Conselho Superior (CS)"
+  }
+ ],
+ "elementos": [
+  {
+   "id": "s1",
+   "tipo": "inicio",
+   "raia": "MUN",
+   "nome": "Município decide delegar a regulação"
+  },
+  {
+   "id": "t1",
+   "tipo": "tarefa",
+   "raia": "MUN",
+   "nome": "Solicitar delegação da regulação",
+   "gatilho": "Interesse do município ou tratativa prévia com a AGERGS",
+   "saida": "Ofício do prefeito pedindo convênio ou contrato de regulação"
+  },
+  {
+   "id": "t2",
+   "tipo": "tarefa",
+   "raia": "GP",
+   "nome": "Autuar pedido e distribuir às unidades",
+   "gatilho": "Ofício do município ou instrumento recebido",
+   "saida": "Processo SEI aberto e memorando de distribuição"
+  },
+  {
+   "id": "g0",
+   "tipo": "xor",
+   "raia": "GP",
+   "nome": "Instrumento já negociado fora do processo?"
+  },
+  {
+   "id": "t6",
+   "tipo": "tarefa",
+   "raia": "DAJ",
+   "nome": "Analisar juridicamente o pedido",
+   "gatilho": "Processo distribuído com pedido e documentos do município",
+   "saida": "Informação jurídica sobre requisitos, lei autorizativa e minuta"
+  },
+  {
+   "id": "g1",
+   "tipo": "xor",
+   "raia": "DAJ",
+   "nome": "Documentação do município completa?"
+  },
+  {
+   "id": "t3",
+   "tipo": "tarefa",
+   "raia": "MUN",
+   "nome": "Complementar documentação e lei autorizativa",
+   "gatilho": "Pedido de complementação da AGERGS",
+   "saida": "Lei municipal autorizativa, contrato com o prestador, PMSB e dados"
+  },
+  {
+   "id": "t4",
+   "tipo": "tarefa",
+   "raia": "TEC",
+   "nome": "Analisar aspectos técnicos da delegação",
+   "gatilho": "Consulta da DG ou do Gabinete sobre o serviço e o prestador",
+   "saida": "Memorando técnico sobre o serviço, o prestador e a viabilidade"
+  },
+  {
+   "id": "t5",
+   "tipo": "tarefa",
+   "raia": "DAJ",
+   "nome": "Elaborar ou ajustar minuta do instrumento",
+   "gatilho": "Análise jurídica favorável ou pedido de ajuste do município",
+   "saida": "Minuta de convênio ou contrato de regulação"
+  },
+  {
+   "id": "g2",
+   "tipo": "xor",
+   "raia": "DG",
+   "nome": "Exige ouvir prestador, PSE ou Conselho?"
+  },
+  {
+   "id": "t16",
+   "tipo": "tarefa",
+   "raia": "MUN",
+   "nome": "Ouvir o prestador sobre a minuta",
+   "gatilho": "Minuta ou pedido enviado à CORSAN antes da assinatura",
+   "saida": "Carta ou manifestação do prestador sobre a minuta"
+  },
+  {
+   "id": "t7",
+   "tipo": "tarefa",
+   "raia": "PSE",
+   "nome": "Emitir manifestação da Procuradoria Setorial",
+   "gatilho": "Minuta e informação jurídica encaminhadas à PSE",
+   "saida": "Informação ou acolhimento da PSE"
+  },
+  {
+   "id": "t8",
+   "tipo": "tarefa",
+   "raia": "CS",
+   "nome": "Deliberar sobre a celebração no Conselho",
+   "gatilho": "Processo distribuído ao Conselho Superior",
+   "saida": "Voto do relator, ata e resolução decisória"
+  },
+  {
+   "id": "t9",
+   "tipo": "tarefa",
+   "raia": "GP",
+   "nome": "Autorizar celebração e inexigibilidade",
+   "gatilho": "Minuta aprovada pelas instâncias internas",
+   "saida": "Despacho ou memorando de autorização da Presidência ou DG"
+  },
+  {
+   "id": "t10",
+   "tipo": "tarefa",
+   "raia": "GP",
+   "nome": "Enviar minuta e tratar com município",
+   "gatilho": "Minuta aprovada ou diligência pendente",
+   "saida": "Ofício ou e-mail ao município com a minuta ou o pedido"
+  },
+  {
+   "id": "e1",
+   "tipo": "evento_mensagem",
+   "raia": "MUN",
+   "nome": "Resposta do município recebida"
+  },
+  {
+   "id": "g3",
+   "tipo": "xor",
+   "raia": "GP",
+   "nome": "Município aceita a minuta?"
+  },
+  {
+   "id": "t11",
+   "tipo": "tarefa",
+   "raia": "GP",
+   "nome": "Assinar o instrumento pelas partes",
+   "gatilho": "Minuta final aceita pelo município",
+   "saida": "Convênio ou contrato assinado pelo prefeito e pela Presidência"
+  },
+  {
+   "id": "t12",
+   "tipo": "tarefa",
+   "raia": "DG",
+   "nome": "Publicar extrato no Diário Oficial",
+   "gatilho": "Instrumento assinado juntado ao processo",
+   "saida": "Extrato ou súmula publicada no DOE"
+  },
+  {
+   "id": "t13",
+   "tipo": "tarefa",
+   "raia": "DG",
+   "nome": "Comunicar prestador e unidades internas",
+   "gatilho": "Instrumento assinado ou publicado",
+   "saida": "Comunicados à CORSAN, às diretorias e cadastro interno"
+  },
+  {
+   "id": "g4",
+   "tipo": "xor",
+   "raia": "DG",
+   "nome": "Precisa de aditivo ou alteração?"
+  },
+  {
+   "id": "t14",
+   "tipo": "tarefa",
+   "raia": "DAJ",
+   "nome": "Instruir aditivo ao instrumento",
+   "gatilho": "Pedido de alteração do objeto, prazo ou competências",
+   "saida": "Minuta ou termo aditivo"
+  },
+  {
+   "id": "t15",
+   "tipo": "tarefa",
+   "raia": "GP",
+   "nome": "Arquivar o processo",
+   "gatilho": "Providências pós-assinatura concluídas",
+   "saida": "Termo de arquivamento ou encerramento"
+  },
+  {
+   "id": "f1",
+   "tipo": "fim",
+   "raia": "GP",
+   "nome": "Delegação vigente e processo arquivado"
+  }
+ ],
+ "fluxos": [
+  {
+   "de": "s1",
+   "para": "t1"
+  },
+  {
+   "de": "t1",
+   "para": "t2"
+  },
+  {
+   "de": "t2",
+   "para": "g0"
+  },
+  {
+   "de": "g0",
+   "para": "t6",
+   "rotulo": "Não",
+   "principal": true
+  },
+  {
+   "de": "g0",
+   "para": "t11",
+   "rotulo": "Sim"
+  },
+  {
+   "de": "t6",
+   "para": "g1"
+  },
+  {
+   "de": "g1",
+   "para": "t4",
+   "rotulo": "Sim",
+   "principal": true
+  },
+  {
+   "de": "g1",
+   "para": "t3",
+   "rotulo": "Não"
+  },
+  {
+   "de": "t3",
+   "para": "t6"
+  },
+  {
+   "de": "t4",
+   "para": "t5"
+  },
+  {
+   "de": "t5",
+   "para": "g2"
+  },
+  {
+   "de": "g2",
+   "para": "t9",
+   "rotulo": "Não",
+   "principal": true
+  },
+  {
+   "de": "t7",
+   "para": "t8"
+  },
+  {
+   "de": "t8",
+   "para": "t9"
+  },
+  {
+   "de": "t9",
+   "para": "t10"
+  },
+  {
+   "de": "t10",
+   "para": "e1"
+  },
+  {
+   "de": "e1",
+   "para": "g3"
+  },
+  {
+   "de": "g3",
+   "para": "t11",
+   "rotulo": "Sim",
+   "principal": true
+  },
+  {
+   "de": "g3",
+   "para": "t5",
+   "rotulo": "Não"
+  },
+  {
+   "de": "t11",
+   "para": "t12"
+  },
+  {
+   "de": "t12",
+   "para": "t13"
+  },
+  {
+   "de": "t13",
+   "para": "g4"
+  },
+  {
+   "de": "g4",
+   "para": "t15",
+   "rotulo": "Não",
+   "principal": true
+  },
+  {
+   "de": "g4",
+   "para": "t14",
+   "rotulo": "Sim"
+  },
+  {
+   "de": "t14",
+   "para": "t11"
+  },
+  {
+   "de": "t15",
+   "para": "f1"
+  },
+  {
+   "de": "g2",
+   "para": "t16",
+   "rotulo": "Sim"
+  },
+  {
+   "de": "t16",
+   "para": "t7"
+  }
+ ],
+ "fontes": "Consolidado das fichas e narrativas dos 12 processos de celebração (2018–2026) e do processo orientativo SEI 002594-39.00/26-9; variações observadas viram decisões com laço."
+}

@@ -1,0 +1,181 @@
+requisito,processo,aplica,conforme,detalhe
+R-CONV-01,Alecrim,True,True,2 ocorrência(s) de ['t11']
+R-CONV-01,Arambare,True,True,1 ocorrência(s) de ['t11']
+R-CONV-01,Campinas_das_Missoes,True,True,1 ocorrência(s) de ['t11']
+R-CONV-01,Capao_Bonito_do_Sul,True,False,0 ocorrência(s) de ['t11']
+R-CONV-01,Chiapetta,True,False,0 ocorrência(s) de ['t11']
+R-CONV-01,Jaguari,True,False,0 ocorrência(s) de ['t11']
+R-CONV-01,Lagoa_Bonita_do_Sul,True,True,1 ocorrência(s) de ['t11']
+R-CONV-01,Liberato_Salzano,True,True,1 ocorrência(s) de ['t11']
+R-CONV-01,Mapituba,True,False,0 ocorrência(s) de ['t11']
+R-CONV-01,Mata,True,False,0 ocorrência(s) de ['t11']
+R-CONV-01,Minas_do_Leao,True,True,1 ocorrência(s) de ['t11']
+R-CONV-01,Nova_Brescia,True,True,1 ocorrência(s) de ['t11']
+R-CONV-01,Panambi,True,True,1 ocorrência(s) de ['t11']
+R-CONV-01,Passa_Sete,True,True,1 ocorrência(s) de ['t11']
+R-CONV-01,Passo_Fundo,True,True,1 ocorrência(s) de ['t11']
+R-CONV-01,Salvador_do_Sul,True,True,1 ocorrência(s) de ['t11']
+R-CONV-01,Unistalda,True,False,0 ocorrência(s) de ['t11']
+R-CONV-01,Vila_nova_do_Sul,True,True,1 ocorrência(s) de ['t11']
+R-CONV-02,Alecrim,False,,requisito-fundamento: não há teste por caso
+R-CONV-02,Arambare,False,,requisito-fundamento: não há teste por caso
+R-CONV-02,Campinas_das_Missoes,False,,requisito-fundamento: não há teste por caso
+R-CONV-02,Capao_Bonito_do_Sul,False,,requisito-fundamento: não há teste por caso
+R-CONV-02,Chiapetta,False,,requisito-fundamento: não há teste por caso
+R-CONV-02,Jaguari,False,,requisito-fundamento: não há teste por caso
+R-CONV-02,Lagoa_Bonita_do_Sul,False,,requisito-fundamento: não há teste por caso
+R-CONV-02,Liberato_Salzano,False,,requisito-fundamento: não há teste por caso
+R-CONV-02,Mapituba,False,,requisito-fundamento: não há teste por caso
+R-CONV-02,Mata,False,,requisito-fundamento: não há teste por caso
+R-CONV-02,Minas_do_Leao,False,,requisito-fundamento: não há teste por caso
+R-CONV-02,Nova_Brescia,False,,requisito-fundamento: não há teste por caso
+R-CONV-02,Panambi,False,,requisito-fundamento: não há teste por caso
+R-CONV-02,Passa_Sete,False,,requisito-fundamento: não há teste por caso
+R-CONV-02,Passo_Fundo,False,,requisito-fundamento: não há teste por caso
+R-CONV-02,Salvador_do_Sul,False,,requisito-fundamento: não há teste por caso
+R-CONV-02,Unistalda,False,,requisito-fundamento: não há teste por caso
+R-CONV-02,Vila_nova_do_Sul,False,,requisito-fundamento: não há teste por caso
+R-CONV-03,Alecrim,True,False,"0 ocorrência(s) de ['t6', 't7'] até 2013-12-11"
+R-CONV-03,Arambare,True,True,"2 ocorrência(s) de ['t6', 't7'] até 2020-09-16"
+R-CONV-03,Campinas_das_Missoes,True,False,"0 ocorrência(s) de ['t6', 't7'] até 2016-05-30"
+R-CONV-03,Capao_Bonito_do_Sul,False,,sem assinatura do instrumento nos autos
+R-CONV-03,Chiapetta,False,,sem assinatura do instrumento nos autos
+R-CONV-03,Jaguari,False,,sem assinatura do instrumento nos autos
+R-CONV-03,Lagoa_Bonita_do_Sul,True,False,"0 ocorrência(s) de ['t6', 't7'] até 2025-02-19"
+R-CONV-03,Liberato_Salzano,True,True,"2 ocorrência(s) de ['t6', 't7'] até 2019-09-25"
+R-CONV-03,Mapituba,False,,sem assinatura do instrumento nos autos
+R-CONV-03,Mata,False,,sem assinatura do instrumento nos autos
+R-CONV-03,Minas_do_Leao,True,True,"2 ocorrência(s) de ['t6', 't7'] até 2026-04-16"
+R-CONV-03,Nova_Brescia,True,False,"0 ocorrência(s) de ['t6', 't7'] até 2025-02-28"
+R-CONV-03,Panambi,True,False,"0 ocorrência(s) de ['t6', 't7'] até 2018-07-11"
+R-CONV-03,Passa_Sete,True,False,"0 ocorrência(s) de ['t6', 't7'] até 2025-02-20"
+R-CONV-03,Passo_Fundo,True,True,"4 ocorrência(s) de ['t6', 't7'] até 2026-07-30"
+R-CONV-03,Salvador_do_Sul,True,True,"2 ocorrência(s) de ['t6', 't7'] até 2018-11-12"
+R-CONV-03,Unistalda,False,,sem assinatura do instrumento nos autos
+R-CONV-03,Vila_nova_do_Sul,True,True,"2 ocorrência(s) de ['t6', 't7'] até 2019-10-29"
+R-CONV-04,Alecrim,True,False,"0 ocorrência(s) de ['t8', 't9'] até 2013-12-11"
+R-CONV-04,Arambare,True,False,"0 ocorrência(s) de ['t8', 't9'] até 2020-09-16"
+R-CONV-04,Campinas_das_Missoes,True,False,"0 ocorrência(s) de ['t8', 't9'] até 2016-05-30"
+R-CONV-04,Capao_Bonito_do_Sul,False,,sem assinatura do instrumento nos autos
+R-CONV-04,Chiapetta,False,,sem assinatura do instrumento nos autos
+R-CONV-04,Jaguari,False,,sem assinatura do instrumento nos autos
+R-CONV-04,Lagoa_Bonita_do_Sul,True,False,"0 ocorrência(s) de ['t8', 't9'] até 2025-02-19"
+R-CONV-04,Liberato_Salzano,True,False,"0 ocorrência(s) de ['t8', 't9'] até 2019-09-25"
+R-CONV-04,Mapituba,False,,sem assinatura do instrumento nos autos
+R-CONV-04,Mata,False,,sem assinatura do instrumento nos autos
+R-CONV-04,Minas_do_Leao,True,True,"2 ocorrência(s) de ['t8', 't9'] até 2026-04-16"
+R-CONV-04,Nova_Brescia,True,False,"0 ocorrência(s) de ['t8', 't9'] até 2025-02-28"
+R-CONV-04,Panambi,True,False,"0 ocorrência(s) de ['t8', 't9'] até 2018-07-11"
+R-CONV-04,Passa_Sete,True,False,"0 ocorrência(s) de ['t8', 't9'] até 2025-02-20"
+R-CONV-04,Passo_Fundo,True,True,"4 ocorrência(s) de ['t8', 't9'] até 2026-07-30"
+R-CONV-04,Salvador_do_Sul,True,False,"0 ocorrência(s) de ['t8', 't9'] até 2018-11-12"
+R-CONV-04,Unistalda,False,,sem assinatura do instrumento nos autos
+R-CONV-04,Vila_nova_do_Sul,True,False,"0 ocorrência(s) de ['t8', 't9'] até 2019-10-29"
+R-CONV-05,Alecrim,True,False,0 ocorrência(s) de ['t12']
+R-CONV-05,Arambare,True,False,0 ocorrência(s) de ['t12']
+R-CONV-05,Campinas_das_Missoes,True,False,0 ocorrência(s) de ['t12']
+R-CONV-05,Capao_Bonito_do_Sul,False,,sem assinatura do instrumento nos autos
+R-CONV-05,Chiapetta,False,,sem assinatura do instrumento nos autos
+R-CONV-05,Jaguari,False,,sem assinatura do instrumento nos autos
+R-CONV-05,Lagoa_Bonita_do_Sul,True,True,1 ocorrência(s) de ['t12']
+R-CONV-05,Liberato_Salzano,True,True,1 ocorrência(s) de ['t12']
+R-CONV-05,Mapituba,False,,sem assinatura do instrumento nos autos
+R-CONV-05,Mata,False,,sem assinatura do instrumento nos autos
+R-CONV-05,Minas_do_Leao,True,True,2 ocorrência(s) de ['t12']
+R-CONV-05,Nova_Brescia,True,True,1 ocorrência(s) de ['t12']
+R-CONV-05,Panambi,True,False,0 ocorrência(s) de ['t12']
+R-CONV-05,Passa_Sete,True,True,1 ocorrência(s) de ['t12']
+R-CONV-05,Passo_Fundo,True,True,3 ocorrência(s) de ['t12']
+R-CONV-05,Salvador_do_Sul,True,True,1 ocorrência(s) de ['t12']
+R-CONV-05,Unistalda,False,,sem assinatura do instrumento nos autos
+R-CONV-05,Vila_nova_do_Sul,True,True,1 ocorrência(s) de ['t12']
+R-CONV-06,Alecrim,False,,"assinado antes da Lei 14.133/2021 (regime da Lei 8.666, fora da base)"
+R-CONV-06,Arambare,False,,"assinado antes da Lei 14.133/2021 (regime da Lei 8.666, fora da base)"
+R-CONV-06,Campinas_das_Missoes,False,,"assinado antes da Lei 14.133/2021 (regime da Lei 8.666, fora da base)"
+R-CONV-06,Capao_Bonito_do_Sul,False,,sem assinatura do instrumento nos autos
+R-CONV-06,Chiapetta,False,,sem assinatura do instrumento nos autos
+R-CONV-06,Jaguari,False,,sem assinatura do instrumento nos autos
+R-CONV-06,Lagoa_Bonita_do_Sul,True,False,12 du da assinatura à publicação
+R-CONV-06,Liberato_Salzano,False,,"assinado antes da Lei 14.133/2021 (regime da Lei 8.666, fora da base)"
+R-CONV-06,Mapituba,False,,sem assinatura do instrumento nos autos
+R-CONV-06,Mata,False,,sem assinatura do instrumento nos autos
+R-CONV-06,Minas_do_Leao,True,False,sem publicação após a assinatura nos autos
+R-CONV-06,Nova_Brescia,True,True,5 du da assinatura à publicação
+R-CONV-06,Panambi,False,,"assinado antes da Lei 14.133/2021 (regime da Lei 8.666, fora da base)"
+R-CONV-06,Passa_Sete,True,False,14 du da assinatura à publicação
+R-CONV-06,Passo_Fundo,True,False,31 du da assinatura à publicação
+R-CONV-06,Salvador_do_Sul,False,,"assinado antes da Lei 14.133/2021 (regime da Lei 8.666, fora da base)"
+R-CONV-06,Unistalda,False,,sem assinatura do instrumento nos autos
+R-CONV-06,Vila_nova_do_Sul,False,,"assinado antes da Lei 14.133/2021 (regime da Lei 8.666, fora da base)"
+R-CONV-07,Alecrim,False,,requisito-fundamento: não há teste por caso
+R-CONV-07,Arambare,False,,requisito-fundamento: não há teste por caso
+R-CONV-07,Campinas_das_Missoes,False,,requisito-fundamento: não há teste por caso
+R-CONV-07,Capao_Bonito_do_Sul,False,,requisito-fundamento: não há teste por caso
+R-CONV-07,Chiapetta,False,,requisito-fundamento: não há teste por caso
+R-CONV-07,Jaguari,False,,requisito-fundamento: não há teste por caso
+R-CONV-07,Lagoa_Bonita_do_Sul,False,,requisito-fundamento: não há teste por caso
+R-CONV-07,Liberato_Salzano,False,,requisito-fundamento: não há teste por caso
+R-CONV-07,Mapituba,False,,requisito-fundamento: não há teste por caso
+R-CONV-07,Mata,False,,requisito-fundamento: não há teste por caso
+R-CONV-07,Minas_do_Leao,False,,requisito-fundamento: não há teste por caso
+R-CONV-07,Nova_Brescia,False,,requisito-fundamento: não há teste por caso
+R-CONV-07,Panambi,False,,requisito-fundamento: não há teste por caso
+R-CONV-07,Passa_Sete,False,,requisito-fundamento: não há teste por caso
+R-CONV-07,Passo_Fundo,False,,requisito-fundamento: não há teste por caso
+R-CONV-07,Salvador_do_Sul,False,,requisito-fundamento: não há teste por caso
+R-CONV-07,Unistalda,False,,requisito-fundamento: não há teste por caso
+R-CONV-07,Vila_nova_do_Sul,False,,requisito-fundamento: não há teste por caso
+R-CONV-08,Alecrim,False,,não é contrato de prestação de serviços de regulação
+R-CONV-08,Arambare,False,,não é contrato de prestação de serviços de regulação
+R-CONV-08,Campinas_das_Missoes,False,,não é contrato de prestação de serviços de regulação
+R-CONV-08,Capao_Bonito_do_Sul,False,,não é contrato de prestação de serviços de regulação
+R-CONV-08,Chiapetta,False,,não é contrato de prestação de serviços de regulação
+R-CONV-08,Jaguari,False,,não é contrato de prestação de serviços de regulação
+R-CONV-08,Lagoa_Bonita_do_Sul,True,False,0 peça(s) inexigibilidade_licitacao nos autos
+R-CONV-08,Liberato_Salzano,False,,não é contrato de prestação de serviços de regulação
+R-CONV-08,Mapituba,False,,não é contrato de prestação de serviços de regulação
+R-CONV-08,Mata,False,,não é contrato de prestação de serviços de regulação
+R-CONV-08,Minas_do_Leao,True,False,0 peça(s) inexigibilidade_licitacao nos autos
+R-CONV-08,Nova_Brescia,True,False,0 peça(s) inexigibilidade_licitacao nos autos
+R-CONV-08,Panambi,False,,não é contrato de prestação de serviços de regulação
+R-CONV-08,Passa_Sete,True,False,0 peça(s) inexigibilidade_licitacao nos autos
+R-CONV-08,Passo_Fundo,True,False,0 peça(s) inexigibilidade_licitacao nos autos
+R-CONV-08,Salvador_do_Sul,False,,não é contrato de prestação de serviços de regulação
+R-CONV-08,Unistalda,False,,não é contrato de prestação de serviços de regulação
+R-CONV-08,Vila_nova_do_Sul,False,,não é contrato de prestação de serviços de regulação
+R-CONV-09,Alecrim,False,,sem peça de instrução nos autos
+R-CONV-09,Arambare,True,False,193 du da última instrução à decisão
+R-CONV-09,Campinas_das_Missoes,False,,sem peça de instrução nos autos
+R-CONV-09,Capao_Bonito_do_Sul,False,,sem assinatura do instrumento nos autos
+R-CONV-09,Chiapetta,False,,sem assinatura do instrumento nos autos
+R-CONV-09,Jaguari,False,,sem assinatura do instrumento nos autos
+R-CONV-09,Lagoa_Bonita_do_Sul,False,,sem peça de instrução nos autos
+R-CONV-09,Liberato_Salzano,True,False,51 du da última instrução à decisão
+R-CONV-09,Mapituba,False,,sem assinatura do instrumento nos autos
+R-CONV-09,Mata,False,,sem assinatura do instrumento nos autos
+R-CONV-09,Minas_do_Leao,True,False,73 du da última instrução à decisão
+R-CONV-09,Nova_Brescia,False,,sem peça de instrução nos autos
+R-CONV-09,Panambi,False,,sem peça de instrução nos autos
+R-CONV-09,Passa_Sete,False,,sem peça de instrução nos autos
+R-CONV-09,Passo_Fundo,True,True,19 du da última instrução à decisão
+R-CONV-09,Salvador_do_Sul,True,True,16 du da última instrução à decisão
+R-CONV-09,Unistalda,False,,sem assinatura do instrumento nos autos
+R-CONV-09,Vila_nova_do_Sul,True,False,26 du da última instrução à decisão
+R-CONV-10,Alecrim,True,50.0,2/4 ocorrências internas com espera ≤ 5 du
+R-CONV-10,Arambare,True,70.0,7/10 ocorrências internas com espera ≤ 5 du
+R-CONV-10,Campinas_das_Missoes,True,80.0,4/5 ocorrências internas com espera ≤ 5 du
+R-CONV-10,Capao_Bonito_do_Sul,True,83.3,5/6 ocorrências internas com espera ≤ 5 du
+R-CONV-10,Chiapetta,True,100.0,4/4 ocorrências internas com espera ≤ 5 du
+R-CONV-10,Jaguari,True,66.7,4/6 ocorrências internas com espera ≤ 5 du
+R-CONV-10,Lagoa_Bonita_do_Sul,True,50.0,1/2 ocorrências internas com espera ≤ 5 du
+R-CONV-10,Liberato_Salzano,True,66.7,4/6 ocorrências internas com espera ≤ 5 du
+R-CONV-10,Mapituba,True,66.7,6/9 ocorrências internas com espera ≤ 5 du
+R-CONV-10,Mata,True,83.3,5/6 ocorrências internas com espera ≤ 5 du
+R-CONV-10,Minas_do_Leao,True,86.2,25/29 ocorrências internas com espera ≤ 5 du
+R-CONV-10,Nova_Brescia,True,100.0,5/5 ocorrências internas com espera ≤ 5 du
+R-CONV-10,Panambi,True,50.0,2/4 ocorrências internas com espera ≤ 5 du
+R-CONV-10,Passa_Sete,True,100.0,3/3 ocorrências internas com espera ≤ 5 du
+R-CONV-10,Passo_Fundo,True,69.0,29/42 ocorrências internas com espera ≤ 5 du
+R-CONV-10,Salvador_do_Sul,True,66.7,4/6 ocorrências internas com espera ≤ 5 du
+R-CONV-10,Unistalda,True,80.0,4/5 ocorrências internas com espera ≤ 5 du
+R-CONV-10,Vila_nova_do_Sul,True,75.0,6/8 ocorrências internas com espera ≤ 5 du

@@ -1,0 +1,503 @@
+{
+  "objetivo": "Padronizar, em 2026, a minuta de contrato de delegação do exercício da regulação entre AGERGS e Municípios (água e esgoto), comparar os contratos já celebrados, propor documentação mínima e reunir as manifestações de DAU, PSE, DSI e DAI.",
+  "clausulas_padrao": [
+    {
+      "tema": "Objeto da delegação",
+      "resumo": "Delegação, pelo Município à AGERGS, do exercício da regulação de água potável e/ou esgotamento sanitário.",
+      "evidencia": "CLÁUSULA PRIMEIRA - O presente Contrato tem por objeto a delegação, pelo MUNICÍPIO à AGERGS [0623862]"
+    },
+    {
+      "tema": "Objetivos gerais",
+      "resumo": "Adequação, cumprimento da Lei 11.445/2007 (alterada pela 14.026/2020), equilíbrio econômico-financeiro, transparência.",
+      "evidencia": "CLÁUSULA SEGUNDA - São objetivos deste Contrato [0623862]"
+    },
+    {
+      "tema": "Atividades regulatórias delegadas",
+      "resumo": "Rol de atribuições: normas, fiscalização compartilhada, tarifas, qualidade, recursos, sanções, capacitação de servidores.",
+      "evidencia": "CLÁUSULA TERCEIRA - A AGERGS exercerá as atividades regulatórias nos termos de suas competências legais [0623862]"
+    },
+    {
+      "tema": "Fiscalização compartilhada (aspectos)",
+      "resumo": "Município pode fiscalizar continuidade, plano de saneamento, redes, cronogramas, instalações e tarifa social, mediante previsão legal municipal.",
+      "evidencia": "Subcláusula Terceira - Mediante previsão na legislação municipal e capacidade operacional, a fiscalização [0623862]"
+    },
+    {
+      "tema": "Comunicação de autuações",
+      "resumo": "O Município comunica a AGERGS em até [3] dias úteis sobre fiscalização ou autuação em matéria compartilhada.",
+      "evidencia": "Subcláusula Quarta - Realizada fiscalização ou autuação sobre matéria compartilhada, o MUNICÍPIO comunicará a AGERGS em até [3] dias úteis [0623862]"
+    },
+    {
+      "tema": "Recurso das autuações municipais",
+      "resumo": "Conselho Superior da AGERGS como instância recursal das autuações municipais.",
+      "evidencia": "Subcláusula Quinta - O Conselho Superior da AGERGS funcionará como instância recursal das autuações [0623862]"
+    },
+    {
+      "tema": "Multa municipal",
+      "resumo": "Multa municipal é recolhida diretamente ao Município pela prestadora após o processo administrativo municipal.",
+      "evidencia": "Subcláusula Sexta - Concluído o processo administrativo municipal, a multa aplicada pelo MUNICÍPIO será [0623862]"
+    },
+    {
+      "tema": "Obrigações do Município",
+      "resumo": "Fiscalização de sua competência, fornecimento de dados, relatórios, conselho de usuários, comunicação de irregularidades.",
+      "evidencia": "CLÁUSULA QUARTA - O MUNICÍPIO compromete-se a: [0623862]"
+    },
+    {
+      "tema": "Obrigações da AGERGS",
+      "resumo": "Orientação técnica, atendimento aos usuários, coordenação, fiscalização técnica, econômica e jurídica, normas.",
+      "evidencia": "CLÁUSULA QUINTA - A AGERGS compromete-se a: [0623862]"
+    },
+    {
+      "tema": "Custeio da regulação",
+      "resumo": "Prestadora repassa à AGERGS percentual do faturamento bruto definido em Resolução; sem desembolso municipal; conta separada.",
+      "evidencia": "CLÁUSULA SÉTIMA - Para a execução das atividades regulatórias, a [PRESTADORA] repassará à AGERGS o valor [0623862]"
+    },
+    {
+      "tema": "Vigência",
+      "resumo": "Modelo de vigência por prazo de [60 meses] ou concomitante ao instrumento de prestação; a PSE exige só a concomitância.",
+      "evidencia": "CLÁUSULA OITAVA - O presente Contrato vigorará a partir de sua assinatura pelo prazo de [60 MESES [0623862]"
+    },
+    {
+      "tema": "Rescisão e contraditório",
+      "resumo": "Rescisão motivada pelo Município; contraditório de 15 dias úteis; hipótese de não exercício de competências (a PSE pede a supressão).",
+      "evidencia": "CLÁUSULA NONA - O presente Contrato poderá ser rescindido nas hipóteses admitidas pela legislação, [0623862]"
+    },
+    {
+      "tema": "Comunicações e alterações",
+      "resumo": "Comunicações pelos processos do preâmbulo; alterações por termo aditivo; cadastrais por apostilamento.",
+      "evidencia": "CLÁUSULA DÉCIMA PRIMEIRA - As alterações deste Contrato serão formalizadas por termo aditivo [0623862]"
+    },
+    {
+      "tema": "Foro",
+      "resumo": "Foro da comarca de [Porto Alegre/RS ou Município], a ser definido.",
+      "evidencia": "CLÁUSULA DÉCIMA SEGUNDA - Fica eleito o foro da Comarca de [PORTO ALEGRE/RS OU MUNICÍPIO] [0623862]"
+    },
+    {
+      "tema": "Competência de regulação e subsídios",
+      "resumo": "Regulação compreende interpretação e fixação de critérios para a execução dos contratos e subsídios (art. 25, § 2º, Lei 11.445).",
+      "evidencia": "Subcláusula Sétima - As atividades de regulação compreendem a interpretação e a fixação de critérios [0623862]"
+    }
+  ],
+  "divergencias_entre_contratos_assinados": [
+    {
+      "tema": "Fundamento legal do preâmbulo",
+      "descricao": "Morro Redondo, Lagoa Bonita, Nova Bréscia, Minas do Leão e Itaara citam art. 74 da Lei 14.133/21; Passo Fundo cita o § 5º do art. 8º da Lei 11.445/2007 (modelo da minuta). A PSE 320 afirma que a Lei 14.133 não deve ser mencionada.",
+      "contratos": [
+        "Lagoa Bonita do Sul (0623866)",
+        "Nova Bréscia (0623868)",
+        "Minas do Leão (0623867)",
+        "Morro Redondo (0623865, minuta)",
+        "Itaara (0623864, minuta)",
+        "Passo Fundo (0623870)"
+      ],
+      "evidencia": "tem seu respectivo fundamento no art. 74 da Lei n. 14.133/21 [0623866] | Este Contrato tem seu respectivo fundamento no § 5º do art. 8º da Lei Federal nº 11.445/2007 [0623870]"
+    },
+    {
+      "tema": "Lei municipal autorizativa",
+      "descricao": "Apenas Minas do Leão cita lei municipal autorizativa (número ilegível no OCR). A minuta traz campo '[LEI/ATO MUNICIPAL, SE APLICÁVEL]'.",
+      "contratos": [
+        "Minas do Leão (0623867)",
+        "Minuta (0623862)"
+      ],
+      "evidencia": "e na Lei Municipal n.' 190712025 [0623867] | [LEI/ATO MUNICIPAL, SE APLICÁVEL] [0623862]"
+    },
+    {
+      "tema": "Escopo dos serviços",
+      "descricao": "Minas do Leão regula só abastecimento de água; os demais regulam água e esgoto.",
+      "contratos": [
+        "Minas do Leão (0623867)",
+        "Lagoa Bonita do Sul (0623866)"
+      ],
+      "evidencia": "para a regulação do serviço de abastecimento de água prestado pela CORSAN [0623867] | para a regulação do serviço de abastecimento de água e esgotamento sanitário [0623866]"
+    },
+    {
+      "tema": "Vigência",
+      "descricao": "Passo Fundo fixa 60 meses prorrogáveis; os demais usam duração concomitante à concessão. A PSE 320 exclui o prazo fixo e trata Passo Fundo como excepcional.",
+      "contratos": [
+        "Passo Fundo (0623870)",
+        "Lagoa Bonita do Sul (0623866)",
+        "Nova Bréscia (0623868)",
+        "Minas do Leão (0623867)",
+        "Morro Redondo (0623865)",
+        "Itaara (0623864)"
+      ],
+      "evidencia": "terá vigência de 60 (sessenta) meses [0623870] | terá duração concomitante com a vigência do [0623866]"
+    },
+    {
+      "tema": "Hipóteses de rescisão",
+      "descricao": "Lagoa Bonita e Nova Bréscia limitam a rescisão ao art. 23, §1º-B. Passo Fundo, Morro Redondo, Minas do Leão e Itaara acrescentam o não exercício de competências pela AGERGS, que a PSE 320 manda suprimir.",
+      "contratos": [
+        "Passo Fundo (0623870)",
+        "Morro Redondo (0623865)",
+        "Minas do Leão (0623867)",
+        "Itaara (0623864)",
+        "Lagoa Bonita do Sul (0623866)",
+        "Nova Bréscia (0623868)"
+      ],
+      "evidencia": "Este contrato também poderá ser rescindido se a AGERGS não exercer suas competências [0623870] | ou se estabelecido de acordo com o prestador de serviços, nos termos do art. 23, §1º-B [0623866]"
+    },
+    {
+      "tema": "Competência de homologar instrumento da concessão",
+      "descricao": "Lagoa Bonita e Nova Bréscia incluem a competência de homologar o instrumento firmado com a CORSAN e seus aditivos; os demais contratos não.",
+      "contratos": [
+        "Lagoa Bonita do Sul (0623866)",
+        "Nova Bréscia (0623868)"
+      ],
+      "evidencia": "homologar o instrumento firmado com a CORSAN, eventuais aditivos pertinentes à delegação [0623866]"
+    },
+    {
+      "tema": "Periodicidade do custeio",
+      "descricao": "Todos os contratos dizem que a prestadora repassa anualmente; Morro Redondo, Minas do Leão e Itaara acrescentam periodicidade mensal na Subcláusula Segunda (incoerência interna).",
+      "contratos": [
+        "Lagoa Bonita do Sul (0623866)",
+        "Morro Redondo (0623865)",
+        "Minas do Leão (0623867)",
+        "Nova Bréscia (0623868)",
+        "Passo Fundo (0623870)",
+        "Itaara (0623864)"
+      ],
+      "evidencia": "repassará anualmente à AGERGS o valor previsto em Resolução [0623866] | A periodicidade do repasse do valor do custeio da regulação será mensal [0623865]"
+    },
+    {
+      "tema": "Percentual do custeio",
+      "descricao": "Os contratos fixam 0,6% do faturamento bruto mensal; a minuta traz [PERCENTUAL]%. A DSI propõe percentual por Resolução e por componente.",
+      "contratos": [
+        "Todos os contratos (0,6%)",
+        "Minuta (0623862)",
+        "DSI (0635054)"
+      ],
+      "evidencia": "corresponde a 0,6% (zero vírgula seis por cento) do faturamento bruto mensal da delegatária no Município [0623866] | [PERCENTUAL]% do faturamento bruto mensal [0623862]"
+    },
+    {
+      "tema": "Foro",
+      "descricao": "Porto Alegre na maioria; Minas do Leão adota o foro do próprio Município.",
+      "contratos": [
+        "Minas do Leão (0623867)",
+        "Lagoa Bonita do Sul (0623866)",
+        "Passo Fundo (0623870)"
+      ],
+      "evidencia": "Fica eleito o foro do Município de Minas do Leão/RS [0623867] | Fica eleito o foro do Município de Porto Alegre/RS [0623866]"
+    },
+    {
+      "tema": "Canal de atendimento ao usuário",
+      "descricao": "Morro Redondo, Minas do Leão e Itaara divulgam a Divisão de Atendimento ao Usuário; Lagoa Bonita, Nova Bréscia e Passo Fundo citam a Ouvidoria. A DAU pede item no checklist.",
+      "contratos": [
+        "Morro Redondo (0623865)",
+        "Minas do Leão (0623867)",
+        "Itaara (0623864)",
+        "Lagoa Bonita do Sul (0623866)",
+        "Nova Bréscia (0623868)",
+        "Passo Fundo (0623870)"
+      ],
+      "evidencia": "dando ampla divulgação do telefone da Ouvidoria da Agência [0623866] | dando ampla divulgaçâo do telefone da Divisão de Atendimento ao Usuário/AGERGS [0623867]"
+    },
+    {
+      "tema": "Sanções compartilhadas (Passo Fundo)",
+      "descricao": "Passo Fundo compartilha com o Município a aplicação de multa; os demais falam só em aplicar multa.",
+      "contratos": [
+        "Passo Fundo (0623870)",
+        "Morro Redondo (0623865)"
+      ],
+      "evidencia": "aplicar sanções de advertência e multa, compartilhadas com o Município [0623870] | aplicar sanções de advertência e multa em razão do descumprimento [0623865]"
+    },
+    {
+      "tema": "Aspectos da fiscalização municipal (Passo Fundo)",
+      "descricao": "Passo Fundo detalha seis aspectos de fiscalização municipal (continuidade, plano, redes, cronogramas, instalações e tarifa social); a minuta traz o mesmo rol, mas os demais contratos não o incluem.",
+      "contratos": [
+        "Passo Fundo (0623870)",
+        "Minuta (0623862)"
+      ],
+      "evidencia": "a) continuidade e regularidade dos serviços de abastecimento de água e [0623870]"
+    },
+    {
+      "tema": "Prazo de comunicação de autuação",
+      "descricao": "A minuta fixa 3 dias úteis; Passo Fundo fixa 3 dias sem a qualificação de úteis.",
+      "contratos": [
+        "Passo Fundo (0623870)",
+        "Minuta (0623862)"
+      ],
+      "evidencia": "a AGERGS será notificada no prazo máximo de 3 (três) dias [0623870] | comunicará a AGERGS em até [3] dias úteis [0623862]"
+    },
+    {
+      "tema": "Prazo de reconsideração",
+      "descricao": "Morro Redondo e Itaara fixam 15 dias sem a qualificação de úteis; Passo Fundo fixa 15 dias úteis.",
+      "contratos": [
+        "Morro Redondo (0623865)",
+        "Itaara (0623864)",
+        "Passo Fundo (0623870)"
+      ],
+      "evidencia": "de reconsideração da AGERGS no prazo de 15 dias. [0623865] | de reconsideração da AGERGS no prazo de 15 dias úteis. [0623870]"
+    },
+    {
+      "tema": "Erro material: ano da Lei 11.445",
+      "descricao": "Os contratos de Morro Redondo, Nova Bréscia, Passo Fundo e Itaara citam 'Lei n. 11.445/2027' no lugar de 2007.",
+      "contratos": [
+        "Morro Redondo (0623865)",
+        "Nova Bréscia (0623868)",
+        "Passo Fundo (0623870)",
+        "Itaara (0623864)"
+      ],
+      "evidencia": "cumprir as prescrições da Lei n. 11.445/2027 [0623865]"
+    },
+    {
+      "tema": "Erro material: placeholder 'Município de Xxx'",
+      "descricao": "Morro Redondo e Itaara mantêm 'Município de Xxx' na Subcláusula Terceira da Cláusula Terceira (lugar do Município).",
+      "contratos": [
+        "Morro Redondo (0623865)",
+        "Itaara (0623864)"
+      ],
+      "evidencia": "autuações realizadas pelo Município de Xxx. [0623865] | autuações realizadas pelo Município de Xxx. [0623864]"
+    }
+  ],
+  "documentacao_minima_proposta": [
+    {
+      "item": "Manifestação formal de interesse do Município",
+      "evidencia": "1. Manifestação formal de interesse do Município; [0624057]"
+    },
+    {
+      "item": "Identificação dos serviços que se pretende delegar",
+      "evidencia": "2. Identificação dos serviços que se pretende delegar; [0624057]"
+    },
+    {
+      "item": "Identificação do prestador dos serviços",
+      "evidencia": "3. Identificação do prestador dos serviços; [0624057]"
+    },
+    {
+      "item": "Contrato de concessão, contrato de programa ou instrumento equivalente vigente",
+      "evidencia": "4. Contrato de concessão, contrato de programa ou instrumento equivalente vigente; [0624057]"
+    },
+    {
+      "item": "Lei municipal autorizativa (quando já existente)",
+      "evidencia": "5. Lei municipal autorizativa (quando já existente); [0624057]"
+    },
+    {
+      "item": "PMSB ou plano setorial correspondente (quando aplicável)",
+      "evidencia": "6. PMSB ou plano setorial correspondente (quando aplicável); [0624057]"
+    },
+    {
+      "item": "Informações sobre eventual regulação já exercida por outra entidade",
+      "evidencia": "7. Informações sobre eventual regulação já exercida por outra entidade. [0624057]"
+    },
+    {
+      "item": "Classificação dos itens em Obrigatório, Importante e Complementar",
+      "evidencia": "Classificação Significado [0624057]"
+    }
+  ],
+  "documentacao_uso_interno": [
+    {
+      "item": "Registro da sequência documental sobre a vigência (0579284, 0605255, 0625194)",
+      "evidencia": "Dessa forma, o presente registro tem por finalidade preservar a sequência documental [0627118]"
+    },
+    {
+      "item": "Orientação jurídica principal: vigência acompanha a concessão",
+      "evidencia": "a orientação jurídica principal, tanto na manifestação anterior quanto na mais recente [0627118]"
+    },
+    {
+      "item": "Passo Fundo: 60 meses admitido como solução alternativa, depois celebrada",
+      "evidencia": "no caso de Passo Fundo, foi admitida pela própria Procuradoria Setorial uma solução alternativa de prazo [0627118]"
+    },
+    {
+      "item": "Passo Fundo tratado como caso excepcional, não como modelo ordinário",
+      "evidencia": "afastando sua utilização como modelo ordinário para contratos futuros [0627118]"
+    },
+    {
+      "item": "A nova orientação alcança também as hipóteses de rescisão",
+      "evidencia": "a nova orientação jurídica alcança também as hipóteses de rescisão [0627118]"
+    },
+    {
+      "item": "O contrato existente é solução específica; a PSE 320 orienta a padronização futura",
+      "evidencia": "enquanto a Informação PSE nº 320/2026 estabelece a orientação para a futura padronização institucional [0627118]"
+    }
+  ],
+  "manifestacoes": [
+    {
+      "seq": 11,
+      "unidade": "Divisão de Atendimento ao Usuário (DAU)",
+      "posicao_resumo": "Considera adequada a previsão de atendimento pela AGERGS e a divulgação de canais pelo Município; sem outras ressalvas.",
+      "recomendacoes": [
+        "Incluir no checklist item para confirmar os canais de comunicação e atendimento ao usuário que serão divulgados pelo Município e pela prestadora."
+      ],
+      "evidencia": "considera adequada a previsão constante da minuta [0624898] | sugere-se avaliar a inclusão, no checklist de adaptação e validação da [0624898]"
+    },
+    {
+      "seq": 12,
+      "unidade": "Procuradoria Setorial junto à AGERGS - Núcleo II (PSE)",
+      "posicao_resumo": "Aprova juridicamente a minuta e o checklist, condicionado a dois ajustes: excluir a vigência de 60 meses e restringir a rescisão ao art. 23, §1º-B.",
+      "recomendacoes": [
+        "No Quadro de Parametrização e na Cláusula Oitava, deixar só a vigência concomitante ao contrato de concessão.",
+        "Suprimir da caput da Cláusula Nona a hipótese de não exercício relevante de competências.",
+        "Não reproduzir Passo Fundo como parâmetro ordinário para futuras minutas.",
+        "Manter o preâmbulo sem menção à Lei 14.133/2021."
+      ],
+      "evidencia": "opina pela aprovação jurídica da [0625194] | dispensando qualquer menção à Lei Federal nº 14.133/2021 [0625194]"
+    },
+    {
+      "seq": 14,
+      "unidade": "Diretoria de Saneamento e Irrigação (DSI)",
+      "posicao_resumo": "Concorda com a padronização e acolhe os ajustes da PSE e a sugestão da DAU. Propõe Anexo Único para quatro componentes (água, esgoto, limpeza urbana e resíduos, drenagem) com rito de ativação e custeio por Resolução.",
+      "recomendacoes": [
+        "Encaminhar o Anexo Único (0635053) à PSE para análise jurídica complementar.",
+        "Articular o Anexo Único com o processo 002802-39.00/26-1 (limpeza urbana).",
+        "Incluir no checklist o item sobre canais de atendimento ao usuário.",
+        "Retornar os autos à DG para consolidação antes de disponibilizar a minuta aos Municípios."
+      ],
+      "evidencia": "A DSI manifesta concordância com a padronização institucional dos contratos de delegação [0635054] | encaminhamento do Anexo Único à Procuradoria Setorial para análise jurídica complementar [0635054]"
+    },
+    {
+      "seq": 15,
+      "unidade": "Diretoria de Assuntos Institucionais (DAI)",
+      "posicao_resumo": "Favorável à aprovação da minuta-padrão e do checklist. Não faz análise jurídica; propõe materiais orientativos, fluxo de recepção de demandas e articulação federativa.",
+      "recomendacoes": [
+        "Elaborar cartilha, fluxograma de adesão, formulário de diagnóstico, manual de repartição de competências e apresentação para Prefeituras.",
+        "Definir fluxo institucional para recepção, qualificação e acompanhamento das demandas.",
+        "Articular com FAMURS, consórcios, conselhos de saneamento e comitês de bacias.",
+        "Prospectar mecanismos de governança dos contratos e convênios vigentes."
+      ],
+      "evidencia": "manifesta-se favoravelmente à aprovação da minuta-padrão de [0635778] | sugere-se avaliar a elaboração dos seguintes instrumentos [0635778]"
+    }
+  ],
+  "pontos_juridicos": [
+    {
+      "tema": "Inexigibilidade (art. 74 da Lei 14.133/21) e natureza da delegação",
+      "posicao": "A PSE entende que a descentralização entre entes públicos não é contratação mercantil e dispensa a menção à Lei 14.133. Morro Redondo, Lagoa, Minas, Nova Bréscia e Itaara citam o art. 74; Passo Fundo cita o art. 8º, § 5º, da Lei 11.445.",
+      "evidencia": "dispensando qualquer menção à Lei Federal nº 14.133/2021, uma vez que a descentralização [0625194] | tem seu respectivo fundamento no art. 74 da Lei n. 14.133/21 [0623866]"
+    },
+    {
+      "tema": "Lei autorizativa municipal",
+      "posicao": "A minuta deixa campo para lei ou ato municipal, se aplicável. O checklist classifica a lei como Obrigatória quando existe. Só Minas do Leão cita lei municipal, com número ilegível no OCR.",
+      "evidencia": "[LEI/ATO MUNICIPAL, SE APLICÁVEL] [0623862] | e na Lei Municipal n.' 190712025 [0623867]"
+    },
+    {
+      "tema": "Taxa de regulação (custeio)",
+      "posicao": "Contratos fixam 0,6% do faturamento bruto, repassado pela prestadora sem desembolso municipal. A PSE aprova a cláusula (art. 33, III e §1º, e art. 36 da LE 16.266/24). A DSI propõe percentual por Resolução por componente, exigível só após a ativação.",
+      "evidencia": "corresponde a 0,6% (zero vírgula seis por cento) do faturamento bruto mensal da delegatária no Município [0623866] | sendo o custeio de resíduos sólidos e de drenagem exigível apenas após a autorização de ativação [0635054]"
+    },
+    {
+      "tema": "Prazo de vigência",
+      "posicao": "Vigência obrigatoriamente concomitante à concessão (acessoriedade; art. 23, §1º-B). Exclui a opção de 60 meses. Passo Fundo é exceção negociada, não parâmetro. A DSI replica a vigência concomitante no Anexo Único.",
+      "evidencia": "Destarte, orienta-se pela exclusão peremptória da menção ao prazo de sessenta meses [0625194] | Incide, portanto, o postulado geral da acessoriedade contratual (accessorium sequitur principale) [0625194]"
+    },
+    {
+      "tema": "Rescisão e taxatividade do art. 23, §1º-B",
+      "posicao": "Rescisão e substituição da AGERGS antes do fim da concessão só se ela deixar de adotar as normas da ANA ou por acordo com a prestadora. A PSE rejeita a hipótese de não exercício de competências, presente em Passo Fundo, Morro Redondo, Minas do Leão e Itaara.",
+      "evidencia": "Impõe-se, assim, a supressão integral da expressão [0625194] | a rescisão ou alteração somente ocorrerá se a AGERGS deixar de adotar as normas de referência da ANA [0625194]"
+    },
+    {
+      "tema": "Fiscalização compartilhada e competência municipal",
+      "posicao": "A PSE entende que a fiscalização compartilhada (Cláusula Terceira) preserva a competência técnica da AGERGS e o poder de polícia urbanística municipal, mantém o recurso ao Conselho Superior e destina as multas ao Município.",
+      "evidencia": "preserva com equilíbrio a competência técnica regulatória da AGERGS [0625194]"
+    },
+    {
+      "tema": "Contagem de prazos em dias úteis",
+      "posicao": "A PSE considera a contagem em dias úteis da Cláusula Nona compatível com o art. 84, § 2º, da Lei Estadual 15.612/2021.",
+      "evidencia": "regra do artigo 84, § 2º, da Lei Estadual nº 15.612/2021 [0625194]"
+    },
+    {
+      "tema": "Precedente de Passo Fundo (vigência de cinco anos)",
+      "posicao": "O prazo de cinco anos decorreu de negociação pontual e excepcional, com salvaguardas, e não serve de parâmetro para minutas-padrão (PSE 89/2026, SEI 0579284, não está no conjunto).",
+      "evidencia": "decorreu de negociação pontual e excepcionalíssima [0625194]"
+    },
+    {
+      "tema": "Escopo: água e esgoto ou quatro componentes",
+      "posicao": "A minuta v1 foi feita só para água e esgoto. A DSI propõe ampliar para quatro componentes e pede nova análise jurídica da PSE; o escopo ampliado não foi analisado ainda.",
+      "evidencia": "estruturada exclusivamente para os serviços de abastecimento de água e esgotamento sanitário [0623851]"
+    },
+    {
+      "tema": "Competências de titular e intervenção (Anexo Único da DSI)",
+      "posicao": "O Anexo Único atribui ao Município competências de titular (art. 9º da Lei 11.445) e prevê que a AGERGS indique intervenção e retomada da operação dos serviços delegados. Ainda sem análise da PSE.",
+      "evidencia": "competências do Município como titular dos serviços, conforme o art. 9º da Lei Federal nº [0635054]"
+    }
+  ],
+  "normas_citadas": [
+    {
+      "norma": "Lei Federal nº 11.445/2007, § 5º do art. 8º",
+      "evidencia": "fundamenta-se no § 5º do art. 8º da Lei Federal nº 11.445/2007 [0623862]"
+    },
+    {
+      "norma": "Lei Federal nº 11.445/2007, art. 23, § 1º-B",
+      "evidencia": "observará o art. 23, § 1º-B, da Lei Federal nº 11.445/2007 [0623862]"
+    },
+    {
+      "norma": "Lei Federal nº 11.445/2007, art. 23, § 1º-B (texto transcrito)",
+      "evidencia": "§ 1º-B. Selecionada a agência reguladora mediante contrato de prestação de [0625194]"
+    },
+    {
+      "norma": "Lei Federal nº 11.445/2007, art. 25, § 2º",
+      "evidencia": "com fundamento no art. 25, § 2º, da Lei n.º 11.445/2007 [0623865]"
+    },
+    {
+      "norma": "Lei Federal nº 11.445/2007, art. 9º",
+      "evidencia": "conforme o art. 9º da Lei Federal nº [0635054]"
+    },
+    {
+      "norma": "Lei Federal nº 11.445/2007, art. 11-B",
+      "evidencia": "nos termos do artigo 11-B da Lei Federal nº 11.445/2007 [0625194]"
+    },
+    {
+      "norma": "Lei Federal nº 11.445/2007 (de 05/01/2007), citada como base",
+      "evidencia": "nos termos da Lei Federal nº 11.445 de 05 de janeiro de 2007 e alterações [0623865]"
+    },
+    {
+      "norma": "Lei Federal nº 14.026/2020 (Marco Legal do Saneamento)",
+      "evidencia": "com as alterações da Lei Federal nº 14.026/2020 [0623862]"
+    },
+    {
+      "norma": "Lei Federal nº 14.133/2021, art. 74",
+      "evidencia": "tem seu respectivo fundamento no art. 74 da Lei n. 14.133/21 [0623866]"
+    },
+    {
+      "norma": "Lei Federal nº 14.133/2021 (menção a evitar)",
+      "evidencia": "dispensando qualquer menção à Lei Federal nº 14.133/2021 [0625194]"
+    },
+    {
+      "norma": "Lei Federal nº 8.987/1995, arts. 3º e 29, I",
+      "evidencia": "nos termos dos arts. 3º e 29, I, da Lei n. 8.987/95 [0623870]"
+    },
+    {
+      "norma": "Lei Estadual nº 10.931/1997",
+      "evidencia": "nos termos da Lei Estadual nº 10.931 de 09 de janeiro de 1997 [0623866]"
+    },
+    {
+      "norma": "Lei Estadual nº 10.931/1997, art. 4º, XI",
+      "evidencia": "em conformidade com o art. 4º, XI, da Lei Estadual nº 10.931/97 [0623866]"
+    },
+    {
+      "norma": "Lei Estadual nº 16.266/2024",
+      "evidencia": "na Lei Estadual nº 16.266/2024, na legislação aplicável [0623862]"
+    },
+    {
+      "norma": "Lei Estadual nº 16.266/2024, arts. 7º, III e VII, e 8º",
+      "evidencia": "artigo 7º, incisos III e VII, e artigo 8º da Lei Estadual nº 16.266/2024 [0625194]"
+    },
+    {
+      "norma": "Lei Estadual nº 16.266/2024, art. 33, III e § 1º, e art. 36",
+      "evidencia": "artigo 33, inciso III e § 1º, e do artigo 36 da Lei Estadual nº 16.266/2024 [0625194]"
+    },
+    {
+      "norma": "Lei Estadual nº 15.612/2021, art. 84, § 2º",
+      "evidencia": "regra do artigo 84, § 2º, da Lei Estadual nº 15.612/2021 [0625194]"
+    },
+    {
+      "norma": "Lei Municipal de Minas do Leão (número ilegível no OCR)",
+      "evidencia": "e na Lei Municipal n.' 190712025 [0623867]"
+    },
+    {
+      "norma": "Normas de referência da ANA",
+      "evidencia": "normas de referência da Agência Nacional de Águas e Saneamento Básico - ANA [0623862]"
+    }
+  ],
+  "pendencias": [
+    "Passa Sete (0623869): corpo da peça ilegível (páginas rotacionadas e codificação corrompida). Nenhuma cláusula foi extraída; é preciso novo OCR ou cópia do SEI.",
+    "Anexo Único da DSI (0635053), citado no Memorando DSI 729, não está no conjunto de 16 documentos. A análise do escopo ampliado (quatro componentes, rito de ativação, custeio por Resolução) depende dele.",
+    "O Memorando GP 138 diz que a minuta foi consolidada de contratos firmados com Itaara e Morro Redondo, mas os textos 0623864 e 0623865 não estão assinados nem datados. Confirmar se esses contratos foram celebrados.",
+    "Minas do Leão (0623867): OCR de baixa qualidade, data incompleta ('24 de abril de') e sem metadados de assinatura. Confirmar assinatura, data e número da lei municipal.",
+    "Contratos já assinados divergem em rescisão (Lagoa Bonita e Nova Bréscia limitam ao art. 23, §1º-B; Passo Fundo, Morro Redondo, Minas do Leão e Itaara acrescentam o não exercício de competências). Decidir se haverá aditivo nos vigentes; a PSE tratou só da minuta.",
+    "Passo Fundo (0623870) foi celebrado com vigência de 60 meses, contra a orientação da PSE 320 para a minuta. Decidir o tratamento do contrato vigente.",
+    "Checklist 0624057 não contém o item sobre canais de atendimento ao usuário que a DAU propôs e a DSI acolheu.",
+    "Erros materiais a corrigir: 'Lei n. 11.445/2027' (Morro Redondo, Nova Bréscia, Passo Fundo, Itaara; no Minas do Leão aparece 11.44512027 no OCR) e 'Município de Xxx' (Morro Redondo, Itaara). Também há processos AGERGS em branco ('.........') em Morro Redondo e Itaara.",
+    "Foro: a minuta aceita Porto Alegre ou o Município, e Minas do Leão adotou o foro municipal. Definir o padrão.",
+    "Incoerência interna do custeio em Morro Redondo, Minas do Leão e Itaara: 'repassará anualmente' na Cláusula Sétima e periodicidade mensal na Subcláusula Segunda. Corrigir.",
+    "PSE 320 cita 'Cláusula Terceira, Subcláusulas Segunda a Sexta' e a minuta tem Subcláusulas até a Sétima. Confirmar a referência na revisão.",
+    "Autoria e data do Documento de Proposta de documentação mínima (0624057) e do Documentação (uso interno) (0627118) não aparecem no texto; unidade classificada como não identificada.",
+    "Horas estimadas e percentuais de composição das fichas são hipóteses, não medidas."
+  ]
+}

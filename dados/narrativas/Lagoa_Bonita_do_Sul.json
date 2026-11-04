@@ -1,0 +1,90 @@
+{
+  "processo": "Lagoa_Bonita_do_Sul",
+  "numero_sei": "000684-39.00/25-2",
+  "municipio": "Lagoa Bonita do Sul",
+  "instrumento": "contrato_prestacao_servicos_regulacao",
+  "servico": "agua_esgoto",
+  "prestador": "CORSAN",
+  "fundamento_legal": [
+    "Lei Estadual nº 10.931/1997",
+    "Lei Federal nº 11.445/2007, alterada pela Lei nº 14.026/2020",
+    "Lei nº 14.133/2021, art. 74"
+  ],
+  "situacao_final": "assinado_e_publicado",
+  "evidencia_situacao": "Publicado no Caderno do Governo (DOE) do Rio Grande do Sul",
+  "marcos": [
+    {
+      "marco": "assinatura_municipio",
+      "seq": 1,
+      "data": "2025-02-19"
+    },
+    {
+      "marco": "assinatura_agergs",
+      "seq": 2,
+      "data": null
+    },
+    {
+      "marco": "publicacao",
+      "seq": 5,
+      "data": "2025-03-12"
+    }
+  ],
+  "sequencia_etapas": [
+    "assinatura_instrumento",
+    "encaminhamento_interno",
+    "encaminhamento_interno",
+    "publicacao_extrato",
+    "publicacao_extrato",
+    "comunicacao_interna_pos_assinatura"
+  ],
+  "unidades_envolvidas": [
+    "Presidência (Conselheira-Presidente)",
+    "Diretoria-Geral (DG)",
+    "Gabinete da Presidência (GP)",
+    "Diretoria de Saneamento e Irrigação (DSI)",
+    "DAF",
+    "DAGEP",
+    "DC",
+    "DAU",
+    "Diretoria de Tecnologia e Inovação (DTI)",
+    "Regulação (Especialista e Assistente de Regulação)"
+  ],
+  "desvios_e_retrabalho": [
+    {
+      "descricao": "O comunicado DTI e o e-mail chamam o instrumento de convênio, mas o documento é contrato de prestação de serviços de regulação.",
+      "seq": [
+        1,
+        5
+      ],
+      "evidencia": "Convênio assinado com o Município de Lagoa Bonita do Sul"
+    },
+    {
+      "descricao": "Encaminhamento 182 cita o Encaminhamento 651 pelo número SEI 00486454 (o 651 é 0486437).",
+      "seq": [
+        2,
+        3
+      ],
+      "evidencia": "conforme Encaminhamento 651/2025 - DG (00486454)"
+    },
+    {
+      "descricao": "E-mail cita o Encaminhamento DG como Nº5651/2025 (número errado; o correto é 651/2025).",
+      "seq": [
+        2,
+        5
+      ],
+      "evidencia": "Encaminhamento DG/AGERGS Nº5651/2025"
+    }
+  ],
+  "gargalos_percebidos": [
+    "Contrato assinado em 19/02/2025 (seq 1) só foi juntado ao processo em 11/03/2025 (seq 2), 20 dias depois.",
+    "Comunicações internas pós-publicação (Comunicado DTI, seq 5) vieram após a publicação de 12/03/2025."
+  ],
+  "documentos_exigidos_do_municipio": [
+    "Documentos, informações e dados necessários à regulação, nos prazos estipulados (cláusula quarta, IV)",
+    "Relatórios periódicos de fiscalização dos serviços, em prazo a definir entre as partes (cláusula quarta, V)",
+    "Condições para constituição e funcionamento de Conselho ou órgão municipal de usuários (cláusula quarta, VI)",
+    "Informações e documentos relativos às redes, instalações e equipamentos, mantidos em arquivo (cláusula quarta, VII)"
+  ],
+  "diferencas_vs_padrao": "O processo começa na fase final: o contrato (seq 1) já vem assinado pelo Prefeito e não há no SEI o pedido do município, a lei autorizativa, a análise jurídica, a manifestação da PGE, a minuta, a aprovação do Conselho Superior nem registro da assinatura da AGERGS. Essas etapas ficam fora deste processo (o contrato cita a inexigibilidade nº 08/2025). Depois da assinatura, o fluxo é só juntada, encaminhamento, publicação e comunicação.",
+  "observacoes": "O CSV tem 5 registros, mas as 10 páginas trazem 7 peças: o split de base_documentos.py não reconhece rodapés sem parênteses, então o Comunicado DTI 0487574 (pg. 9) e o e-mail DAU 0487882 (pg. 10) ficaram dentro da seq 5. O contrato não tem carimbo de assinatura SEI (n_assinaturas=0) e o texto não traz a data da assinatura da AGERGS. Horas estimadas são hipótese; composição de texto é estimativa por sobreposição de palavras contra o contrato anterior e a Minuta Padrão."
+}

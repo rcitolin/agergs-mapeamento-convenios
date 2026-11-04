@@ -1,0 +1,234 @@
+{
+  "processo": "Minas_do_Leao",
+  "numero_sei": "002063_39.00_25_1",
+  "municipio": "Minas do Leão",
+  "instrumento": "contrato_prestacao_servicos_regulacao",
+  "servico": "agua_esgoto",
+  "prestador": "CORSAN",
+  "fundamento_legal": [
+    "Lei Federal 11.445/2007 (diretrizes do saneamento, art. 8º, § 5º)",
+    "Lei Federal 14.026/2020 (Novo Marco do Saneamento)",
+    "Lei Federal 14.133/2021, art. 74 (inexigibilidade, citada no preâmbulo)",
+    "Lei Estadual 16.266/2024, art. 2º, § 2º e art. 3º, § 1º, I (competências da AGERGS)",
+    "Lei Municipal 1907/2025 (autorização do Município)",
+    "Regimento Interno da AGERGS, art. 73 (sustentação oral)"
+  ],
+  "situacao_final": "assinado_e_publicado",
+  "evidencia_situacao": "seq 43: está publicado no site da AGERGS, conforme evidência abaixo",
+  "marcos": [
+    {
+      "marco": "abertura",
+      "seq": 1,
+      "data": "2025-09-28"
+    },
+    {
+      "marco": "lei_autorizativa",
+      "seq": 2,
+      "data": null
+    },
+    {
+      "marco": "parecer_juridico",
+      "seq": 6,
+      "data": "2025-11-06"
+    },
+    {
+      "marco": "manifestacao_pge",
+      "seq": 7,
+      "data": "2025-11-06"
+    },
+    {
+      "marco": "minuta_enviada",
+      "seq": 20,
+      "data": "2026-02-20"
+    },
+    {
+      "marco": "aprovacao_conselho",
+      "seq": 29,
+      "data": "2026-03-31"
+    },
+    {
+      "marco": "publicacao",
+      "seq": 36,
+      "data": "2026-04-01"
+    },
+    {
+      "marco": "comunicacao_prestador",
+      "seq": 35,
+      "data": "2026-04-01"
+    },
+    {
+      "marco": "encerramento",
+      "seq": 41,
+      "data": "2026-04-16"
+    },
+    {
+      "marco": "assinatura_municipio",
+      "seq": 42,
+      "data": null
+    },
+    {
+      "marco": "assinatura_agergs",
+      "seq": 42,
+      "data": null
+    },
+    {
+      "marco": "publicacao",
+      "seq": 43,
+      "data": "2026-09-14"
+    }
+  ],
+  "sequencia_etapas": [
+    "autuacao_abertura",
+    "lei_autorizativa",
+    "tratativa_com_municipio",
+    "encaminhamento_interno",
+    "analise_juridica",
+    "manifestacao_pge",
+    "encaminhamento_interno",
+    "cadastro_controle",
+    "outro",
+    "tratativa_com_municipio",
+    "comunicacao_prestador",
+    "cadastro_controle",
+    "tratativa_com_municipio",
+    "documento_externo_anexo",
+    "tratativa_com_municipio",
+    "cadastro_controle",
+    "tratativa_com_municipio",
+    "tratativa_com_municipio",
+    "deliberacao_conselho_superior",
+    "publicacao_extrato",
+    "tratativa_com_municipio",
+    "comunicacao_prestador",
+    "cadastro_controle",
+    "outro",
+    "comunicacao_prestador",
+    "deliberacao_conselho_superior",
+    "deliberacao_conselho_superior",
+    "comunicacao_prestador",
+    "documento_externo_anexo",
+    "cadastro_controle",
+    "elaboracao_minuta",
+    "tratativa_com_municipio",
+    "comunicacao_prestador",
+    "publicacao_extrato",
+    "cadastro_controle",
+    "cadastro_controle",
+    "comunicacao_prestador",
+    "comunicacao_prestador",
+    "encaminhamento_interno",
+    "assinatura_instrumento",
+    "comunicacao_interna_pos_assinatura"
+  ],
+  "unidades_envolvidas": [
+    "Gabinete da Presidência",
+    "Diretoria-Geral",
+    "Procuradoria Setorial junto à AGERGS (PSE)",
+    "Conselho Superior (relatoria: Conselheiro Conselheiro G)",
+    "Assessoria do Conselho Superior",
+    "Secretaria Executiva",
+    "Protocolo",
+    "Distribuição de Processos",
+    "Diretoria-Geral Adjunta",
+    "DSI, DC, ACS e DTI (comunicado)",
+    "Município de Minas do Leão (Prefeitura e Procuradoria)",
+    "CORSAN (Regulatório e Presidência)"
+  ],
+  "desvios_e_retrabalho": [
+    {
+      "descricao": "Minuta inicial previa regulação de água e esgoto; a PSE apontou que a lei autorizava só água.",
+      "seq": [
+        4,
+        6
+      ],
+      "evidencia": "prevê-se a regulação do serviço de abastecimento de água e esgotamento sanitário prestado pela CORSAN"
+    },
+    {
+      "descricao": "O Voto diz que o Município não respondeu ao Ofício 809, mas há e-mail do Município de 20/02/2026 respondendo.",
+      "seq": [
+        19,
+        20,
+        28
+      ],
+      "evidencia": "até a data da elaboração do Voto não houve resposta"
+    },
+    {
+      "descricao": "Relator questiona a disponibilização de voto e minuta de resolução antes do revisor.",
+      "seq": [
+        21,
+        26
+      ],
+      "evidencia": "Vejo que nos autos está a minha proposta de voto bem como minuta de resolução, o que é inusual."
+    },
+    {
+      "descricao": "Redistribuição de revisor (Conselheiro F para Conselheiro D) em 22/12/2025.",
+      "seq": [
+        18
+      ],
+      "evidencia": "Redistribuição de Processo"
+    },
+    {
+      "descricao": "Ofícios 125 e 147 não chegaram ao endereço gabinete@ por domínio inválido; a Procuradoria confirmou o recebimento.",
+      "seq": [
+        32,
+        37
+      ],
+      "evidencia": "Não é possível entregar: Ofício Nº 147/2026 - CS-RED 879"
+    },
+    {
+      "descricao": "E-mail de envio do Ofício 809 cita processo diferente (002521-39.00/25-0).",
+      "seq": [
+        19
+      ],
+      "evidencia": "Ofício 809/2025 - Processo 002521-39.00/25-0"
+    },
+    {
+      "descricao": "Anexo da RED tem foro em Porto Alegre; contrato assinado tem foro em Minas do Leão.",
+      "seq": [
+        33,
+        42
+      ],
+      "evidencia": "Fica eleito o Foro do Município de Porto Alegre/RS"
+    },
+    {
+      "descricao": "CORSAN pediu retirada de pauta e reabertura de prazo no dia da sessão; a RED foi aprovada no mesmo dia e não há decisão sobre o pedido nos autos.",
+      "seq": [
+        30,
+        31,
+        29
+      ],
+      "evidencia": "requerendo a retirada do processo da pauta da Sessão Ordinária nº 13/2026"
+    },
+    {
+      "descricao": "Intimação do Município só em 14/12/2025, 38 dias após a Informação PSE.",
+      "seq": [
+        6,
+        17
+      ],
+      "evidencia": "Intime-se o Município com urgência."
+    },
+    {
+      "descricao": "Publicação do contrato no site comunicada só em 14/09/2026.",
+      "seq": [
+        43
+      ],
+      "evidencia": "está publicado no site da AGERGS, conforme evidência abaixo"
+    }
+  ],
+  "gargalos_percebidos": [
+    "Município sem resposta formal entre 23/12/2025 e 20/02/2026 (seq 19 e 20).",
+    "Acesso da CORSAN à minuta só em 30/03/2026, um dia antes da sessão (seq 26, 27 e 31).",
+    "Da RED (31/03/2026) à publicação no site (14/09/2026) passaram-se cerca de cinco meses (seq 29, 42, 43).",
+    "Dois ofícios com e-mail do Município em domínio inválido (seq 32 e 37)."
+  ],
+  "documentos_exigidos_do_municipio": [
+    "Lei Municipal 1907/2025 autorizativa (seq 2)",
+    "Contrato de concessão com a CORSAN e anexos (seq 11)",
+    "Manifestação sobre as recomendações da PSE (seq 17 e 19)",
+    "Termo de Adequação/aditivo da CORSAN assinado (seq 15 e 16)",
+    "Minuta sem esgotamento sanitário (seq 20)",
+    "Contrato assinado pelo Município (seq 42)"
+  ],
+  "diferencas_vs_padrao": "Diferente do fluxo-padrão: a PSE apontou que a lei autorizava só água e a minuta trazia esgoto; o Município ficou sem resposta formal por cerca de dois meses; o Relator questionou a circulação antecipada de voto e minuta; a CORSAN pediu retirada de pauta na véspera da sessão; e a publicação no site ocorreu cerca de cinco meses após a RED.",
+  "observacoes": "Seq 2, 3 e 38 sem texto legível (escaneados ou formulário). A Lei Municipal 1907/2025 só é conhecida pelas citações do Voto (seq 28). O contrato (seq 42) é OCR com data incompleta e sem carimbo de assinatura eletrônica SEI. Os horários e números de sessão aqui são os do texto; nenhuma hora foi estimada para externos."
+}

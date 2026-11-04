@@ -1,0 +1,234 @@
+processo,seq,doc_id,nome_doc,signatario,cargo,data,hora
+Campinas_das_Missoes,4,0097739,Encaminhamento 15,[servidor da agência],Chefe de Gabinete da Presidência,2016-05-04,14:35
+Campinas_das_Missoes,5,0100250,Encaminhamento 35,[servidor da agência],Diretor(a) de Assuntos Jurídicos,2016-05-30,15:20
+Mapituba,12,0219844,Encaminhamento 278,[servidor da agência],Diretora-Geral,2019-02-18,14:46
+Mapituba,13,0219977,Memorando 120,[servidor da agência],Diretor de Qualidade,2019-02-19,17:01
+Mapituba,14,0221348,Informação 50,[servidor da agência],Técnico Superior,2019-03-01,09:00
+Mapituba,15,0221470,Encaminhamento 43,[servidor da agência],Diretor(a) de Tarifas/substituto(a),2019-03-01,09:14
+Mapituba,17,0222932,Informação - Diretoria de Assuntos Jurídicos 47,[servidor da agência],Técnico Superior,2019-03-19,10:57
+Mapituba,18,0223055,Acolhimento 60,[servidor da agência],Diretora de Assuntos Jurídicos,2019-03-19,09:24
+Mapituba,19,0223110,Encaminhamento 423,[servidor da agência],Diretor(a)-Geral Substituto(a),2019-03-19,13:48
+Mapituba,21,0226194,Encaminhamento 57,[servidor da agência],Técnico Superior,2019-04-10,14:53
+Mapituba,22,0227535,Encaminhamento 655,[servidor da agência],Diretor(a)-Geral Substituto(a),2019-04-23,11:03
+Mapituba,23,0229212,Minuta de Convênio,[servidor da agência],Técnico Superior,2019-05-06,11:46
+Mapituba,24,0229228,Minuta projeto de Lei,[servidor da agência],Técnico Superior,2019-05-06,11:48
+Mapituba,26,0229693,Encaminhamento 59,[servidor da agência],Diretora de Assuntos Jurídicos,2019-05-09,13:31
+Mapituba,29,0261313,Encaminhamento 36,[servidor da agência],Assessor(a) da Diretoria-Geral,2020-01-13,16:47
+Mapituba,31,0280537,Minuta de Projeto de Lei,[servidor da agência],Chefe de Gabinete da Presidência,2020-08-19,11:56
+Mapituba,32,0280538,Minuta de Convênio,[servidor da agência],Chefe de Gabinete da Presidência,2020-08-19,11:56
+Passa_Sete,2,0482980,Memorando 52,[servidor da agência],Conselheira- Presidente,2025-02-20,21:32
+Passa_Sete,3,0483157,Encaminhamento 138,[servidor da agência],Assistente de Regulação,2025-02-21,08:04
+Passa_Sete,3,0483157,Encaminhamento 138,[servidor da agência],Diretor-Geral Adjunto,2025-02-21,14:58
+Passa_Sete,4,0487004,Memorando DSI 86,[servidor da agência],Especialista em Regulação,2025-03-12,14:34
+Passa_Sete,5,0487516,Encaminhamento 198,[servidor da agência],Assistente de Regulação,2025-03-14,10:50
+Passa_Sete,5,0487516,Encaminhamento 198,[servidor da agência],Diretor de Tecnologia e Inovação,2025-03-18,13:39
+Passa_Sete,5,0487516,Encaminhamento 198,[servidor da agência],Conselheira- Presidente,2025-03-24,18:08
+Nova_Brescia,2,0486420,Encaminhamento 648,[servidor da agência],Diretor-Geral,2025-03-11,09:42
+Nova_Brescia,3,0486440,Encaminhamento 181,[servidor da agência],Assistente de Regulação,2025-03-11,10:10
+Nova_Brescia,4,0486689,Extrato Contrato,[servidor da agência],Especialista em Regulação,2025-03-11,16:29
+Nova_Brescia,5,0486785,Publicação DOE 12/03/2025 Extrato,[servidor da agência],Diretor de Tecnologia e Inovação,2025-03-14,16:30
+Nova_Brescia,8,0488713,Ofício 72,[servidor da agência],Diretor-Geral Adjunto,2025-03-20,15:50
+Nova_Brescia,10,0488883,Termo de Arquivamento de Processo 76,[servidor da agência],Diretor-Geral Adjunto,2025-03-21,11:26
+Lagoa_Bonita_do_Sul,2,0486437,Encaminhamento 651,[servidor da agência],Diretor-Geral,2025-03-11,09:50
+Lagoa_Bonita_do_Sul,3,0486454,Encaminhamento 182,[servidor da agência],Assistente de Regulação,2025-03-11,10:13
+Lagoa_Bonita_do_Sul,4,0486671,Extrato Contrato,[servidor da agência],Especialista em Regulação,2025-03-11,16:24
+Lagoa_Bonita_do_Sul,5,0486788,Publicação DOE 12/03/2025 Extrato,[servidor da agência],Diretor de Tecnologia e Inovação,2025-03-14,14:42
+Mata,2,0234603,Memorando 173,[servidor da agência],Assessor(a) da Diretoria-Geral,2019-06-13,16:27
+Mata,3,0234605,Encaminhamento 1000,[servidor da agência],Assessor(a) da Diretoria-Geral,2019-06-13,16:27
+Mata,4,0234608,Encaminhamento 1001,[servidor da agência],Assessor(a) da Diretoria-Geral,2019-06-13,16:28
+Mata,5,0234658,Encaminhamento 1003,[servidor da agência],Assessor(a) da Diretoria-Geral,2019-06-13,17:00
+Mata,6,0234766,Encaminhamento 89,[servidor da agência],Técnico Superior,2019-06-14,14:45
+Mata,7,0234772,Memorando 42,[servidor da agência],Diretora de Assuntos Jurídicos,2019-06-14,15:16
+Mata,8,0234945,Ofício 200,[servidor da agência],Diretor(a)-Geral Substituto(a),2019-06-18,13:27
+Mata,14,0239441,Encaminhamento 1305,[servidor da agência],Assessor(a) da Diretoria-Geral,2019-07-16,10:14
+Mata,15,0239908,Informação - Diretoria de Assuntos Jurídicos 141/2019,[servidor da agência],Técnico Superior,2019-07-18,11:37
+Mata,16,0240100,Acolhimento 140,[servidor da agência],Diretor(a) de Assuntos Jurídicos Substituto(a),2019-07-19,13:46
+Mata,17,0240257,Encaminhamento 1335,[servidor da agência],Diretor-Geral,2019-07-22,10:52
+Liberato_Salzano,2,0235657,Memorando 185,[servidor da agência],Assessor(a) da Diretoria-Geral,2019-06-21,16:01
+Liberato_Salzano,3,0235658,Encaminhamento 1070,[servidor da agência],Assessor(a) da Diretoria-Geral,2019-06-21,16:01
+Liberato_Salzano,4,0235660,Encaminhamento 1071,[servidor da agência],Assessor(a) da Diretoria-Geral,2019-06-21,16:02
+Liberato_Salzano,5,0239306,Informação - Diretoria de Assuntos Jurídicos nº 131/2019,[servidor da agência],Técnico Superior,2019-07-15,15:35
+Liberato_Salzano,6,0239309,Minuta de Convênio,[servidor da agência],Técnico Superior,2019-07-15,15:35
+Liberato_Salzano,7,0239400,Acolhimento 126,[servidor da agência],Diretora de Assuntos Jurídicos,2019-07-15,17:06
+Liberato_Salzano,8,0239959,Encaminhamento 1317,[servidor da agência],Diretor(a)-Geral Substituto(a),2019-08-07,18:07
+Panambi,3,0189342,Encaminhamento 21,[servidor da agência],Secretário(a) da Presidência,2018-07-11,12:00
+Panambi,4,0189352,Encaminhamento 723,[servidor da agência],Diretor(a)-Geral Substituto(a),2018-07-11,14:15
+Panambi,7,0189423,Minuta de Convênio,[servidor da agência],Técnico Superior,2018-07-11,16:38
+Panambi,8,0189425,Encaminhamento 88,[servidor da agência],Técnico Superior,2018-07-11,16:40
+Panambi,8,0189425,Encaminhamento 88,[servidor da agência],Diretor de Assuntos Jurídicos,2018-07-11,16:43
+Panambi,9,0189426,Encaminhamento 735,[servidor da agência],Diretor(a)-Geral Substituto(a),2018-07-11,16:46
+Panambi,11,0190570,Ofício 89,Conselheiro C,Conselheiro(a)-Presidente(a),2018-07-23,14:46
+Chiapetta,2,0306120,Memorando 19,[servidor da agência],Chefe de Gabinete da Presidência,2021-05-17,17:01
+Chiapetta,3,0306190,Súmula 14,Conselheiro E,Conselheiro(a)- Presidente(a),2021-05-18,15:45
+Chiapetta,4,0306298,Encaminhamento 35,[servidor da agência],Chefe de Gabinete da Presidência,2021-05-18,16:04
+Chiapetta,6,0306435,Encaminhamento 59,[servidor da agência],Chefe de Gabinete da Presidência,2021-05-20,12:44
+Jaguari,3,0242258,Encaminhamento 1472,[servidor da agência],Assessor(a) da Diretoria-Geral,2019-08-02,09:35
+Jaguari,4,0242260,Encaminhamento 1473,[servidor da agência],Assessor(a) da Diretoria-Geral,2019-08-02,09:35
+Jaguari,5,0242267,Encaminhamento 1475,[servidor da agência],Assessor(a) da Diretoria-Geral,2019-08-02,09:35
+Jaguari,6,0242925,Informação - Diretoria de Assuntos Jurídicos nº 200/2019,[servidor da agência],Técnico Superior,2019-08-08,09:37
+Jaguari,7,0242928,Minuta de Convênio,[servidor da agência],Técnico Superior,2019-08-08,09:38
+Jaguari,8,0243068,Acolhimento 186,[servidor da agência],Diretora de Assuntos Jurídicos,2019-08-09,09:06
+Jaguari,9,0243092,Encaminhamento 1504,[servidor da agência],Diretor-Geral,2019-08-19,16:48
+Salvador_do_Sul,2,0196984,Memorando 105,[servidor da agência],Assessor(a) da Diretoria-Geral,2018-09-06,11:39
+Salvador_do_Sul,3,0196985,Encaminhamento 1044,[servidor da agência],Assessor(a) da Diretoria-Geral,2018-09-06,11:40
+Salvador_do_Sul,4,0196986,Encaminhamento 1045,[servidor da agência],Assessor(a) da Diretoria-Geral,2018-09-06,11:40
+Salvador_do_Sul,6,0201958,Informação - Diretoria de Assuntos Jurídicos nº 163/2018,[servidor da agência],Técnico Superior,2018-10-18,10:22
+Salvador_do_Sul,7,0201966,Minuta de Convênio,[servidor da agência],Técnico Superior,2018-10-18,10:33
+Salvador_do_Sul,8,0202011,Acolhimento 148,[servidor da agência],Diretor de Assuntos Jurídicos,2018-10-18,11:11
+Salvador_do_Sul,9,0202016,Encaminhamento 1276,[servidor da agência],Diretora-Geral,2018-10-18,15:51
+Vila_nova_do_Sul,5,0247848,Encaminhamento 149,[servidor da agência],Diretora de Assuntos Jurídicos,2019-09-17,10:48
+Vila_nova_do_Sul,8,0248340,Informação - Diretoria de Assuntos Jurídicos 233/2019,[servidor da agência],Técnica Superior,2019-09-23,10:59
+Vila_nova_do_Sul,9,0248344,Minuta CONVÊNIO AGERGS X VILA NOVA DO SUL RS,[servidor da agência],Técnica Superior,2019-09-23,10:59
+Vila_nova_do_Sul,10,0248356,Acolhimento 225,[servidor da agência],Diretora de Assuntos Jurídicos,2019-09-23,11:17
+Vila_nova_do_Sul,12,0250014,Memorando 96,[servidor da agência],Diretora de Assuntos Jurídicos,2019-10-03,11:22
+Vila_nova_do_Sul,14,0260756,Encaminhamento 1,[servidor da agência],Técnica Superior,2020-01-07,10:50
+Vila_nova_do_Sul,15,0260966,Encaminhamento 23,[servidor da agência],Assessor(a) da Diretoria-Geral,2020-01-09,10:02
+Passo_Fundo,1,0502019,Memorando GP 174,[servidor da agência],Conselheira- Presidente,2025-05-23,12:18
+Passo_Fundo,2,0503549,Encaminhamento 1509,[servidor da agência],Diretor-Geral,2025-05-29,15:40
+Passo_Fundo,3,0507974,Informação PSE 105,[servidor da agência],Coordenador da Procuradoria Setorial junto à AGERGS,2025-06-23,13:01
+Passo_Fundo,4,0508687,Encaminhamento 1848,[servidor da agência],Diretor-Geral Adjunto,2025-06-24,11:19
+Passo_Fundo,5,0517299,Memorando GP 229,[servidor da agência],Conselheira- Presidente,2025-07-29,12:01
+Passo_Fundo,6,0517307,Ofício 216,[servidor da agência],Diretor-Geral,2025-07-30,09:53
+Passo_Fundo,7,0517660,Ofício 398,[servidor da agência],Conselheira- Presidente,2025-07-30,13:57
+Passo_Fundo,11,0521289,Formulário CORSAN - Solicitação de acesso,[servidor da agência],Diretor-Geral Adjunto,2025-08-14,14:34
+Passo_Fundo,14,0521824,Encaminhamento 2395,[servidor da agência],Diretor-Geral,2025-08-15,15:58
+Passo_Fundo,14,0521824,Encaminhamento 2395,[servidor da agência],Diretor-Geral Adjunto,2025-08-15,16:03
+Passo_Fundo,15,0521840,Ofício 424,[servidor da agência],Conselheira- Presidente,2025-08-25,11:26
+Passo_Fundo,19,0528547,Encaminhamento 2716,[servidor da agência],Diretor-Geral Adjunto,2025-09-11,13:52
+Passo_Fundo,20,0528830,Encaminhamento 123,[servidor da agência],Coordenador da Procuradoria Setorial junto à AGERGS,2025-09-12,12:15
+Passo_Fundo,21,0528866,Encaminhamento 2729,[servidor da agência],Diretor-Geral Adjunto,2025-09-12,14:25
+Passo_Fundo,22,0532317,Formulário CORSAN- Solicitação de acesso,[servidor da agência],Assessor da Diretoria-Geral,2025-09-26,17:26
+Passo_Fundo,23,0532423,Ofício 487,[servidor da agência],Conselheira- Presidente,2025-09-28,14:31
+Passo_Fundo,31,0544489,Encaminhamento 3489,[servidor da agência],Assessor da Diretoria-Geral,2025-11-16,20:31
+Passo_Fundo,32,0547258,Informação PSE 231,[servidor da agência],Especialista em Regulação,2025-12-09,09:09
+Passo_Fundo,33,0549880,Acolhimento PSE 224,[servidor da agência],Coordenador da Procuradoria Setorial junto à AGERGS,2025-12-09,11:18
+Passo_Fundo,34,0552182,Ofício 690,Conselheiro F,Conselheiro-Presidente,2025-12-19,10:50
+Passo_Fundo,38,0552754,Encaminhamento 276,[servidor da agência],Chefe do Gabinete da Presidência,2025-12-22,14:41
+Passo_Fundo,39,0552998,Encaminhamento 3962,[servidor da agência],Diretor-Geral Adjunto,2025-12-22,14:56
+Passo_Fundo,40,0554272,Memorando PSE 195,[servidor da agência],Especialista em Regulação,2026-01-06,17:25
+Passo_Fundo,40,0554272,Memorando PSE 195,[servidor da agência],Coordenador da Procuradoria Setorial junto à AGERGS,2026-01-07,11:23
+Passo_Fundo,41,0554276,Minuta de Contrato AGERGS-Passo Fundo,[servidor da agência],Especialista em Regulação,2026-01-06,17:25
+Passo_Fundo,41,0554276,Minuta de Contrato AGERGS-Passo Fundo,[servidor da agência],Coordenador da Procuradoria Setorial junto à AGERGS,2026-01-07,11:23
+Passo_Fundo,42,0555788,Encaminhamento 55,[servidor da agência],Diretor-Geral,2026-01-07,17:16
+Passo_Fundo,42,0555788,Encaminhamento 55,[servidor da agência],Chefe do Gabinete da Presidência,2026-01-12,16:17
+Passo_Fundo,43,0556935,Encaminhamento 23,[servidor da agência],Chefe do Gabinete da Presidência,2026-01-12,16:25
+Passo_Fundo,45,0562475,Ofício 65,[servidor da agência],Assessora do Conselho Superior,2026-02-04,17:23
+Passo_Fundo,46,0562477,Ofício 66,[servidor da agência],Assessora do Conselho Superior,2026-02-04,17:23
+Passo_Fundo,47,0562803,Ofício 67,[servidor da agência],Assessora do Conselho Superior,2026-02-05,16:44
+Passo_Fundo,47,0562803,Ofício 67,[servidor da agência],Especialista em Regulação,2026-02-05,17:21
+Passo_Fundo,49,0577188,Ata de Sessão do Conselho Superior 6/2026,Conselheiro F,Conselheiro-Presidente,2026-03-30,09:42
+Passo_Fundo,49,0577188,Ata de Sessão do Conselho Superior 6/2026,[servidor da agência],Assessora do Conselho Superior,2026-03-30,12:56
+Passo_Fundo,50,0578793,Encaminhamento 71,[servidor da agência],Especialista em Regulação,2026-04-14,13:56
+Passo_Fundo,51,0578853,Encaminhamento 1194,[servidor da agência],Diretor-Geral Adjunto,2026-04-14,14:59
+Passo_Fundo,52,0579284,Informação PSE 89,[servidor da agência],Especialista em Regulação,2026-04-17,09:11
+Passo_Fundo,53,0579665,Acolhimento PSE 92,[servidor da agência],Coordenador da Procuradoria Setorial junto à AGERGS - Núcleo II,2026-04-17,11:20
+Passo_Fundo,54,0579673,Encaminhamento 1241,[servidor da agência],Diretor-Geral Adjunto,2026-04-17,14:44
+Passo_Fundo,55,0579703,Ofício 171,Conselheiro B,Conselheiro,2026-04-17,15:04
+Passo_Fundo,61,0583427,Memorando CS 23,[servidor da agência],Especialista em Regulação,2026-05-06,10:40
+Passo_Fundo,62,0583428,Minuta NOVA minuta de contrato AGERGS - PassoFundo,[servidor da agência],Especialista em Regulação,2026-05-18,09:41
+Passo_Fundo,63,0583435,Ofício 215,Conselheiro B,Conselheiro,2026-05-06,11:07
+Passo_Fundo,68,0584882,Ofício 252,[servidor da agência],Assistente de Regulação,2026-05-12,15:51
+Passo_Fundo,69,0584883,Ofício 253,[servidor da agência],Assistente de Regulação,2026-05-12,15:52
+Passo_Fundo,70,0584885,Ofício 254,[servidor da agência],Assistente de Regulação,2026-05-12,15:52
+Passo_Fundo,71,0585481,Minuta NOVA - Contrato AGERGS - PassoFundo,[servidor da agência],Especialista em Regulação,2026-07-27,11:21
+Passo_Fundo,71,0585481,Minuta NOVA - Contrato AGERGS - PassoFundo,[servidor da agência],Especialista em Regulação,2026-05-15,09:43
+Passo_Fundo,72,0586035,Voto Relatoria - Relatório,Conselheiro B,Conselheiro,2026-05-18,16:41
+Passo_Fundo,73,0586037,Voto Relatoria - Fundamentação,Conselheiro B,Conselheiro,2026-05-18,16:42
+Passo_Fundo,73,0586037,Voto Relatoria - Fundamentação,Conselheiro G,Conselheiro,2026-05-19,12:27
+Passo_Fundo,74,0586040,Resolução Decisória 889/2026,Conselheiro A,Conselheiro,2026-05-18,16:00
+Passo_Fundo,74,0586040,Resolução Decisória 889/2026,Conselheiro F,Conselheiro-Presidente,2026-05-18,16:08
+Passo_Fundo,74,0586040,Resolução Decisória 889/2026,Conselheiro D,Conselheiro,2026-05-18,16:09
+Passo_Fundo,74,0586040,Resolução Decisória 889/2026,[servidor da agência],Conselheira,2026-05-18,16:13
+Passo_Fundo,74,0586040,Resolução Decisória 889/2026,Conselheiro B,Conselheiro,2026-05-18,16:41
+Passo_Fundo,74,0586040,Resolução Decisória 889/2026,Conselheiro G,Conselheiro,2026-05-18,16:42
+Passo_Fundo,78,0586663,Ofício 262,[servidor da agência],Assistente de Regulação,2026-05-19,16:33
+Passo_Fundo,79,0586670,Ofício 263,[servidor da agência],Assistente de Regulação,2026-05-19,16:35
+Passo_Fundo,80,0586671,Ofício 264,[servidor da agência],Assistente de Regulação,2026-05-19,16:36
+Passo_Fundo,82,0587004,Encaminhamento 103,[servidor da agência],Especialista em Regulação,2026-05-20,16:54
+Passo_Fundo,85,0587286,Encaminhamento 1616,[servidor da agência],Diretor-Geral,2026-05-21,16:41
+Passo_Fundo,85,0587286,Encaminhamento 1616,[servidor da agência],Especialista em Regulação,2026-05-22,09:32
+Passo_Fundo,86,0593204,Ata sessão extraordinária 4/2026,Conselheiro F,Conselheiro-Presidente,2026-06-16,16:33
+Passo_Fundo,86,0593204,Ata sessão extraordinária 4/2026,[servidor da agência],Assessora do Conselho Superior,2026-06-17,09:24
+Passo_Fundo,89,0606769,Encaminhamento 485,[servidor da agência],Chefe do Gabinete da Presidência,2026-07-30,17:29
+Passo_Fundo,92,0607747,Encaminhamento 2707,[servidor da agência],Diretor-Geral Adjunto,2026-08-04,14:46
+Passo_Fundo,92,0607747,Encaminhamento 2707,[servidor da agência],Diretor-Geral Adjunto,2026-08-04,14:48
+Passo_Fundo,93,0617453,Formulário Solicitação de Acesso,[servidor da agência],Diretor-Geral,2026-09-04,09:09
+Passo_Fundo,94,0619574,Súmula de Contrato Delegação,Conselheiro F,Conselheiro-Presidente,2026-09-14,15:28
+Passo_Fundo,95,0619576,Encaminhamento 404,[servidor da agência],Assessor Especial III,2026-09-10,20:18
+Passo_Fundo,96,0620365,Encaminhamento 649,[servidor da agência],Chefe do Gabinete da Presidência,2026-09-14,16:13
+Passo_Fundo,97,0620581,Encaminhamento 802,[servidor da agência],Diretor Administrativo e Financeiro,2026-09-15,11:41
+Passo_Fundo,98,0621734,E-mail CORSAN - Solicitação de Acesso aos autos,[servidor da agência],Diretor-Geral Adjunto,2026-09-18,11:00
+Unistalda,2,0203137,Memorando 159,[servidor da agência],Assessor(a) da Diretoria-Geral,2018-10-24,15:47
+Unistalda,3,0203140,Encaminhamento 1332,[servidor da agência],Assessor(a) da Diretoria-Geral,2018-10-24,15:47
+Unistalda,4,0204710,Informação - Diretoria de Assuntos Jurídicos 175/2018,[servidor da agência],Técnico Superior,2018-11-12,14:15
+Unistalda,5,0204712,Minuta Convênio Unistalda,[servidor da agência],Técnico Superior,2018-11-12,14:16
+Unistalda,6,0205818,Acolhimento 161,[servidor da agência],Diretora de Assuntos Jurídicos,2018-11-13,11:29
+Unistalda,7,0206082,Encaminhamento 1458,[servidor da agência],Diretora-Geral,2018-11-19,07:18
+Arambare,3,0257626,Memorando 300,[servidor da agência],Assessor(a) da Diretoria-Geral,2019-12-04,08:56
+Arambare,4,0257628,Encaminhamento 2057,[servidor da agência],Assessor(a) da Diretoria-Geral,2019-12-04,08:56
+Arambare,5,0258212,Informação - Diretoria de Assuntos Jurídicos nº 285/2019,[servidor da agência],Técnico Superior - Informação - Diretoria de Assuntos Jurídicos nº 285/2019 (0258212) SEI 001470-39.00/19-6 / pg. 8,2019-12-09,16:10
+Arambare,6,0258214,Minuta de Convênio,[servidor da agência],Técnico Superior,2019-12-09,16:11
+Arambare,7,0258217,Acolhimento 285,[servidor da agência],Diretora de Assuntos Jurídicos,2019-12-09,16:17
+Arambare,8,0258288,Encaminhamento 2092,[servidor da agência],Diretor-Geral,2019-12-10,13:54
+Arambare,9,0277464,Encaminhamento 76,[servidor da agência],Chefe de Gabinete da Presidência,2020-07-13,18:00
+Arambare,9,0277464,Encaminhamento 76,[servidor da agência],Técnico Superior,2019-11-29,15:42
+Arambare,10,0277597,Encaminhamento 735,[servidor da agência],Assessor(a) da Diretoria-Geral,2020-07-14,15:22
+Arambare,11,0277842,Memorando 222,[servidor da agência],Técnico Superior,2020-07-16,12:09
+Arambare,12,0277969,Encaminhamento 743,[servidor da agência],Assessor(a) da Diretoria-Geral,2020-07-16,18:37
+Arambare,13,0283603,Encaminhamento 123,[servidor da agência],Diretor de Assuntos Jurídicos,2020-09-15,15:55
+Arambare,14,0283618,Encaminhamento 974,[servidor da agência],Diretora-Geral,2020-09-16,16:24
+Arambare,17,0288489,Encaminhamento 1205,[servidor da agência],Diretor(a)-Geral,2020-11-10,16:39
+Arambare,17,0288489,Encaminhamento 1205,[servidor da agência],Diretor(a)-Geral,2020-11-10,16:39
+Minas_do_Leao,1,0530144,Memorando GP 274,[servidor da agência],Conselheira- Presidente,2025-09-28,10:50
+Minas_do_Leao,4,0541825,Memorando GP 379,[servidor da agência],Conselheira- Presidente,2025-11-06,08:55
+Minas_do_Leao,5,0541827,Encaminhamento 3379,[servidor da agência],Assessor da Diretoria-Geral,2025-11-06,09:15
+Minas_do_Leao,6,0542011,Informação PSE 211,[servidor da agência],Especialista em Regulação,2025-11-06,16:56
+Minas_do_Leao,7,0542047,Acolhimento PSE 191,[servidor da agência],Coordenador da Procuradoria Setorial junto à AGERGS,2025-11-06,16:58
+Minas_do_Leao,8,0542464,Memorando GP 392,[servidor da agência],Conselheira- Presidente,2025-11-09,22:06
+Minas_do_Leao,10,0543120,Despacho 31,Conselheiro G,Conselheiro,2025-11-11,15:39
+Minas_do_Leao,11,0543798,Despacho 34,Conselheiro G,Conselheiro,2025-11-13,11:09
+Minas_do_Leao,12,0544214,Ofício 703,[servidor da agência],Especialista em Regulação,2025-11-14,11:06
+Minas_do_Leao,14,0546520,Encaminhamento 241,[servidor da agência],Especialista em Regulação,2025-11-26,10:49
+Minas_do_Leao,17,0551240,Despacho 57,Conselheiro G,Conselheiro,2025-12-14,17:39
+Minas_do_Leao,19,0553180,Ofício 809,[servidor da agência],Assessora do Conselho Superior,2025-12-23,10:29
+Minas_do_Leao,21,0566380,Despacho 26,Conselheiro G,Conselheiro,2026-02-24,15:28
+Minas_do_Leao,23,0574248,Ofício 125,[servidor da agência],Assessora do Conselho Superior,2026-03-25,14:16
+Minas_do_Leao,24,0574251,Ofício 126,[servidor da agência],Assessora do Conselho Superior,2026-03-25,14:16
+Minas_do_Leao,26,0575209,Despacho 48,Conselheiro G,Conselheiro,2026-03-30,11:24
+Minas_do_Leao,26,0575209,Despacho 48,[servidor da agência],Assessora do Conselho Superior,2026-03-30,16:01
+Minas_do_Leao,28,0575699,Voto Relatoria,Conselheiro G,Conselheiro,2026-03-31,16:29
+Minas_do_Leao,28,0575699,Voto Relatoria,Conselheiro D,Conselheiro,2026-04-01,15:24
+Minas_do_Leao,29,0575700,Resolução Decisória 879/2026,[servidor da agência],Conselheira,2026-03-31,14:27
+Minas_do_Leao,29,0575700,Resolução Decisória 879/2026,Conselheiro A,Conselheiro,2026-03-31,15:24
+Minas_do_Leao,29,0575700,Resolução Decisória 879/2026,Conselheiro F,Conselheiro-Presidente,2026-03-31,15:35
+Minas_do_Leao,29,0575700,Resolução Decisória 879/2026,Conselheiro B,Conselheiro,2026-03-31,15:53
+Minas_do_Leao,29,0575700,Resolução Decisória 879/2026,Conselheiro G,Conselheiro,2026-03-31,16:30
+Minas_do_Leao,29,0575700,Resolução Decisória 879/2026,Conselheiro D,Conselheiro,2026-03-31,16:30
+Minas_do_Leao,34,0576235,Ofício 147,[servidor da agência],Assessora do Conselho Superior,2026-04-01,16:24
+Minas_do_Leao,35,0576237,Ofício 148,[servidor da agência],Assessora do Conselho Superior,2026-04-01,16:23
+Minas_do_Leao,41,0579548,Encaminhamento 74,[servidor da agência],Assessora do Conselho Superior,2026-04-16,18:31
+Minas_do_Leao,43,0582312,Encaminhamento 1374,[servidor da agência],Diretor-Geral Adjunto,2026-04-30,10:00
+Minas_do_Leao,43,0582312,Encaminhamento 1374,[servidor da agência],Especialista em Regulação,2026-09-14,17:11
+Processo_Celebracao_Instrumentos,1,0616420,Memorando GP 126,[servidor da agência],Especialista em Regulação,2026-09-14,10:39
+Processo_Celebracao_Instrumentos,3,0616427,Justificativa Processo,[servidor da agência],Especialista em Regulação,2026-09-14,10:39
+Processo_Celebracao_Instrumentos,4,0616428,Documentação Base SEI (Convênios Regulação),[servidor da agência],Especialista em Regulação,2026-09-14,10:39
+Processo_Celebracao_Instrumentos,5,0620048,Documentação Base SEI (Celebração Instrumentos),[servidor da agência],Especialista em Regulação,2026-09-14,10:40
+Processo_Celebracao_Instrumentos,6,0624857,Encaminhamento 3714,[servidor da agência],Diretor-Geral,2026-09-28,15:38
+Processo_Celebracao_Instrumentos,7,0634404,Memorando DTM 271,[servidor da agência],Diretora de Transportes e Mobilidade,2026-10-28,16:25
+Capao_Bonito_do_Sul,3,0620506,Encaminhamento 3439,[servidor da agência],Assessor da Diretoria-Geral,2026-09-15,10:14
+Capao_Bonito_do_Sul,4,0620562,Memorando DSI 551,[servidor da agência],Diretor de Saneamento e Irrigação,2026-09-15,11:21
+Capao_Bonito_do_Sul,5,0621044,Memorando PSE 90,[servidor da agência],Especialista em Regulação,2026-09-21,12:52
+Capao_Bonito_do_Sul,5,0621044,Memorando PSE 90,[servidor da agência],Coordenador da Procuradoria Setorial junto à AGERGS - Núcleo II,2026-09-21,17:06
+Capao_Bonito_do_Sul,7,0624060,Encaminhamento 695,[servidor da agência],Especialista em Regulação,2026-09-25,10:09
+Capao_Bonito_do_Sul,7,0624060,Encaminhamento 695,[servidor da agência],Assessor da Diretoria-Geral,2026-09-25,10:25
+Capao_Bonito_do_Sul,8,0624091,Encaminhamento 3659,[servidor da agência],Diretor-Geral Adjunto,2026-09-25,16:08
+Capao_Bonito_do_Sul,9,0624854,Memorando DAI 39,[servidor da agência],Diretor de Assuntos Institucionais,2026-09-28,15:34
+Capao_Bonito_do_Sul,10,0624897,Encaminhamento 3719,[servidor da agência],Diretor-Geral Adjunto,2026-10-09,14:42
+Capao_Bonito_do_Sul,14,0628411,E-mail solicitação de acesso,[servidor da agência],Diretor-Geral Adjunto,2026-10-09,14:44
+Capao_Bonito_do_Sul,15,0629500,Encaminhamento 754,[servidor da agência],Especialista em Regulação,2026-10-15,14:10
+Minuta_Padrao_Contrato_Delegacao,1,0623851,Memorando GP 138,[servidor da agência],Especialista em Regulação,2026-09-24,16:06
+Minuta_Padrao_Contrato_Delegacao,10,0624831,Encaminhamento 3710,[servidor da agência],Diretor-Geral,2026-09-28,15:07
+Minuta_Padrao_Contrato_Delegacao,11,0624898,Memorando DAU 128,[servidor da agência],Chefe da Divisão de Atendimento ao Usuário,2026-09-29,11:42
+Minuta_Padrao_Contrato_Delegacao,12,0625194,Informação PSE 320,[servidor da agência],Coordenador da Procuradoria Setorial junto à AGERGS - Núcleo II,2026-10-05,15:36
+Minuta_Padrao_Contrato_Delegacao,14,0635054,Memorando DSI 729,[servidor da agência],Diretor de Saneamento e Irrigação,2026-10-29,20:06
+Minuta_Padrao_Contrato_Delegacao,15,0635778,Memorando DAI 49,[servidor da agência],Diretor de Assuntos Institucionais,2026-11-04,11:05

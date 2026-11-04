@@ -1,0 +1,202 @@
+{
+  "processo": "Passo_Fundo",
+  "numero_sei": "001165-39.00/25-8",
+  "municipio": "Passo Fundo",
+  "instrumento": "contrato_prestacao_servicos_regulacao",
+  "servico": "agua_esgoto",
+  "prestador": "CORSAN",
+  "fundamento_legal": [
+    "Lei Federal nº 11.445/2007, art. 8º, § 5º e art. 23, § 1º-B",
+    "Lei Federal nº 14.026/2020 (marco do saneamento)",
+    "Lei Estadual nº 16.266, de 27 de dezembro de 2024",
+    "Lei Federal nº 8.987/1995, arts. 3º e 29",
+    "Norma de Referência ANA nº 011"
+  ],
+  "situacao_final": "assinado_e_publicado",
+  "evidencia_situacao": "seq 88: 'Porto Alegre, 28 de julho de 2026.' com assinaturas digitais de 30/07/2026; seq 94: súmula publicada no DOE em 14/09 (seq 96); seq 99: errata 'Republica-se a Súmula de Contrato de Delegação' para rerratificação",
+  "marcos": [
+    {
+      "marco": "parecer_juridico",
+      "seq": 52,
+      "data": "2026-04-17"
+    },
+    {
+      "marco": "manifestacao_pge",
+      "seq": 53,
+      "data": "2026-04-17"
+    },
+    {
+      "marco": "minuta_enviada",
+      "seq": 63,
+      "data": "2026-05-06"
+    },
+    {
+      "marco": "aprovacao_conselho",
+      "seq": 74,
+      "data": "2026-05-18"
+    },
+    {
+      "marco": "comunicacao_prestador",
+      "seq": 68,
+      "data": "2026-05-12"
+    },
+    {
+      "marco": "assinatura_municipio",
+      "seq": 88,
+      "data": "2026-07-30"
+    },
+    {
+      "marco": "assinatura_agergs",
+      "seq": 88,
+      "data": "2026-07-30"
+    },
+    {
+      "marco": "publicacao",
+      "seq": 94,
+      "data": "2026-09-14"
+    },
+    {
+      "marco": "publicacao",
+      "seq": 99,
+      "data": null
+    }
+  ],
+  "sequencia_etapas": [
+    "encaminhamento_interno",
+    "analise_juridica",
+    "manifestacao_pge",
+    "encaminhamento_interno",
+    "tratativa_com_municipio",
+    "outro",
+    "tratativa_com_municipio",
+    "outro",
+    "tratativa_com_municipio",
+    "revisao_ajuste_minuta",
+    "envio_minuta_ao_municipio",
+    "outro",
+    "tratativa_com_municipio",
+    "outro",
+    "comunicacao_prestador",
+    "tratativa_com_municipio",
+    "revisao_ajuste_minuta",
+    "deliberacao_conselho_superior",
+    "comunicacao_prestador",
+    "publicacao_extrato",
+    "comunicacao_prestador",
+    "tratativa_com_municipio",
+    "encaminhamento_interno",
+    "cadastro_controle",
+    "comunicacao_prestador",
+    "encaminhamento_interno",
+    "deliberacao_conselho_superior",
+    "comunicacao_prestador",
+    "assinatura_instrumento",
+    "comunicacao_interna_pos_assinatura",
+    "comunicacao_prestador",
+    "comunicacao_interna_pos_assinatura",
+    "cadastro_controle",
+    "publicacao_extrato",
+    "encaminhamento_interno",
+    "comunicacao_interna_pos_assinatura",
+    "comunicacao_prestador",
+    "publicacao_extrato"
+  ],
+  "unidades_envolvidas": [
+    "Diretoria-Geral",
+    "Diretoria-Geral Adjunta",
+    "Procuradoria Setorial PGE (PSE)",
+    "Conselho Superior (Conselheiro Relator e Revisor)",
+    "Gabinete da Presidência",
+    "Diretoria Administrativa e Financeira (DAF/DAGEP)",
+    "Especialista em Regulação (Secretaria Executiva)",
+    "Assessoria do Conselho Superior",
+    "Protocolo",
+    "Procuradoria-Geral do Município de Passo Fundo",
+    "CORSAN (Regulatório e Jurídico)"
+  ],
+  "desvios_e_retrabalho": [
+    {
+      "descricao": "Cláusula oitava mudou para 60 meses após análise da PSE e concordância municipal; minuta refeita.",
+      "seq": [
+        52,
+        61,
+        62,
+        63
+      ],
+      "evidencia": "proposta pela PGE para a redação da cláusula Oitava"
+    },
+    {
+      "descricao": "Súmula publicada no DOE em 14/09 antes da assinatura; GP pediu rerratificação e a errata foi republicada.",
+      "seq": [
+        94,
+        96,
+        99
+      ],
+      "evidencia": "houve a publicação do documento no DOE-RS de 14-09"
+    },
+    {
+      "descricao": "Minuta aprovada pela RED em 18/05 foi reemitida e assinada em 27/07, com texto igual.",
+      "seq": [
+        62,
+        71
+      ],
+      "evidencia": "Documento assinado eletronicamente por [servidor da agência], Especialista em"
+    },
+    {
+      "descricao": "Ofício 171 tem data de cabeçalho de 2025, mas foi assinado em 2026.",
+      "seq": [
+        55
+      ],
+      "evidencia": "Porto Alegre, 28 de setembro de 2025."
+    },
+    {
+      "descricao": "Voto do relator tem data de cabeçalho de 10/02/2026 e assinatura de 18/05/2026.",
+      "seq": [
+        72
+      ],
+      "evidencia": "Data: 10/02/2026"
+    },
+    {
+      "descricao": "CORSAN pediu suspensão da deliberação na véspera da sessão; o pedido não aparece como votado e a sessão prosseguiu.",
+      "seq": [
+        76,
+        86
+      ],
+      "evidencia": "solicitar a suspensão da deliberação sobre o referido processo"
+    },
+    {
+      "descricao": "Pedidos de acesso da CORSAN repetidos, cada um com nova autorização de acesso por 5 dias.",
+      "seq": [
+        84,
+        85,
+        90,
+        92,
+        98
+      ],
+      "evidencia": "Solicitação de acesso ao Processo SEI"
+    },
+    {
+      "descricao": "Erros de digitação: título 'Contrato de Contrato' no instrumento e número de processo truncado no e-mail da CORSAN.",
+      "seq": [
+        88,
+        98
+      ],
+      "evidencia": "Contrato de Contrato Passo Fundo - AGERGS"
+    }
+  ],
+  "gargalos_percebidos": [
+    "Processo retirado de pauta em fevereiro e retomado só em 18/05 (seq 73).",
+    "Pedido da CORSAN de suspensão enviado na véspera da sessão de 18/05 (seq 76); a Anexo 4 seguia em negociação (seq 86).",
+    "Cerca de dois meses entre a RED (18/05) e a assinatura (30/07), com o município perguntando a data (seq 81, 82, 85, 88).",
+    "Súmula assinada quatro dias após o encaminhamento (seq 95) e publicada antes da assinatura (seq 96).",
+    "Pedidos de acesso da CORSAN repetidos a cada etapa (seq 84, 90, 98)."
+  ],
+  "documentos_exigidos_do_municipio": [
+    "Manifestação sobre a redação da cláusula oitava, em 10 dias úteis (seq 55, 63)",
+    "Concordância formal com a nova minuta (seq 60, 66)",
+    "Confirmação de recebimento de ofícios e e-mails (seq 56, 58)",
+    "Assinatura do Prefeito no contrato (seq 88)"
+  ],
+  "diferencas_vs_padrao": "Fluxo-padrão: pedido, análise jurídica, minuta, aprovação, assinatura, publicação. Aqui a análise jurídica (seq 52) levou a uma nova minuta após concordância municipal (seq 61-66); a CORSAN pediu suspensão (seq 76); a RED foi aprovada por unanimidade (seq 74); a assinatura veio em 30/07 (seq 88); a súmula foi publicada antes de assinada e precisou de rerratificação (seq 94-99).",
+  "observacoes": "Parte 2 de 2: esta narrativa cobre apenas as seq 51 a 99 (a parte 1, seq 1-50, é de outro agente). Horas são HIPÓTESE; composicao_texto é estimativa. Peças sem texto extraído (baixo_texto): seq 60, 64, 65, 67, 83, 91. No CSV, seq 88 e 99 estão sem assinatura, mas o texto traz assinaturas digitais de 30/07/2026 (seq 88). O assunto dos e-mails fala em 'Convênio', mas o instrumento final é 'Contrato de Delegação'. Não reproduzidos CPF, e-mails pessoais e nomes de representantes da CORSAN."
+}

@@ -1,0 +1,124 @@
+{
+  "processo": "Capao_Bonito_do_Sul",
+  "numero_sei": "002718-39.00/26-1",
+  "municipio": "Capão Bonito do Sul/RS",
+  "instrumento": "convenio_delegacao",
+  "servico": "agua_esgoto",
+  "prestador": "Departamento Municipal de Abastecimento de Água Tratada (DMAAT), segundo o Município (seq 16); DAI cita CORSAN (seq 9)",
+  "fundamento_legal": [
+    "Lei Estadual nº 10.931, de 9 de janeiro de 1997",
+    "Lei Federal nº 11.445, de 5 de janeiro de 2007, alterada pela Lei nº 14.026/2020",
+    "Lei Estadual nº 16.266/2024 (estrutura da AGERGS)"
+  ],
+  "situacao_final": "aguardando_agergs",
+  "evidencia_situacao": "seq 16: Documentação para análise de Convênio com o município de Capão Bonito do Sul",
+  "marcos": [
+    {
+      "marco": "pedido_municipio",
+      "seq": 1,
+      "data": "2026-09-11"
+    },
+    {
+      "marco": "abertura",
+      "seq": 2,
+      "data": "2026-09-14"
+    },
+    {
+      "marco": "parecer_juridico",
+      "seq": 5,
+      "data": "2026-09-21"
+    }
+  ],
+  "sequencia_etapas": [
+    "solicitacao_municipio",
+    "autuacao_abertura",
+    "encaminhamento_interno",
+    "analise_tecnica",
+    "analise_juridica",
+    "encaminhamento_interno",
+    "encaminhamento_interno",
+    "cadastro_controle",
+    "autuacao_abertura",
+    "tratativa_com_municipio",
+    "juntada_documentos_municipio"
+  ],
+  "unidades_envolvidas": [
+    "Município (Secretaria de Infraestrutura)",
+    "Atendimento ao Usuário",
+    "Gabinete da Presidência",
+    "Protocolo",
+    "Diretoria-Geral",
+    "Diretoria de Saneamento e Irrigação (DSI)",
+    "Procuradoria Setorial junto à AGERGS (PSE)",
+    "Diretoria de Assuntos Institucionais (DAI)"
+  ],
+  "desvios_e_retrabalho": [
+    {
+      "descricao": "DSI e PSE declinaram a condução; o expediente passou por DG, GP e DAI antes de a DAI assumir.",
+      "seq": [
+        4,
+        5,
+        7,
+        8
+      ],
+      "evidencia": "ultrapassam o âmbito de atuação técnica desta Diretoria"
+    },
+    {
+      "descricao": "Pedido de abertura de processo repetido apesar de o 002718-39.00/26-1 já estar autuado.",
+      "seq": [
+        2,
+        10
+      ],
+      "evidencia": "Favor abrir processo administrativo para os trâmites regulares."
+    },
+    {
+      "descricao": "Município reiterou pedido de acesso que não havia recebido resposta.",
+      "seq": [
+        6,
+        15
+      ],
+      "evidencia": "já havia solicitado acesso ao processo administrativo anteriormente, sem ter recebido retorno"
+    },
+    {
+      "descricao": "A Diretoria-Geral observou que questionamentos do Município poderiam ter tido orientação preliminar.",
+      "seq": [
+        7
+      ],
+      "evidencia": "poderia ter sido objeto de orientação preliminar pelas áreas técnicas e jurídicas competentes"
+    },
+    {
+      "descricao": "Divergência sobre o prestador: DAI aponta CORSAN; Município informa departamento municipal.",
+      "seq": [
+        9,
+        16
+      ],
+      "evidencia": "o prestador responsável pelos serviços operados no Município é a Companhia Riograndense de Saneamento"
+    },
+    {
+      "descricao": "Divergência sobre o escopo: DAI delimita água e esgoto; Município informa somente água.",
+      "seq": [
+        9,
+        16
+      ],
+      "evidencia": "Exclusivamente abastecimento de água"
+    }
+  ],
+  "gargalos_percebidos": [
+    "Pedido de 11/09 sem resposta direta ao Município até 15/10 (seq 1 e 15).",
+    "Checklist de 28/09 com documentos mínimos ainda pendentes (seq 9).",
+    "Sem unidade formalmente responsável por convênios, segundo a DSI (seq 4)."
+  ],
+  "documentos_exigidos_do_municipio": [
+    "Manifestação formal de interesse (ofício da Secretaria de Infraestrutura)",
+    "Dados dos responsáveis pelas tratativas",
+    "Identificação dos serviços a serem regulados",
+    "Identificação formal do prestador dos serviços",
+    "Instrumento vigente (contrato de concessão ou de programa) e termos aditivos",
+    "Plano Municipal de Saneamento Básico",
+    "Informação sobre entidade reguladora atual",
+    "Lei municipal autorizativa, se existente",
+    "Processo administrativo municipal relacionado"
+  ],
+  "diferencas_vs_padrao": "Fluxo padrão: pedido, análise jurídica, minuta, aprovação, assinatura e publicação. Aqui não há minuta nem aprovação: após o pedido (seq 1), o expediente circulou entre DSI, PSE, DG, GP e DAI (seq 3 a 10), sem análise jurídica conclusiva (seq 5), e está em triagem documental (seq 16).",
+  "observacoes": "Até 20/10/2026 não há assinatura nem publicação. Horas estimadas são hipótese. Telefones, e-mails e demais dados pessoais não foram reproduzidos. Anexos embutidos sem separação no CSV: 0624087 (seq 7), 0628702 (seq 14), e 0631816, 0631818, 0631819 e 0631821 (seq 17)."
+}

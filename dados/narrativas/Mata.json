@@ -1,0 +1,125 @@
+{
+  "processo": "Mata",
+  "numero_sei": "000734-39.00/19-7",
+  "municipio": "Mata",
+  "instrumento": "convenio_delegacao",
+  "servico": "agua_esgoto",
+  "prestador": "CORSAN (interveniente; contrato de programa, seq 21)",
+  "fundamento_legal": [
+    "Lei Estadual 10.931/1997",
+    "Lei Federal 11.445/2007",
+    "Lei Federal 8.666/1993, art. 38, parágrafo único",
+    "Lei Municipal 1.786/2019, arts. 3º e 4º",
+    "Lei Orgânica de Mata, art. 4º"
+  ],
+  "situacao_final": "assinado_e_publicado",
+  "evidencia_situacao": "seq 19: SÚMULA CONVÊNIOS SANEAMENTO",
+  "marcos": [
+    {
+      "marco": "pedido_municipio",
+      "seq": 1,
+      "data": "2019-06-10"
+    },
+    {
+      "marco": "lei_autorizativa",
+      "seq": 1,
+      "data": "2019-06-07"
+    },
+    {
+      "marco": "abertura",
+      "seq": 2,
+      "data": "2019-06-13"
+    },
+    {
+      "marco": "parecer_juridico",
+      "seq": 15,
+      "data": "2019-07-17"
+    },
+    {
+      "marco": "minuta_enviada",
+      "seq": 17,
+      "data": "2019-07-22"
+    },
+    {
+      "marco": "publicacao",
+      "seq": 19,
+      "data": "2019-11-06"
+    }
+  ],
+  "sequencia_etapas": [
+    "solicitacao_municipio",
+    "autuacao_abertura",
+    "encaminhamento_interno",
+    "analise_juridica",
+    "tratativa_com_municipio",
+    "juntada_documentos_municipio",
+    "encaminhamento_interno",
+    "analise_juridica",
+    "analise_juridica",
+    "encaminhamento_interno",
+    "revisao_ajuste_minuta",
+    "publicacao_extrato",
+    "documento_externo_anexo"
+  ],
+  "unidades_envolvidas": [
+    "Diretoria-Geral (DG)",
+    "Diretoria de Assuntos Jurídicos (DJ)",
+    "Diretoria de Qualidade dos Serviços (DQS)",
+    "Gabinete da Presidência",
+    "Conselheiro-Presidente",
+    "Prefeitura Municipal de Mata",
+    "Assessoria Jurídica do Município",
+    "CORSAN (interveniente)"
+  ],
+  "desvios_e_retrabalho": [
+    {
+      "descricao": "Itens a) (convênio com o Estado) e d) (contrato CORSAN) do Ofício 200 não aparecem entre os anexos da resposta do município; o contrato CORSAN (seq 21) veio sem texto.",
+      "seq": [
+        8,
+        10,
+        21
+      ],
+      "evidencia": "Lei Orgânica.pdf (594 KB)"
+    },
+    {
+      "descricao": "A minuta do convênio circulou em duas versões: anexa à Informação (seq 15) e reformatada com timbre AGERGS e visto (seq 18), sem data ou assinatura.",
+      "seq": [
+        15,
+        17,
+        18
+      ],
+      "evidencia": "Segue anexa a minuta do convênio a ser realizado."
+    },
+    {
+      "descricao": "Expediente da DJ voltou a passar pela DG (seq 10 e 14) para só então chegar à DJ com a documentação pedida no seq 6.",
+      "seq": [
+        6,
+        10,
+        14
+      ],
+      "evidencia": "contendo documentação enviada pela Assessoria Jurídica"
+    },
+    {
+      "descricao": "Mesmo ofício distribuído a três unidades no mesmo dia por encaminhamentos separados.",
+      "seq": [
+        3,
+        4,
+        5
+      ],
+      "evidencia": "para conhecimento e providências quanto ao"
+    }
+  ],
+  "gargalos_percebidos": [
+    "Resposta do município ao Ofício 200 (seq 8, 17/06/2019) só em 11/07/2019 (seq 10), 24 dias depois, com prazo pedido de 10 dias.",
+    "Entre o parecer (seq 15, 17/07/2019) e a publicação (seq 19, 06/11/2019) não há data de assinatura do convênio no processo (seq 16 a 18).",
+    "O contrato CORSAN (seq 21) é imagem sem texto: a conferência depende de leitura manual."
+  ],
+  "documentos_exigidos_do_municipio": [
+    "Convênio assinado com o Governo do Estado do RS",
+    "Plano Municipal de Saneamento Básico",
+    "Lei Orgânica do Município",
+    "Contrato de Programa (ou contrato de concessão) firmado com a CORSAN"
+  ],
+  "diferencas_vs_padrao": "Não há manifestação da PGE nem deliberação do Conselho Superior neste processo; o padrão aprovado pelo Conselho aparece só como precedente (seq 15). Há uma fase de pedido de documentos ao município (seq 6 a 10, com prazo de 10 dias) antes da análise jurídica, e a celebração depende de dois instrumentos externos (Termo de Cooperação com o Estado e Contrato de Programa com a CORSAN). A publicação ocorre por súmula no DOE (seq 19), sem assinatura do convênio registrada no processo.",
+  "observacoes": "Situação inferida: a súmula publicada no DOE (seq 19) indica convênio celebrado, mas o instrumento assinado não está no processo; a minuta (seq 18) está sem data e sem assinaturas. Seq 9, 11, 20 e 21 não têm texto legível. Horas e percentuais de composição nas fichas são hipóteses. Sem ato de PGE nem de Conselho Superior no processo."
+}

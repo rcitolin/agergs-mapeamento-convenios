@@ -1,0 +1,117 @@
+{
+  "processo": "Salvador_do_Sul",
+  "numero_sei": "001086-39.00/18-3",
+  "municipio": "Salvador do Sul",
+  "instrumento": "convenio_delegacao",
+  "servico": "agua_esgoto",
+  "prestador": "CORSAN",
+  "fundamento_legal": [
+    "Lei Estadual 10.931/1997",
+    "Lei Estadual 11.075/1998",
+    "Lei Federal 11.445/2007",
+    "Lei Federal 11.107/2005",
+    "Lei Federal 8.666/1993, art. 38, parágrafo único",
+    "Lei Municipal 3.383/2018 (autoriza o convênio)"
+  ],
+  "situacao_final": "assinado_e_publicado",
+  "evidencia_situacao": "Publicação DOE - Convênnio de Saneamento (seq 11); convênio assinado (seq 10, 12/11/2018)",
+  "marcos": [
+    {
+      "marco": "pedido_municipio",
+      "seq": 1,
+      "data": "2018-09-04"
+    },
+    {
+      "marco": "lei_autorizativa",
+      "seq": 1,
+      "data": "2018-08-22"
+    },
+    {
+      "marco": "abertura",
+      "seq": 2,
+      "data": "2018-09-06"
+    },
+    {
+      "marco": "parecer_juridico",
+      "seq": 6,
+      "data": "2018-10-18"
+    },
+    {
+      "marco": "minuta_enviada",
+      "seq": 9,
+      "data": "2018-10-18"
+    },
+    {
+      "marco": "assinatura_municipio",
+      "seq": 10,
+      "data": "2018-11-12"
+    },
+    {
+      "marco": "assinatura_agergs",
+      "seq": 10,
+      "data": "2018-11-12"
+    },
+    {
+      "marco": "publicacao",
+      "seq": 11,
+      "data": null
+    }
+  ],
+  "sequencia_etapas": [
+    "solicitacao_municipio",
+    "autuacao_abertura",
+    "encaminhamento_interno",
+    "encaminhamento_interno",
+    "analise_juridica",
+    "elaboracao_minuta",
+    "analise_juridica",
+    "encaminhamento_interno",
+    "assinatura_instrumento",
+    "publicacao_extrato"
+  ],
+  "unidades_envolvidas": [
+    "Gabinete do Prefeito (Município)",
+    "Diretoria-Geral",
+    "Gabinete Administrativo",
+    "Diretoria de Assuntos Jurídicos",
+    "Gabinete da Presidência"
+  ],
+  "desvios_e_retrabalho": [
+    {
+      "descricao": "Informação jurídica cita Lei Municipal 2.374/2018; a lei anexa ao ofício e a minuta citam Lei 3.383/2018.",
+      "seq": [
+        1,
+        6,
+        7
+      ],
+      "evidencia": "Lei Municipal nº 2.374/2018, em seu artigo 3º, autoriza o Município"
+    },
+    {
+      "descricao": "Foro: a minuta prevê o foro do Município de Salvador do Sul; o convênio assinado prevê a Comarca de Montenegro.",
+      "seq": [
+        7,
+        10
+      ],
+      "evidencia": "Fica eleitoo foro da Comarca do Municípiode Montenegro"
+    },
+    {
+      "descricao": "Após a minuta, a Presidência pede ao Município o Termo de Cooperação e o Contrato de Programa.",
+      "seq": [
+        9
+      ],
+      "evidencia": "a necessidade de se requisitar ao município o encaminhamento do Termo de Cooperação celebrado com o Estado"
+    }
+  ],
+  "gargalos_percebidos": [
+    "Minuta encaminhada sem os documentos do município (seq 9)",
+    "Convênio assinado (seq 10) antes da juntada do contrato de programa (seq 12, 21/12/2018)",
+    "Publicação DOE (seq 11) e contrato CORSAN (seq 12) sem texto legível no extrato"
+  ],
+  "documentos_exigidos_do_municipio": [
+    "Termo de Cooperação com o Estado (seq 9)",
+    "Contrato de Programa com a CORSAN (seq 9; juntado no seq 12)",
+    "Lei autorizativa municipal (seq 1; juntada)"
+  ],
+  "diferencas_vs_padrao": "Início por ofício do Município com lei autorizativa anexa (seq 1). Não há manifestação da PGE nem aprovação do Conselho Superior no processo, apenas a referência a padrão já aprovado (seq 6). O contrato de programa com a CORSAN foi juntado após a assinatura do convênio (seq 12 após seq 10).",
+  "observacoes": "Horas por ficha são hipótese. Peças 11 e 12 têm texto ilegível no extrato; a situação 'assinado_e_publicado' se apoia apenas no título da publicação (seq 11). Convênio (seq 10) declara duração concomitante com o contrato de programa."
+}

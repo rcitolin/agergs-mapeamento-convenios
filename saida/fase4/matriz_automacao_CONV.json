@@ -1,0 +1,275 @@
+{
+ "codigo": "CONV",
+ "processo": "Celebração de convênio ou contrato de delegação da regulação",
+ "metricas": {
+  "volume": 5,
+  "analise": 0.511,
+  "dados": 0.887,
+  "regras": 0.566,
+  "padrao": 0.234,
+  "completude": 0.609
+ },
+ "notas": {
+  "volume": 2,
+  "analise": 4,
+  "dados": 5,
+  "regras": 3,
+  "padrao": 1,
+  "completude": 4
+ },
+ "pesos": {
+  "volume": 25,
+  "analise": 15,
+  "dados": 15,
+  "regras": 20,
+  "padrao": 15,
+  "completude": 10
+ },
+ "nota_composta": 60.0,
+ "portoes_piloto": {
+  "volume_minimo": {
+   "regra": "≥ 10 processos/ano (régua nota 3)",
+   "ok": false
+  },
+  "procedimento": {
+   "regra": "situação 'procedimento' (≥ 5 casos e auditoria ≥ 85%)",
+   "ok": false
+  },
+  "padrao": {
+   "regra": "caminho mais frequente ≥ 30% dos casos",
+   "ok": false
+  }
+ },
+ "prioridade": "não recomendado como piloto de automação completa",
+ "referencia_agenersa": "P01 (reajuste tarifário) teve nota 80,0 e foi indicado como piloto no caso de referência",
+ "atividades": [
+  {
+   "atividade": "t1",
+   "potencial_ia": "baixo",
+   "tipos_ia": "classificação e triagem; monitoramento de prazos e alertas",
+   "horas_teto_ano": 0.0,
+   "horas_liberadas_conservador": 0.0,
+   "horas_liberadas_esperado": 0.0,
+   "horas_liberadas_otimista": 0.0
+  },
+  {
+   "atividade": "t10",
+   "potencial_ia": "médio",
+   "tipos_ia": "monitoramento de prazos e alertas; redação assistida de minuta",
+   "horas_teto_ano": 7.0,
+   "horas_liberadas_conservador": 1.1,
+   "horas_liberadas_esperado": 2.1,
+   "horas_liberadas_otimista": 3.2
+  },
+  {
+   "atividade": "t11",
+   "potencial_ia": "médio",
+   "tipos_ia": "automação de tramitação (RPA no SEI)",
+   "horas_teto_ano": 4.2,
+   "horas_liberadas_conservador": 0.6,
+   "horas_liberadas_esperado": 1.3,
+   "horas_liberadas_otimista": 1.9
+  },
+  {
+   "atividade": "t12",
+   "potencial_ia": "alto",
+   "tipos_ia": "automação de tramitação (RPA no SEI); monitoramento de prazos e alertas",
+   "horas_teto_ano": 2.2,
+   "horas_liberadas_conservador": 0.9,
+   "horas_liberadas_esperado": 1.3,
+   "horas_liberadas_otimista": 1.8
+  },
+  {
+   "atividade": "t13",
+   "potencial_ia": "alto",
+   "tipos_ia": "automação de tramitação (RPA no SEI); painel e indicadores",
+   "horas_teto_ano": 5.7,
+   "horas_liberadas_conservador": 2.3,
+   "horas_liberadas_esperado": 3.4,
+   "horas_liberadas_otimista": 4.6
+  },
+  {
+   "atividade": "t14",
+   "potencial_ia": "médio",
+   "tipos_ia": "redação assistida de minuta",
+   "horas_teto_ano": 0.5,
+   "horas_liberadas_conservador": 0.1,
+   "horas_liberadas_esperado": 0.1,
+   "horas_liberadas_otimista": 0.2
+  },
+  {
+   "atividade": "t15",
+   "potencial_ia": "médio",
+   "tipos_ia": "monitoramento de prazos e alertas; automação de tramitação (RPA no SEI)",
+   "horas_teto_ano": 0.5,
+   "horas_liberadas_conservador": 0.1,
+   "horas_liberadas_esperado": 0.2,
+   "horas_liberadas_otimista": 0.2
+  },
+  {
+   "atividade": "t16",
+   "potencial_ia": "médio",
+   "tipos_ia": "monitoramento de prazos e alertas; sumarização e linha do tempo",
+   "horas_teto_ano": 2.3,
+   "horas_liberadas_conservador": 0.4,
+   "horas_liberadas_esperado": 0.7,
+   "horas_liberadas_otimista": 1.1
+  },
+  {
+   "atividade": "t2",
+   "potencial_ia": "médio",
+   "tipos_ia": "automação de tramitação (RPA no SEI); classificação e triagem",
+   "horas_teto_ano": 1.1,
+   "horas_liberadas_conservador": 0.2,
+   "horas_liberadas_esperado": 0.3,
+   "horas_liberadas_otimista": 0.5
+  },
+  {
+   "atividade": "t3",
+   "potencial_ia": "alto",
+   "tipos_ia": "extração de dados de documentos; verificação de conformidade",
+   "horas_teto_ano": 0.0,
+   "horas_liberadas_conservador": 0.0,
+   "horas_liberadas_esperado": 0.0,
+   "horas_liberadas_otimista": 0.0
+  },
+  {
+   "atividade": "t4",
+   "potencial_ia": "médio",
+   "tipos_ia": "sumarização e linha do tempo; extração de dados de documentos",
+   "horas_teto_ano": 1.4,
+   "horas_liberadas_conservador": 0.2,
+   "horas_liberadas_esperado": 0.4,
+   "horas_liberadas_otimista": 0.6
+  },
+  {
+   "atividade": "t5",
+   "potencial_ia": "alto",
+   "tipos_ia": "redação assistida de minuta; verificação de conformidade",
+   "horas_teto_ano": 10.7,
+   "horas_liberadas_conservador": 4.3,
+   "horas_liberadas_esperado": 6.4,
+   "horas_liberadas_otimista": 8.5
+  },
+  {
+   "atividade": "t6",
+   "potencial_ia": "alto",
+   "tipos_ia": "verificação de conformidade; busca de precedentes e normas; redação assistida de minuta",
+   "horas_teto_ano": 19.9,
+   "horas_liberadas_conservador": 8.0,
+   "horas_liberadas_esperado": 11.9,
+   "horas_liberadas_otimista": 15.9
+  },
+  {
+   "atividade": "t7",
+   "potencial_ia": "médio",
+   "tipos_ia": "verificação de conformidade",
+   "horas_teto_ano": 0.7,
+   "horas_liberadas_conservador": 0.1,
+   "horas_liberadas_esperado": 0.2,
+   "horas_liberadas_otimista": 0.3
+  },
+  {
+   "atividade": "t8",
+   "potencial_ia": "baixo",
+   "tipos_ia": "sumarização e linha do tempo; redação assistida de minuta",
+   "horas_teto_ano": 6.5,
+   "horas_liberadas_conservador": 0.0,
+   "horas_liberadas_esperado": 0.3,
+   "horas_liberadas_otimista": 0.7
+  },
+  {
+   "atividade": "t9",
+   "potencial_ia": "baixo",
+   "tipos_ia": "redação assistida de minuta",
+   "horas_teto_ano": 0.5,
+   "horas_liberadas_conservador": 0.0,
+   "horas_liberadas_esperado": 0.0,
+   "horas_liberadas_otimista": 0.0
+  }
+ ],
+ "capacidades": [
+  "automação de tramitação (RPA no SEI)",
+  "busca de precedentes e normas",
+  "classificação e triagem",
+  "extração de dados de documentos",
+  "monitoramento de prazos e alertas",
+  "painel e indicadores",
+  "redação assistida de minuta",
+  "sumarização e linha do tempo",
+  "verificação de conformidade"
+ ],
+ "horas_construcao": {
+  "isolado": 876,
+  "incremental": 416
+ },
+ "cenarios": {
+  "conservador": {
+   "horas_liberadas_ano": 18.3,
+   "retorno_ano": 1610,
+   "custo_construcao_isolado": 198000,
+   "custo_construcao_incremental": 96800,
+   "manutencao_ano": 39600,
+   "liquido_ano_isolado": -37990,
+   "payback_anos_isolado": null,
+   "payback_anos_incremental": null,
+   "saldo_5_anos_isolado": -387948
+  },
+  "esperado": {
+   "horas_liberadas_ano": 28.6,
+   "retorno_ano": 2517,
+   "custo_construcao_isolado": 136680,
+   "custo_construcao_incremental": 67680,
+   "manutencao_ano": 27336,
+   "liquido_ano_isolado": -24819,
+   "payback_anos_isolado": null,
+   "payback_anos_incremental": null,
+   "saldo_5_anos_isolado": -260776
+  },
+  "otimista": {
+   "horas_liberadas_ano": 39.5,
+   "retorno_ano": 3476,
+   "custo_construcao_isolado": 92880,
+   "custo_construcao_incremental": 46880,
+   "manutencao_ano": 18576,
+   "liquido_ano_isolado": -15100,
+   "payback_anos_isolado": null,
+   "payback_anos_incremental": null,
+   "saldo_5_anos_isolado": -168380
+  }
+ },
+ "premissas": {
+  "volume_anual": {
+   "valor": 5,
+   "origem": "hipótese: celebrações iniciadas em 2025 na amostra (Lagoa Bonita do Sul, Nova Bréscia, Passa Sete, Minas do Leão, Passo Fundo); confirmar com o cadastro de municípios conveniados"
+  },
+  "custo_hora": {
+   "piso": 55.0,
+   "esperado": 88.0,
+   "teto": 121.0
+  },
+  "custo_hora_dev": [
+   220,
+   150,
+   100
+  ],
+  "fracao_automatizavel": {
+   "alto": [
+    0.4,
+    0.6,
+    0.8
+   ],
+   "médio": [
+    0.15,
+    0.3,
+    0.45
+   ],
+   "baixo": [
+    0.0,
+    0.05,
+    0.1
+   ]
+  },
+  "hipotese": true
+ }
+}

@@ -1,0 +1,101 @@
+{
+  "processo": "Chiapetta",
+  "numero_sei": "000802-39.00/21-6",
+  "municipio": "Chiapetta",
+  "instrumento": "aditivo",
+  "servico": "agua_esgoto",
+  "prestador": "CORSAN",
+  "fundamento_legal": [
+    "Lei Municipal 1.074/2020 (inciso XIV à Subcláusula Única da Cláusula Terceira do convênio)",
+    "Lei Municipal 560/2010 (alterada)",
+    "Resolução da AGERGS (sanções, prevista no texto)"
+  ],
+  "situacao_final": "assinado_e_publicado",
+  "evidencia_situacao": "Publicado no Caderno do Governo (DOE) do Rio Grande do Sul (seq 5)",
+  "marcos": [
+    {
+      "marco": "lei_autorizativa",
+      "seq": 1,
+      "data": "2020-07-15"
+    },
+    {
+      "marco": "assinatura_municipio",
+      "seq": 1,
+      "data": null
+    },
+    {
+      "marco": "assinatura_agergs",
+      "seq": 1,
+      "data": null
+    },
+    {
+      "marco": "abertura",
+      "seq": 2,
+      "data": "2021-05-17"
+    },
+    {
+      "marco": "assinatura_agergs",
+      "seq": 3,
+      "data": "2021-05-18"
+    },
+    {
+      "marco": "publicacao",
+      "seq": 5,
+      "data": "2021-05-20"
+    }
+  ],
+  "sequencia_etapas": [
+    "lei_autorizativa",
+    "autuacao_abertura",
+    "aditivo_alteracao",
+    "encaminhamento_interno",
+    "publicacao_extrato",
+    "comunicacao_interna_pos_assinatura"
+  ],
+  "unidades_envolvidas": [
+    "Município de Chiapetta (Prefeitura)",
+    "Presidência da AGERGS (Conselheiro-Presidente)",
+    "Gabinete da Presidência (AGERGS)",
+    "Diretoria-Geral (AGERGS)",
+    "Diretoria de Qualidade (AGERGS)",
+    "Conselho Superior (AGERGS)",
+    "NARH (AGERGS)",
+    "CORSAN (interveniente)",
+    "FAMURS (interveniente)"
+  ],
+  "desvios_e_retrabalho": [
+    {
+      "descricao": "Termo assinado em 2020 e levado à súmula e ao DOE só em 2021, após desmembramento de processo anterior",
+      "seq": [
+        1,
+        2
+      ],
+      "evidencia": "decidiu-se pelo desmembramento dos Termos Aditivos já assinados"
+    },
+    {
+      "descricao": "Processo vinculado ao original: a súmula cita o processo do convênio (001466-39.00/19-0)",
+      "seq": [
+        3
+      ],
+      "evidencia": "Processos SEI 001466-39.00/19-0, 001044-39.00/19-9 e 000802-39.00/21-6"
+    },
+    {
+      "descricao": "Publicação em lote: a súmula de Chiapetta saiu junto com 15 outras de outros municípios",
+      "seq": [
+        5
+      ],
+      "evidencia": "SÚMULAS DE ADITIVO AO CONVÊNIO DE DELEGAÇÃO"
+    }
+  ],
+  "gargalos_percebidos": [
+    "Termo assinado em 2020 e processo de publicação aberto só em 17/05/2021 (seq 1-2)",
+    "Publicação depende do lote do Conselho Superior (seq 5)",
+    "Dependência do processo original 001466-39.00/19-0 (seq 3)"
+  ],
+  "documentos_exigidos_do_municipio": [
+    "Lei municipal autorizativa da alteração (seq 1)",
+    "Termo aditivo assinado pelo Prefeito (seq 1)"
+  ],
+  "diferencas_vs_padrao": "Não é convênio novo: é aditivo (inclusão do inciso XIV, sanções) a convênio do processo 001466-39.00/19-0, com o termo já assinado em 2020. Não há pedido, análise jurídica nem minuta neste processo; ele só cuida de súmula, publicação e comunicação ao município.",
+  "observacoes": "Peça 1 sem doc_id no CSV (o rodapé do termo cita 0306118). Assinaturas do termo, de 2020, ilegíveis no OCR quanto a dia e mês. Horas das fichas são hipótese."
+}

@@ -1,0 +1,127 @@
+{
+  "processo": "Passo_Fundo",
+  "numero_sei": "001165-39.00/25-8",
+  "municipio": "Passo Fundo",
+  "instrumento": "contrato_prestacao_servicos_regulacao",
+  "servico": "agua_esgoto",
+  "prestador": "CORSAN",
+  "fundamento_legal": [
+    "Lei Federal 11.445/2007, art. 8º, § 5º, e art. 23, § 1º (delegação da regulação)",
+    "Lei Estadual 16.266/2024, arts. 2º, § 2º, 3º, § 1º, I, 7º, 8º, 65 e 66 (competência da AGERGS e fiscalização compartilhada)",
+    "Lei Federal 8.987/1995, arts. 3º e 29, I (fiscalização pelo poder concedente)",
+    "Resolução Decisória CS 804/2025 (sanções por norma da AGERGS)",
+    "Lei Municipal de Passo Fundo 5.974/2025 (intervenções em logradouros públicos)",
+    "Lei Federal 14.133/2021, art. 74 (citada na minuta; a PSE recomendou substituição)"
+  ],
+  "situacao_final": "aguardando_agergs",
+  "evidencia_situacao": "seq 50: Solicitamos que seja adequada a Cláusula Oitava da Minuta",
+  "marcos": [
+    {"marco": "pedido_municipio", "seq": 1, "data": "2025-05-23"},
+    {"marco": "abertura", "seq": 1, "data": "2025-05-23"},
+    {"marco": "parecer_juridico", "seq": 3, "data": "2025-06-23"},
+    {"marco": "minuta_enviada", "seq": 6, "data": "2025-07-30"},
+    {"marco": "comunicacao_prestador", "seq": 6, "data": "2025-07-30"},
+    {"marco": "parecer_juridico", "seq": 32, "data": "2025-12-09"},
+    {"marco": "manifestacao_pge", "seq": 37, "data": "2025-12-22"},
+    {"marco": "minuta_enviada", "seq": 41, "data": "2026-01-07"}
+  ],
+  "sequencia_etapas": [
+    "autuacao_abertura",
+    "encaminhamento_interno",
+    "analise_juridica",
+    "encaminhamento_interno",
+    "comunicacao_prestador",
+    "comunicacao_prestador",
+    "tratativa_com_municipio",
+    "cadastro_controle",
+    "decisao_presidencia_diretoria",
+    "comunicacao_prestador",
+    "comunicacao_prestador",
+    "tratativa_com_municipio",
+    "encaminhamento_interno",
+    "analise_juridica",
+    "tratativa_com_municipio",
+    "revisao_ajuste_minuta",
+    "elaboracao_minuta",
+    "encaminhamento_interno",
+    "cadastro_controle",
+    "comunicacao_prestador",
+    "tratativa_com_municipio",
+    "deliberacao_conselho_superior",
+    "revisao_ajuste_minuta"
+  ],
+  "unidades_envolvidas": [
+    "Gabinete da Presidência (AGERGS)",
+    "Diretoria-Geral (AGERGS)",
+    "Procuradoria Setorial junto à AGERGS (PSE)",
+    "Conselho Superior (AGERGS)",
+    "Assessoria do Conselho Superior",
+    "Protocolo (AGERGS)",
+    "CORSAN (Regulatório e Diretoria-Presidente)",
+    "Procuradoria-Geral do Município de Passo Fundo"
+  ],
+  "desvios_e_retrabalho": [
+    {
+      "descricao": "CORSAN alega só ter tido ciência em 14/08/2025, apesar de e-mail de 30/07/2025 entregue; AGERGS contesta.",
+      "seq": [8, 9, 12, 13, 14],
+      "evidencia": "foi obtido conhecimento da demanda apenas a partir do recebimento da cópia integral do processo"
+    },
+    {
+      "descricao": "Diretoria-Geral propõe indeferir a dilação, mas o GP concede prazo até 29/08/2025.",
+      "seq": [14, 15],
+      "evidencia": "a AGERGS concede a prorrogação de prazo"
+    },
+    {
+      "descricao": "E-mail de 25/08/2025 com o Ofício 424 foi enviado a endereço da CORSAN desativado.",
+      "seq": [15, 16],
+      "evidencia": "o e-mail adotado como destinatário está desativado"
+    },
+    {
+      "descricao": "Após a Carta 767 da CORSAN, a DG pede nova minuta contratual e o processo vai e volta entre DG e PSE.",
+      "seq": [18, 19, 20],
+      "evidencia": "elaboração de nova minuta contratual (se necessário)"
+    },
+    {
+      "descricao": "Ofício 487 reenviado ao Município por estar sem a Carta CORSAN 767 anexada.",
+      "seq": [24, 25],
+      "evidencia": "no e-mail anterior, não foi anexada a Carta"
+    },
+    {
+      "descricao": "Fundamento legal da minuta (Lei 14.133/2021) e outras correções apontadas pela PSE.",
+      "seq": [32],
+      "evidencia": "consta como fundamento para a contratação o art. 74"
+    },
+    {
+      "descricao": "Minuta final ainda apresenta erros: data '2025', processo em branco, 'Lei 11.445/2027' e foro de Porto Alegre.",
+      "seq": [41],
+      "evidencia": "Fica eleito o foro do Município de Porto Alegre/RS"
+    },
+    {
+      "descricao": "Exame suspenso e retirado de pauta na sessão do Conselho Superior para reexame.",
+      "seq": [49],
+      "evidencia": "o processo será retirado de pauta para reexame"
+    },
+    {
+      "descricao": "Pedido de ajuste da duração do contrato para 60 meses, proposto na manifestação da CORSAN.",
+      "seq": [48, 50],
+      "evidencia": "prevendo o prazo de 60 (sessenta) meses, com possibilidade de prorrogações"
+    }
+  ],
+  "gargalos_percebidos": [
+    "Parecer PSE 105 (seq 3) só gerou o ofício à CORSAN em 30/07/2025 (seq 6).",
+    "Intervalo de cerca de 5 meses entre a Informação PSE 105 e o retorno à PSE (seq 31).",
+    "Dilação de prazo concedida pelo GP após indeferimento proposto pela DG (seq 14-15).",
+    "Ciclo DG-PSE-DG entre setembro de 2025 e janeiro de 2026 (seq 19-40).",
+    "Informação PSE 231 de 09/12/2025 (seq 32) chega ao Município em 18/12 (seq 34); PGM responde em 22/12 (seq 37).",
+    "Pauta do Conselho Superior em 10/02/2026 com exame suspenso (seq 48-49)."
+  ],
+  "documentos_exigidos_do_municipio": [
+    "Manifestação sobre a minuta após as impugnações da CORSAN (Ofício 487, seq 23)",
+    "Confirmação de recebimento dos ofícios e e-mails (seq 26)",
+    "Manifestação por escrito à Carta 767 (seq 30, sem texto extraível)",
+    "Conferência da minuta final antes da deliberação do Conselho Superior (seq 37, 43)",
+    "Pedido de sustentação oral na sessão do Conselho Superior (seq 45-48)"
+  ],
+  "diferencas_vs_padrao": "Fluxo diferente do padrão (pedido, análise jurídica, minuta, aprovação, assinatura, publicação). Aqui a CORSAN, prestadora, é notificada e contesta formalmente a minuta com base em lei e no contrato de concessão (seq 6-18), o que provoca dilação de prazo (seq 14-15), pedido de nova minuta (seq 19) e reexame pelo Conselho Superior (seq 49). A minuta é reescrita mais de uma vez (seq 32, 40-41, 50). A fase de aprovação pelo Conselho Superior não foi concluída nesta parte.",
+  "observacoes": "PARTE 1 DE 2: esta narrativa cobre apenas os documentos seq 1-50 (até abr/2026). A situação_final e os marcos podem mudar com os documentos seq 51-99, feitos por outro agente. Base sem a minuta inicial (doc. 0502031), citada nos seq 3 e 32. Seqs 29, 30 e 36 sem texto extraível (imagem); seq 44 com OCR ruim. Números inconsistentes entre peças: Ofício 216 (base) x 'Ofício 261/2025-DG' (seq 18); PSE 224 (seq 33) x PSE 231 (seq 32); Resolução Normativa 13/2014 (seq 23) x 13/2024 (seq 28); a ata (seq 48) registra 'Sessão 06/2025' para a sessão 06/2026. Datas: seq 28 sem data no texto nem no CSV; seq 48 e 30 também sem data. Dados pessoais (CPF, telefones, e-mails de requerentes) não foram reproduzidos."
+}

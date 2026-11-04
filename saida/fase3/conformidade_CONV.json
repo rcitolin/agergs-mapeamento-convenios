@@ -1,0 +1,45 @@
+{
+ "codigo": "CONV",
+ "requisitos": {
+  "R-CONV-01": {
+   "casos_aplicaveis": 18,
+   "pct_conforme": 66.7
+  },
+  "R-CONV-02": {
+   "casos_aplicaveis": 0,
+   "pct_conforme": null
+  },
+  "R-CONV-03": {
+   "casos_aplicaveis": 12,
+   "pct_conforme": 50.0
+  },
+  "R-CONV-04": {
+   "casos_aplicaveis": 12,
+   "pct_conforme": 16.7
+  },
+  "R-CONV-05": {
+   "casos_aplicaveis": 12,
+   "pct_conforme": 66.7
+  },
+  "R-CONV-06": {
+   "casos_aplicaveis": 5,
+   "pct_conforme": 20.0
+  },
+  "R-CONV-07": {
+   "casos_aplicaveis": 0,
+   "pct_conforme": null
+  },
+  "R-CONV-08": {
+   "casos_aplicaveis": 5,
+   "pct_conforme": 0.0
+  },
+  "R-CONV-09": {
+   "casos_aplicaveis": 6,
+   "pct_conforme": 33.3
+  },
+  "R-CONV-10": {
+   "casos_aplicaveis": 18,
+   "pct_conforme": 74.6
+  }
+ }
+}

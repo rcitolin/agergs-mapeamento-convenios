@@ -1,0 +1,115 @@
+{
+  "processo": "Liberato_Salzano",
+  "numero_sei": "000765-39.00/19-5",
+  "municipio": "Liberato Salzano",
+  "instrumento": "convenio_delegacao",
+  "servico": "agua_esgoto",
+  "prestador": "CORSAN (interveniente; contrato de programa referido na Lei Municipal 3.587/2018, não juntado)",
+  "fundamento_legal": [
+    "Lei Estadual 10.931/1997",
+    "Lei Estadual 11.075/1998",
+    "Lei Federal 11.445/2007",
+    "Lei Federal 8.666/1993, art. 38, parágrafo único",
+    "Lei Municipal 3.587/2018, arts. 3º e 4º"
+  ],
+  "situacao_final": "assinado_e_publicado",
+  "evidencia_situacao": "seq 10: SÚMULA CONVÊNIO DE DELEGAÇÃO",
+  "marcos": [
+    {
+      "marco": "pedido_municipio",
+      "seq": 1,
+      "data": "2019-06-19"
+    },
+    {
+      "marco": "lei_autorizativa",
+      "seq": 1,
+      "data": "2018-12-21"
+    },
+    {
+      "marco": "abertura",
+      "seq": 2,
+      "data": "2019-06-21"
+    },
+    {
+      "marco": "parecer_juridico",
+      "seq": 5,
+      "data": "2019-07-15"
+    },
+    {
+      "marco": "assinatura_municipio",
+      "seq": 11,
+      "data": null
+    },
+    {
+      "marco": "assinatura_agergs",
+      "seq": 11,
+      "data": null
+    },
+    {
+      "marco": "publicacao",
+      "seq": 10,
+      "data": "2019-09-25"
+    }
+  ],
+  "sequencia_etapas": [
+    "solicitacao_municipio",
+    "autuacao_abertura",
+    "encaminhamento_interno",
+    "encaminhamento_interno",
+    "analise_juridica",
+    "elaboracao_minuta",
+    "analise_juridica",
+    "encaminhamento_interno",
+    "juntada_documentos_municipio",
+    "publicacao_extrato",
+    "assinatura_instrumento",
+    "outro"
+  ],
+  "unidades_envolvidas": [
+    "Diretoria-Geral (DG)",
+    "Gabinete da Presidência",
+    "Diretoria de Assuntos Jurídicos (DJ)",
+    "Diretoria de Qualidade dos Serviços (DQ)",
+    "Conselheiro-Presidente",
+    "Prefeitura Municipal de Liberato Salzano",
+    "CORSAN (interveniente)",
+    "FAMURS (interveniente)",
+    "Correios"
+  ],
+  "desvios_e_retrabalho": [
+    {
+      "descricao": "Encaminhamento 1317 traz data de 18/07/2019 e foi assinado em 07/08/2019, cerca de 20 dias depois.",
+      "seq": [
+        8
+      ],
+      "evidencia": "Em 18 de julho de 2019."
+    },
+    {
+      "descricao": "A DQ pediu que a fiscalização compartilhada constasse do texto; a minuta de 15/07/2019 passou a prevê-la.",
+      "seq": [
+        4,
+        6
+      ],
+      "evidencia": "itens como a fiscalização compartilhada entre outros deveriam estar expressos"
+    },
+    {
+      "descricao": "A remessa ao município voltou pelo Correios sem entrega (campo de devolução marcado).",
+      "seq": [
+        12
+      ],
+      "evidencia": "Mudou-se"
+    }
+  ],
+  "gargalos_percebidos": [
+    "Cerca de três meses entre o pedido do município (seq 1) e a publicação (seq 10).",
+    "Assinatura do Encaminhamento 1317 (seq 8) levou cerca de 20 dias após a data do texto.",
+    "Contrato de programa com a CORSAN exigido pela informação jurídica (seq 5) não consta do processo."
+  ],
+  "documentos_exigidos_do_municipio": [
+    "Ofício solicitando o convênio, com a lei autorizativa (seq 1)",
+    "Lei Municipal 3.587/2018 (seq 1)",
+    "Contrato de programa com a CORSAN, exigido para instruir o processo (seq 5); não juntado"
+  ],
+  "diferencas_vs_padrao": "Fluxo curto: pedido (seq 1), abertura (seq 2), encaminhamentos internos, informação jurídica e acolhimento (seq 5 e 7), minuta (seq 6), assinatura (seq 11) e súmula no Diário Oficial (seq 10). Não há manifestação da PGE nem deliberação do Conselho Superior nos autos, embora a minuta-padrão aprovada pelo Conselho seja citada (seq 5); o envio da minuta ao município não tem registro claro além do AR devolvido (seq 12).",
+  "observacoes": "Todas as horas_estimadas são HIPÓTESE. A assinatura do convênio (seq 11) foi confirmada na imagem da página 26 do PDF, e a data manuscrita não é legível no texto. As peças 4 e 9 contêm e-mails e carimbos que não foram reproduzidos."
+}

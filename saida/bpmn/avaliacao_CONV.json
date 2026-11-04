@@ -1,0 +1,564 @@
+{
+ "codigo": "CONV",
+ "sintese": "A celebração de instrumento de delegação da regulação é indicativa, não procedimento: são 18 casos, cada um com caminho próprio (18 caminhos), e a auditoria às cegas dos rótulos é a medida que decide se o tipo vira procedimento. O processo não tem dono nem rito fixo. Pedido, análise jurídica, minuta, autorização, assinatura e publicação aparecem em ordens diferentes, e parte da instrução dos contratos de 2025 fica em outro processo (inexigibilidade e TAAC). O tempo é espera, não trabalho: a execução cobre 14,3% do lead time somado da coorte, e a eficiência do ciclo, mesmo com as horas no teto, é de 1,7%. Só 10 casos terminam assinados e publicados nos autos.",
+ "fatos_sintese": [
+  "coorte.casos",
+  "coorte.n_caminhos",
+  "coorte.pct_execucao_no_lead",
+  "coorte.pce_teto",
+  "coorte.situacao.assinado_e_publicado"
+ ],
+ "leitura_metricas": "Por caso, o lead time tem mediana de 74,5 du (q3 de 135,8 du; máximo de 376 du), e o trabalho estimado tem mediana de 4,8 h no piso e 8,6 h no teto: horas, não semanas. A mediana por caso é de 7,5 passagens entre unidades, 3 encaminhamentos sem conteúdo próprio e 2 retornos a uma atividade já feita, com máximo de 64 passagens e 33 retornos (Passo Fundo). O tempo de resposta do município e do prestador responde por 14,6% da espera total: o resto é espera interna, inclusive o silêncio da agência diante de pedidos reiterados. Os convênios têm lead mediano de 79,5 du; os contratos de 2025–2026, de 15 du, porque três deles já chegam assinados e a instrução está em outro processo.",
+ "fatos_leitura_metricas": [
+  "coorte.caso.lead.mediana",
+  "coorte.caso.lead.q3",
+  "coorte.caso.lead.max",
+  "coorte.caso.horas_piso.mediana",
+  "coorte.caso.horas_teto.mediana",
+  "coorte.caso.passagens.mediana",
+  "coorte.caso.n_encaminhamentos.mediana",
+  "coorte.caso.retornos.mediana",
+  "coorte.caso.passagens.max",
+  "coorte.caso.retornos.max",
+  "coorte.pct_espera_terceiros",
+  "coorte.instrumento.convenio_delegacao.lead.mediana",
+  "coorte.instrumento.contrato_prestacao_servicos_regulacao.lead.mediana"
+ ],
+ "gargalo": {
+  "onde": "Fila sem dono antes e depois das decisões: o pedido do município que espera resposta, a minuta que espera nova versão, e a assinatura que espera publicação e comunicação. A análise jurídica é o maior ponto de espera antes do mérito.",
+  "evidencia": "A espera antes da comunicação ao prestador e às unidades responde por 21,3% da espera total da coorte, a espera antes de um novo pedido do município (reiteração sem resposta) por 16,3%, a da publicação por 16,1%, a da minuta por 13,8% e a da análise jurídica por 10,5%. Na mediana as esperas por ocorrência são curtas (2 du antes da publicação, 3,5 du antes da análise jurídica). O peso vem das caudas: q3 de 34,5 du antes da publicação e máximo de 153 du antes da minuta.",
+  "atividades": [
+   "t13",
+   "t1",
+   "t12",
+   "t5",
+   "t6"
+  ],
+  "fatos_usados": [
+   "coorte.t13.pct_espera_total",
+   "coorte.t1.pct_espera_total",
+   "coorte.t12.pct_espera_total",
+   "coorte.t5.pct_espera_total",
+   "coorte.t6.pct_espera_total",
+   "coorte.t12.espera_antes.mediana",
+   "coorte.t6.espera_antes.mediana",
+   "coorte.t12.espera_antes.q3",
+   "coorte.t5.espera_antes.max"
+  ]
+ },
+ "variabilidade": "A dispersão é a regra: 18 caminhos distintos em 18 casos; o lead vai de 3 du (aditivo de Chiapetta) e 13 du (Nova Bréscia) a 376 du (Mampituba), e o q3 é de 135,8 du. A variação tem quatro causas observadas: a forma do instrumento (convênio de 2013 a 2020; contrato com inexigibilidade a partir de 2025; aditivo), quem conduz (GP, DG, DAJ, DAI ou DQS conforme o caso), a resposta ao pedido do município (Unistalda reiterou o pedido sem resposta) e a negociação com a CORSAN, concentrada nos dois maiores casos de 2025–2026 (17 ocorrências de oitiva do prestador em 3 casos).",
+ "fatos_variabilidade": [
+  "coorte.n_caminhos",
+  "coorte.casos",
+  "caso.Chiapetta.lead",
+  "caso.Nova_Brescia.lead",
+  "caso.Mapituba.lead",
+  "coorte.caso.lead.q3",
+  "coorte.t16.ocorrencias",
+  "coorte.t16.casos"
+ ],
+ "desperdicios": [
+  {
+   "tipo": "Espera",
+   "evidencia": "A execução cobre 14,3% do lead time somado; o resto é processo parado entre peças. A maior espera isolada antes da minuta é de 153 du (Mampituba), e antes de um novo pedido do município, de 181 du.",
+   "atividades": [
+    "t1",
+    "t5",
+    "t12",
+    "t13"
+   ],
+   "severidade": "alta",
+   "fatos_usados": [
+    "coorte.pct_execucao_no_lead",
+    "coorte.t5.espera_antes.max",
+    "coorte.t1.espera_antes.max"
+   ]
+  },
+  {
+   "tipo": "Transporte",
+   "evidencia": "Mediana de 7,5 passagens e de 3 encaminhamentos sem conteúdo próprio por caso; no máximo, 64 passagens. Os encaminhamentos não viram tarefa no modelo, mas são fila.",
+   "atividades": [
+    "t2",
+    "t6",
+    "t13"
+   ],
+   "severidade": "alta",
+   "fatos_usados": [
+    "coorte.caso.passagens.mediana",
+    "coorte.caso.n_encaminhamentos.mediana",
+    "coorte.caso.passagens.max"
+   ]
+  },
+  {
+   "tipo": "Defeitos/retrabalho",
+   "evidencia": "Mediana de 2 retornos por caso (máximo de 33). A análise jurídica se repete em 8 casos, a minuta em 5 e o envio ao município em 4; nas fichas há erros materiais repetidos (ano da Lei 11.445, foro trocado ou de outro município, número de lei municipal divergente, CNPJ) e súmula publicada antes da assinatura, com errata.",
+   "atividades": [
+    "t5",
+    "t6",
+    "t10"
+   ],
+   "severidade": "alta",
+   "fatos_usados": [
+    "coorte.caso.retornos.mediana",
+    "coorte.caso.retornos.max",
+    "coorte.t6.casos_com_laco",
+    "coorte.t5.casos_com_laco",
+    "coorte.t10.casos_com_laco"
+   ]
+  },
+  {
+   "tipo": "Superprocessamento",
+   "evidencia": "Cada caso redige a minuta do zero ou a partir do último instrumento. A minuta tem mediana de 1,9 h no teto por ocorrência e passa por 12 casos; o processo da minuta padrão comparou contratos assinados e achou cláusulas divergentes (fundamento legal, vigência, rescisão, custeio).",
+   "atividades": [
+    "t5"
+   ],
+   "severidade": "média",
+   "fatos_usados": [
+    "coorte.t5.horas_teto.mediana",
+    "coorte.t5.casos"
+   ]
+  },
+  {
+   "tipo": "Movimentação",
+   "evidencia": "Documentação do município pedida em rodadas: a complementação aparece em 15 casos, com laço em 7. Não há lista mínima de documentos na entrada; termo de cooperação com o Estado e contrato de programa costumam chegar depois da minuta ou da assinatura.",
+   "atividades": [
+    "t3",
+    "t10"
+   ],
+   "severidade": "média",
+   "fatos_usados": [
+    "coorte.t3.casos",
+    "coorte.t3.casos_com_laco"
+   ]
+  },
+  {
+   "tipo": "Estoque",
+   "evidencia": "Situação final: 1 caso aguardando o município, 2 aguardando a AGERGS e 5 assinados sem publicação nos autos, sem marco de encerramento. O arquivamento formal só aparece em 2 casos.",
+   "atividades": [
+    "t12",
+    "t15"
+   ],
+   "severidade": "média",
+   "fatos_usados": [
+    "coorte.situacao.aguardando_municipio",
+    "coorte.situacao.aguardando_agergs",
+    "coorte.situacao.assinado_sem_publicacao_no_processo",
+    "coorte.t15.casos"
+   ]
+  }
+ ],
+ "atividades": {
+  "t1": {
+   "valor": "necessária sem valor",
+   "justificativa_valor": "O pedido formal do titular é o gatilho legal da delegação; a reiteração por falta de resposta não agrega.",
+   "potencial_ia": "baixo",
+   "tipos_ia": [
+    "classificação e triagem",
+    "monitoramento de prazos e alertas"
+   ],
+   "aplicacao_ia": "Ler o ofício na chegada, identificar serviço, prestador e município e alertar pedido sem resposta.",
+   "ganho_esperado": "Evita reiteração: espera antes de novo pedido com máximo de 181 du.",
+   "controle_humano": "Gabinete confere o pedido.",
+   "melhoria_lean": "Formulário de adesão padronizado, já com a lista de documentos mínimos, e resposta com prazo.",
+   "fatos_usados": [
+    "coorte.t1.espera_antes.max"
+   ]
+  },
+  "t2": {
+   "valor": "necessária sem valor",
+   "justificativa_valor": "A autuação e a distribuição são controle formal.",
+   "potencial_ia": "médio",
+   "tipos_ia": [
+    "automação de tramitação (RPA no SEI)",
+    "classificação e triagem"
+   ],
+   "aplicacao_ia": "Abrir o processo com tipo SEI próprio e distribuir pelas regras do fluxo.",
+   "ganho_esperado": "Pequeno: mediana de 1 du de espera antes e 0,1 h no piso.",
+   "controle_humano": "GP confirma a distribuição.",
+   "melhoria_lean": "Tipo de processo SEI único e dono do processo definido na abertura.",
+   "fatos_usados": [
+    "coorte.t2.espera_antes.mediana",
+    "coorte.t2.horas_piso.mediana"
+   ]
+  },
+  "t3": {
+   "valor": "necessária sem valor",
+   "justificativa_valor": "Lei autorizativa, contrato com o prestador e PMSB são condição jurídica da delegação, mas a complementação em rodadas não agrega.",
+   "potencial_ia": "alto",
+   "tipos_ia": [
+    "extração de dados de documentos",
+    "verificação de conformidade"
+   ],
+   "aplicacao_ia": "Conferir a documentação recebida contra o checklist mínimo e apontar o que falta numa única diligência.",
+   "ganho_esperado": "Reduz rodadas: complementação em 15 casos, com laço em 7.",
+   "controle_humano": "Servidor confirma a lista de pendências antes do envio.",
+   "melhoria_lean": "Checklist único na entrada; uma só diligência consolidada.",
+   "fatos_usados": [
+    "coorte.t3.casos",
+    "coorte.t3.casos_com_laco"
+   ]
+  },
+  "t4": {
+   "valor": "agrega valor",
+   "justificativa_valor": "Confirma serviço, prestador e escopo regulado.",
+   "potencial_ia": "médio",
+   "tipos_ia": [
+    "sumarização e linha do tempo",
+    "extração de dados de documentos"
+   ],
+   "aplicacao_ia": "Resumir o contrato de programa ou de concessão e o PMSB para a diretoria técnica.",
+   "ganho_esperado": "Mediana de 2,5 h no teto por ocorrência, em 2 casos.",
+   "controle_humano": "Diretoria técnica conclui sobre a viabilidade.",
+   "melhoria_lean": "Fazer em paralelo à análise jurídica, com prazo.",
+   "fatos_usados": [
+    "coorte.t4.horas_teto.mediana",
+    "coorte.t4.casos"
+   ]
+  },
+  "t5": {
+   "valor": "agrega valor",
+   "justificativa_valor": "A minuta define o objeto e as obrigações da delegação.",
+   "potencial_ia": "alto",
+   "tipos_ia": [
+    "redação assistida de minuta",
+    "verificação de conformidade"
+   ],
+   "aplicacao_ia": "Gerar a minuta a partir da minuta padrão, preenchendo município, serviço, prestador e percentual, e conferir cláusulas obrigatórias e erros materiais.",
+   "ganho_esperado": "Mediana de 1,9 h no teto por ocorrência; o ganho maior é eliminar versões: laço em 5 casos.",
+   "controle_humano": "DAJ revisa e aprova a minuta.",
+   "melhoria_lean": "Minuta padrão única aprovada pela PSE e pelo Conselho; desvio só com justificativa.",
+   "fatos_usados": [
+    "coorte.t5.horas_teto.mediana",
+    "coorte.t5.casos_com_laco"
+   ]
+  },
+  "t6": {
+   "valor": "agrega valor",
+   "justificativa_valor": "O controle de legalidade é exigido antes da assinatura.",
+   "potencial_ia": "alto",
+   "tipos_ia": [
+    "verificação de conformidade",
+    "busca de precedentes e normas",
+    "redação assistida de minuta"
+   ],
+   "aplicacao_ia": "Pré-análise dos requisitos (lei autorizativa, fundamento, escopo, prestador) e minuta da informação jurídica a partir do checklist.",
+   "ganho_esperado": "Mediana de 2,3 h no teto por ocorrência; espera antes com mediana de 3,5 du e máximo de 48 du.",
+   "controle_humano": "Assessor jurídico conclui e assina.",
+   "melhoria_lean": "Parecer referencial sobre a minuta padrão: análise individual só nos desvios.",
+   "fatos_usados": [
+    "coorte.t6.horas_teto.mediana",
+    "coorte.t6.espera_antes.mediana",
+    "coorte.t6.espera_antes.max"
+   ]
+  },
+  "t16": {
+   "valor": "necessária sem valor",
+   "justificativa_valor": "Ouvir o prestador evita conflito com o contrato de programa, mas sem prazo vira negociação aberta.",
+   "potencial_ia": "médio",
+   "tipos_ia": [
+    "monitoramento de prazos e alertas",
+    "sumarização e linha do tempo"
+   ],
+   "aplicacao_ia": "Controlar o prazo dado à CORSAN e resumir as objeções em quadro comparativo.",
+   "ganho_esperado": "Ocorre em 3 casos, com 17 ocorrências: o laço é o problema.",
+   "controle_humano": "Presidência decide sobre as objeções.",
+   "melhoria_lean": "Uma oitiva com prazo fixo, sobre a minuta padrão.",
+   "fatos_usados": [
+    "coorte.t16.casos",
+    "coorte.t16.ocorrencias"
+   ]
+  },
+  "t7": {
+   "valor": "agrega valor",
+   "justificativa_valor": "A PSE dá segurança jurídica à minuta.",
+   "potencial_ia": "médio",
+   "tipos_ia": [
+    "verificação de conformidade"
+   ],
+   "aplicacao_ia": "Destacar para a PSE só as cláusulas que fogem da minuta padrão.",
+   "ganho_esperado": "Ocorre em 2 casos; mediana de 1,3 h no teto.",
+   "controle_humano": "Procurador conclui.",
+   "melhoria_lean": "Manifestação referencial da PSE sobre a minuta padrão.",
+   "fatos_usados": [
+    "coorte.t7.casos",
+    "coorte.t7.horas_teto.mediana"
+   ]
+  },
+  "t8": {
+   "valor": "necessária sem valor",
+   "justificativa_valor": "A deliberação colegiada é exigência de governança quando o rito a exige.",
+   "potencial_ia": "baixo",
+   "tipos_ia": [
+    "sumarização e linha do tempo",
+    "redação assistida de minuta"
+   ],
+   "aplicacao_ia": "Montar relatório do caso para o relator a partir dos autos.",
+   "ganho_esperado": "Ocorre em 3 casos; mediana de 4,2 h no teto por ocorrência.",
+   "controle_humano": "Voto e deliberação ficam com o Conselho.",
+   "melhoria_lean": "Critério escrito de quando vai ao Conselho; com minuta padrão aprovada, a regra é a Presidência.",
+   "fatos_usados": [
+    "coorte.t8.casos",
+    "coorte.t8.horas_teto.mediana"
+   ]
+  },
+  "t9": {
+   "valor": "necessária sem valor",
+   "justificativa_valor": "A autorização da autoridade competente é requisito do art. 72 da Lei 14.133.",
+   "potencial_ia": "baixo",
+   "tipos_ia": [
+    "redação assistida de minuta"
+   ],
+   "aplicacao_ia": "Gerar o despacho de autorização e a justificativa de inexigibilidade a partir do processo.",
+   "ganho_esperado": "Aparece em 1 caso: a autorização falta nos autos.",
+   "controle_humano": "Presidência assina.",
+   "melhoria_lean": "Autorização formal sempre no processo de celebração, não em processo apartado.",
+   "fatos_usados": [
+    "coorte.t9.casos"
+   ]
+  },
+  "t10": {
+   "valor": "necessária sem valor",
+   "justificativa_valor": "Leva a minuta ao município, mas os reenvios são retrabalho.",
+   "potencial_ia": "médio",
+   "tipos_ia": [
+    "monitoramento de prazos e alertas",
+    "redação assistida de minuta"
+   ],
+   "aplicacao_ia": "Ofício por modelo com prazo e alerta de vencimento.",
+   "ganho_esperado": "Trabalho pequeno (mediana de 0,6 h no teto); laço em 4 casos.",
+   "controle_humano": "GP assina.",
+   "melhoria_lean": "Envio único da minuta final com prazo e acesso externo no SEI.",
+   "fatos_usados": [
+    "coorte.t10.horas_teto.mediana",
+    "coorte.t10.casos_com_laco"
+   ]
+  },
+  "t11": {
+   "valor": "agrega valor",
+   "justificativa_valor": "A assinatura constitui a delegação.",
+   "potencial_ia": "médio",
+   "tipos_ia": [
+    "automação de tramitação (RPA no SEI)"
+   ],
+   "aplicacao_ia": "Liberar assinatura do prefeito como usuário externo do SEI e acompanhar.",
+   "ganho_esperado": "Espera antes com q3 de 14 du e máximo de 32 du.",
+   "controle_humano": "As partes assinam.",
+   "melhoria_lean": "Assinatura eletrônica no SEI pelas duas partes, sem via em papel.",
+   "fatos_usados": [
+    "coorte.t11.espera_antes.q3",
+    "coorte.t11.espera_antes.max"
+   ]
+  },
+  "t12": {
+   "valor": "necessária sem valor",
+   "justificativa_valor": "A publicação é condição de eficácia.",
+   "potencial_ia": "alto",
+   "tipos_ia": [
+    "automação de tramitação (RPA no SEI)",
+    "monitoramento de prazos e alertas"
+   ],
+   "aplicacao_ia": "Gerar o extrato a partir do instrumento assinado e controlar o prazo de divulgação.",
+   "ganho_esperado": "Espera antes com mediana de 2 du e q3 de 34,5 du; 16,1% da espera total.",
+   "controle_humano": "DG confere o extrato.",
+   "melhoria_lean": "Publicar em prazo fixo contado da última assinatura, nunca antes dela.",
+   "fatos_usados": [
+    "coorte.t12.espera_antes.mediana",
+    "coorte.t12.espera_antes.q3",
+    "coorte.t12.pct_espera_total"
+   ]
+  },
+  "t13": {
+   "valor": "necessária sem valor",
+   "justificativa_valor": "Avisar o prestador, a DAF (taxa) e as diretorias põe a regulação em marcha.",
+   "potencial_ia": "alto",
+   "tipos_ia": [
+    "automação de tramitação (RPA no SEI)",
+    "painel e indicadores"
+   ],
+   "aplicacao_ia": "Disparar de uma vez os comunicados e o cadastro do município regulado.",
+   "ganho_esperado": "21,3% da espera total; laço em 4 casos.",
+   "controle_humano": "DG confere os destinatários.",
+   "melhoria_lean": "Comunicado único com lista de distribuição padrão.",
+   "fatos_usados": [
+    "coorte.t13.pct_espera_total",
+    "coorte.t13.casos_com_laco"
+   ]
+  },
+  "t14": {
+   "valor": "necessária sem valor",
+   "justificativa_valor": "O aditivo corrige ou amplia o instrumento (em Chiapetta, inclusão de competência sancionatória).",
+   "potencial_ia": "médio",
+   "tipos_ia": [
+    "redação assistida de minuta"
+   ],
+   "aplicacao_ia": "Minuta do aditivo a partir do instrumento vigente.",
+   "ganho_esperado": "A medir: 2 casos.",
+   "controle_humano": "DAJ e Presidência.",
+   "melhoria_lean": "Cláusulas de competência completas na minuta padrão evitam aditivo.",
+   "fatos_usados": [
+    "coorte.t14.casos"
+   ]
+  },
+  "t15": {
+   "valor": "necessária sem valor",
+   "justificativa_valor": "O encerramento formal fecha o processo.",
+   "potencial_ia": "médio",
+   "tipos_ia": [
+    "monitoramento de prazos e alertas",
+    "automação de tramitação (RPA no SEI)"
+   ],
+   "aplicacao_ia": "Gerar o termo quando publicação e comunicados estiverem nos autos.",
+   "ganho_esperado": "Ocorre em 2 casos; espera antes com mediana de 21,5 du.",
+   "controle_humano": "GP assina.",
+   "melhoria_lean": "Encerramento em prazo fixo após o último comunicado.",
+   "fatos_usados": [
+    "coorte.t15.casos",
+    "coorte.t15.espera_antes.mediana"
+   ]
+  }
+ },
+ "oportunidades": [
+  {
+   "titulo": "Kit de adesão: formulário, checklist de documentos mínimos e minuta padrão com parecer referencial",
+   "categoria": "Lean",
+   "descricao": "Entrada única com a documentação mínima do processo da minuta padrão; minuta padrão aprovada uma vez pela PSE e pelo Conselho; análise jurídica individual só dos desvios.",
+   "atividades": [
+    "t3",
+    "t5",
+    "t6",
+    "t7",
+    "t8"
+   ],
+   "ganho_esperado": "Ataca os laços de análise jurídica (8 casos) e de minuta (5 casos) e a espera antes da minuta, 13,8% do total.",
+   "impacto": "alto",
+   "esforco": "baixo",
+   "prerequisitos": "Aprovação da minuta padrão e do checklist (processos SEI 002840-39.00/26-3 e 002594-39.00/26-9).",
+   "riscos": "Caso atípico (outro prestador ou serviço) forçado à minuta padrão; mitigar com análise de desvio.",
+   "fatos_usados": [
+    "coorte.t6.casos_com_laco",
+    "coorte.t5.casos_com_laco",
+    "coorte.t5.pct_espera_total"
+   ]
+  },
+  {
+   "titulo": "Dono do processo e rito com prazos por etapa, inclusive para responder ao município",
+   "categoria": "Lean",
+   "descricao": "Uma unidade gestora (a DAI, como propõe o processo orientativo) conduz do pedido ao arquivamento, com prazo interno por etapa, resposta ao pedido em prazo fixo e sem encaminhamentos sem conteúdo.",
+   "atividades": [
+    "t1",
+    "t2",
+    "t6",
+    "t12",
+    "t13",
+    "t15"
+   ],
+   "ganho_esperado": "Reduz as 7,5 passagens medianas, a espera antes de novo pedido do município (16,3% da espera) e as esperas de cauda antes da publicação (q3 de 34,5 du).",
+   "impacto": "alto",
+   "esforco": "baixo",
+   "prerequisitos": "Instrução normativa do fluxo.",
+   "riscos": "Conflito de atribuições com DTM e DSI, já levantado no processo orientativo.",
+   "fatos_usados": [
+    "coorte.caso.passagens.mediana",
+    "coorte.t1.pct_espera_total",
+    "coorte.t12.espera_antes.q3"
+   ]
+  },
+  {
+   "titulo": "Instrução completa num só processo",
+   "categoria": "Lean",
+   "descricao": "Inexigibilidade, autorização, parecer, instrumento, publicação e comunicados no mesmo processo de celebração.",
+   "atividades": [
+    "t9",
+    "t11",
+    "t12"
+   ],
+   "ganho_esperado": "Rastreabilidade e conformidade: a justificativa de inexigibilidade está nos autos em 0% dos contratos (R-CONV-08) e a autorização formal antes da assinatura em 16,7% dos casos.",
+   "impacto": "médio",
+   "esforco": "baixo",
+   "prerequisitos": "Tipo de processo SEI e modelo de documentos.",
+   "riscos": "Baixo.",
+   "fatos_usados": [
+    "conformidade.R-CONV-08",
+    "conformidade.R-CONV-04"
+   ]
+  },
+  {
+   "titulo": "Assinatura eletrônica do município no SEI e publicação por prazo",
+   "categoria": "IA + Lean",
+   "descricao": "Prefeito assina como usuário externo; extrato gerado do instrumento e publicado em prazo contado da última assinatura; comunicados disparados juntos.",
+   "atividades": [
+    "t11",
+    "t12",
+    "t13"
+   ],
+   "ganho_esperado": "A publicação responde por 16,1% e a comunicação por 21,3% da espera total.",
+   "impacto": "alto",
+   "esforco": "médio",
+   "prerequisitos": "Cadastro de usuário externo; modelo de extrato.",
+   "riscos": "Município sem certificado ou sem cadastro: manter alternativa.",
+   "fatos_usados": [
+    "coorte.t12.pct_espera_total",
+    "coorte.t13.pct_espera_total"
+   ]
+  },
+  {
+   "titulo": "Painel de prazos e alertas da celebração",
+   "categoria": "IA + Lean",
+   "descricao": "Idade de cada processo por etapa e unidade, alerta de pedido sem resposta, de prazo vencido do município e do prestador e de processo sem dono.",
+   "atividades": [
+    "t1",
+    "t10",
+    "t16",
+    "t15"
+   ],
+   "ganho_esperado": "Reduz a espera interna (só 14,6% da espera é de terceiros) e o estoque sem marco de encerramento.",
+   "impacto": "médio",
+   "esforco": "médio",
+   "prerequisitos": "Relatórios ou API do SEI.",
+   "riscos": "Painel sem rotina de cobrança não muda nada.",
+   "fatos_usados": [
+    "coorte.pct_espera_terceiros"
+   ]
+  },
+  {
+   "titulo": "Minuta e checagem assistidas por IA",
+   "categoria": "IA",
+   "descricao": "Geração da minuta a partir da padrão e verificação automática de cláusulas obrigatórias, fundamento legal e erros materiais (ano de lei, foro, nome do município, número da lei municipal).",
+   "atividades": [
+    "t5",
+    "t6"
+   ],
+   "ganho_esperado": "Horas pequenas (mediana de 1,9 h e 2,3 h no teto por ocorrência); o ganho é evitar versões e erratas.",
+   "impacto": "médio",
+   "esforco": "médio",
+   "prerequisitos": "Minuta padrão aprovada e base normativa.",
+   "riscos": "Cláusula alterada sem revisão; mitigar com revisão de toda minuta pela DAJ.",
+   "fatos_usados": [
+    "coorte.t5.horas_teto.mediana",
+    "coorte.t6.horas_teto.mediana"
+   ]
+  }
+ ],
+ "indicadores_sugeridos": [
+  "Lead time do pedido à publicação",
+  "Tempo de resposta ao pedido do município",
+  "Espera antes da publicação contada da assinatura",
+  "Retornos por caso (análise jurídica e minuta)",
+  "Conformidade com os requisitos R-CONV-03 a R-CONV-06",
+  "Processos sem marco de encerramento",
+  "Desvios da minuta padrão por caso"
+ ],
+ "perguntas_validacao": [
+  "As divergências da auditoria às cegas (lista em saida/auditoria) estão corretamente rotuladas na ficha ou pelo auditor?",
+  "Assinaturas de convênios de 2013–2020 ocorreram em papel ou em sessão do Conselho (Alecrim), fora do SEI? Isso explica a espera antes da publicação.",
+  "Quem é hoje o dono do processo de celebração: GP, DG, DAJ ou DAI?",
+  "A inexigibilidade e o TAAC dos contratos de 2025 ficam em processo-mãe? Qual?",
+  "Em que casos a deliberação do Conselho Superior é obrigatória?",
+  "Por que pedidos como o de Unistalda ficaram sem resposta até a reiteração?",
+  "O volume anual de celebrações (hipótese) e o custo-hora estão corretos?"
+ ],
+ "validado_contra": {
+  "fatos_sha": "896ab852fe9ab967",
+  "data": "2026-11-04 16:23"
+ }
+}

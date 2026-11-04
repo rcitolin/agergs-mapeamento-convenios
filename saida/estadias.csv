@@ -1,0 +1,199 @@
+processo,atividade,ocorrencia,nome,inicio,fim,execucao_du,espera_antes_du,espera_terceiros_du,unidades,horas_piso,horas_teto,n_pecas
+Alecrim,t1,1,Solicitar delegação da regulação,2013-11-05,2013-11-05,0.0,0.0,0.0,MUN,0.0,0.0,1
+Alecrim,t16,1,Ouvir o prestador sobre a minuta,2013-11-20,2013-11-20,0.0,10.0,0.0,EXT,0.0,0.0,1
+Alecrim,t11,1,Assinar o instrumento pelas partes,2013-12-11,2013-12-11,0.0,14.0,0.0,CS,0.54,1.63,1
+Alecrim,t10,1,Enviar minuta e tratar com município,2013-12-11,2013-12-11,0.0,0.0,0.0,AGERGS-ND,0.32,0.55,1
+Alecrim,t3,1,Complementar documentação e lei autorizativa,2013-12-11,2013-12-11,0.0,0.0,0.0,MUN,0.0,0.0,1
+Alecrim,t11,2,Assinar o instrumento pelas partes,2013-12-11,2013-12-11,0.0,0.0,0.0,CS,2.2,2.95,1
+Alecrim,t3,2,Complementar documentação e lei autorizativa,2014-01-28,2014-01-28,0.0,32.0,32.0,EXT MUN,0.0,0.0,2
+Arambare,t1,1,Solicitar delegação da regulação,2019-11-28,2019-11-28,0.0,0.0,0.0,MUN,0.0,0.0,1
+Arambare,t3,1,Complementar documentação e lei autorizativa,2019-11-28,2019-11-28,0.0,0.0,0.0,MUN,0.0,0.0,1
+Arambare,t2,1,Autuar pedido e distribuir às unidades,2019-12-04,2019-12-04,0.0,4.0,0.0,DG,0.13,0.4,1
+Arambare,t6,1,Analisar juridicamente o pedido,2019-12-09,2019-12-09,0.0,3.0,0.0,DAJ,1.08,2.01,1
+Arambare,t5,1,Elaborar ou ajustar minuta do instrumento,2019-12-09,2019-12-09,0.0,0.0,0.0,DAJ,1.4,1.9,1
+Arambare,t6,2,Analisar juridicamente o pedido,2019-12-09,2019-12-09,0.0,0.0,0.0,DAJ,1.03,1.36,1
+Arambare,t14,1,Instruir aditivo ao instrumento,2019-11-29,2019-11-29,0.0,0.0,0.0,GP,0.29,0.93,1
+Arambare,t13,1,Comunicar prestador e unidades internas,2020-07-16,2020-07-16,0.0,150.0,0.0,DQS,0.56,1.44,1
+Arambare,t15,1,Arquivar o processo,2020-09-15,2020-09-15,0.0,42.0,0.0,DAJ,0.13,0.43,1
+Arambare,t13,2,Comunicar prestador e unidades internas,2020-09-16,2020-09-16,0.0,1.0,0.0,DG,0.13,0.37,1
+Arambare,t11,1,Assinar o instrumento pelas partes,2020-09-16,2020-09-16,0.0,0.0,0.0,AGERGS-ND,1.05,1.07,2
+Arambare,t13,3,Comunicar prestador e unidades internas,2020-11-10,2020-11-10,0.0,37.0,0.0,DG,0.16,0.36,1
+Campinas_das_Missoes,t1,1,Solicitar delegação da regulação,2016-01-07,2016-01-07,0.0,0.0,0.0,MUN,0.0,0.0,1
+Campinas_das_Missoes,t3,1,Complementar documentação e lei autorizativa,2016-01-07,2016-01-07,0.0,0.0,0.0,MUN,0.0,0.0,1
+Campinas_das_Missoes,t5,1,Elaborar ou ajustar minuta do instrumento,2016-01-07,2016-01-07,0.0,0.0,0.0,DAJ,1.38,2.25,1
+Campinas_das_Missoes,t13,1,Comunicar prestador e unidades internas,2016-05-30,2016-05-30,0.0,97.0,0.0,DAJ,0.33,0.64,1
+Campinas_das_Missoes,t5,2,Elaborar ou ajustar minuta do instrumento,2016-05-30,2016-05-30,0.0,0.0,0.0,DAJ,1.45,2.18,1
+Campinas_das_Missoes,t10,1,Enviar minuta e tratar com município,2016-05-30,2016-05-30,0.0,0.0,0.0,MUN DAJ,0.75,0.75,2
+Campinas_das_Missoes,t11,1,Assinar o instrumento pelas partes,2016-05-30,2016-05-30,0.0,0.0,0.0,GP,0.66,1.04,1
+Capao_Bonito_do_Sul,t1,1,Solicitar delegação da regulação,2026-09-11,2026-09-11,0.0,0.0,0.0,MUN,0.0,0.0,1
+Capao_Bonito_do_Sul,t2,1,Autuar pedido e distribuir às unidades,2026-09-14,2026-09-14,0.0,1.0,0.0,GP,0.4,0.57,1
+Capao_Bonito_do_Sul,t4,1,Analisar aspectos técnicos da delegação,2026-09-15,2026-09-15,0.0,1.0,0.0,DSI,1.2,2.23,1
+Capao_Bonito_do_Sul,t6,1,Analisar juridicamente o pedido,2026-09-21,2026-09-21,0.0,4.0,0.0,DAJ,1.12,1.95,1
+Capao_Bonito_do_Sul,t13,1,Comunicar prestador e unidades internas,2026-09-28,2026-09-28,0.0,5.0,0.0,DAI,0.64,4.43,1
+Capao_Bonito_do_Sul,t2,2,Autuar pedido e distribuir às unidades,2026-10-09,2026-10-09,0.0,9.0,0.0,DG,0.14,0.14,1
+Capao_Bonito_do_Sul,t10,1,Enviar minuta e tratar com município,2026-10-15,2026-10-15,0.0,3.0,0.0,GP,0.42,0.9,1
+Capao_Bonito_do_Sul,t3,1,Complementar documentação e lei autorizativa,2026-10-20,2026-10-20,0.0,3.0,3.0,MUN,0.0,0.0,2
+Chiapetta,t3,1,Complementar documentação e lei autorizativa,2021-05-17,2021-05-17,0.0,0.0,0.0,MUN,0.0,0.0,1
+Chiapetta,t2,1,Autuar pedido e distribuir às unidades,2021-05-17,2021-05-17,0.0,0.0,0.0,GP,0.15,0.75,1
+Chiapetta,t14,1,Instruir aditivo ao instrumento,2021-05-18,2021-05-18,0.0,1.0,0.0,GP,0.24,0.72,1
+Chiapetta,t12,1,Publicar extrato no Diário Oficial,2021-05-20,2021-05-20,0.0,2.0,0.0,CS,0.44,0.45,1
+Chiapetta,t13,1,Comunicar prestador e unidades internas,2021-05-20,2021-05-20,0.0,0.0,0.0,GP,0.15,0.36,1
+Jaguari,t1,1,Solicitar delegação da regulação,2019-08-01,2019-08-01,0.0,0.0,0.0,MUN,0.0,0.0,2
+Jaguari,t6,1,Analisar juridicamente o pedido,2019-08-08,2019-08-08,0.0,5.0,0.0,DAJ,1.08,2.34,1
+Jaguari,t5,1,Elaborar ou ajustar minuta do instrumento,2019-08-08,2019-08-08,0.0,0.0,0.0,DAJ,1.41,2.11,1
+Jaguari,t6,2,Analisar juridicamente o pedido,2019-08-09,2019-08-09,0.0,1.0,0.0,DAJ,1.03,1.35,1
+Jaguari,t5,2,Elaborar ou ajustar minuta do instrumento,2019-08-29,2019-08-29,0.0,14.0,0.0,DAJ,1.43,1.46,1
+Jaguari,t12,1,Publicar extrato no Diário Oficial,2019-11-06,2019-11-06,0.0,48.0,48.0,MUN,0.0,0.0,1
+Jaguari,t10,1,Enviar minuta e tratar com município,2019-11-06,2019-11-06,0.0,0.0,0.0,MUN,0.0,0.0,1
+Jaguari,t3,1,Complementar documentação e lei autorizativa,2019-11-20,2019-11-20,0.0,9.0,0.0,EXT,0.0,0.0,1
+Lagoa_Bonita_do_Sul,t11,1,Assinar o instrumento pelas partes,2025-02-19,2025-02-19,0.0,0.0,0.0,CS,0.0,0.0,1
+Lagoa_Bonita_do_Sul,t12,1,Publicar extrato no Diário Oficial,2025-03-11,2025-03-14,3.0,12.0,0.0,AGERGS-ND DTI,0.61,1.76,2
+Liberato_Salzano,t1,1,Solicitar delegação da regulação,2019-06-19,2019-06-19,0.0,0.0,0.0,MUN,0.0,0.0,1
+Liberato_Salzano,t2,1,Autuar pedido e distribuir às unidades,2019-06-21,2019-06-21,0.0,1.0,0.0,DG,0.13,0.36,1
+Liberato_Salzano,t6,1,Analisar juridicamente o pedido,2019-07-15,2019-07-15,0.0,16.0,0.0,DAJ,1.09,2.6,1
+Liberato_Salzano,t5,1,Elaborar ou ajustar minuta do instrumento,2019-07-15,2019-07-15,0.0,0.0,0.0,DAJ,0.7,1.66,1
+Liberato_Salzano,t6,2,Analisar juridicamente o pedido,2019-07-15,2019-07-15,0.0,0.0,0.0,DAJ,1.03,1.37,1
+Liberato_Salzano,t3,1,Complementar documentação e lei autorizativa,2019-06-19,2019-06-19,0.0,0.0,0.0,MUN,0.0,0.0,1
+Liberato_Salzano,t12,1,Publicar extrato no Diário Oficial,2019-09-25,2019-09-25,0.0,51.0,0.0,AGERGS-ND,0.28,0.49,1
+Liberato_Salzano,t11,1,Assinar o instrumento pelas partes,2019-09-25,2019-09-25,0.0,0.0,0.0,CS,0.73,0.73,1
+Mapituba,t10,1,Enviar minuta e tratar com município,2019-02-18,2019-02-18,0.0,0.0,0.0,AGERGS-ND,0.32,0.39,1
+Mapituba,t3,1,Complementar documentação e lei autorizativa,2019-02-18,2019-02-18,0.0,0.0,0.0,MUN,0.0,0.0,10
+Mapituba,t4,1,Analisar aspectos técnicos da delegação,2019-02-19,2019-03-01,8.0,1.0,0.0,DQS DT,1.44,2.68,2
+Mapituba,t3,2,Complementar documentação e lei autorizativa,2019-03-01,2019-03-01,0.0,0.0,0.0,MUN,0.0,0.0,1
+Mapituba,t6,1,Analisar juridicamente o pedido,2019-03-19,2019-03-19,0.0,10.0,0.0,DAJ,2.84,9.39,2
+Mapituba,t8,1,Deliberar sobre a celebração no Conselho,2019-03-19,2019-03-19,0.0,0.0,0.0,CS,1.01,1.04,1
+Mapituba,t5,1,Elaborar ou ajustar minuta do instrumento,2019-05-06,2019-05-06,0.0,32.0,0.0,DAJ,2.41,3.75,2
+Mapituba,t10,2,Enviar minuta e tratar com município,2019-05-06,2019-08-28,81.0,0.0,0.0,DAJ AGERGS-ND,0.69,0.97,2
+Mapituba,t1,1,Solicitar delegação da regulação,2020-01-09,2020-01-09,0.0,91.0,91.0,MUN,0.0,0.0,1
+Mapituba,t10,3,Enviar minuta e tratar com município,2019-12-04,2019-12-04,0.0,0.0,0.0,GP,0.32,0.4,1
+Mapituba,t5,2,Elaborar ou ajustar minuta do instrumento,2020-08-19,2020-08-19,0.0,153.0,0.0,GP,1.01,1.01,2
+Mapituba,t10,4,Enviar minuta e tratar com município,2020-08-19,2020-08-19,0.0,0.0,0.0,GP MUN,0.34,0.34,2
+Mapituba,t3,3,Complementar documentação e lei autorizativa,2020-08-19,2020-08-19,0.0,0.0,0.0,MUN,0.0,0.0,4
+Mata,t1,1,Solicitar delegação da regulação,2019-06-10,2019-06-10,0.0,0.0,0.0,MUN,0.0,0.0,1
+Mata,t2,1,Autuar pedido e distribuir às unidades,2019-06-13,2019-06-13,0.0,3.0,0.0,DG,0.13,0.36,1
+Mata,t6,1,Analisar juridicamente o pedido,2019-06-14,2019-06-14,0.0,1.0,0.0,DAJ,1.05,1.61,1
+Mata,t10,1,Enviar minuta e tratar com município,2019-06-14,2019-06-18,2.0,0.0,0.0,DAJ DG,0.71,1.44,2
+Mata,t3,1,Complementar documentação e lei autorizativa,2019-06-18,2019-07-11,16.0,0.0,0.0,MUN,0.0,0.0,5
+Mata,t6,2,Analisar juridicamente o pedido,2019-07-18,2019-07-19,1.0,5.0,0.0,DAJ,2.51,5.0,2
+Mata,t5,1,Elaborar ou ajustar minuta do instrumento,2019-07-22,2019-07-22,0.0,1.0,0.0,DAJ,0.73,0.73,1
+Mata,t12,1,Publicar extrato no Diário Oficial,2019-11-06,2019-11-06,0.0,76.0,0.0,CS,0.3,0.47,1
+Mata,t3,2,Complementar documentação e lei autorizativa,2019-11-06,2019-11-06,0.0,0.0,0.0,MUN,0.0,0.0,2
+Minas_do_Leao,t2,1,Autuar pedido e distribuir às unidades,2025-09-28,2025-09-28,0.0,0.0,0.0,GP,0.13,0.37,1
+Minas_do_Leao,t3,1,Complementar documentação e lei autorizativa,2025-09-28,2025-09-28,0.0,0.0,0.0,MUN,0.0,0.0,1
+Minas_do_Leao,t10,1,Enviar minuta e tratar com município,2025-09-28,2025-09-28,0.0,0.0,0.0,AGERGS-ND,0.3,0.55,1
+Minas_do_Leao,t6,1,Analisar juridicamente o pedido,2025-11-06,2025-11-06,0.0,28.0,0.0,DAJ,1.23,4.6,1
+Minas_do_Leao,t7,1,Emitir manifestação da Procuradoria Setorial,2025-11-06,2025-11-06,0.0,0.0,0.0,PSE,1.03,1.28,1
+Minas_do_Leao,t13,1,Comunicar prestador e unidades internas,2025-11-11,2025-11-11,0.0,3.0,0.0,AGERGS-ND,0.32,0.55,1
+Minas_do_Leao,t10,2,Enviar minuta e tratar com município,2025-11-13,2025-11-13,0.0,2.0,0.0,CS,0.33,0.63,1
+Minas_do_Leao,t16,1,Ouvir o prestador sobre a minuta,2025-11-14,2025-11-25,6.0,1.0,0.0,CS AGERGS-ND,0.76,1.24,2
+Minas_do_Leao,t13,2,Comunicar prestador e unidades internas,2025-11-26,2025-11-26,0.0,1.0,0.0,CS,0.13,0.36,1
+Minas_do_Leao,t10,3,Enviar minuta e tratar com município,2025-11-24,2025-11-24,0.0,0.0,0.0,MUN,0.0,0.0,1
+Minas_do_Leao,t3,2,Complementar documentação e lei autorizativa,2025-11-26,2025-11-26,0.0,0.0,0.0,EXT,0.0,0.0,1
+Minas_do_Leao,t10,4,Enviar minuta e tratar com município,2025-12-14,2025-12-14,0.0,13.0,0.0,CS,0.34,0.77,1
+Minas_do_Leao,t13,3,Comunicar prestador e unidades internas,2025-12-22,2025-12-22,0.0,5.0,0.0,AGERGS-ND,0.32,0.55,1
+Minas_do_Leao,t10,5,Enviar minuta e tratar com município,2025-12-23,2026-02-20,39.0,1.0,0.0,GP MUN,0.37,0.9,2
+Minas_do_Leao,t8,1,Deliberar sobre a celebração no Conselho,2026-02-24,2026-02-24,0.0,2.0,0.0,CS,1.03,1.36,1
+Minas_do_Leao,t12,1,Publicar extrato no Diário Oficial,2026-03-25,2026-03-25,0.0,21.0,0.0,CS,0.29,0.7,1
+Minas_do_Leao,t10,6,Enviar minuta e tratar com município,2026-03-25,2026-03-25,0.0,0.0,0.0,GP,0.41,0.66,1
+Minas_do_Leao,t16,2,Ouvir o prestador sobre a minuta,2026-03-25,2026-03-25,0.0,0.0,0.0,GP,0.41,0.66,1
+Minas_do_Leao,t13,4,Comunicar prestador e unidades internas,2026-03-30,2026-03-30,0.0,3.0,3.0,EXT,0.0,0.0,1
+Minas_do_Leao,t16,3,Ouvir o prestador sobre a minuta,2026-03-30,2026-03-30,0.0,0.0,0.0,CS,0.34,0.55,1
+Minas_do_Leao,t8,2,Deliberar sobre a celebração no Conselho,2026-03-31,2026-03-31,0.0,1.0,0.0,CS,2.29,5.83,2
+Minas_do_Leao,t16,4,Ouvir o prestador sobre a minuta,2026-03-31,2026-03-31,0.0,0.0,0.0,EXT,0.0,0.0,1
+Minas_do_Leao,t3,3,Complementar documentação e lei autorizativa,2026-03-31,2026-03-31,0.0,0.0,0.0,EXT,0.0,0.0,1
+Minas_do_Leao,t13,5,Comunicar prestador e unidades internas,2026-03-25,2026-03-25,0.0,0.0,0.0,AGERGS-ND,0.97,0.97,1
+Minas_do_Leao,t5,1,Elaborar ou ajustar minuta do instrumento,2026-03-31,2026-03-31,0.0,0.0,0.0,CS,1.41,1.45,1
+Minas_do_Leao,t10,7,Enviar minuta e tratar com município,2026-04-01,2026-04-01,0.0,1.0,0.0,GP,0.36,0.61,1
+Minas_do_Leao,t16,5,Ouvir o prestador sobre a minuta,2026-04-01,2026-04-01,0.0,0.0,0.0,GP,0.36,0.61,1
+Minas_do_Leao,t12,2,Publicar extrato no Diário Oficial,2026-04-01,2026-04-01,0.0,0.0,0.0,CS,0.29,0.7,1
+Minas_do_Leao,t13,6,Comunicar prestador e unidades internas,2026-04-01,2026-04-01,0.0,0.0,0.0,AGERGS-ND EXT,1.02,1.02,2
+Minas_do_Leao,t16,6,Ouvir o prestador sobre a minuta,2026-04-08,2026-04-09,1.0,4.0,0.0,CS EXT,0.35,0.56,2
+Minas_do_Leao,t11,1,Assinar o instrumento pelas partes,2026-04-16,2026-04-16,0.0,5.0,0.0,CS,0.75,0.78,1
+Minas_do_Leao,t13,7,Comunicar prestador e unidades internas,2026-04-30,2026-04-30,0.0,9.0,0.0,DG,0.16,0.69,1
+Nova_Brescia,t11,1,Assinar o instrumento pelas partes,2025-02-28,2025-02-28,0.0,0.0,0.0,CS,1.45,2.23,1
+Nova_Brescia,t13,1,Comunicar prestador e unidades internas,2025-03-11,2025-03-11,0.0,5.0,0.0,DG,0.14,0.36,1
+Nova_Brescia,t12,1,Publicar extrato no Diário Oficial,2025-03-11,2025-03-14,3.0,0.0,0.0,DAF AGERGS-ND DTI,0.74,1.47,3
+Nova_Brescia,t13,2,Comunicar prestador e unidades internas,2025-03-18,2025-03-20,2.0,2.0,2.0,EXT DG,0.68,1.17,4
+Nova_Brescia,t15,1,Arquivar o processo,2025-03-21,2025-03-21,0.0,1.0,0.0,DG,1.03,1.53,1
+Panambi,t1,1,Solicitar delegação da regulação,2018-07-09,2018-07-09,0.0,0.0,0.0,MUN,0.0,0.0,1
+Panambi,t3,1,Complementar documentação e lei autorizativa,2018-07-09,2018-07-11,2.0,0.0,0.0,MUN,0.0,0.0,3
+Panambi,t5,1,Elaborar ou ajustar minuta do instrumento,2018-07-11,2018-07-11,0.0,0.0,0.0,DAJ,1.41,2.33,1
+Panambi,t11,1,Assinar o instrumento pelas partes,2018-07-11,2018-07-11,0.0,0.0,0.0,CS,0.71,0.8,1
+Panambi,t10,1,Enviar minuta e tratar com município,2018-07-23,2018-07-23,0.0,8.0,0.0,GP,0.35,0.56,1
+Panambi,t13,1,Comunicar prestador e unidades internas,2018-08-08,2018-08-08,0.0,12.0,0.0,AGERGS-ND,0.37,0.9,1
+Panambi,t3,2,Complementar documentação e lei autorizativa,2018-08-08,2018-08-08,0.0,0.0,0.0,MUN,0.0,0.0,1
+Passa_Sete,t11,1,Assinar o instrumento pelas partes,2025-02-20,2025-02-20,0.0,0.0,0.0,AGERGS-ND,0.77,0.77,1
+Passa_Sete,t13,1,Comunicar prestador e unidades internas,2025-02-20,2025-03-12,12.0,0.0,0.0,GP DSI,0.68,1.58,2
+Passa_Sete,t12,1,Publicar extrato no Diário Oficial,2025-03-14,2025-03-14,0.0,2.0,0.0,DTI,0.31,0.48,1
+Passo_Fundo,t2,1,Autuar pedido e distribuir às unidades,2025-05-23,2025-05-23,0.0,0.0,0.0,GP,0.16,0.56,1
+Passo_Fundo,t6,1,Analisar juridicamente o pedido,2025-06-23,2025-06-23,0.0,20.0,0.0,PSE,1.43,4.69,1
+Passo_Fundo,t16,1,Ouvir o prestador sobre a minuta,2025-07-29,2025-07-30,1.0,26.0,0.0,GP DG,0.68,1.27,2
+Passo_Fundo,t10,1,Enviar minuta e tratar com município,2025-07-30,2025-07-30,0.0,0.0,0.0,GP,0.35,0.58,1
+Passo_Fundo,t16,2,Ouvir o prestador sobre a minuta,2025-07-30,2025-07-30,0.0,0.0,0.0,DG EXT,0.34,0.57,2
+Passo_Fundo,t10,2,Enviar minuta e tratar com município,2025-07-30,2025-07-30,0.0,0.0,0.0,GP,0.36,0.57,1
+Passo_Fundo,t13,1,Comunicar prestador e unidades internas,2025-08-14,2025-08-14,0.0,11.0,0.0,DG,0.36,0.57,1
+Passo_Fundo,t16,3,Ouvir o prestador sobre a minuta,2025-08-15,2025-08-15,0.0,1.0,1.0,EXT,0.0,0.0,1
+Passo_Fundo,t3,1,Complementar documentação e lei autorizativa,2025-08-14,2025-08-14,0.0,0.0,0.0,EXT,0.0,0.0,1
+Passo_Fundo,t9,1,Autorizar celebração e inexigibilidade,2025-08-15,2025-08-15,0.0,0.0,0.0,DG,1.06,1.72,1
+Passo_Fundo,t16,4,Ouvir o prestador sobre a minuta,2025-08-25,2025-09-10,12.0,6.0,0.0,GP EXT,0.35,0.74,3
+Passo_Fundo,t3,2,Complementar documentação e lei autorizativa,2025-09-10,2025-09-10,0.0,0.0,0.0,EXT,0.0,0.0,1
+Passo_Fundo,t13,2,Comunicar prestador e unidades internas,2025-09-26,2025-09-26,0.0,12.0,0.0,DG,0.34,0.56,1
+Passo_Fundo,t10,3,Enviar minuta e tratar com município,2025-09-28,2025-10-01,2.0,1.0,0.0,GP MUN,1.07,2.21,5
+Passo_Fundo,t6,2,Analisar juridicamente o pedido,2025-12-09,2025-12-09,0.0,48.0,0.0,DAJ PSE,2.76,11.73,2
+Passo_Fundo,t10,4,Enviar minuta e tratar com município,2025-12-19,2025-12-19,0.0,8.0,0.0,GP,0.69,1.27,2
+Passo_Fundo,t3,3,Complementar documentação e lei autorizativa,2025-12-22,2025-12-22,0.0,1.0,1.0,MUN,0.0,0.0,1
+Passo_Fundo,t5,1,Elaborar ou ajustar minuta do instrumento,2026-01-06,2026-01-06,0.0,9.0,0.0,DAJ,0.98,4.24,2
+Passo_Fundo,t13,3,Comunicar prestador e unidades internas,2026-01-12,2026-01-12,0.0,4.0,0.0,CS,0.38,0.58,1
+Passo_Fundo,t16,5,Ouvir o prestador sobre a minuta,2026-02-04,2026-02-04,0.0,17.0,0.0,GP,0.41,0.71,1
+Passo_Fundo,t10,5,Enviar minuta e tratar com município,2026-02-04,2026-02-05,1.0,0.0,0.0,GP,0.85,1.79,2
+Passo_Fundo,t8,1,Deliberar sobre a celebração no Conselho,2026-02-05,2026-03-30,35.0,0.0,0.0,CS GP,1.93,5.18,2
+Passo_Fundo,t5,2,Elaborar ou ajustar minuta do instrumento,2026-04-14,2026-04-14,0.0,10.0,0.0,CS,0.13,0.45,1
+Passo_Fundo,t6,3,Analisar juridicamente o pedido,2026-04-17,2026-04-17,0.0,3.0,0.0,DAJ,1.67,9.57,1
+Passo_Fundo,t7,1,Emitir manifestação da Procuradoria Setorial,2026-04-17,2026-04-17,0.0,0.0,0.0,PSE,1.03,1.27,1
+Passo_Fundo,t10,6,Enviar minuta e tratar com município,2026-04-17,2026-04-22,2.0,0.0,0.0,CS AGERGS-ND MUN,1.33,2.3,5
+Passo_Fundo,t5,3,Elaborar ou ajustar minuta do instrumento,2026-05-06,2026-05-18,8.0,9.0,0.0,CS AGERGS-ND,0.97,3.18,2
+Passo_Fundo,t10,7,Enviar minuta e tratar com município,2026-05-06,2026-05-18,8.0,0.0,0.0,CS MUN,0.65,1.18,3
+Passo_Fundo,t16,6,Ouvir o prestador sobre a minuta,2026-05-12,2026-05-12,0.0,0.0,0.0,CS,0.37,0.77,1
+Passo_Fundo,t10,8,Enviar minuta e tratar com município,2026-05-12,2026-05-12,0.0,0.0,0.0,CS,0.74,1.52,2
+Passo_Fundo,t5,4,Elaborar ou ajustar minuta do instrumento,2026-05-15,2026-05-15,0.0,0.0,0.0,CS,0.87,0.87,1
+Passo_Fundo,t8,2,Deliberar sobre a celebração no Conselho,2026-05-18,2026-05-18,0.0,0.0,0.0,CS,3.59,6.79,3
+Passo_Fundo,t16,7,Ouvir o prestador sobre a minuta,2026-05-15,2026-05-15,0.0,0.0,0.0,EXT,0.0,0.0,2
+Passo_Fundo,t12,1,Publicar extrato no Diário Oficial,2026-05-18,2026-05-18,0.0,0.0,0.0,CS,0.3,0.45,1
+Passo_Fundo,t16,8,Ouvir o prestador sobre a minuta,2026-05-19,2026-05-19,0.0,1.0,0.0,CS,0.36,0.73,1
+Passo_Fundo,t10,9,Enviar minuta e tratar com município,2026-05-19,2026-05-20,1.0,0.0,0.0,CS AGERGS-ND,1.08,2.0,3
+Passo_Fundo,t13,4,Comunicar prestador e unidades internas,2026-05-20,2026-05-20,0.0,0.0,0.0,EXT,0.0,0.0,1
+Passo_Fundo,t16,9,Ouvir o prestador sobre a minuta,2026-05-21,2026-05-21,0.0,1.0,0.0,EXT,0.0,0.0,1
+Passo_Fundo,t8,3,Deliberar sobre a celebração no Conselho,2026-06-16,2026-06-16,0.0,17.0,0.0,GP,1.75,3.26,1
+Passo_Fundo,t16,10,Ouvir o prestador sobre a minuta,2026-05-20,2026-05-20,0.0,0.0,0.0,EXT,0.0,0.0,1
+Passo_Fundo,t11,1,Assinar o instrumento pelas partes,2026-07-30,2026-07-30,0.0,32.0,0.0,MUN,1.42,1.42,1
+Passo_Fundo,t13,5,Comunicar prestador e unidades internas,2026-07-30,2026-09-04,26.0,0.0,0.0,GP EXT DG,0.63,1.41,5
+Passo_Fundo,t12,2,Publicar extrato no Diário Oficial,2026-09-14,2026-09-14,0.0,5.0,0.0,GP,0.26,0.48,1
+Passo_Fundo,t13,6,Comunicar prestador e unidades internas,2026-09-14,2026-09-18,4.0,0.0,0.0,GP DAF DG,0.64,1.68,3
+Passo_Fundo,t12,3,Publicar extrato no Diário Oficial,2026-09-18,2026-09-18,0.0,0.0,0.0,CS,0.26,0.47,1
+Salvador_do_Sul,t1,1,Solicitar delegação da regulação,2018-09-04,2018-09-04,0.0,0.0,0.0,MUN,0.0,0.0,1
+Salvador_do_Sul,t2,1,Autuar pedido e distribuir às unidades,2018-09-06,2018-09-06,0.0,2.0,0.0,DG,0.13,0.36,1
+Salvador_do_Sul,t3,1,Complementar documentação e lei autorizativa,2018-09-25,2018-09-25,0.0,11.0,11.0,MUN,0.0,0.0,1
+Salvador_do_Sul,t6,1,Analisar juridicamente o pedido,2018-10-18,2018-10-18,0.0,16.0,0.0,DAJ,1.08,2.54,1
+Salvador_do_Sul,t5,1,Elaborar ou ajustar minuta do instrumento,2018-10-18,2018-10-18,0.0,0.0,0.0,DAJ,1.41,3.22,1
+Salvador_do_Sul,t6,2,Analisar juridicamente o pedido,2018-10-18,2018-10-18,0.0,0.0,0.0,DAJ,1.03,1.27,1
+Salvador_do_Sul,t11,1,Assinar o instrumento pelas partes,2018-11-12,2018-11-12,0.0,16.0,0.0,CS,0.73,0.91,1
+Salvador_do_Sul,t12,1,Publicar extrato no Diário Oficial,2018-11-12,2018-11-12,0.0,0.0,0.0,MUN,0.0,0.0,1
+Salvador_do_Sul,t3,2,Complementar documentação e lei autorizativa,2018-12-21,2018-12-21,0.0,27.0,0.0,EXT MUN,0.0,0.0,2
+Unistalda,t1,1,Solicitar delegação da regulação,2018-10-22,2018-10-22,0.0,0.0,0.0,MUN,0.0,0.0,1
+Unistalda,t6,1,Analisar juridicamente o pedido,2018-11-12,2018-11-12,0.0,14.0,0.0,DAJ,1.09,2.36,1
+Unistalda,t5,1,Elaborar ou ajustar minuta do instrumento,2018-11-12,2018-11-12,0.0,0.0,0.0,DAJ,1.41,1.71,1
+Unistalda,t6,2,Analisar juridicamente o pedido,2018-11-13,2018-11-13,0.0,1.0,0.0,DAJ,1.03,1.26,1
+Unistalda,t5,2,Elaborar ou ajustar minuta do instrumento,2018-11-19,2018-11-19,0.0,3.0,0.0,DAJ,0.93,0.93,1
+Unistalda,t12,1,Publicar extrato no Diário Oficial,2018-11-19,2018-11-19,0.0,0.0,0.0,MUN,0.0,0.0,1
+Unistalda,t1,2,Solicitar delegação da regulação,2019-08-09,2019-08-09,0.0,181.0,0.0,MUN,0.0,0.0,1
+Unistalda,t3,1,Complementar documentação e lei autorizativa,2019-08-09,2019-08-09,0.0,0.0,0.0,MUN EXT,0.0,0.0,2
+Vila_nova_do_Sul,t1,1,Solicitar delegação da regulação,2019-09-17,2019-09-17,0.0,0.0,0.0,MUN,0.0,0.0,1
+Vila_nova_do_Sul,t10,1,Enviar minuta e tratar com município,2019-09-17,2019-09-17,0.0,0.0,0.0,AGERGS-ND,0.34,0.34,1
+Vila_nova_do_Sul,t3,1,Complementar documentação e lei autorizativa,2019-09-17,2019-09-17,0.0,0.0,0.0,MUN,0.0,0.0,2
+Vila_nova_do_Sul,t10,2,Enviar minuta e tratar com município,2019-09-18,2019-09-19,1.0,1.0,0.0,DAJ MUN,0.34,0.58,2
+Vila_nova_do_Sul,t6,1,Analisar juridicamente o pedido,2019-09-23,2019-09-23,0.0,1.0,0.0,DAJ,1.15,3.35,1
+Vila_nova_do_Sul,t5,1,Elaborar ou ajustar minuta do instrumento,2019-09-23,2019-09-23,0.0,0.0,0.0,DAJ,1.41,3.03,1
+Vila_nova_do_Sul,t6,2,Analisar juridicamente o pedido,2019-09-23,2019-09-23,0.0,0.0,0.0,DAJ,1.05,1.3,1
+Vila_nova_do_Sul,t10,3,Enviar minuta e tratar com município,2019-09-24,2019-09-24,0.0,1.0,0.0,DAJ,0.35,0.57,1
+Vila_nova_do_Sul,t11,1,Assinar o instrumento pelas partes,2019-10-29,2019-10-29,0.0,25.0,0.0,DAJ,0.73,0.73,1
+Vila_nova_do_Sul,t12,1,Publicar extrato no Diário Oficial,2020-01-16,2020-01-16,0.0,53.0,53.0,MUN,0.0,0.0,1

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:color="http://www.omg.org/spec/BPMN/non-normative/color/1.0" id="Defs_CONV-TOBE" targetNamespace="https://agenersa.rj.gov.br/mapeamento" exporter="mapeamento-sei" exporterVersion="1">
+  <bpmn:collaboration id="Colab_CONV-TOBE">
+    <bpmn:participant id="Part_CONV-TOBE" name="CONV-TOBE — Celebração de convênio ou contrato de delegação da regulação (TO-BE) (AS-IS)" processRef="Processo_CONV-TOBE" />
+  </bpmn:collaboration>
+  <bpmn:process id="Processo_CONV-TOBE" isExecutable="false">
+    <bpmn:documentation>Do formulário de adesão do município ao encerramento do processo, com dono único (DAI), kit de adesão, minuta padrão com parecer referencial, assinatura eletrônica e prazos por etapa Fontes: TO-BE: melhorias M-CONV-01 a M-CONV-12 (saida/fase3/melhorias_CONV.json), etapas do processo orientativo SEI 002594-39.00/26-9 e documentação mínima e minuta padrão do SEI 002840-39.00/26-3. A atribuição da DAI como dono do processo é proposta do processo orientativo, a validar.</bpmn:documentation>
+    <bpmn:laneSet id="LaneSet_CONV-TOBE">
+      <bpmn:lane id="Lane_TEC" name="Diretorias técnicas (DSI, DQS, DT, DTM)">
+        <bpmn:flowNodeRef>t4</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_MUN" name="Município e prestador (MUN, EXT)">
+        <bpmn:flowNodeRef>s1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>t1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>e1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>t16</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_DAJ" name="Jurídico (DAJ) e Procuradoria Setorial (PSE)">
+        <bpmn:flowNodeRef>t6</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>g2</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>t7</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_GP" name="Presidência e Conselho Superior (GP, CS)">
+        <bpmn:flowNodeRef>t8</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>g3</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>t9</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>t11</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_DG" name="Diretoria-Geral e apoio (DG, DAF, DTI, ACS)">
+        <bpmn:flowNodeRef>t12</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>t13</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_DAI" name="Dono do processo — Diretoria de Assuntos Institucionais (DAI)">
+        <bpmn:flowNodeRef>t2</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>g1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>t3</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>p1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>t5</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>p2</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>t15</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>f1</bpmn:flowNodeRef>
+      </bpmn:lane>
+    </bpmn:laneSet>
+    <bpmn:startEvent id="s1" name="Município decide delegar a regulação">
+      <bpmn:outgoing>F0</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:task id="t1" name="Enviar formulário de adesão e documentos">
+      <bpmn:incoming>F0</bpmn:incoming>
+      <bpmn:outgoing>F1</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="t2" name="Abrir processo e conferir checklist">
+      <bpmn:incoming>F1</bpmn:incoming>
+      <bpmn:incoming>F6</bpmn:incoming>
+      <bpmn:outgoing>F2</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="g1" name="Documentação completa?">
+      <bpmn:incoming>F2</bpmn:incoming>
+      <bpmn:outgoing>F3</bpmn:outgoing>
+      <bpmn:outgoing>F4</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="t3" name="Emitir diligência única com prazo">
+      <bpmn:incoming>F4</bpmn:incoming>
+      <bpmn:outgoing>F5</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:intermediateCatchEvent id="e1" name="Complementação recebida">
+      <bpmn:incoming>F5</bpmn:incoming>
+      <bpmn:outgoing>F6</bpmn:outgoing>
+      <bpmn:messageEventDefinition id="Msg_e1" />
+    </bpmn:intermediateCatchEvent>
+    <bpmn:parallelGateway id="p1" name="">
+      <bpmn:incoming>F3</bpmn:incoming>
+      <bpmn:outgoing>F7</bpmn:outgoing>
+      <bpmn:outgoing>F8</bpmn:outgoing>
+      <bpmn:outgoing>F9</bpmn:outgoing>
+    </bpmn:parallelGateway>
+    <bpmn:task id="t4" name="Analisar aspectos técnicos com prazo">
+      <bpmn:incoming>F7</bpmn:incoming>
+      <bpmn:outgoing>F10</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="t5" name="Preencher a minuta padrão">
+      <bpmn:incoming>F8</bpmn:incoming>
+      <bpmn:outgoing>F11</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="t16" name="Ouvir prestador com prazo fixo">
+      <bpmn:incoming>F9</bpmn:incoming>
+      <bpmn:outgoing>F12</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:parallelGateway id="p2" name="">
+      <bpmn:incoming>F10</bpmn:incoming>
+      <bpmn:incoming>F11</bpmn:incoming>
+      <bpmn:incoming>F12</bpmn:incoming>
+      <bpmn:outgoing>F13</bpmn:outgoing>
+    </bpmn:parallelGateway>
+    <bpmn:task id="t6" name="Conferir enquadramento no parecer referencial">
+      <bpmn:incoming>F13</bpmn:incoming>
+      <bpmn:outgoing>F14</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="g2" name="Há desvio da minuta padrão?">
+      <bpmn:incoming>F14</bpmn:incoming>
+      <bpmn:outgoing>F15</bpmn:outgoing>
+      <bpmn:outgoing>F16</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="t7" name="Analisar desvios com a PSE">
+      <bpmn:incoming>F16</bpmn:incoming>
+      <bpmn:outgoing>F17</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="t8" name="Deliberar sobre desvios no Conselho">
+      <bpmn:incoming>F17</bpmn:incoming>
+      <bpmn:outgoing>F18</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="g3" name="">
+      <bpmn:incoming>F15</bpmn:incoming>
+      <bpmn:incoming>F18</bpmn:incoming>
+      <bpmn:outgoing>F19</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="t9" name="Autorizar celebração e inexigibilidade">
+      <bpmn:incoming>F19</bpmn:incoming>
+      <bpmn:outgoing>F20</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="t11" name="Assinar eletronicamente no SEI">
+      <bpmn:incoming>F20</bpmn:incoming>
+      <bpmn:outgoing>F21</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="t12" name="Publicar extrato em até 10 du">
+      <bpmn:incoming>F21</bpmn:incoming>
+      <bpmn:outgoing>F22</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="t13" name="Enviar comunicado único de início">
+      <bpmn:incoming>F22</bpmn:incoming>
+      <bpmn:outgoing>F23</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="t15" name="Encerrar e cadastrar município regulado">
+      <bpmn:incoming>F23</bpmn:incoming>
+      <bpmn:outgoing>F24</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:endEvent id="f1" name="Delegação vigente e processo encerrado">
+      <bpmn:incoming>F24</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="F0" sourceRef="s1" targetRef="t1"></bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="F1" sourceRef="t1" targetRef="t2"></bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="F2" sourceRef="t2" targetRef="g1"></bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="F3" name="Sim" sourceRef="g1" targetRef="p1"></bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="F4" name="Não" sourceRef="g1" targetRef="t3"></bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="F5" sourceRef="t3" targetRef="e1"></bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="F6" sourceRef="e1" targetRef="t2"></bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="F7" sourceRef="p1" targetRef="t4"></bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="F8" sourceRef="p1" targetRef="t5"></bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="F9" sourceRef="p1" targetRef="t16"></bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="F10" sourceRef="t4" targetRef="p2"></bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="F11" sourceRef="t5" targetRef="p2"></bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="F12" sourceRef="t16" targetRef="p2"></bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="F13" sourceRef="p2" targetRef="t6"></bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="F14" sourceRef="t6" targetRef="g2"></bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="F15" name="Não" sourceRef="g2" targetRef="g3"></bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="F16" name="Sim" sourceRef="g2" targetRef="t7"></bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="F17" sourceRef="t7" targetRef="t8"></bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="F18" sourceRef="t8" targetRef="g3"></bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="F19" sourceRef="g3" targetRef="t9"></bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="F20" sourceRef="t9" targetRef="t11"></bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="F21" sourceRef="t11" targetRef="t12"></bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="F22" sourceRef="t12" targetRef="t13"></bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="F23" sourceRef="t13" targetRef="t15"></bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="F24" sourceRef="t15" targetRef="f1"></bpmn:sequenceFlow>
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="Diag_CONV-TOBE">
+    <bpmndi:BPMNPlane id="Plane_CONV-TOBE" bpmnElement="Colab_CONV-TOBE">
+      <bpmndi:BPMNShape id="Part_CONV-TOBE_di" bpmnElement="Part_CONV-TOBE" isHorizontal="true">
+        <dc:Bounds x="0" y="0" width="3318" height="1758" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_TEC_di" bpmnElement="Lane_TEC" isHorizontal="true"><dc:Bounds x="30" y="0" width="3288" height="205" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_MUN_di" bpmnElement="Lane_MUN" isHorizontal="true"><dc:Bounds x="30" y="205" width="3288" height="365" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_DAJ_di" bpmnElement="Lane_DAJ" isHorizontal="true"><dc:Bounds x="30" y="570" width="3288" height="365" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_GP_di" bpmnElement="Lane_GP" isHorizontal="true"><dc:Bounds x="30" y="935" width="3288" height="205" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_DG_di" bpmnElement="Lane_DG" isHorizontal="true"><dc:Bounds x="30" y="1140" width="3288" height="205" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_DAI_di" bpmnElement="Lane_DAI" isHorizontal="true"><dc:Bounds x="30" y="1345" width="3288" height="413" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="s1_di" bpmnElement="s1"><dc:Bounds x="136" y="302" width="36" height="36" /><bpmndi:BPMNLabel><dc:Bounds x="94" y="342" width="120" height="34" /></bpmndi:BPMNLabel></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="t1_di" bpmnElement="t1"><dc:Bounds x="232" y="275" width="150" height="90" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="t2_di" bpmnElement="t2"><dc:Bounds x="442" y="1415" width="150" height="90" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="g1_di" bpmnElement="g1"><dc:Bounds x="652" y="1435" width="50" height="50" /><bpmndi:BPMNLabel><dc:Bounds x="685" y="1399" width="120" height="34" /></bpmndi:BPMNLabel></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="t3_di" bpmnElement="t3"><dc:Bounds x="762" y="1575" width="150" height="90" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="e1_di" bpmnElement="e1"><dc:Bounds x="1029" y="302" width="36" height="36" /><bpmndi:BPMNLabel><dc:Bounds x="987" y="342" width="120" height="34" /></bpmndi:BPMNLabel></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="p1_di" bpmnElement="p1"><dc:Bounds x="812" y="1435" width="50" height="50" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="t4_di" bpmnElement="t4"><dc:Bounds x="972" y="70" width="150" height="90" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="t5_di" bpmnElement="t5"><dc:Bounds x="972" y="1575" width="150" height="90" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="t16_di" bpmnElement="t16"><dc:Bounds x="972" y="435" width="150" height="90" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="p2_di" bpmnElement="p2"><dc:Bounds x="1182" y="1435" width="50" height="50" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="t6_di" bpmnElement="t6"><dc:Bounds x="1292" y="640" width="150" height="90" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="g2_di" bpmnElement="g2"><dc:Bounds x="1502" y="660" width="50" height="50" /><bpmndi:BPMNLabel><dc:Bounds x="1535" y="624" width="120" height="34" /></bpmndi:BPMNLabel></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="t7_di" bpmnElement="t7"><dc:Bounds x="1612" y="800" width="150" height="90" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="t8_di" bpmnElement="t8"><dc:Bounds x="1822" y="1005" width="150" height="90" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="g3_di" bpmnElement="g3"><dc:Bounds x="2032" y="1025" width="50" height="50" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="t9_di" bpmnElement="t9"><dc:Bounds x="2142" y="1005" width="150" height="90" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="t11_di" bpmnElement="t11"><dc:Bounds x="2352" y="1005" width="150" height="90" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="t12_di" bpmnElement="t12"><dc:Bounds x="2562" y="1210" width="150" height="90" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="t13_di" bpmnElement="t13"><dc:Bounds x="2772" y="1210" width="150" height="90" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="t15_di" bpmnElement="t15"><dc:Bounds x="2982" y="1415" width="150" height="90" /></bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="f1_di" bpmnElement="f1"><dc:Bounds x="3192" y="1442" width="36" height="36" /><bpmndi:BPMNLabel><dc:Bounds x="3150" y="1482" width="120" height="34" /></bpmndi:BPMNLabel></bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="F0_di" bpmnElement="F0"><di:waypoint x="172" y="320" /><di:waypoint x="232" y="320" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F1_di" bpmnElement="F1"><di:waypoint x="382" y="320" /><di:waypoint x="406" y="320" /><di:waypoint x="406" y="1451" /><di:waypoint x="442" y="1451" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F2_di" bpmnElement="F2"><di:waypoint x="592" y="1460" /><di:waypoint x="652" y="1460" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F3_di" bpmnElement="F3"><di:waypoint x="702" y="1460" /><di:waypoint x="812" y="1460" /><bpmndi:BPMNLabel><dc:Bounds x="708" y="1440" width="28" height="18" /></bpmndi:BPMNLabel></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F4_di" bpmnElement="F4"><di:waypoint x="677" y="1485" /><di:waypoint x="677" y="1620" /><di:waypoint x="762" y="1620" /><bpmndi:BPMNLabel><dc:Bounds x="683" y="1489" width="28" height="18" /></bpmndi:BPMNLabel></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F5_di" bpmnElement="F5"><di:waypoint x="912" y="1620" /><di:waypoint x="936" y="1620" /><di:waypoint x="936" y="320" /><di:waypoint x="1029" y="320" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F6_di" bpmnElement="F6"><di:waypoint x="1065" y="320" /><di:waypoint x="1158" y="320" /><di:waypoint x="1158" y="1730" /><di:waypoint x="418" y="1730" /><di:waypoint x="418" y="1469" /><di:waypoint x="442" y="1469" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F7_di" bpmnElement="F7"><di:waypoint x="837" y="1435" /><di:waypoint x="837" y="115" /><di:waypoint x="972" y="115" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F8_di" bpmnElement="F8"><di:waypoint x="862" y="1460" /><di:waypoint x="948" y="1460" /><di:waypoint x="948" y="1620" /><di:waypoint x="972" y="1620" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F9_di" bpmnElement="F9"><di:waypoint x="837" y="1435" /><di:waypoint x="837" y="480" /><di:waypoint x="972" y="480" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F10_di" bpmnElement="F10"><di:waypoint x="1122" y="115" /><di:waypoint x="1207" y="115" /><di:waypoint x="1207" y="1435" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F11_di" bpmnElement="F11"><di:waypoint x="1122" y="1620" /><di:waypoint x="1207" y="1620" /><di:waypoint x="1207" y="1485" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F12_di" bpmnElement="F12"><di:waypoint x="1122" y="480" /><di:waypoint x="1146" y="480" /><di:waypoint x="1146" y="1460" /><di:waypoint x="1182" y="1460" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F13_di" bpmnElement="F13"><di:waypoint x="1232" y="1460" /><di:waypoint x="1262" y="1460" /><di:waypoint x="1262" y="685" /><di:waypoint x="1292" y="685" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F14_di" bpmnElement="F14"><di:waypoint x="1442" y="685" /><di:waypoint x="1502" y="685" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F15_di" bpmnElement="F15"><di:waypoint x="1552" y="685" /><di:waypoint x="2057" y="685" /><di:waypoint x="2057" y="1025" /><bpmndi:BPMNLabel><dc:Bounds x="1558" y="665" width="28" height="18" /></bpmndi:BPMNLabel></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F16_di" bpmnElement="F16"><di:waypoint x="1527" y="710" /><di:waypoint x="1527" y="845" /><di:waypoint x="1612" y="845" /><bpmndi:BPMNLabel><dc:Bounds x="1533" y="714" width="28" height="18" /></bpmndi:BPMNLabel></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F17_di" bpmnElement="F17"><di:waypoint x="1762" y="845" /><di:waypoint x="1792" y="845" /><di:waypoint x="1792" y="1050" /><di:waypoint x="1822" y="1050" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F18_di" bpmnElement="F18"><di:waypoint x="1972" y="1050" /><di:waypoint x="2032" y="1050" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F19_di" bpmnElement="F19"><di:waypoint x="2082" y="1050" /><di:waypoint x="2142" y="1050" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F20_di" bpmnElement="F20"><di:waypoint x="2292" y="1050" /><di:waypoint x="2352" y="1050" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F21_di" bpmnElement="F21"><di:waypoint x="2502" y="1050" /><di:waypoint x="2532" y="1050" /><di:waypoint x="2532" y="1255" /><di:waypoint x="2562" y="1255" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F22_di" bpmnElement="F22"><di:waypoint x="2712" y="1255" /><di:waypoint x="2772" y="1255" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F23_di" bpmnElement="F23"><di:waypoint x="2922" y="1255" /><di:waypoint x="2952" y="1255" /><di:waypoint x="2952" y="1460" /><di:waypoint x="2982" y="1460" /></bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F24_di" bpmnElement="F24"><di:waypoint x="3132" y="1460" /><di:waypoint x="3192" y="1460" /></bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

@@ -1,0 +1,77 @@
+{
+  "processo": "Passa_Sete",
+  "numero_sei": "000495-39.00/25-0",
+  "municipio": "Passa Sete",
+  "instrumento": "contrato_prestacao_servicos_regulacao",
+  "servico": "agua_esgoto",
+  "prestador": "Corsan (indicada no seq 2; contrato não está no processo)",
+  "fundamento_legal": [],
+  "situacao_final": "assinado_sem_publicacao_no_processo",
+  "evidencia_situacao": "Ciente da assinatura.",
+  "marcos": [
+    {
+      "marco": "assinatura_agergs",
+      "seq": 2,
+      "data": "2025-02-20"
+    },
+    {
+      "marco": "assinatura_municipio",
+      "seq": 2,
+      "data": null
+    },
+    {
+      "marco": "encerramento",
+      "seq": 5,
+      "data": "2025-03-24"
+    }
+  ],
+  "sequencia_etapas": [
+    "outro",
+    "comunicacao_interna_pos_assinatura",
+    "encaminhamento_interno",
+    "cadastro_controle",
+    "publicacao_extrato"
+  ],
+  "unidades_envolvidas": [
+    "Gabinete da Presidência (GP)",
+    "Diretoria-Geral (DG)",
+    "Diretoria de Saneamento e Irrigação (DSI)",
+    "Diretoria Administrativa e Financeira (DAF)",
+    "DC",
+    "Diretoria de Tecnologia e Inovação (DTI)"
+  ],
+  "desvios_e_retrabalho": [
+    {
+      "descricao": "Comunicado DG 0483362 assinado dentro do seq 3, sem linha própria em documentos.csv",
+      "seq": [
+        3
+      ],
+      "evidencia": "Comunicado DG 0483362"
+    },
+    {
+      "descricao": "Comunicados DTI 0488119 e GP 0489463 dentro do seq 5, sem linha própria em documentos.csv",
+      "seq": [
+        5
+      ],
+      "evidencia": "Comunicado DTI 0488119"
+    },
+    {
+      "descricao": "Contrato (seq 1) sem texto legível na extração",
+      "seq": [
+        1
+      ],
+      "evidencia": "Contrato de Prestação de Serviços de Regulação (0482840)"
+    }
+  ],
+  "gargalos_percebidos": [
+    "Publicação do extrato pedida em 14/03 sem registro de conclusão (seq 5)",
+    "Conteúdo do contrato não analisável no arquivo (seq 1)"
+  ],
+  "documentos_exigidos_do_municipio": [
+    "Contrato com a Corsan (seq 2)",
+    "Plano Municipal de Saneamento Básico - PMSB (seq 2)",
+    "Outros documentos considerados necessários para a regulação dos serviços (seq 2)"
+  ],
+  "diferencas_vs_padrao": "Não há no processo pedido do município, análise jurídica, PGE, minuta, aprovação do Conselho nem etapa separada de assinatura: o contrato chega já firmado (seq 2). O TAAC fica no processo-mãe (seq 4). A publicação foi pedida e não tem conclusão registrada (seq 5).",
+  "observacoes": "Contrato (seq 1) ilegível. Horas e composição são hipóteses. Em documentos.csv, três comunicados (0483362, 0488119, 0489463) não têm linha própria: o parser de base_documentos.py não reconhece rodapés sem parênteses, então eles são absorvidos pela peça anterior. A marca assinatura_municipio foi inferida da frase 'contrato firmado entre a AGERGS e o Município', sem data."
+}

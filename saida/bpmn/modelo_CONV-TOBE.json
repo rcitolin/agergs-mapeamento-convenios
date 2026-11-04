@@ -1,0 +1,52 @@
+{
+  "codigo": "CONV-TOBE",
+  "nome": "Celebração de convênio ou contrato de delegação da regulação (TO-BE)",
+  "escopo": "Do formulário de adesão do município ao encerramento do processo, com dono único (DAI), kit de adesão, minuta padrão com parecer referencial, assinatura eletrônica e prazos por etapa",
+  "raias": [
+    {"id": "MUN", "nome": "Município e prestador (MUN, EXT)"},
+    {"id": "DAI", "nome": "Dono do processo — Diretoria de Assuntos Institucionais (DAI)"},
+    {"id": "TEC", "nome": "Diretorias técnicas (DSI, DQS, DT, DTM)"},
+    {"id": "DAJ", "nome": "Jurídico (DAJ) e Procuradoria Setorial (PSE)"},
+    {"id": "GP", "nome": "Presidência e Conselho Superior (GP, CS)"},
+    {"id": "DG", "nome": "Diretoria-Geral e apoio (DG, DAF, DTI, ACS)"}
+  ],
+  "elementos": [
+    {"id": "s1", "tipo": "inicio", "raia": "MUN", "nome": "Município decide delegar a regulação"},
+    {"id": "t1", "tipo": "tarefa", "raia": "MUN", "nome": "Enviar formulário de adesão e documentos", "gatilho": "Interesse do município", "saida": "Formulário de adesão com documentação mínima"},
+    {"id": "t2", "tipo": "tarefa", "raia": "DAI", "nome": "Abrir processo e conferir checklist", "gatilho": "Formulário de adesão recebido", "saida": "Processo SEI do tipo próprio e checklist conferido"},
+    {"id": "g1", "tipo": "xor", "raia": "DAI", "nome": "Documentação completa?"},
+    {"id": "t3", "tipo": "tarefa", "raia": "DAI", "nome": "Emitir diligência única com prazo", "gatilho": "Pendência no checklist", "saida": "Ofício único com todas as pendências e prazo"},
+    {"id": "e1", "tipo": "evento_mensagem", "raia": "MUN", "nome": "Complementação recebida"},
+    {"id": "p1", "tipo": "paralelo", "raia": "DAI"},
+    {"id": "t4", "tipo": "tarefa", "raia": "TEC", "nome": "Analisar aspectos técnicos com prazo", "gatilho": "Checklist completo", "saida": "Memorando técnico sobre serviço e prestador"},
+    {"id": "t5", "tipo": "tarefa", "raia": "DAI", "nome": "Preencher a minuta padrão", "gatilho": "Checklist completo", "saida": "Minuta padrão preenchida e quadro de desvios"},
+    {"id": "t16", "tipo": "tarefa", "raia": "MUN", "nome": "Ouvir prestador com prazo fixo", "gatilho": "Minuta padrão preenchida enviada ao prestador", "saida": "Manifestação do prestador ou prazo decorrido"},
+    {"id": "p2", "tipo": "paralelo_juncao", "raia": "DAI"},
+    {"id": "t6", "tipo": "tarefa", "raia": "DAJ", "nome": "Conferir enquadramento no parecer referencial", "gatilho": "Minuta, análise técnica e manifestação do prestador", "saida": "Atestado de enquadramento ou apontamento de desvio"},
+    {"id": "g2", "tipo": "xor", "raia": "DAJ", "nome": "Há desvio da minuta padrão?"},
+    {"id": "t7", "tipo": "tarefa", "raia": "DAJ", "nome": "Analisar desvios com a PSE", "gatilho": "Desvio apontado", "saida": "Informação jurídica e manifestação da PSE sobre os desvios"},
+    {"id": "t8", "tipo": "tarefa", "raia": "GP", "nome": "Deliberar sobre desvios no Conselho", "gatilho": "Desvio relevante, conforme critério do rito", "saida": "Resolução do Conselho Superior"},
+    {"id": "g3", "tipo": "xor_juncao", "raia": "GP"},
+    {"id": "t9", "tipo": "tarefa", "raia": "GP", "nome": "Autorizar celebração e inexigibilidade", "gatilho": "Enquadramento atestado ou desvio aprovado", "saida": "Autorização e justificativa de inexigibilidade nos autos"},
+    {"id": "t11", "tipo": "tarefa", "raia": "GP", "nome": "Assinar eletronicamente no SEI", "gatilho": "Autorização; prefeito liberado como usuário externo", "saida": "Instrumento assinado pelas partes no SEI"},
+    {"id": "t12", "tipo": "tarefa", "raia": "DG", "nome": "Publicar extrato em até 10 du", "gatilho": "Última assinatura", "saida": "Extrato publicado e juntado"},
+    {"id": "t13", "tipo": "tarefa", "raia": "DG", "nome": "Enviar comunicado único de início", "gatilho": "Extrato publicado", "saida": "Comunicado ao prestador, DAF, diretorias, DTI e DAU"},
+    {"id": "t15", "tipo": "tarefa", "raia": "DAI", "nome": "Encerrar e cadastrar município regulado", "gatilho": "Comunicado enviado", "saida": "Termo de encerramento e cadastro atualizado"},
+    {"id": "f1", "tipo": "fim", "raia": "DAI", "nome": "Delegação vigente e processo encerrado"}
+  ],
+  "fluxos": [
+    {"de": "s1", "para": "t1"}, {"de": "t1", "para": "t2"}, {"de": "t2", "para": "g1"},
+    {"de": "g1", "para": "p1", "rotulo": "Sim", "principal": true},
+    {"de": "g1", "para": "t3", "rotulo": "Não"},
+    {"de": "t3", "para": "e1"}, {"de": "e1", "para": "t2"},
+    {"de": "p1", "para": "t4"}, {"de": "p1", "para": "t5"}, {"de": "p1", "para": "t16"},
+    {"de": "t4", "para": "p2"}, {"de": "t5", "para": "p2"}, {"de": "t16", "para": "p2"},
+    {"de": "p2", "para": "t6"}, {"de": "t6", "para": "g2"},
+    {"de": "g2", "para": "g3", "rotulo": "Não", "principal": true},
+    {"de": "g2", "para": "t7", "rotulo": "Sim"},
+    {"de": "t7", "para": "t8"}, {"de": "t8", "para": "g3"},
+    {"de": "g3", "para": "t9"}, {"de": "t9", "para": "t11"}, {"de": "t11", "para": "t12"},
+    {"de": "t12", "para": "t13"}, {"de": "t13", "para": "t15"}, {"de": "t15", "para": "f1"}
+  ],
+  "fontes": "TO-BE: melhorias M-CONV-01 a M-CONV-12 (saida/fase3/melhorias_CONV.json), etapas do processo orientativo SEI 002594-39.00/26-9 e documentação mínima e minuta padrão do SEI 002840-39.00/26-3. A atribuição da DAI como dono do processo é proposta do processo orientativo, a validar."
+}

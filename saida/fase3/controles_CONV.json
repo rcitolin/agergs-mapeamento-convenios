@@ -1,0 +1,410 @@
+{
+ "codigo": "CONV",
+ "indicadores": [
+  {
+   "id": "I-CONV-01",
+   "nome": "Lead time da celebração",
+   "definicao": "Dias úteis da primeira peça datada do processo (pedido ou autuação) à última peça (publicação, comunicado ou encerramento); mediana dos processos encerrados no período",
+   "calculo": {
+    "tipo": "lead",
+    "atividades": [
+     "t1",
+     "t15"
+    ]
+   },
+   "fonte_dados": "peças e andamentos do SEI",
+   "frequencia": "trimestral",
+   "linha_base": {
+    "valor": 74.5,
+    "unidade": "du",
+    "fato": "coorte.caso.lead.mediana"
+   },
+   "metas": [
+    {
+     "fase": 1,
+     "valor": 31.0,
+     "origem": {
+      "tipo": "simulacao",
+      "ref": "fases.1.esperado.lead.mediana"
+     }
+    },
+    {
+     "fase": 2,
+     "valor": 26.2,
+     "origem": {
+      "tipo": "simulacao",
+      "ref": "fases.2.esperado.lead.mediana"
+     }
+    },
+    {
+     "fase": 3,
+     "valor": 24.6,
+     "origem": {
+      "tipo": "simulacao",
+      "ref": "fases.3.esperado.lead.mediana"
+     }
+    }
+   ],
+   "alerta": {
+    "regra": "Processo aberto com idade acima do q3 simulado da fase vigente",
+    "destinatario": "Dono do processo (DAI) e Diretoria-Geral"
+   },
+   "melhorias": [
+    "M-CONV-04",
+    "M-CONV-05",
+    "M-CONV-06",
+    "M-CONV-07"
+   ],
+   "responsavel": "DAI"
+  },
+  {
+   "id": "I-CONV-02",
+   "nome": "Divulgação do extrato em até 10 dias úteis da assinatura",
+   "definicao": "% dos instrumentos assinados com extrato publicado em até 10 du da última assinatura",
+   "calculo": {
+    "tipo": "conformidade",
+    "requisito": "R-CONV-06"
+   },
+   "fonte_dados": "peças do SEI e DOE",
+   "frequencia": "mensal",
+   "linha_base": {
+    "valor": 20.0,
+    "unidade": "%",
+    "fato": "conformidade.R-CONV-06"
+   },
+   "metas": [
+    {
+     "fase": 1,
+     "valor": 40.0,
+     "origem": {
+      "tipo": "simulacao",
+      "ref": "fases.1.esperado.conformidade_temporal.R-CONV-06"
+     }
+    },
+    {
+     "fase": 2,
+     "valor": 40.0,
+     "origem": {
+      "tipo": "simulacao",
+      "ref": "fases.2.esperado.conformidade_temporal.R-CONV-06"
+     }
+    },
+    {
+     "fase": 3,
+     "valor": 40.0,
+     "origem": {
+      "tipo": "simulacao",
+      "ref": "fases.3.esperado.conformidade_temporal.R-CONV-06"
+     }
+    }
+   ],
+   "referencia_legal": "100% (Lei 14.133, art. 94, II)",
+   "observacao": "O TO-BE não chega a 100% porque a espera pela assinatura do município é tempo de terceiro: exige assinatura eletrônica e prazo contratual para o município assinar.",
+   "alerta": {
+    "regra": "Instrumento assinado há 7 du sem extrato publicado",
+    "destinatario": "DG"
+   },
+   "melhorias": [
+    "M-CONV-05",
+    "M-CONV-09"
+   ],
+   "responsavel": "DG"
+  },
+  {
+   "id": "I-CONV-03",
+   "nome": "Decisão em até 30 dias após a instrução",
+   "definicao": "% dos processos com autorização, deliberação ou assinatura em até 21 du da última peça de instrução",
+   "calculo": {
+    "tipo": "conformidade",
+    "requisito": "R-CONV-09"
+   },
+   "fonte_dados": "peças do SEI",
+   "frequencia": "trimestral",
+   "linha_base": {
+    "valor": 33.3,
+    "unidade": "%",
+    "fato": "conformidade.R-CONV-09"
+   },
+   "metas": [
+    {
+     "fase": 1,
+     "valor": 66.7,
+     "origem": {
+      "tipo": "simulacao",
+      "ref": "fases.1.esperado.conformidade_temporal.R-CONV-09"
+     }
+    },
+    {
+     "fase": 2,
+     "valor": 83.3,
+     "origem": {
+      "tipo": "simulacao",
+      "ref": "fases.2.esperado.conformidade_temporal.R-CONV-09"
+     }
+    },
+    {
+     "fase": 3,
+     "valor": 83.3,
+     "origem": {
+      "tipo": "simulacao",
+      "ref": "fases.3.esperado.conformidade_temporal.R-CONV-09"
+     }
+    }
+   ],
+   "referencia_legal": "100% (Lei RS 15.612, art. 53)",
+   "alerta": {
+    "regra": "15 du desde a última instrução sem decisão",
+    "destinatario": "Gabinete da Presidência"
+   },
+   "melhorias": [
+    "M-CONV-04"
+   ],
+   "responsavel": "GP"
+  },
+  {
+   "id": "I-CONV-04",
+   "nome": "Atos internos em até 5 dias",
+   "definicao": "% das ocorrências de tarefa interna com espera antes de até 5 du",
+   "calculo": {
+    "tipo": "conformidade",
+    "requisito": "R-CONV-10"
+   },
+   "fonte_dados": "peças do SEI",
+   "frequencia": "mensal",
+   "linha_base": {
+    "valor": 74.6,
+    "unidade": "%",
+    "fato": "conformidade.R-CONV-10"
+   },
+   "metas": [
+    {
+     "fase": 1,
+     "valor": 79.7,
+     "origem": {
+      "tipo": "simulacao",
+      "ref": "fases.1.esperado.conformidade_temporal.R-CONV-10"
+     }
+    },
+    {
+     "fase": 2,
+     "valor": 84.0,
+     "origem": {
+      "tipo": "simulacao",
+      "ref": "fases.2.esperado.conformidade_temporal.R-CONV-10"
+     }
+    },
+    {
+     "fase": 3,
+     "valor": 84.0,
+     "origem": {
+      "tipo": "simulacao",
+      "ref": "fases.3.esperado.conformidade_temporal.R-CONV-10"
+     }
+    }
+   ],
+   "referencia_legal": "100% (Lei RS 15.612, art. 29)",
+   "alerta": {
+    "regra": "Processo parado há 5 du na mesma unidade",
+    "destinatario": "Unidade com o processo e DAI"
+   },
+   "melhorias": [
+    "M-CONV-04",
+    "M-CONV-06",
+    "M-CONV-07"
+   ],
+   "responsavel": "DAI"
+  },
+  {
+   "id": "I-CONV-05",
+   "nome": "Horas de trabalho por celebração",
+   "definicao": "Horas-teto estimadas das peças da AGERGS por processo (mediana); calibrar com medição de tempo",
+   "calculo": {
+    "tipo": "horas"
+   },
+   "fonte_dados": "peças do SEI + calibração",
+   "frequencia": "semestral",
+   "linha_base": {
+    "valor": 8.6,
+    "unidade": "h",
+    "fato": "coorte.caso.horas_teto.mediana"
+   },
+   "metas": [
+    {
+     "fase": 1,
+     "valor": 6.5,
+     "origem": {
+      "tipo": "simulacao",
+      "ref": "fases.1.esperado.horas_teto.mediana"
+     }
+    },
+    {
+     "fase": 2,
+     "valor": 5.9,
+     "origem": {
+      "tipo": "simulacao",
+      "ref": "fases.2.esperado.horas_teto.mediana"
+     }
+    },
+    {
+     "fase": 3,
+     "valor": 5.1,
+     "origem": {
+      "tipo": "simulacao",
+      "ref": "fases.3.esperado.horas_teto.mediana"
+     }
+    }
+   ],
+   "alerta": {
+    "regra": "Processo acima do q3 de horas",
+    "destinatario": "DAI"
+   },
+   "melhorias": [
+    "M-CONV-03",
+    "M-CONV-08",
+    "M-CONV-11",
+    "M-CONV-12"
+   ],
+   "responsavel": "DAI"
+  },
+  {
+   "id": "I-CONV-06",
+   "nome": "Retornos por caso (qualidade)",
+   "definicao": "Número de retornos a atividade já realizada (nova análise jurídica, nova minuta, reenvio) por processo; mediana",
+   "calculo": {
+    "tipo": "laco",
+    "atividades": [
+     "t5",
+     "t6",
+     "t10"
+    ]
+   },
+   "fonte_dados": "peças do SEI",
+   "frequencia": "trimestral",
+   "linha_base": {
+    "valor": 2.0,
+    "unidade": "retornos",
+    "fato": "coorte.caso.retornos.mediana"
+   },
+   "metas": [],
+   "observacao": "Indicador de qualidade sem meta simulada: acompanha se a redução de prazo não empurra retrabalho.",
+   "alerta": {
+    "regra": "Terceira versão de minuta no mesmo processo",
+    "destinatario": "DAJ"
+   },
+   "melhorias": [
+    "M-CONV-01",
+    "M-CONV-02"
+   ],
+   "responsavel": "DAJ"
+  },
+  {
+   "id": "I-CONV-07",
+   "nome": "Parecer jurídico antes da assinatura",
+   "definicao": "% dos instrumentos assinados com informação jurídica da DAJ ou da PSE nos autos antes da assinatura",
+   "calculo": {
+    "tipo": "conformidade",
+    "requisito": "R-CONV-03"
+   },
+   "fonte_dados": "peças do SEI",
+   "frequencia": "trimestral",
+   "linha_base": {
+    "valor": 50.0,
+    "unidade": "%",
+    "fato": "conformidade.R-CONV-03"
+   },
+   "metas": [
+    {
+     "fase": 1,
+     "valor": 100,
+     "origem": {
+      "tipo": "norma",
+      "ref": "R-CONV-03"
+     }
+    }
+   ],
+   "alerta": {
+    "regra": "Minuta enviada para assinatura sem parecer nos autos",
+    "destinatario": "DAJ"
+   },
+   "melhorias": [
+    "M-CONV-03"
+   ],
+   "responsavel": "DAJ"
+  },
+  {
+   "id": "I-CONV-08",
+   "nome": "Instrução completa no processo de celebração",
+   "definicao": "% dos contratos com justificativa de inexigibilidade e autorização no próprio processo",
+   "calculo": {
+    "tipo": "conformidade",
+    "requisito": "R-CONV-08"
+   },
+   "fonte_dados": "peças do SEI",
+   "frequencia": "trimestral",
+   "linha_base": {
+    "valor": 0.0,
+    "unidade": "%",
+    "fato": "conformidade.R-CONV-08"
+   },
+   "metas": [
+    {
+     "fase": 1,
+     "valor": 100,
+     "origem": {
+      "tipo": "norma",
+      "ref": "R-CONV-08"
+     }
+    }
+   ],
+   "alerta": {
+    "regra": "Contrato encaminhado à assinatura sem inexigibilidade nos autos",
+    "destinatario": "GP"
+   },
+   "melhorias": [
+    "M-CONV-02"
+   ],
+   "responsavel": "GP"
+  }
+ ],
+ "controles_qualidade_ia": [
+  {
+   "id": "Q-CONV-01",
+   "melhorias": [
+    "M-CONV-10"
+   ],
+   "verificacao": "Cada pendência e cada dado extraído (escopo, prestador, número e data da lei) conferido contra a peça de origem",
+   "amostragem": "100% das listas de pendência; 2 processos por mês refeitos sem IA",
+   "criterio_aceite": "Nenhuma pendência falsa enviada ao município; nenhum documento obrigatório omitido",
+   "indicador": "taxa de erro de extração (campos corrigidos / campos extraídos)",
+   "meta": "0 pendência indevida enviada; erro de extração até 5% dos campos (hipótese a calibrar)",
+   "responsavel": "DAI"
+  },
+  {
+   "id": "Q-CONV-02",
+   "melhorias": [
+    "M-CONV-11"
+   ],
+   "verificacao": "Diferença entre a minuta gerada e a minuta padrão; cada citação de norma conferida contra o texto integral",
+   "amostragem": "100% das minutas",
+   "criterio_aceite": "Minuta assinada sem desvio não justificado e sem erro material",
+   "indicador": "desvios não justificados e erratas por instrumento",
+   "meta": "0 errata de publicação por erro material",
+   "responsavel": "DAJ"
+  },
+  {
+   "id": "Q-CONV-03",
+   "melhorias": [
+    "M-CONV-12"
+   ],
+   "verificacao": "Conclusão e fundamentos da pré-análise conferidos pelo assessor; citações conferidas contra a base normativa",
+   "amostragem": "100% das citações; 1 pré-análise por mês refeita às cegas",
+   "criterio_aceite": "Nenhuma citação inválida em peça assinada",
+   "indicador": "taxa de citação inválida e de conclusão divergente na amostra cega",
+   "meta": "0 citação inválida; divergência de conclusão registrada e analisada",
+   "responsavel": "DAJ e Conselho Superior"
+  }
+ ],
+ "auditoria_continua": [
+  "Testes R-CONV-01 a R-CONV-10 rodando a cada processo encerrado (scripts/fase3_agergs.py conformidade)"
+ ]
+}

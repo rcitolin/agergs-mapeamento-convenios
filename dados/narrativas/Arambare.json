@@ -1,0 +1,132 @@
+{
+  "processo": "Arambare",
+  "numero_sei": "001470-39.00/19-6",
+  "municipio": "Arambaré",
+  "instrumento": "convenio_delegacao",
+  "servico": "agua_esgoto",
+  "prestador": "CORSAN",
+  "fundamento_legal": [
+    "Lei Estadual 10.931/1997",
+    "Lei Estadual 11.075/1998",
+    "Lei Federal 11.445/2007",
+    "Lei Federal 8.666/1993 (citada na minuta)",
+    "Lei Municipal 2.283/2019"
+  ],
+  "situacao_final": "assinado_sem_publicacao_no_processo",
+  "evidencia_situacao": "seq 14: \"de Arambaré, assinado em 17/12/2019\"",
+  "marcos": [
+    {
+      "marco": "pedido_municipio",
+      "seq": 1,
+      "data": "2019-11-28"
+    },
+    {
+      "marco": "lei_autorizativa",
+      "seq": 2,
+      "data": "2019-11-27"
+    },
+    {
+      "marco": "abertura",
+      "seq": 3,
+      "data": "2019-12-04"
+    },
+    {
+      "marco": "parecer_juridico",
+      "seq": 5,
+      "data": "2019-12-09"
+    },
+    {
+      "marco": "minuta_enviada",
+      "seq": 8,
+      "data": "2019-12-10"
+    },
+    {
+      "marco": "assinatura_agergs",
+      "seq": 14,
+      "data": "2019-12-17"
+    },
+    {
+      "marco": "encerramento",
+      "seq": 17,
+      "data": "2020-11-10"
+    }
+  ],
+  "sequencia_etapas": [
+    "solicitacao_municipio",
+    "lei_autorizativa",
+    "autuacao_abertura",
+    "encaminhamento_interno",
+    "analise_juridica",
+    "elaboracao_minuta",
+    "analise_juridica",
+    "encaminhamento_interno",
+    "aditivo_alteracao",
+    "encaminhamento_interno",
+    "cadastro_controle",
+    "encaminhamento_interno",
+    "arquivamento_encerramento",
+    "cadastro_controle",
+    "assinatura_instrumento",
+    "assinatura_instrumento",
+    "cadastro_controle"
+  ],
+  "unidades_envolvidas": [
+    "Gabinete do Prefeito de Arambaré",
+    "Gabinete da Presidência (AGERGS)",
+    "Diretoria-Geral (AGERGS)",
+    "Diretoria de Assuntos Jurídicos (AGERGS)",
+    "Diretoria de Qualidade (AGERGS)",
+    "CORSAN (interveniente na minuta)",
+    "FAMURS (interveniente na minuta)"
+  ],
+  "desvios_e_retrabalho": [
+    {
+      "descricao": "Aditivo pedido por falta de competência sancionatória nunca foi firmado; o processo segue sem ele",
+      "seq": [
+        9,
+        10,
+        12
+      ],
+      "evidencia": "O aditivo ainda não foi firmado."
+    },
+    {
+      "descricao": "Divergência sobre a existência do convênio: DQ não localizou; Gabinete localizou; DG cita assinatura em 17/12/2019",
+      "seq": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "evidencia": "não localizei convênio firmado com o município de Arambaré"
+    },
+    {
+      "descricao": "Convênio juntado em duas versões escaneadas quase idênticas",
+      "seq": [
+        15,
+        16
+      ],
+      "evidencia": "Convênio de Delegação Arambaré (0288446)"
+    },
+    {
+      "descricao": "Encaminhamento 743 repete quase integralmente o texto do 735",
+      "seq": [
+        10,
+        12
+      ],
+      "evidencia": "De acordo com o Processo SEI n.º001466-39.00/19-0, recentemente fora encaminhado o Ofício"
+    }
+  ],
+  "gargalos_percebidos": [
+    "Sem movimentação entre 10/12/2019 e 13/07/2020 (seq 8 a 9)",
+    "Assinatura afirmada em 17/12/2019, mas sem cópia assinada no processo (seq 14 a 16)",
+    "Encerramento só em 10/11/2020 (seq 17), quase 11 meses após a última análise jurídica (seq 7)"
+  ],
+  "documentos_exigidos_do_municipio": [
+    "Lei municipal autorizativa (Lei 2.283/2019)",
+    "Ofício de solicitação de convênio (Ofício GAB 395/2019)",
+    "Termo de Cooperação com o Estado (exigido pela Informação DJ 285/2019)",
+    "Contrato de Programa com a CORSAN (exigido pela Informação DJ 285/2019)"
+  ],
+  "diferencas_vs_padrao": "A lei autorizativa e o pedido do município chegam antes da abertura do processo. Há análise jurídica e minuta, mas não há assinatura comprovada nem publicação no processo. Depois da assinatura afirmada, surge uma pendência de aditivo (competência sancionatória) que não se resolve, e o encerramento vem quase um ano após a última análise.",
+  "observacoes": "Seq 2 é escaneada sem texto; o conteúdo da lei foi lido na peça 001 (pp. 2-3). Seq 9 agrupa o Encaminhamento 76 com o Comunicado DJ 0277466 e o anexo 0257081 do processo 001466-39.00/19-0. Seq 17 agrupa o Comunicado DG 0288491 (encerramento). A minuta fala em contrato de programa, enquanto a DQ (seq 11) cita contrato de concessão de 22/11/2004 a 22/11/2029. A assinatura de 17/12/2019 é afirmada em textos internos e em notícia citada, mas não há cópia assinada no processo, então a situação é incerta. Nenhum prazo processual aparece no texto. Horas são hipótese."
+}

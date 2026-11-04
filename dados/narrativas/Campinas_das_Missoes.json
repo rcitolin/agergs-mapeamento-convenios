@@ -1,0 +1,114 @@
+{
+ "processo": "Campinas_das_Missoes",
+ "numero_sei": "000067-39.00/16-9",
+ "municipio": "Campina das Missões",
+ "instrumento": "convenio_delegacao",
+ "servico": "agua_esgoto",
+ "prestador": "CORSAN",
+ "fundamento_legal": [
+  "Lei Estadual 10.931/1997",
+  "Lei Estadual 11.075/1998",
+  "Lei Federal 8.666/1993",
+  "Lei Federal 11.107/2005",
+  "Decreto 6.017/2007",
+  "Lei Federal 11.445/2007",
+  "Lei Municipal 2903/2015"
+ ],
+ "situacao_final": "assinado_sem_publicacao_no_processo",
+ "evidencia_situacao": "seq 5: momento em que foi assinado o instrumento",
+ "marcos": [
+  {
+   "marco": "lei_autorizativa",
+   "seq": 2,
+   "data": "2015-12-29"
+  },
+  {
+   "marco": "pedido_municipio",
+   "seq": 1,
+   "data": "2016-01-07"
+  },
+  {
+   "marco": "minuta_enviada",
+   "seq": 5,
+   "data": "2016-05-30"
+  },
+  {
+   "marco": "assinatura_municipio",
+   "seq": 9,
+   "data": null
+  },
+  {
+   "marco": "assinatura_agergs",
+   "seq": 9,
+   "data": null
+  }
+ ],
+ "sequencia_etapas": [
+  "lei_autorizativa",
+  "solicitacao_municipio",
+  "elaboracao_minuta",
+  "encaminhamento_interno",
+  "revisao_ajuste_minuta",
+  "assinatura_instrumento",
+  "comunicacao_interna_pos_assinatura",
+  "envio_minuta_ao_municipio"
+ ],
+ "unidades_envolvidas": [
+  "Município (Prefeitura)",
+  "Gabinete da Presidência",
+  "Diretoria de Assuntos Jurídicos",
+  "Presidência da AGERGS",
+  "CORSAN (interveniente)",
+  "FAMURS (interveniente)",
+  "Expediente/Protocolo"
+ ],
+ "desvios_e_retrabalho": [
+  {
+   "descricao": "Ofício e minuta de capa citam a lei municipal com ano diferente (2014 no ofício; 2015 na lei)",
+   "seq": [
+    1,
+    2
+   ],
+   "evidencia": "da Lei Munidpal n.° 2903/2014"
+  },
+  {
+   "descricao": "Data de 18/05/2015 no texto da minuta assinada; o pedido é de 2016 e o encaminhamento de 30/05/2016 fala de 18 de maio",
+   "seq": [
+    5,
+    6,
+    9
+   ],
+   "evidencia": "Porto Alegre, 18 de maio de 2015."
+  },
+  {
+   "descricao": "Mesma minuta reemitida com texto idêntico",
+   "seq": [
+    6,
+    8
+   ],
+   "evidencia": "Minuta convênio AGERGS (0110769)"
+  },
+  {
+   "descricao": "Modelo só de água reescrito para água e esgoto",
+   "seq": [
+    3,
+    6
+   ],
+   "evidencia": "da regulação dos serviços públicos de abastecimento de água potável e de esgotamento sanitário"
+  }
+ ],
+ "gargalos_percebidos": [
+  "118 dias entre o pedido do município (seq 1) e o encaminhamento à DJ (seq 4)",
+  "Minuta do modelo com lacunas e sem dados do município (seq 3)",
+  "Minuta reemitida sem alteração (seq 6 e 8)",
+  "Sem parecer jurídico, manifestação da PGE ou deliberação do Conselho Superior nos autos (seq 1 a 9)",
+  "Sem publicação do convênio nos autos (seq 1 a 9)"
+ ],
+ "documentos_exigidos_do_municipio": [
+  "Ofício de pedido do convênio (seq 1)",
+  "Lei municipal autorizativa (seq 2)",
+  "Contrato de programa com a CORSAN (citado nas minutas, não juntado)"
+ ],
+ "diferencas_vs_padrao": "Começa pela lei municipal autorizativa (seq 2), antes do pedido (seq 1). Não há parecer jurídico, PGE nem Conselho Superior nos autos. A minuta sai de um modelo da DJ (seq 3), é ajustada para água e esgoto (seq 6), e a assinatura aparece na versão escaneada (seq 9), sem publicação registrada.",
+ "observacoes": "Ordem da sequência de etapas é inferida pelas datas; a seq 9 não tem data confiável. O ano da assinatura (2015 no texto, 2016 pelo contexto) precisa ser conferido nos originais. Horas e composição são hipótese."
+}

@@ -1,0 +1,94 @@
+{
+  "processo": "Panambi",
+  "numero_sei": "000771-39.00/18-8",
+  "municipio": "Panambi",
+  "instrumento": "convenio_delegacao",
+  "servico": "agua_esgoto",
+  "prestador": "CORSAN - Companhia Riograndense de Saneamento",
+  "fundamento_legal": [
+    "Lei Federal 8.666/1993",
+    "Lei Estadual 10.931/1997",
+    "Lei Federal 11.445/2007",
+    "Lei Estadual 11.075/1998",
+    "Lei Municipal 3.041/2010"
+  ],
+  "situacao_final": "assinado_sem_publicacao_no_processo",
+  "evidencia_situacao": "seq 12: foi assinado e encontra-se no processo supra-citado o convenio de delegação",
+  "marcos": [
+    {
+      "marco": "pedido_municipio",
+      "seq": 1,
+      "data": "2018-07-09"
+    },
+    {
+      "marco": "lei_autorizativa",
+      "seq": 2,
+      "data": "2010-07-02"
+    },
+    {
+      "marco": "abertura",
+      "seq": 3,
+      "data": "2018-07-11"
+    },
+    {
+      "marco": "minuta_enviada",
+      "seq": 8,
+      "data": "2018-07-11"
+    },
+    {
+      "marco": "assinatura_agergs",
+      "seq": 10,
+      "data": null
+    }
+  ],
+  "sequencia_etapas": [
+    "solicitacao_municipio",
+    "lei_autorizativa",
+    "encaminhamento_interno",
+    "juntada_documentos_municipio",
+    "elaboracao_minuta",
+    "encaminhamento_interno",
+    "assinatura_instrumento",
+    "outro",
+    "comunicacao_interna_pos_assinatura",
+    "documento_externo_anexo"
+  ],
+  "unidades_envolvidas": [
+    "Município de Panambi (Prefeitura)",
+    "Presidência da AGERGS (Conselheiro-Presidente)",
+    "Gabinete da Presidência (GP)",
+    "Diretoria-Geral (DG)",
+    "Diretoria de Assuntos Jurídicos (DJ)",
+    "Remetente do e-mail de aviso (seq 12), unidade não identificada"
+  ],
+  "desvios_e_retrabalho": [
+    {
+      "descricao": "Minuta e convênio sem data de assinatura no texto (campo em branco).",
+      "seq": [
+        7,
+        10
+      ],
+      "evidencia": "Porto Alegre, ____ de ___________ de 2018."
+    },
+    {
+      "descricao": "E-mail interno de aviso da assinatura está anexado ao AR do Ofício 89, no mesmo documento.",
+      "seq": [
+        12
+      ],
+      "evidencia": "AR OF 89 (0192183)"
+    }
+  ],
+  "gargalos_percebidos": [
+    "Intervalo de 16 dias entre a remessa da via assinada ao Município (23/07/2018, seq 11) e o aviso interno de assinatura (08/08/2018, seq 12).",
+    "Três peças digitalizadas sem texto, 95 páginas (seq 5, 6 e 13): conteúdo do aditivo e do contrato de programa não verificado.",
+    "Data da assinatura do convênio não consta no texto (seq 10)."
+  ],
+  "documentos_exigidos_do_municipio": [
+    "Ofício de solicitação do convênio (seq 1)",
+    "Lei municipal autorizativa (seq 2, Lei 3.041/2010)",
+    "Lei Municipal Aditivo (seq 5)",
+    "Documentação do Contrato de Programa com a CORSAN (seq 6 e 13)"
+  ],
+  "diferencas_vs_padrao": "Sem parecer jurídico formal nem deliberação do Conselho Superior no processo: a minuta (seq 7, 11/07/2018) foi elaborada pela DJ e encaminhada à DG e ao GP no mesmo dia (seq 8 e 9), com assinaturas no mesmo dia. Não há publicação (extrato) no processo. O processo começa pelo pedido do município, com lei autorizativa de 2010 anexada.",
+  "observacoes": "Horas estimadas e composições são hipóteses. Peças 5, 6 e 13 são digitalizadas e sem texto extraível. O processo não traz data da assinatura nem registro de publicação; a situação 'assinado' vem do e-mail da seq 12 e da remessa da seq 11."
+}

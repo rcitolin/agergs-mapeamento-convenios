@@ -1,0 +1,605 @@
+{
+ "codigo": "CONV",
+ "casos": 18,
+ "carimbo_linha_base": "bfc078f1dd509dfa1912dd437fe0a80024ef00a4df4ba0966969441578eff55c",
+ "linha_base": {
+  "lead": {
+   "n": 18,
+   "media": 107.9,
+   "mediana": 74.5,
+   "q1": 23.0,
+   "q3": 135.8,
+   "max": 376.0,
+   "min": 3.0
+  },
+  "horas_piso": {
+   "n": 18,
+   "media": 7.0,
+   "mediana": 4.8,
+   "q1": 3.5,
+   "q3": 6.1,
+   "max": 35.8,
+   "min": 0.9
+  },
+  "horas_teto": {
+   "n": 18,
+   "media": 14.6,
+   "mediana": 8.6,
+   "q1": 6.3,
+   "q3": 12.1,
+   "max": 88.4,
+   "min": 2.5
+  },
+  "anual": {
+   "horas": {
+    "piso": 35.0,
+    "teto": 73.0
+   },
+   "fte": {
+    "piso": 0.02,
+    "teto": 0.05
+   },
+   "custo_reais": {
+    "piso": 1925,
+    "esperado": 4752,
+    "teto": 8833
+   }
+  },
+  "conformidade_temporal": {
+   "R-CONV-06": 20.0,
+   "R-CONV-09": 33.3,
+   "R-CONV-10": 74.6
+  }
+ },
+ "fases": {
+  "1": {
+   "conservador": {
+    "lead": {
+     "n": 18,
+     "media": 71.1,
+     "mediana": 41.8,
+     "q1": 16.8,
+     "q3": 78.6,
+     "max": 280.3,
+     "min": 3.0
+    },
+    "horas_piso": {
+     "n": 18,
+     "media": 5.9,
+     "mediana": 4.0,
+     "q1": 3.5,
+     "q3": 4.9,
+     "max": 27.8,
+     "min": 0.9
+    },
+    "horas_teto": {
+     "n": 18,
+     "media": 12.0,
+     "mediana": 7.0,
+     "q1": 6.0,
+     "q3": 10.6,
+     "max": 66.1,
+     "min": 2.5
+    },
+    "anual": {
+     "horas": {
+      "piso": 29.5,
+      "teto": 60.0
+     },
+     "custo_reais": {
+      "piso": 1622,
+      "teto": 7260
+     }
+    },
+    "conformidade_temporal": {
+     "R-CONV-06": 40.0,
+     "R-CONV-09": 50.0,
+     "R-CONV-10": 74.6
+    },
+    "ganho_pct": {
+     "lead_mediano": 43.9,
+     "lead_medio": 34.1,
+     "horas_teto_medias": 17.8
+    }
+   },
+   "esperado": {
+    "lead": {
+     "n": 18,
+     "media": 60.6,
+     "mediana": 31.0,
+     "q1": 14.2,
+     "q3": 77.4,
+     "max": 233.1,
+     "min": 3.0
+    },
+    "horas_piso": {
+     "n": 18,
+     "media": 5.3,
+     "mediana": 3.6,
+     "q1": 3.2,
+     "q3": 4.3,
+     "max": 23.5,
+     "min": 0.9
+    },
+    "horas_teto": {
+     "n": 18,
+     "media": 10.6,
+     "mediana": 6.5,
+     "q1": 5.2,
+     "q3": 9.8,
+     "max": 54.3,
+     "min": 2.5
+    },
+    "anual": {
+     "horas": {
+      "piso": 26.5,
+      "teto": 53.0
+     },
+     "custo_reais": {
+      "piso": 1458,
+      "teto": 6413
+     }
+    },
+    "conformidade_temporal": {
+     "R-CONV-06": 40.0,
+     "R-CONV-09": 66.7,
+     "R-CONV-10": 79.7
+    },
+    "ganho_pct": {
+     "lead_mediano": 58.4,
+     "lead_medio": 43.8,
+     "horas_teto_medias": 27.4
+    }
+   },
+   "otimista": {
+    "lead": {
+     "n": 18,
+     "media": 51.5,
+     "mediana": 26.4,
+     "q1": 11.2,
+     "q3": 62.8,
+     "max": 196.9,
+     "min": 2.0
+    },
+    "horas_piso": {
+     "n": 18,
+     "media": 4.7,
+     "mediana": 3.3,
+     "q1": 2.8,
+     "q3": 4.0,
+     "max": 19.5,
+     "min": 0.9
+    },
+    "horas_teto": {
+     "n": 18,
+     "media": 9.4,
+     "mediana": 6.0,
+     "q1": 4.8,
+     "q3": 9.0,
+     "max": 44.2,
+     "min": 2.5
+    },
+    "anual": {
+     "horas": {
+      "piso": 23.5,
+      "teto": 47.0
+     },
+     "custo_reais": {
+      "piso": 1292,
+      "teto": 5687
+     }
+    },
+    "conformidade_temporal": {
+     "R-CONV-06": 40.0,
+     "R-CONV-09": 66.7,
+     "R-CONV-10": 91.1
+    },
+    "ganho_pct": {
+     "lead_mediano": 64.6,
+     "lead_medio": 52.3,
+     "horas_teto_medias": 35.6
+    }
+   }
+  },
+  "2": {
+   "conservador": {
+    "lead": {
+     "n": 18,
+     "media": 68.8,
+     "mediana": 40.4,
+     "q1": 16.8,
+     "q3": 74.9,
+     "max": 250.9,
+     "min": 3.0
+    },
+    "horas_piso": {
+     "n": 18,
+     "media": 5.6,
+     "mediana": 3.9,
+     "q1": 3.3,
+     "q3": 4.7,
+     "max": 26.2,
+     "min": 0.8
+    },
+    "horas_teto": {
+     "n": 18,
+     "media": 11.5,
+     "mediana": 6.9,
+     "q1": 5.9,
+     "q3": 10.2,
+     "max": 62.9,
+     "min": 2.1
+    },
+    "anual": {
+     "horas": {
+      "piso": 28.0,
+      "teto": 57.5
+     },
+     "custo_reais": {
+      "piso": 1540,
+      "teto": 6958
+     }
+    },
+    "conformidade_temporal": {
+     "R-CONV-06": 40.0,
+     "R-CONV-09": 66.7,
+     "R-CONV-10": 74.6
+    },
+    "ganho_pct": {
+     "lead_mediano": 45.8,
+     "lead_medio": 36.2,
+     "horas_teto_medias": 21.2
+    }
+   },
+   "esperado": {
+    "lead": {
+     "n": 18,
+     "media": 55.9,
+     "mediana": 26.2,
+     "q1": 13.2,
+     "q3": 69.9,
+     "max": 192.7,
+     "min": 3.0
+    },
+    "horas_piso": {
+     "n": 18,
+     "media": 4.7,
+     "mediana": 3.3,
+     "q1": 3.0,
+     "q3": 4.0,
+     "max": 20.7,
+     "min": 0.7
+    },
+    "horas_teto": {
+     "n": 18,
+     "media": 9.6,
+     "mediana": 5.9,
+     "q1": 4.9,
+     "q3": 8.9,
+     "max": 49.0,
+     "min": 1.8
+    },
+    "anual": {
+     "horas": {
+      "piso": 23.5,
+      "teto": 48.0
+     },
+     "custo_reais": {
+      "piso": 1292,
+      "teto": 5808
+     }
+    },
+    "conformidade_temporal": {
+     "R-CONV-06": 40.0,
+     "R-CONV-09": 83.3,
+     "R-CONV-10": 84.0
+    },
+    "ganho_pct": {
+     "lead_mediano": 64.8,
+     "lead_medio": 48.2,
+     "horas_teto_medias": 34.2
+    }
+   },
+   "otimista": {
+    "lead": {
+     "n": 18,
+     "media": 45.0,
+     "mediana": 17.6,
+     "q1": 10.2,
+     "q3": 61.4,
+     "max": 186.9,
+     "min": 2.0
+    },
+    "horas_piso": {
+     "n": 18,
+     "media": 4.0,
+     "mediana": 2.9,
+     "q1": 2.5,
+     "q3": 3.5,
+     "max": 16.1,
+     "min": 0.5
+    },
+    "horas_teto": {
+     "n": 18,
+     "media": 8.0,
+     "mediana": 5.0,
+     "q1": 4.2,
+     "q3": 7.7,
+     "max": 37.8,
+     "min": 1.4
+    },
+    "anual": {
+     "horas": {
+      "piso": 20.0,
+      "teto": 40.0
+     },
+     "custo_reais": {
+      "piso": 1100,
+      "teto": 4840
+     }
+    },
+    "conformidade_temporal": {
+     "R-CONV-06": 40.0,
+     "R-CONV-09": 83.3,
+     "R-CONV-10": 95.2
+    },
+    "ganho_pct": {
+     "lead_mediano": 76.4,
+     "lead_medio": 58.3,
+     "horas_teto_medias": 45.2
+    }
+   }
+  },
+  "3": {
+   "conservador": {
+    "lead": {
+     "n": 18,
+     "media": 68.4,
+     "mediana": 39.1,
+     "q1": 16.8,
+     "q3": 74.8,
+     "max": 248.6,
+     "min": 3.0
+    },
+    "horas_piso": {
+     "n": 18,
+     "media": 5.3,
+     "mediana": 3.6,
+     "q1": 3.1,
+     "q3": 4.4,
+     "max": 24.8,
+     "min": 0.8
+    },
+    "horas_teto": {
+     "n": 18,
+     "media": 10.7,
+     "mediana": 6.2,
+     "q1": 5.3,
+     "q3": 9.4,
+     "max": 58.4,
+     "min": 2.1
+    },
+    "anual": {
+     "horas": {
+      "piso": 26.5,
+      "teto": 53.5
+     },
+     "custo_reais": {
+      "piso": 1458,
+      "teto": 6474
+     }
+    },
+    "conformidade_temporal": {
+     "R-CONV-06": 40.0,
+     "R-CONV-09": 66.7,
+     "R-CONV-10": 74.6
+    },
+    "ganho_pct": {
+     "lead_mediano": 47.5,
+     "lead_medio": 36.6,
+     "horas_teto_medias": 26.7
+    }
+   },
+   "esperado": {
+    "lead": {
+     "n": 18,
+     "media": 55.4,
+     "mediana": 24.6,
+     "q1": 13.2,
+     "q3": 69.9,
+     "max": 192.6,
+     "min": 3.0
+    },
+    "horas_piso": {
+     "n": 18,
+     "media": 4.2,
+     "mediana": 2.9,
+     "q1": 2.6,
+     "q3": 3.6,
+     "max": 18.7,
+     "min": 0.7
+    },
+    "horas_teto": {
+     "n": 18,
+     "media": 8.5,
+     "mediana": 5.1,
+     "q1": 4.4,
+     "q3": 7.7,
+     "max": 42.9,
+     "min": 1.8
+    },
+    "anual": {
+     "horas": {
+      "piso": 21.0,
+      "teto": 42.5
+     },
+     "custo_reais": {
+      "piso": 1155,
+      "teto": 5142
+     }
+    },
+    "conformidade_temporal": {
+     "R-CONV-06": 40.0,
+     "R-CONV-09": 83.3,
+     "R-CONV-10": 84.0
+    },
+    "ganho_pct": {
+     "lead_mediano": 67.0,
+     "lead_medio": 48.7,
+     "horas_teto_medias": 41.8
+    }
+   },
+   "otimista": {
+    "lead": {
+     "n": 18,
+     "media": 44.6,
+     "mediana": 16.2,
+     "q1": 10.2,
+     "q3": 61.4,
+     "max": 186.8,
+     "min": 2.0
+    },
+    "horas_piso": {
+     "n": 18,
+     "media": 3.3,
+     "mediana": 2.4,
+     "q1": 1.8,
+     "q3": 3.1,
+     "max": 14.2,
+     "min": 0.5
+    },
+    "horas_teto": {
+     "n": 18,
+     "media": 6.7,
+     "mediana": 4.2,
+     "q1": 3.3,
+     "q3": 6.2,
+     "max": 31.9,
+     "min": 1.4
+    },
+    "anual": {
+     "horas": {
+      "piso": 16.5,
+      "teto": 33.5
+     },
+     "custo_reais": {
+      "piso": 908,
+      "teto": 4054
+     }
+    },
+    "conformidade_temporal": {
+     "R-CONV-06": 40.0,
+     "R-CONV-09": 83.3,
+     "R-CONV-10": 95.2
+    },
+    "ganho_pct": {
+     "lead_mediano": 78.3,
+     "lead_medio": 58.7,
+     "horas_teto_medias": 54.1
+    }
+   }
+  }
+ },
+ "sensibilidade": {
+  "fase": 3,
+  "cenario": "esperado",
+  "sem_cada_melhoria": [
+   {
+    "melhoria": "M-CONV-06",
+    "fase": 1,
+    "lead_mediano_du": 14.8,
+    "lead_medio_du": 18.3,
+    "horas_medias": 0.0
+   },
+   {
+    "melhoria": "M-CONV-04",
+    "fase": 1,
+    "lead_mediano_du": 2.0,
+    "lead_medio_du": 7.1,
+    "horas_medias": 0.0
+   },
+   {
+    "melhoria": "M-CONV-05",
+    "fase": 1,
+    "lead_mediano_du": 10.2,
+    "lead_medio_du": 6.7,
+    "horas_medias": 0.0
+   },
+   {
+    "melhoria": "M-CONV-01",
+    "fase": 1,
+    "lead_mediano_du": 5.8,
+    "lead_medio_du": 5.6,
+    "horas_medias": 0.6
+   },
+   {
+    "melhoria": "M-CONV-07",
+    "fase": 2,
+    "lead_mediano_du": 4.0,
+    "lead_medio_du": 2.6,
+    "horas_medias": 0.0
+   },
+   {
+    "melhoria": "M-CONV-09",
+    "fase": 2,
+    "lead_mediano_du": 2.8,
+    "lead_medio_du": 2.1,
+    "horas_medias": 0.0
+   },
+   {
+    "melhoria": "M-CONV-02",
+    "fase": 1,
+    "lead_mediano_du": 0.0,
+    "lead_medio_du": 1.5,
+    "horas_medias": 0.6
+   },
+   {
+    "melhoria": "M-CONV-10",
+    "fase": 3,
+    "lead_mediano_du": 1.6,
+    "lead_medio_du": 0.5,
+    "horas_medias": 0.1
+   },
+   {
+    "melhoria": "M-CONV-03",
+    "fase": 1,
+    "lead_mediano_du": 0.0,
+    "lead_medio_du": 0.0,
+    "horas_medias": 1.2
+   },
+   {
+    "melhoria": "M-CONV-08",
+    "fase": 2,
+    "lead_mediano_du": 0.0,
+    "lead_medio_du": 0.0,
+    "horas_medias": 1.0
+   },
+   {
+    "melhoria": "M-CONV-11",
+    "fase": 3,
+    "lead_mediano_du": 0.0,
+    "lead_medio_du": 0.0,
+    "horas_medias": 0.6
+   },
+   {
+    "melhoria": "M-CONV-12",
+    "fase": 3,
+    "lead_mediano_du": 0.0,
+    "lead_medio_du": 0.0,
+    "horas_medias": 0.4
+   }
+  ]
+ },
+ "premissas": {
+  "volume_anual": {
+   "valor": 5,
+   "origem": "hipótese: celebrações iniciadas em 2025 na amostra (Lagoa Bonita do Sul, Nova Bréscia, Passa Sete, Minas do Leão, Passo Fundo); confirmar com o cadastro de municípios conveniados"
+  },
+  "custo_hora": {
+   "piso": 55.0,
+   "esperado": 88.0,
+   "teto": 121.0
+  },
+  "hipotese": true
+ }
+}

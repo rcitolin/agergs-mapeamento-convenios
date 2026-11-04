@@ -1,0 +1,55 @@
+{
+ "requisitos": [
+  {
+   "id": "R-CONV-01",
+   "norma": "N-01",
+   "literal": true
+  },
+  {
+   "id": "R-CONV-02",
+   "norma": "N-02",
+   "literal": true
+  },
+  {
+   "id": "R-CONV-03",
+   "norma": "N-03",
+   "literal": true
+  },
+  {
+   "id": "R-CONV-04",
+   "norma": "N-03",
+   "literal": true
+  },
+  {
+   "id": "R-CONV-05",
+   "norma": "N-03",
+   "literal": true
+  },
+  {
+   "id": "R-CONV-06",
+   "norma": "N-04",
+   "literal": true
+  },
+  {
+   "id": "R-CONV-07",
+   "norma": "N-05",
+   "literal": true
+  },
+  {
+   "id": "R-CONV-08",
+   "norma": "N-07",
+   "literal": true
+  },
+  {
+   "id": "R-CONV-09",
+   "norma": "N-06",
+   "literal": true
+  },
+  {
+   "id": "R-CONV-10",
+   "norma": "N-06",
+   "literal": true
+  }
+ ],
+ "problemas": []
+}

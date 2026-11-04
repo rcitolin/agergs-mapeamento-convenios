@@ -1,0 +1,4 @@
+{"_descricao": "Correções de rótulo de atividade após a auditoria às cegas (saida/auditoria/auditoria_classificador_CONV.json). Só entram divergências em que a peça decide objetivamente; as demais ficam como perguntas de validação.",
+ "Passa_Sete#1": {"atividade": "assinatura_instrumento", "motivo": "A peça é o próprio contrato de prestação de serviços de regulação (título); nos casos análogos (Lagoa Bonita do Sul #1, Nova Bréscia #1) o contrato juntado tem o mesmo rótulo."},
+ "Panambi#11": {"atividade": "tratativa_com_municipio", "motivo": "Ofício que remete a via assinada ao prefeito: comunicação com o município, não 'outro'."},
+ "Passo_Fundo#57": {"atividade": "tratativa_com_municipio", "motivo": "Peça classificada como 'outro' pela ficha; o auditor e o conteúdo (comunicação ao município) convergem."}}

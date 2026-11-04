@@ -1,0 +1,103 @@
+{
+  "processo": "Nova_Brescia",
+  "numero_sei": "000681-39.00/25-4",
+  "municipio": "Nova Bréscia",
+  "instrumento": "contrato_prestacao_servicos_regulacao",
+  "servico": "agua_esgoto",
+  "prestador": "CORSAN (Companhia Riograndense de Saneamento)",
+  "fundamento_legal": [
+    "Lei Estadual nº 10.931/1997",
+    "Lei Federal nº 11.445/2007",
+    "Lei nº 14.133/2021, art. 74",
+    "Lei nº 14.026/2020"
+  ],
+  "situacao_final": "assinado_e_publicado",
+  "evidencia_situacao": "seq 10: Considerando a assinatura do contrato e sua respectiva publicação",
+  "marcos": [
+    {
+      "marco": "assinatura_municipio",
+      "seq": 1,
+      "data": "2025-03-05"
+    },
+    {
+      "marco": "assinatura_agergs",
+      "seq": 2,
+      "data": "2025-03-11"
+    },
+    {
+      "marco": "publicacao",
+      "seq": 5,
+      "data": "2025-03-12"
+    },
+    {
+      "marco": "comunicacao_prestador",
+      "seq": 6,
+      "data": "2025-03-18"
+    },
+    {
+      "marco": "comunicacao_prestador",
+      "seq": 9,
+      "data": "2025-03-20"
+    },
+    {
+      "marco": "encerramento",
+      "seq": 10,
+      "data": "2025-03-21"
+    }
+  ],
+  "sequencia_etapas": [
+    "assinatura_instrumento",
+    "comunicacao_interna_pos_assinatura",
+    "publicacao_extrato",
+    "publicacao_extrato",
+    "publicacao_extrato",
+    "comunicacao_prestador",
+    "comunicacao_prestador",
+    "comunicacao_prestador",
+    "comunicacao_prestador",
+    "arquivamento_encerramento"
+  ],
+  "unidades_envolvidas": [
+    "Presidência da AGERGS",
+    "Diretoria-Geral",
+    "GP",
+    "DSI (Diretoria de Saneamento e Irrigação)",
+    "DAF",
+    "DAGEP",
+    "DC",
+    "DAU (Divisão de Atendimento ao Usuário)",
+    "DTI (Diretoria de Tecnologia e Inovação)",
+    "Município de Nova Bréscia",
+    "CORSAN (Regulatório Técnico)"
+  ],
+  "desvios_e_retrabalho": [
+    {
+      "descricao": "Texto do contrato cita 'Lei n. 11.445/2027' (ano divergente da Lei 11.445/2007 citada no próprio contrato)",
+      "seq": [
+        1
+      ],
+      "evidencia": "cumprir as prescrições da Lei n. 11.445/2027"
+    },
+    {
+      "descricao": "Concessionária pediu cópia do contrato após a publicação de 12/03/2025, sem que o processo registre envio direto",
+      "seq": [
+        5,
+        7
+      ],
+      "evidencia": "vem solicitar o encaminhamento da cópia do Contrato de"
+    }
+  ],
+  "gargalos_percebidos": [
+    "Assinatura municipal em 05/03 e encaminhamento da AGERGS em 11/03 sem peça de análise nos autos (seq 1-2).",
+    "CORSAN pediu cópia do contrato após a publicação de 12/03 (seq 5-6); AGERGS respondeu em 20/03 (seq 8-9)."
+  ],
+  "documentos_exigidos_do_municipio": [
+    "Processo administrativo de Inexigibilidade de Licitação nº 017/2025 (citado no contrato)",
+    "Fornecer à AGERGS documentos, informações e dados necessários à regulação nos prazos (Cláusula Quarta, IV)",
+    "Encaminhar relatórios periódicos de fiscalização dos serviços (Cláusula Quarta, V)",
+    "Constituir Conselho ou órgão municipal de usuários (Cláusula Quarta, VI)",
+    "Comunicar à AGERGS as irregularidades de que tiver conhecimento (Cláusula Quarta, IX)"
+  ],
+  "diferencas_vs_padrao": "O processo começa com o contrato já assinado pelo município (05/03/2025) e não contém pedido, lei autorizativa, análise jurídica, minuta aprovada nem deliberação do Conselho Superior nos autos; a contratação aparece como inexigibilidade de licitação do município. Após a assinatura, o fluxo é só de encaminhamento, publicação, comunicação à CORSAN e arquivamento em 21/03/2025.",
+  "observacoes": "10 fichas, uma por linha de documentos.csv. A peça seq 5 agrega três documentos (DOE, Comunicado DTI 14/03 e E-mail DAU 17/03), pois o rodapé sem parênteses não foi separado pelo base_documentos.py; o regex precisa de ajuste. Horas são hipóteses; a assinatura eletrônica da AGERGS no contrato não aparece no texto extraído."
+}

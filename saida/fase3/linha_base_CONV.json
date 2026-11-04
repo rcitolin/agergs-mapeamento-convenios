@@ -1,0 +1,135 @@
+{
+ "codigo": "CONV",
+ "nome": "Celebração de convênio ou contrato de delegação da regulação",
+ "situacao": "indicativo",
+ "casos_coorte": 18,
+ "aviso": "Menos de 15 casos: medianas instáveis; datas inferidas das peças (sem andamentos do SEI).",
+ "por_caso": {
+  "lead_du": {
+   "n": 18,
+   "media": 107.9,
+   "mediana": 74.5,
+   "q1": 23.0,
+   "q3": 135.8,
+   "max": 376.0,
+   "min": 3.0
+  },
+  "lead_ate_assinatura_du": {
+   "n": 12,
+   "media": 75.1,
+   "mediana": 37.0,
+   "q1": 1.5,
+   "q3": 107.0,
+   "max": 299.0,
+   "min": 0.0
+  },
+  "espera_entre_atividades_du": {
+   "n": 18,
+   "media": 92.9,
+   "mediana": 74.5,
+   "q1": 21.5,
+   "q3": 99.2,
+   "max": 287.0,
+   "min": 2.0
+  },
+  "execucao_atividades_du": {
+   "n": 18,
+   "media": 15.4,
+   "mediana": 0.5,
+   "q1": 0.0,
+   "q3": 10.2,
+   "max": 100.0,
+   "min": 0.0
+  },
+  "terceiros_du": {
+   "n": 18,
+   "media": 13.6,
+   "mediana": 1.0,
+   "q1": 0.0,
+   "q3": 9.0,
+   "max": 91.0,
+   "min": 0.0
+  },
+  "horas_piso": {
+   "n": 18,
+   "media": 7.0,
+   "mediana": 4.8,
+   "q1": 3.5,
+   "q3": 6.1,
+   "max": 35.8,
+   "min": 0.9
+  },
+  "horas_teto": {
+   "n": 18,
+   "media": 14.6,
+   "mediana": 8.6,
+   "q1": 6.3,
+   "q3": 12.1,
+   "max": 88.4,
+   "min": 2.5
+  },
+  "passagens": {
+   "n": 18,
+   "media": 12.2,
+   "mediana": 7.5,
+   "q1": 6.0,
+   "q3": 10.8,
+   "max": 64.0,
+   "min": 3.0
+  },
+  "retornos": {
+   "n": 18,
+   "media": 4.6,
+   "mediana": 2.0,
+   "q1": 1.0,
+   "q3": 3.0,
+   "max": 33.0,
+   "min": 0.0
+  },
+  "n_encaminhamentos": {
+   "n": 18,
+   "media": 3.7,
+   "mediana": 3.0,
+   "q1": 1.2,
+   "q3": 4.0,
+   "max": 16.0,
+   "min": 0.0
+  }
+ },
+ "volume_anual": {
+  "valor": 5,
+  "origem": "hipótese: celebrações iniciadas em 2025 na amostra (Lagoa Bonita do Sul, Nova Bréscia, Passa Sete, Minas do Leão, Passo Fundo); confirmar com o cadastro de municípios conveniados"
+ },
+ "anual": {
+  "horas": {
+   "piso": 35.0,
+   "teto": 73.0
+  },
+  "fte": {
+   "piso": 0.02,
+   "teto": 0.05
+  },
+  "custo_reais": {
+   "piso": 1925,
+   "esperado": 4752,
+   "teto": 8833
+  }
+ },
+ "custo_hora": {
+  "piso": 55.0,
+  "esperado": 88.0,
+  "teto": 121.0
+ },
+ "custo_hora_hipotese": true,
+ "conformidade": {
+  "R-CONV-01": 66.7,
+  "R-CONV-03": 50.0,
+  "R-CONV-04": 16.7,
+  "R-CONV-05": 66.7,
+  "R-CONV-06": 20.0,
+  "R-CONV-08": 0.0,
+  "R-CONV-09": 33.3,
+  "R-CONV-10": 74.6
+ },
+ "carimbo": "bfc078f1dd509dfa1912dd437fe0a80024ef00a4df4ba0966969441578eff55c"
+}

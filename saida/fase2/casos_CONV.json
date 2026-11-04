@@ -1,0 +1,5065 @@
+{
+ "Alecrim": {
+  "processo": "Alecrim",
+  "inicio": "2013-11-05",
+  "fim": "2014-01-28",
+  "lead_du": 56.0,
+  "lead_ate_assinatura_du": 24.0,
+  "n_documentos": 8,
+  "n_agergs": 3,
+  "n_externos": 5,
+  "n_encaminhamentos": 0,
+  "unidades": [
+   "AGERGS-ND",
+   "CS",
+   "EXT",
+   "MUN"
+  ],
+  "passagens": 7,
+  "retornos": 2,
+  "horas_piso": 3.1,
+  "horas_teto": 5.1,
+  "espera_entre_atividades_du": 56.0,
+  "execucao_atividades_du": 0,
+  "terceiros_du": 32.0,
+  "inicio_sem_anexos": "2013-11-05",
+  "caminho": [
+   "t1",
+   "t16",
+   "t11",
+   "t10",
+   "t3",
+   "t11",
+   "t3"
+  ],
+  "ocorrencias": [
+   {
+    "atividade": "t1",
+    "nome": "Solicitar delegação da regulação",
+    "inicio": "2013-11-05",
+    "fim": "2013-11-05",
+    "pecas": [
+     "Ofício GP N° 233 2013 (0006365)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t16",
+    "nome": "Ouvir o prestador sobre a minuta",
+    "inicio": "2013-11-20",
+    "fim": "2013-11-20",
+    "pecas": [
+     "E-mail resposta CORSAN (0006541)"
+    ],
+    "unidades": [
+     "EXT"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 10.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "EXT": 10.0
+    }
+   },
+   {
+    "atividade": "t11",
+    "nome": "Assinar o instrumento pelas partes",
+    "inicio": "2013-12-11",
+    "fim": "2013-12-11",
+    "pecas": [
+     "Ata 83-2013 - linhas 72 a 79 (0008796)"
+    ],
+    "unidades": [
+     "CS"
+    ],
+    "horas_piso": 0.54,
+    "horas_teto": 1.63,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 14.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "CS": 14.0
+    }
+   },
+   {
+    "atividade": "t10",
+    "nome": "Enviar minuta e tratar com município",
+    "inicio": "2013-12-11",
+    "fim": "2013-12-11",
+    "pecas": [
+     "AR Convênio de Alecrim (0033873)"
+    ],
+    "unidades": [
+     "AGERGS-ND"
+    ],
+    "horas_piso": 0.32,
+    "horas_teto": 0.55,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t3",
+    "nome": "Complementar documentação e lei autorizativa",
+    "inicio": "2013-12-11",
+    "fim": "2013-12-11",
+    "pecas": [
+     "Lei Muncipal 2355 01/11/2013 - Autoriza convênios (0037213)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t11",
+    "nome": "Assinar o instrumento pelas partes",
+    "inicio": "2013-12-11",
+    "fim": "2013-12-11",
+    "pecas": [
+     "Convênio AGERGS / Alecrim 11/12/2013 (0037214)"
+    ],
+    "unidades": [
+     "CS"
+    ],
+    "horas_piso": 2.2,
+    "horas_teto": 2.95,
+    "perdas": [],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t3",
+    "nome": "Complementar documentação e lei autorizativa",
+    "inicio": "2014-01-28",
+    "fim": "2014-01-28",
+    "pecas": [
+     "Contrato Programa CORSAN CP259 Alecrim 28/01/2014 (0278167)",
+     "Plano PMSB Alecrim JUN/2012 (0278168)"
+    ],
+    "unidades": [
+     "EXT",
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 32.0,
+    "espera_terceiros_du": 32.0,
+    "espera_antes_por_unidade": {
+     "EXT": 32.0
+    }
+   }
+  ]
+ },
+ "Arambare": {
+  "processo": "Arambare",
+  "inicio": "2019-11-28",
+  "fim": "2020-11-10",
+  "lead_du": 237.0,
+  "lead_ate_assinatura_du": 200.0,
+  "n_documentos": 17,
+  "n_agergs": 15,
+  "n_externos": 2,
+  "n_encaminhamentos": 4,
+  "unidades": [
+   "AGERGS-ND",
+   "DAJ",
+   "DG",
+   "DQS",
+   "GP",
+   "MUN"
+  ],
+  "passagens": 11,
+  "retornos": 3,
+  "horas_piso": 6.6,
+  "horas_teto": 12.1,
+  "espera_entre_atividades_du": 237.0,
+  "execucao_atividades_du": 0,
+  "terceiros_du": 0,
+  "inicio_sem_anexos": "2019-11-28",
+  "caminho": [
+   "t1",
+   "t3",
+   "t2",
+   "t6",
+   "t5",
+   "t6",
+   "t14",
+   "t13",
+   "t15",
+   "t13",
+   "t11",
+   "t13"
+  ],
+  "ocorrencias": [
+   {
+    "atividade": "t1",
+    "nome": "Solicitar delegação da regulação",
+    "inicio": "2019-11-28",
+    "fim": "2019-11-28",
+    "pecas": [
+     "Ofício OFICIO GAB. n° 395/2019 (0256937)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t3",
+    "nome": "Complementar documentação e lei autorizativa",
+    "inicio": "2019-11-28",
+    "fim": "2019-11-28",
+    "pecas": [
+     "Lei Municipal n.º 2283 (0257624)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t2",
+    "nome": "Autuar pedido e distribuir às unidades",
+    "inicio": "2019-12-04",
+    "fim": "2019-12-04",
+    "pecas": [
+     "Memorando 300 (0257626)"
+    ],
+    "unidades": [
+     "DG"
+    ],
+    "horas_piso": 0.13,
+    "horas_teto": 0.4,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 4.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DG": 4.0
+    }
+   },
+   {
+    "atividade": "t6",
+    "nome": "Analisar juridicamente o pedido",
+    "inicio": "2019-12-09",
+    "fim": "2019-12-09",
+    "pecas": [
+     "Informação - Diretoria de Assuntos Jurídicos nº 285/2019 (0258212)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 1.08,
+    "horas_teto": 2.01,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 3.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DAJ": 3.0
+    }
+   },
+   {
+    "atividade": "t5",
+    "nome": "Elaborar ou ajustar minuta do instrumento",
+    "inicio": "2019-12-09",
+    "fim": "2019-12-09",
+    "pecas": [
+     "Minuta de Convênio (0258214)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 1.4,
+    "horas_teto": 1.9,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t6",
+    "nome": "Analisar juridicamente o pedido",
+    "inicio": "2019-12-09",
+    "fim": "2019-12-09",
+    "pecas": [
+     "Acolhimento 285 (0258217)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 1.03,
+    "horas_teto": 1.36,
+    "perdas": [],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t14",
+    "nome": "Instruir aditivo ao instrumento",
+    "inicio": "2019-11-29",
+    "fim": "2019-11-29",
+    "pecas": [
+     "Encaminhamento 76 (0277464)"
+    ],
+    "unidades": [
+     "GP"
+    ],
+    "horas_piso": 0.29,
+    "horas_teto": 0.93,
+    "perdas": [
+     "refazimento"
+    ],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t13",
+    "nome": "Comunicar prestador e unidades internas",
+    "inicio": "2020-07-16",
+    "fim": "2020-07-16",
+    "pecas": [
+     "Memorando 222 (0277842)"
+    ],
+    "unidades": [
+     "DQS"
+    ],
+    "horas_piso": 0.56,
+    "horas_teto": 1.44,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 150.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DQS": 150.0
+    }
+   },
+   {
+    "atividade": "t15",
+    "nome": "Arquivar o processo",
+    "inicio": "2020-09-15",
+    "fim": "2020-09-15",
+    "pecas": [
+     "Encaminhamento 123 (0283603)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 0.13,
+    "horas_teto": 0.43,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 42.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DAJ": 42.0
+    }
+   },
+   {
+    "atividade": "t13",
+    "nome": "Comunicar prestador e unidades internas",
+    "inicio": "2020-09-16",
+    "fim": "2020-09-16",
+    "pecas": [
+     "Encaminhamento 974 (0283618)"
+    ],
+    "unidades": [
+     "DG"
+    ],
+    "horas_piso": 0.13,
+    "horas_teto": 0.37,
+    "perdas": [],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 1.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DG": 1.0
+    }
+   },
+   {
+    "atividade": "t11",
+    "nome": "Assinar o instrumento pelas partes",
+    "inicio": "2020-09-16",
+    "fim": "2020-09-16",
+    "pecas": [
+     "Convênio de Delegação Arambaré (0288446)",
+     "Convênio de Delegação Arambaré (0288447)"
+    ],
+    "unidades": [
+     "AGERGS-ND"
+    ],
+    "horas_piso": 1.05,
+    "horas_teto": 1.07,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t13",
+    "nome": "Comunicar prestador e unidades internas",
+    "inicio": "2020-11-10",
+    "fim": "2020-11-10",
+    "pecas": [
+     "Encaminhamento 1205 (0288489)"
+    ],
+    "unidades": [
+     "DG"
+    ],
+    "horas_piso": 0.16,
+    "horas_teto": 0.36,
+    "perdas": [],
+    "n": 3,
+    "execucao_du": 0.0,
+    "espera_antes_du": 37.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DG": 37.0
+    }
+   }
+  ]
+ },
+ "Campinas_das_Missoes": {
+  "processo": "Campinas_das_Missoes",
+  "inicio": "2016-01-07",
+  "fim": "2016-05-30",
+  "lead_du": 97.0,
+  "lead_ate_assinatura_du": 97.0,
+  "n_documentos": 9,
+  "n_agergs": 6,
+  "n_externos": 3,
+  "n_encaminhamentos": 1,
+  "unidades": [
+   "DAJ",
+   "GP",
+   "MUN"
+  ],
+  "passagens": 6,
+  "retornos": 1,
+  "horas_piso": 4.7,
+  "horas_teto": 7.2,
+  "espera_entre_atividades_du": 97.0,
+  "execucao_atividades_du": 0,
+  "terceiros_du": 0,
+  "inicio_sem_anexos": "2016-01-07",
+  "caminho": [
+   "t1",
+   "t3",
+   "t5",
+   "t13",
+   "t5",
+   "t10",
+   "t11"
+  ],
+  "ocorrencias": [
+   {
+    "atividade": "t1",
+    "nome": "Solicitar delegação da regulação",
+    "inicio": "2016-01-07",
+    "fim": "2016-01-07",
+    "pecas": [
+     "Ofício 03/2016 (0088347)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t3",
+    "nome": "Complementar documentação e lei autorizativa",
+    "inicio": "2016-01-07",
+    "fim": "2016-01-07",
+    "pecas": [
+     "Lei Municipal nº 2903 (0088348)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t5",
+    "nome": "Elaborar ou ajustar minuta do instrumento",
+    "inicio": "2016-01-07",
+    "fim": "2016-01-07",
+    "pecas": [
+     "Minuta Convênio de Delegação (0088349)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 1.38,
+    "horas_teto": 2.25,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t13",
+    "nome": "Comunicar prestador e unidades internas",
+    "inicio": "2016-05-30",
+    "fim": "2016-05-30",
+    "pecas": [
+     "Encaminhamento 35 (0100250)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 0.33,
+    "horas_teto": 0.64,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 97.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DAJ": 97.0
+    }
+   },
+   {
+    "atividade": "t5",
+    "nome": "Elaborar ou ajustar minuta do instrumento",
+    "inicio": "2016-05-30",
+    "fim": "2016-05-30",
+    "pecas": [
+     "Minuta convênio AGERGS (0100251)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 1.45,
+    "horas_teto": 2.18,
+    "perdas": [],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t10",
+    "nome": "Enviar minuta e tratar com município",
+    "inicio": "2016-05-30",
+    "fim": "2016-05-30",
+    "pecas": [
+     "Delegação Campina das Missões (0110232)",
+     "Minuta convênio AGERGS (0110769)"
+    ],
+    "unidades": [
+     "MUN",
+     "DAJ"
+    ],
+    "horas_piso": 0.75,
+    "horas_teto": 0.75,
+    "perdas": [
+     "reiteracao"
+    ],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t11",
+    "nome": "Assinar o instrumento pelas partes",
+    "inicio": "2016-05-30",
+    "fim": "2016-05-30",
+    "pecas": [
+     "Convênio AGERGS / Campinas das Missões 18/05/2015 (0110785)"
+    ],
+    "unidades": [
+     "GP"
+    ],
+    "horas_piso": 0.66,
+    "horas_teto": 1.04,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   }
+  ]
+ },
+ "Capao_Bonito_do_Sul": {
+  "processo": "Capao_Bonito_do_Sul",
+  "inicio": "2026-09-11",
+  "fim": "2026-10-20",
+  "lead_du": 26.0,
+  "lead_ate_assinatura_du": null,
+  "n_documentos": 17,
+  "n_agergs": 10,
+  "n_externos": 7,
+  "n_encaminhamentos": 3,
+  "unidades": [
+   "DAI",
+   "DAJ",
+   "DG",
+   "DSI",
+   "GP",
+   "MUN"
+  ],
+  "passagens": 12,
+  "retornos": 1,
+  "horas_piso": 4.7,
+  "horas_teto": 15.7,
+  "espera_entre_atividades_du": 26.0,
+  "execucao_atividades_du": 0,
+  "terceiros_du": 3.0,
+  "inicio_sem_anexos": "2026-09-11",
+  "caminho": [
+   "t1",
+   "t2",
+   "t4",
+   "t6",
+   "t13",
+   "t2",
+   "t10",
+   "t3"
+  ],
+  "ocorrencias": [
+   {
+    "atividade": "t1",
+    "nome": "Solicitar delegação da regulação",
+    "inicio": "2026-09-11",
+    "fim": "2026-09-11",
+    "pecas": [
+     "E-mail DAU (0619869)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t2",
+    "nome": "Autuar pedido e distribuir às unidades",
+    "inicio": "2026-09-14",
+    "fim": "2026-09-14",
+    "pecas": [
+     "E-mail Gabinete da Presidência (0620322)"
+    ],
+    "unidades": [
+     "GP"
+    ],
+    "horas_piso": 0.4,
+    "horas_teto": 0.57,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 1.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "GP": 1.0
+    }
+   },
+   {
+    "atividade": "t4",
+    "nome": "Analisar aspectos técnicos da delegação",
+    "inicio": "2026-09-15",
+    "fim": "2026-09-15",
+    "pecas": [
+     "Memorando DSI 551 (0620562)"
+    ],
+    "unidades": [
+     "DSI"
+    ],
+    "horas_piso": 1.2,
+    "horas_teto": 2.23,
+    "perdas": [
+     "aguardando_outra_unidade"
+    ],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 1.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DSI": 1.0
+    }
+   },
+   {
+    "atividade": "t6",
+    "nome": "Analisar juridicamente o pedido",
+    "inicio": "2026-09-21",
+    "fim": "2026-09-21",
+    "pecas": [
+     "Memorando PSE 90 (0621044)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 1.12,
+    "horas_teto": 1.95,
+    "perdas": [
+     "aguardando_outra_unidade"
+    ],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 4.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DAJ": 4.0
+    }
+   },
+   {
+    "atividade": "t13",
+    "nome": "Comunicar prestador e unidades internas",
+    "inicio": "2026-09-28",
+    "fim": "2026-09-28",
+    "pecas": [
+     "Memorando DAI 39 (0624854)"
+    ],
+    "unidades": [
+     "DAI"
+    ],
+    "horas_piso": 0.64,
+    "horas_teto": 4.43,
+    "perdas": [
+     "aguardando_outra_unidade"
+    ],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 5.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DAI": 5.0
+    }
+   },
+   {
+    "atividade": "t2",
+    "nome": "Autuar pedido e distribuir às unidades",
+    "inicio": "2026-10-09",
+    "fim": "2026-10-09",
+    "pecas": [
+     "Encaminhamento 3719 (0624897)"
+    ],
+    "unidades": [
+     "DG"
+    ],
+    "horas_piso": 0.14,
+    "horas_teto": 0.14,
+    "perdas": [],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 9.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DG": 9.0
+    }
+   },
+   {
+    "atividade": "t10",
+    "nome": "Enviar minuta e tratar com município",
+    "inicio": "2026-10-15",
+    "fim": "2026-10-15",
+    "pecas": [
+     "Encaminhamento 754 (0629500)"
+    ],
+    "unidades": [
+     "GP"
+    ],
+    "horas_piso": 0.42,
+    "horas_teto": 0.9,
+    "perdas": [
+     "reiteracao"
+    ],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 3.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "GP": 3.0
+    }
+   },
+   {
+    "atividade": "t3",
+    "nome": "Complementar documentação e lei autorizativa",
+    "inicio": "2026-10-20",
+    "fim": "2026-10-20",
+    "pecas": [
+     "E-mail Prefeitura de Capão Bonito do Sul Data Ter,20/10 (0631811)",
+     "Plano Plano de Saneamento Básico CBS (0631814)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 3.0,
+    "espera_terceiros_du": 3.0,
+    "espera_antes_por_unidade": {
+     "MUN": 3.0
+    }
+   }
+  ]
+ },
+ "Chiapetta": {
+  "processo": "Chiapetta",
+  "inicio": "2021-05-17",
+  "fim": "2021-05-20",
+  "lead_du": 3.0,
+  "lead_ate_assinatura_du": null,
+  "n_documentos": 6,
+  "n_agergs": 5,
+  "n_externos": 1,
+  "n_encaminhamentos": 1,
+  "unidades": [
+   "CS",
+   "GP",
+   "MUN"
+  ],
+  "passagens": 3,
+  "retornos": 0,
+  "horas_piso": 1.1,
+  "horas_teto": 2.6,
+  "espera_entre_atividades_du": 3.0,
+  "execucao_atividades_du": 0,
+  "terceiros_du": 0,
+  "inicio_sem_anexos": "2021-05-17",
+  "caminho": [
+   "t3",
+   "t2",
+   "t14",
+   "t12",
+   "t13"
+  ],
+  "ocorrencias": [
+   {
+    "atividade": "t3",
+    "nome": "Complementar documentação e lei autorizativa",
+    "inicio": "2021-05-17",
+    "fim": "2021-05-17",
+    "pecas": [
+     " ()"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t2",
+    "nome": "Autuar pedido e distribuir às unidades",
+    "inicio": "2021-05-17",
+    "fim": "2021-05-17",
+    "pecas": [
+     "Memorando 19 (0306120)"
+    ],
+    "unidades": [
+     "GP"
+    ],
+    "horas_piso": 0.15,
+    "horas_teto": 0.75,
+    "perdas": [
+     "sobrestamento"
+    ],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t14",
+    "nome": "Instruir aditivo ao instrumento",
+    "inicio": "2021-05-18",
+    "fim": "2021-05-18",
+    "pecas": [
+     "Súmula 14 (0306190)"
+    ],
+    "unidades": [
+     "GP"
+    ],
+    "horas_piso": 0.24,
+    "horas_teto": 0.72,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 1.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "GP": 1.0
+    }
+   },
+   {
+    "atividade": "t12",
+    "nome": "Publicar extrato no Diário Oficial",
+    "inicio": "2021-05-20",
+    "fim": "2021-05-20",
+    "pecas": [
+     "Publicação DOE 20/05/2021 (0306394)"
+    ],
+    "unidades": [
+     "CS"
+    ],
+    "horas_piso": 0.44,
+    "horas_teto": 0.45,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 2.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "CS": 2.0
+    }
+   },
+   {
+    "atividade": "t13",
+    "nome": "Comunicar prestador e unidades internas",
+    "inicio": "2021-05-20",
+    "fim": "2021-05-20",
+    "pecas": [
+     "Encaminhamento 59 (0306435)"
+    ],
+    "unidades": [
+     "GP"
+    ],
+    "horas_piso": 0.15,
+    "horas_teto": 0.36,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   }
+  ]
+ },
+ "Jaguari": {
+  "processo": "Jaguari",
+  "inicio": "2019-08-01",
+  "fim": "2019-11-20",
+  "lead_du": 77.0,
+  "lead_ate_assinatura_du": null,
+  "n_documentos": 13,
+  "n_agergs": 8,
+  "n_externos": 5,
+  "n_encaminhamentos": 4,
+  "unidades": [
+   "DAJ",
+   "DG",
+   "EXT",
+   "MUN"
+  ],
+  "passagens": 6,
+  "retornos": 2,
+  "horas_piso": 5.5,
+  "horas_teto": 8.7,
+  "espera_entre_atividades_du": 77.0,
+  "execucao_atividades_du": 0,
+  "terceiros_du": 48.0,
+  "inicio_sem_anexos": "2019-08-01",
+  "caminho": [
+   "t1",
+   "t6",
+   "t5",
+   "t6",
+   "t5",
+   "t12",
+   "t10",
+   "t3"
+  ],
+  "ocorrencias": [
+   {
+    "atividade": "t1",
+    "nome": "Solicitar delegação da regulação",
+    "inicio": "2019-08-01",
+    "fim": "2019-08-01",
+    "pecas": [
+     "E-mail (0242256)",
+     "Ofício Solicitação de Convênio (0242257)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t6",
+    "nome": "Analisar juridicamente o pedido",
+    "inicio": "2019-08-08",
+    "fim": "2019-08-08",
+    "pecas": [
+     "Informação - Diretoria de Assuntos Jurídicos nº 200/2019 (0242925)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 1.08,
+    "horas_teto": 2.34,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 5.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DAJ": 5.0
+    }
+   },
+   {
+    "atividade": "t5",
+    "nome": "Elaborar ou ajustar minuta do instrumento",
+    "inicio": "2019-08-08",
+    "fim": "2019-08-08",
+    "pecas": [
+     "Minuta de Convênio (0242928)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 1.41,
+    "horas_teto": 2.11,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t6",
+    "nome": "Analisar juridicamente o pedido",
+    "inicio": "2019-08-09",
+    "fim": "2019-08-09",
+    "pecas": [
+     "Acolhimento 186 (0243068)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 1.03,
+    "horas_teto": 1.35,
+    "perdas": [],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 1.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DAJ": 1.0
+    }
+   },
+   {
+    "atividade": "t5",
+    "nome": "Elaborar ou ajustar minuta do instrumento",
+    "inicio": "2019-08-29",
+    "fim": "2019-08-29",
+    "pecas": [
+     "Convênio AGERGS / Jaguari 29/08/2019 (0254204)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 1.43,
+    "horas_teto": 1.46,
+    "perdas": [],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 14.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DAJ": 14.0
+    }
+   },
+   {
+    "atividade": "t12",
+    "nome": "Publicar extrato no Diário Oficial",
+    "inicio": "2019-11-06",
+    "fim": "2019-11-06",
+    "pecas": [
+     "Publicação DOE RS (0254332)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 48.0,
+    "espera_terceiros_du": 48.0,
+    "espera_antes_por_unidade": {
+     "MUN": 48.0
+    }
+   },
+   {
+    "atividade": "t10",
+    "nome": "Enviar minuta e tratar com município",
+    "inicio": "2019-11-06",
+    "fim": "2019-11-06",
+    "pecas": [
+     "AR Convênio de Jaguari (0257925)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t3",
+    "nome": "Complementar documentação e lei autorizativa",
+    "inicio": "2019-11-20",
+    "fim": "2019-11-20",
+    "pecas": [
+     "Contrato Programa CORSAN CP296 20/11/2019 (0260538)"
+    ],
+    "unidades": [
+     "EXT"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 9.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "EXT": 9.0
+    }
+   }
+  ]
+ },
+ "Lagoa_Bonita_do_Sul": {
+  "processo": "Lagoa_Bonita_do_Sul",
+  "inicio": "2025-02-19",
+  "fim": "2025-03-14",
+  "lead_du": 15.0,
+  "lead_ate_assinatura_du": 0.0,
+  "n_documentos": 5,
+  "n_agergs": 5,
+  "n_externos": 0,
+  "n_encaminhamentos": 2,
+  "unidades": [
+   "AGERGS-ND",
+   "CS",
+   "DAF",
+   "DG",
+   "DTI"
+  ],
+  "passagens": 4,
+  "retornos": 0,
+  "horas_piso": 0.9,
+  "horas_teto": 2.5,
+  "espera_entre_atividades_du": 12.0,
+  "execucao_atividades_du": 3.0,
+  "terceiros_du": 0,
+  "inicio_sem_anexos": "2025-02-19",
+  "caminho": [
+   "t11",
+   "t12"
+  ],
+  "ocorrencias": [
+   {
+    "atividade": "t11",
+    "nome": "Assinar o instrumento pelas partes",
+    "inicio": "2025-02-19",
+    "fim": "2025-02-19",
+    "pecas": [
+     "Contrato de Regulação Lagoa Bonita do Sul (0486435)"
+    ],
+    "unidades": [
+     "CS"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t12",
+    "nome": "Publicar extrato no Diário Oficial",
+    "inicio": "2025-03-11",
+    "fim": "2025-03-14",
+    "pecas": [
+     "Extrato Contrato (0486671)",
+     "Publicação DOE 12/03/2025 Extrato (0486788)"
+    ],
+    "unidades": [
+     "AGERGS-ND",
+     "DTI"
+    ],
+    "horas_piso": 0.61,
+    "horas_teto": 1.76,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 3.0,
+    "espera_antes_du": 12.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "AGERGS-ND": 12.0
+    }
+   }
+  ]
+ },
+ "Liberato_Salzano": {
+  "processo": "Liberato_Salzano",
+  "inicio": "2019-06-19",
+  "fim": "2019-09-25",
+  "lead_du": 68.0,
+  "lead_ate_assinatura_du": 68.0,
+  "n_documentos": 12,
+  "n_agergs": 10,
+  "n_externos": 2,
+  "n_encaminhamentos": 3,
+  "unidades": [
+   "AGERGS-ND",
+   "CS",
+   "DAJ",
+   "DG",
+   "MUN"
+  ],
+  "passagens": 7,
+  "retornos": 1,
+  "horas_piso": 4.8,
+  "horas_teto": 8.6,
+  "espera_entre_atividades_du": 68.0,
+  "execucao_atividades_du": 0,
+  "terceiros_du": 0,
+  "inicio_sem_anexos": "2019-06-19",
+  "caminho": [
+   "t1",
+   "t2",
+   "t6",
+   "t5",
+   "t6",
+   "t3",
+   "t12",
+   "t11"
+  ],
+  "ocorrencias": [
+   {
+    "atividade": "t1",
+    "nome": "Solicitar delegação da regulação",
+    "inicio": "2019-06-19",
+    "fim": "2019-06-19",
+    "pecas": [
+     "Ofício Gab. 065/2019 (0235650)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t2",
+    "nome": "Autuar pedido e distribuir às unidades",
+    "inicio": "2019-06-21",
+    "fim": "2019-06-21",
+    "pecas": [
+     "Memorando 185 (0235657)"
+    ],
+    "unidades": [
+     "DG"
+    ],
+    "horas_piso": 0.13,
+    "horas_teto": 0.36,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 1.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DG": 1.0
+    }
+   },
+   {
+    "atividade": "t6",
+    "nome": "Analisar juridicamente o pedido",
+    "inicio": "2019-07-15",
+    "fim": "2019-07-15",
+    "pecas": [
+     "Informação - Diretoria de Assuntos Jurídicos nº 131/2019 (0239306)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 1.09,
+    "horas_teto": 2.6,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 16.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DAJ": 16.0
+    }
+   },
+   {
+    "atividade": "t5",
+    "nome": "Elaborar ou ajustar minuta do instrumento",
+    "inicio": "2019-07-15",
+    "fim": "2019-07-15",
+    "pecas": [
+     "Minuta de Convênio (0239309)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 0.7,
+    "horas_teto": 1.66,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t6",
+    "nome": "Analisar juridicamente o pedido",
+    "inicio": "2019-07-15",
+    "fim": "2019-07-15",
+    "pecas": [
+     "Acolhimento 126 (0239400)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 1.03,
+    "horas_teto": 1.37,
+    "perdas": [],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t3",
+    "nome": "Complementar documentação e lei autorizativa",
+    "inicio": "2019-06-19",
+    "fim": "2019-06-19",
+    "pecas": [
+     "Ofício Gab.065/2019 (0240746)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t12",
+    "nome": "Publicar extrato no Diário Oficial",
+    "inicio": "2019-09-25",
+    "fim": "2019-09-25",
+    "pecas": [
+     "Publicação do Convênio (0248741)"
+    ],
+    "unidades": [
+     "AGERGS-ND"
+    ],
+    "horas_piso": 0.28,
+    "horas_teto": 0.49,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 51.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "AGERGS-ND": 51.0
+    }
+   },
+   {
+    "atividade": "t11",
+    "nome": "Assinar o instrumento pelas partes",
+    "inicio": "2019-09-25",
+    "fim": "2019-09-25",
+    "pecas": [
+     "Convênio Liberato Salzano (0248747)"
+    ],
+    "unidades": [
+     "CS"
+    ],
+    "horas_piso": 0.73,
+    "horas_teto": 0.73,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   }
+  ]
+ },
+ "Mapituba": {
+  "processo": "Mapituba",
+  "inicio": "2019-02-18",
+  "fim": "2020-08-19",
+  "lead_du": 376.0,
+  "lead_ate_assinatura_du": null,
+  "n_documentos": 38,
+  "n_agergs": 21,
+  "n_externos": 17,
+  "n_encaminhamentos": 7,
+  "unidades": [
+   "AGERGS-ND",
+   "CS",
+   "DAJ",
+   "DG",
+   "DQS",
+   "DT",
+   "GP",
+   "MUN"
+  ],
+  "passagens": 15,
+  "retornos": 6,
+  "horas_piso": 11.3,
+  "horas_teto": 21.5,
+  "espera_entre_atividades_du": 287.0,
+  "execucao_atividades_du": 89.0,
+  "terceiros_du": 91.0,
+  "inicio_sem_anexos": "2019-02-18",
+  "caminho": [
+   "t10",
+   "t3",
+   "t4",
+   "t3",
+   "t6",
+   "t8",
+   "t5",
+   "t10",
+   "t1",
+   "t10",
+   "t5",
+   "t10",
+   "t3"
+  ],
+  "ocorrencias": [
+   {
+    "atividade": "t10",
+    "nome": "Enviar minuta e tratar com município",
+    "inicio": "2019-02-18",
+    "fim": "2019-02-18",
+    "pecas": [
+     "Ata de Reunião - Município de Mampituba/RS (0219497)"
+    ],
+    "unidades": [
+     "AGERGS-ND"
+    ],
+    "horas_piso": 0.32,
+    "horas_teto": 0.39,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t3",
+    "nome": "Complementar documentação e lei autorizativa",
+    "inicio": "2019-02-18",
+    "fim": "2019-02-18",
+    "pecas": [
+     "Plano Municipal de Saneamento Básico VOLUME 2(Parte 4) (0219535)",
+     "Plano Municipal de Saneamento Básico VOLUME 2 (Parte 5) (0219536)",
+     "Plano Municipal de Saneamento Básico VOLUME 2 (Parte 6) (0219537)",
+     "Plano Municipal de Saneamento Básico Volume 3 (0219540)",
+     "Plano Municipal de Saneamento Básico Volume 3 (Parte 1) (0219541)",
+     "Plano Municipal de Saneamento Básico Volume 3 (Parte 2) (0219544)",
+     "Plano Municipal de Saneamento Básico Volume 4 (0219548)",
+     "Plano Municipal de Saneamento Básico Volume 4 (Parte 1) (0219549)",
+     "Documentação DEMAEM (0219550)",
+     "Documentação DEMAEM 2 (0219551)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t4",
+    "nome": "Analisar aspectos técnicos da delegação",
+    "inicio": "2019-02-19",
+    "fim": "2019-03-01",
+    "pecas": [
+     "Memorando 120 (0219977)",
+     "Informação 50 (0221348)"
+    ],
+    "unidades": [
+     "DQS",
+     "DT"
+    ],
+    "horas_piso": 1.44,
+    "horas_teto": 2.68,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 8.0,
+    "espera_antes_du": 1.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DQS": 1.0
+    }
+   },
+   {
+    "atividade": "t3",
+    "nome": "Complementar documentação e lei autorizativa",
+    "inicio": "2019-03-01",
+    "fim": "2019-03-01",
+    "pecas": [
+     "Lei Orgânica Mampituba (0222320)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t6",
+    "nome": "Analisar juridicamente o pedido",
+    "inicio": "2019-03-19",
+    "fim": "2019-03-19",
+    "pecas": [
+     "Informação - Diretoria de Assuntos Jurídicos 47 (0222932)",
+     "Acolhimento 60 (0223055)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 2.84,
+    "horas_teto": 9.39,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 10.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DAJ": 10.0
+    }
+   },
+   {
+    "atividade": "t8",
+    "nome": "Deliberar sobre a celebração no Conselho",
+    "inicio": "2019-03-19",
+    "fim": "2019-03-19",
+    "pecas": [
+     "Ata de Sessão do Conselho Superior 24/2019 (0226181)"
+    ],
+    "unidades": [
+     "CS"
+    ],
+    "horas_piso": 1.01,
+    "horas_teto": 1.04,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t5",
+    "nome": "Elaborar ou ajustar minuta do instrumento",
+    "inicio": "2019-05-06",
+    "fim": "2019-05-06",
+    "pecas": [
+     "Minuta de Convênio (0229212)",
+     "Minuta projeto de Lei (0229228)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 2.41,
+    "horas_teto": 3.75,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 32.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DAJ": 32.0
+    }
+   },
+   {
+    "atividade": "t10",
+    "nome": "Enviar minuta e tratar com município",
+    "inicio": "2019-05-06",
+    "fim": "2019-08-28",
+    "pecas": [
+     "E-mail à Prefeitura (Minutas) (0229334)",
+     "E-mail envio de minuta ao Município (0245700)"
+    ],
+    "unidades": [
+     "DAJ",
+     "AGERGS-ND"
+    ],
+    "horas_piso": 0.69,
+    "horas_teto": 0.97,
+    "perdas": [],
+    "n": 2,
+    "execucao_du": 81.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t1",
+    "nome": "Solicitar delegação da regulação",
+    "inicio": "2020-01-09",
+    "fim": "2020-01-09",
+    "pecas": [
+     "E-mail do Gabinete de 21/01/2019 (0261221)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 91.0,
+    "espera_terceiros_du": 91.0,
+    "espera_antes_por_unidade": {
+     "MUN": 91.0
+    }
+   },
+   {
+    "atividade": "t10",
+    "nome": "Enviar minuta e tratar com município",
+    "inicio": "2019-12-04",
+    "fim": "2019-12-04",
+    "pecas": [
+     "E-mail (0271339)"
+    ],
+    "unidades": [
+     "GP"
+    ],
+    "horas_piso": 0.32,
+    "horas_teto": 0.4,
+    "perdas": [],
+    "n": 3,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t5",
+    "nome": "Elaborar ou ajustar minuta do instrumento",
+    "inicio": "2020-08-19",
+    "fim": "2020-08-19",
+    "pecas": [
+     "Minuta de Projeto de Lei (0280537)",
+     "Minuta de Convênio (0280538)"
+    ],
+    "unidades": [
+     "GP"
+    ],
+    "horas_piso": 1.01,
+    "horas_teto": 1.01,
+    "perdas": [],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 153.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "GP": 153.0
+    }
+   },
+   {
+    "atividade": "t10",
+    "nome": "Enviar minuta e tratar com município",
+    "inicio": "2020-08-19",
+    "fim": "2020-08-19",
+    "pecas": [
+     "E-mail envio de minuta de convênio e de PL (0281338)",
+     "E-mail conformação de recebimento do Email (0281340)"
+    ],
+    "unidades": [
+     "GP",
+     "MUN"
+    ],
+    "horas_piso": 0.34,
+    "horas_teto": 0.34,
+    "perdas": [],
+    "n": 4,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t3",
+    "nome": "Complementar documentação e lei autorizativa",
+    "inicio": "2020-08-19",
+    "fim": "2020-08-19",
+    "pecas": [
+     "Plano Municipal de Saneamento Básico VOLUME 2 (Parte 2) (0219530)",
+     "Plano Municipal de Saneamento Básico VOLUME 2 (Parte 3) (0219533)",
+     "Plano Municipal de Saneamento Básico VOLUME 2 (Parte 1) (0219529)",
+     "Plano Municipal de Saneamento Básico VOLUME 1 (0219524)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 3,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   }
+  ]
+ },
+ "Mata": {
+  "processo": "Mata",
+  "inicio": "2019-06-10",
+  "fim": "2019-11-06",
+  "lead_du": 105.0,
+  "lead_ate_assinatura_du": null,
+  "n_documentos": 21,
+  "n_agergs": 13,
+  "n_externos": 8,
+  "n_encaminhamentos": 5,
+  "unidades": [
+   "CS",
+   "DAJ",
+   "DG",
+   "MUN"
+  ],
+  "passagens": 10,
+  "retornos": 2,
+  "horas_piso": 6.1,
+  "horas_teto": 11.4,
+  "espera_entre_atividades_du": 86.0,
+  "execucao_atividades_du": 19.0,
+  "terceiros_du": 0,
+  "inicio_sem_anexos": "2019-06-10",
+  "caminho": [
+   "t1",
+   "t2",
+   "t6",
+   "t10",
+   "t3",
+   "t6",
+   "t5",
+   "t12",
+   "t3"
+  ],
+  "ocorrencias": [
+   {
+    "atividade": "t1",
+    "nome": "Solicitar delegação da regulação",
+    "inicio": "2019-06-10",
+    "fim": "2019-06-10",
+    "pecas": [
+     "Ofício GAB nº 056/2019 - Prefeitura Municipal de Mata (0234573)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t2",
+    "nome": "Autuar pedido e distribuir às unidades",
+    "inicio": "2019-06-13",
+    "fim": "2019-06-13",
+    "pecas": [
+     "Memorando 173 (0234603)"
+    ],
+    "unidades": [
+     "DG"
+    ],
+    "horas_piso": 0.13,
+    "horas_teto": 0.36,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 3.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DG": 3.0
+    }
+   },
+   {
+    "atividade": "t6",
+    "nome": "Analisar juridicamente o pedido",
+    "inicio": "2019-06-14",
+    "fim": "2019-06-14",
+    "pecas": [
+     "Encaminhamento 89 (0234766)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 1.05,
+    "horas_teto": 1.61,
+    "perdas": [
+     "pedido_complementacao",
+     "diligencia_externa"
+    ],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 1.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DAJ": 1.0
+    }
+   },
+   {
+    "atividade": "t10",
+    "nome": "Enviar minuta e tratar com município",
+    "inicio": "2019-06-14",
+    "fim": "2019-06-18",
+    "pecas": [
+     "Memorando 42 (0234772)",
+     "Ofício 200 (0234945)"
+    ],
+    "unidades": [
+     "DAJ",
+     "DG"
+    ],
+    "horas_piso": 0.71,
+    "horas_teto": 1.44,
+    "perdas": [
+     "pedido_complementacao"
+    ],
+    "n": 1,
+    "execucao_du": 2.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t3",
+    "nome": "Complementar documentação e lei autorizativa",
+    "inicio": "2019-06-18",
+    "fim": "2019-07-11",
+    "pecas": [
+     "AR OF N° 200/19 - DG (0238650)",
+     "E-mail da Assessoria Jurídica do Município (0239436)",
+     "Anexo 01 - Of GAB nº 064/2019 (0239438)",
+     "Anexo 02 - Lei Orgânica (0239439)",
+     "Anexo 03 - Plano Municipal de Saneamento Básico (0239440)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 16.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t6",
+    "nome": "Analisar juridicamente o pedido",
+    "inicio": "2019-07-18",
+    "fim": "2019-07-19",
+    "pecas": [
+     "Informação - Diretoria de Assuntos Jurídicos 141/2019 (0239908)",
+     "Acolhimento 140 (0240100)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 2.51,
+    "horas_teto": 5.0,
+    "perdas": [
+     "pedido_complementacao"
+    ],
+    "n": 2,
+    "execucao_du": 1.0,
+    "espera_antes_du": 5.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DAJ": 5.0
+    }
+   },
+   {
+    "atividade": "t5",
+    "nome": "Elaborar ou ajustar minuta do instrumento",
+    "inicio": "2019-07-22",
+    "fim": "2019-07-22",
+    "pecas": [
+     "Convênio Mata (0254333)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 0.73,
+    "horas_teto": 0.73,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 1.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DAJ": 1.0
+    }
+   },
+   {
+    "atividade": "t12",
+    "nome": "Publicar extrato no Diário Oficial",
+    "inicio": "2019-11-06",
+    "fim": "2019-11-06",
+    "pecas": [
+     "Publicação DOE RS (0254334)"
+    ],
+    "unidades": [
+     "CS"
+    ],
+    "horas_piso": 0.3,
+    "horas_teto": 0.47,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 76.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "CS": 76.0
+    }
+   },
+   {
+    "atividade": "t3",
+    "nome": "Complementar documentação e lei autorizativa",
+    "inicio": "2019-11-06",
+    "fim": "2019-11-06",
+    "pecas": [
+     "AR Mata (0258400)",
+     "Contrato de Programa (0260539)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   }
+  ]
+ },
+ "Minas_do_Leao": {
+  "processo": "Minas_do_Leao",
+  "inicio": "2025-09-28",
+  "fim": "2026-04-30",
+  "lead_du": 146.0,
+  "lead_ate_assinatura_du": 137.0,
+  "n_documentos": 43,
+  "n_agergs": 34,
+  "n_externos": 9,
+  "n_encaminhamentos": 4,
+  "unidades": [
+   "AGERGS-ND",
+   "CS",
+   "DAJ",
+   "DG",
+   "EXT",
+   "GP",
+   "MUN",
+   "PSE"
+  ],
+  "passagens": 33,
+  "retornos": 21,
+  "horas_piso": 16.9,
+  "horas_teto": 33.1,
+  "espera_entre_atividades_du": 100.0,
+  "execucao_atividades_du": 46.0,
+  "terceiros_du": 3.0,
+  "inicio_sem_anexos": "2025-09-28",
+  "caminho": [
+   "t2",
+   "t3",
+   "t10",
+   "t6",
+   "t7",
+   "t13",
+   "t10",
+   "t16",
+   "t13",
+   "t10",
+   "t3",
+   "t10",
+   "t13",
+   "t10",
+   "t8",
+   "t12",
+   "t10",
+   "t16",
+   "t13",
+   "t16",
+   "t8",
+   "t16",
+   "t3",
+   "t13",
+   "t5",
+   "t10",
+   "t16",
+   "t12",
+   "t13",
+   "t16",
+   "t11",
+   "t13"
+  ],
+  "ocorrencias": [
+   {
+    "atividade": "t2",
+    "nome": "Autuar pedido e distribuir às unidades",
+    "inicio": "2025-09-28",
+    "fim": "2025-09-28",
+    "pecas": [
+     "Memorando GP 274 (0530144)"
+    ],
+    "unidades": [
+     "GP"
+    ],
+    "horas_piso": 0.13,
+    "horas_teto": 0.37,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t3",
+    "nome": "Complementar documentação e lei autorizativa",
+    "inicio": "2025-09-28",
+    "fim": "2025-09-28",
+    "pecas": [
+     "Lei Municipal 1907/2025 (0530152)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t10",
+    "nome": "Enviar minuta e tratar com município",
+    "inicio": "2025-09-28",
+    "fim": "2025-09-28",
+    "pecas": [
+     "E-mail para Minas do Leão (0532420)"
+    ],
+    "unidades": [
+     "AGERGS-ND"
+    ],
+    "horas_piso": 0.3,
+    "horas_teto": 0.55,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t6",
+    "nome": "Analisar juridicamente o pedido",
+    "inicio": "2025-11-06",
+    "fim": "2025-11-06",
+    "pecas": [
+     "Informação PSE 211 (0542011)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 1.23,
+    "horas_teto": 4.6,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 28.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DAJ": 28.0
+    }
+   },
+   {
+    "atividade": "t7",
+    "nome": "Emitir manifestação da Procuradoria Setorial",
+    "inicio": "2025-11-06",
+    "fim": "2025-11-06",
+    "pecas": [
+     "Acolhimento PSE 191 (0542047)"
+    ],
+    "unidades": [
+     "PSE"
+    ],
+    "horas_piso": 1.03,
+    "horas_teto": 1.28,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t13",
+    "nome": "Comunicar prestador e unidades internas",
+    "inicio": "2025-11-11",
+    "fim": "2025-11-11",
+    "pecas": [
+     "Distribuição Processo CS 576 (0542961)"
+    ],
+    "unidades": [
+     "AGERGS-ND"
+    ],
+    "horas_piso": 0.32,
+    "horas_teto": 0.55,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 3.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "AGERGS-ND": 3.0
+    }
+   },
+   {
+    "atividade": "t10",
+    "nome": "Enviar minuta e tratar com município",
+    "inicio": "2025-11-13",
+    "fim": "2025-11-13",
+    "pecas": [
+     "Despacho 34 (0543798)"
+    ],
+    "unidades": [
+     "CS"
+    ],
+    "horas_piso": 0.33,
+    "horas_teto": 0.63,
+    "perdas": [
+     "diligencia_externa"
+    ],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 2.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "CS": 2.0
+    }
+   },
+   {
+    "atividade": "t16",
+    "nome": "Ouvir o prestador sobre a minuta",
+    "inicio": "2025-11-14",
+    "fim": "2025-11-25",
+    "pecas": [
+     "Ofício 703 (0544214)",
+     "E-mail Representantes CORSAN (0546517)"
+    ],
+    "unidades": [
+     "CS",
+     "AGERGS-ND"
+    ],
+    "horas_piso": 0.76,
+    "horas_teto": 1.24,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 6.0,
+    "espera_antes_du": 1.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "CS": 1.0
+    }
+   },
+   {
+    "atividade": "t13",
+    "nome": "Comunicar prestador e unidades internas",
+    "inicio": "2025-11-26",
+    "fim": "2025-11-26",
+    "pecas": [
+     "Encaminhamento 241 (0546520)"
+    ],
+    "unidades": [
+     "CS"
+    ],
+    "horas_piso": 0.13,
+    "horas_teto": 0.36,
+    "perdas": [],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 1.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "CS": 1.0
+    }
+   },
+   {
+    "atividade": "t10",
+    "nome": "Enviar minuta e tratar com município",
+    "inicio": "2025-11-24",
+    "fim": "2025-11-24",
+    "pecas": [
+     "E-mail Resposta Município (0550364)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 3,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t3",
+    "nome": "Complementar documentação e lei autorizativa",
+    "inicio": "2025-11-26",
+    "fim": "2025-11-26",
+    "pecas": [
+     "Termo Aditivo Minas do Leão (0550373)"
+    ],
+    "unidades": [
+     "EXT"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t10",
+    "nome": "Enviar minuta e tratar com município",
+    "inicio": "2025-12-14",
+    "fim": "2025-12-14",
+    "pecas": [
+     "Despacho 57 (0551240)"
+    ],
+    "unidades": [
+     "CS"
+    ],
+    "horas_piso": 0.34,
+    "horas_teto": 0.77,
+    "perdas": [],
+    "n": 4,
+    "execucao_du": 0.0,
+    "espera_antes_du": 13.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "CS": 13.0
+    }
+   },
+   {
+    "atividade": "t13",
+    "nome": "Comunicar prestador e unidades internas",
+    "inicio": "2025-12-22",
+    "fim": "2025-12-22",
+    "pecas": [
+     "Distribuição Processo CS Novo Revisor - Presidência (0553081)"
+    ],
+    "unidades": [
+     "AGERGS-ND"
+    ],
+    "horas_piso": 0.32,
+    "horas_teto": 0.55,
+    "perdas": [],
+    "n": 3,
+    "execucao_du": 0.0,
+    "espera_antes_du": 5.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "AGERGS-ND": 5.0
+    }
+   },
+   {
+    "atividade": "t10",
+    "nome": "Enviar minuta e tratar com município",
+    "inicio": "2025-12-23",
+    "fim": "2026-02-20",
+    "pecas": [
+     "Ofício 809 (0553180)",
+     "E-mail Prefeitura Municipal de Minas do Leão (0565949)"
+    ],
+    "unidades": [
+     "GP",
+     "MUN"
+    ],
+    "horas_piso": 0.37,
+    "horas_teto": 0.9,
+    "perdas": [],
+    "n": 5,
+    "execucao_du": 39.0,
+    "espera_antes_du": 1.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "GP": 1.0
+    }
+   },
+   {
+    "atividade": "t8",
+    "nome": "Deliberar sobre a celebração no Conselho",
+    "inicio": "2026-02-24",
+    "fim": "2026-02-24",
+    "pecas": [
+     "Despacho 26 (0566380)"
+    ],
+    "unidades": [
+     "CS"
+    ],
+    "horas_piso": 1.03,
+    "horas_teto": 1.36,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 2.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "CS": 2.0
+    }
+   },
+   {
+    "atividade": "t12",
+    "nome": "Publicar extrato no Diário Oficial",
+    "inicio": "2026-03-25",
+    "fim": "2026-03-25",
+    "pecas": [
+     "Publicação Pauta Sessão N° 13/2026 - DOE (0574119)"
+    ],
+    "unidades": [
+     "CS"
+    ],
+    "horas_piso": 0.29,
+    "horas_teto": 0.7,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 21.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "CS": 21.0
+    }
+   },
+   {
+    "atividade": "t10",
+    "nome": "Enviar minuta e tratar com município",
+    "inicio": "2026-03-25",
+    "fim": "2026-03-25",
+    "pecas": [
+     "Ofício 125 (0574248)"
+    ],
+    "unidades": [
+     "GP"
+    ],
+    "horas_piso": 0.41,
+    "horas_teto": 0.66,
+    "perdas": [],
+    "n": 6,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t16",
+    "nome": "Ouvir o prestador sobre a minuta",
+    "inicio": "2026-03-25",
+    "fim": "2026-03-25",
+    "pecas": [
+     "Ofício 126 (0574251)"
+    ],
+    "unidades": [
+     "GP"
+    ],
+    "horas_piso": 0.41,
+    "horas_teto": 0.66,
+    "perdas": [],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t13",
+    "nome": "Comunicar prestador e unidades internas",
+    "inicio": "2026-03-30",
+    "fim": "2026-03-30",
+    "pecas": [
+     "Formulário Solicitação de Acesso - CORSAN (0575198)"
+    ],
+    "unidades": [
+     "EXT"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 4,
+    "execucao_du": 0.0,
+    "espera_antes_du": 3.0,
+    "espera_terceiros_du": 3.0,
+    "espera_antes_por_unidade": {
+     "EXT": 3.0
+    }
+   },
+   {
+    "atividade": "t16",
+    "nome": "Ouvir o prestador sobre a minuta",
+    "inicio": "2026-03-30",
+    "fim": "2026-03-30",
+    "pecas": [
+     "E-mail Solicitação de Acesso Processo (0575479)"
+    ],
+    "unidades": [
+     "CS"
+    ],
+    "horas_piso": 0.34,
+    "horas_teto": 0.55,
+    "perdas": [],
+    "n": 3,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t8",
+    "nome": "Deliberar sobre a celebração no Conselho",
+    "inicio": "2026-03-31",
+    "fim": "2026-03-31",
+    "pecas": [
+     "Voto Relatoria (0575699)",
+     "Resolução Decisória 879/2026 (0575700)"
+    ],
+    "unidades": [
+     "CS"
+    ],
+    "horas_piso": 2.29,
+    "horas_teto": 5.83,
+    "perdas": [
+     "aguardando_outra_unidade"
+    ],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 1.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "CS": 1.0
+    }
+   },
+   {
+    "atividade": "t16",
+    "nome": "Ouvir o prestador sobre a minuta",
+    "inicio": "2026-03-31",
+    "fim": "2026-03-31",
+    "pecas": [
+     "E-mail CORSAN (0575799)"
+    ],
+    "unidades": [
+     "EXT"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 4,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t3",
+    "nome": "Complementar documentação e lei autorizativa",
+    "inicio": "2026-03-31",
+    "fim": "2026-03-31",
+    "pecas": [
+     "Anexo Carta nº 31/2026 - GP (0575802)"
+    ],
+    "unidades": [
+     "EXT"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 3,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t13",
+    "nome": "Comunicar prestador e unidades internas",
+    "inicio": "2026-03-25",
+    "fim": "2026-03-25",
+    "pecas": [
+     "Comprovante Of. 125 e 126 (0575915)"
+    ],
+    "unidades": [
+     "AGERGS-ND"
+    ],
+    "horas_piso": 0.97,
+    "horas_teto": 0.97,
+    "perdas": [],
+    "n": 5,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t5",
+    "nome": "Elaborar ou ajustar minuta do instrumento",
+    "inicio": "2026-03-31",
+    "fim": "2026-03-31",
+    "pecas": [
+     "Resolução Decisória 879/2026 - Anexo (0576186)"
+    ],
+    "unidades": [
+     "CS"
+    ],
+    "horas_piso": 1.41,
+    "horas_teto": 1.45,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t10",
+    "nome": "Enviar minuta e tratar com município",
+    "inicio": "2026-04-01",
+    "fim": "2026-04-01",
+    "pecas": [
+     "Ofício 147 (0576235)"
+    ],
+    "unidades": [
+     "GP"
+    ],
+    "horas_piso": 0.36,
+    "horas_teto": 0.61,
+    "perdas": [],
+    "n": 7,
+    "execucao_du": 0.0,
+    "espera_antes_du": 1.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "GP": 1.0
+    }
+   },
+   {
+    "atividade": "t16",
+    "nome": "Ouvir o prestador sobre a minuta",
+    "inicio": "2026-04-01",
+    "fim": "2026-04-01",
+    "pecas": [
+     "Ofício 148 (0576237)"
+    ],
+    "unidades": [
+     "GP"
+    ],
+    "horas_piso": 0.36,
+    "horas_teto": 0.61,
+    "perdas": [],
+    "n": 5,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t12",
+    "nome": "Publicar extrato no Diário Oficial",
+    "inicio": "2026-04-01",
+    "fim": "2026-04-01",
+    "pecas": [
+     "Publicação RED 879 - DOE (0576254)"
+    ],
+    "unidades": [
+     "CS"
+    ],
+    "horas_piso": 0.29,
+    "horas_teto": 0.7,
+    "perdas": [],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t13",
+    "nome": "Comunicar prestador e unidades internas",
+    "inicio": "2026-04-01",
+    "fim": "2026-04-01",
+    "pecas": [
+     "Comprovante Of. 147 e 148. (0576739)",
+     "Formulário CORSAN- Solicitação de acesso (0577447)"
+    ],
+    "unidades": [
+     "AGERGS-ND",
+     "EXT"
+    ],
+    "horas_piso": 1.02,
+    "horas_teto": 1.02,
+    "perdas": [],
+    "n": 6,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t16",
+    "nome": "Ouvir o prestador sobre a minuta",
+    "inicio": "2026-04-08",
+    "fim": "2026-04-09",
+    "pecas": [
+     "E-mail (0578351)",
+     "E-mail (0578354)"
+    ],
+    "unidades": [
+     "CS",
+     "EXT"
+    ],
+    "horas_piso": 0.35,
+    "horas_teto": 0.56,
+    "perdas": [
+     "reiteracao"
+    ],
+    "n": 6,
+    "execucao_du": 1.0,
+    "espera_antes_du": 4.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "CS": 4.0
+    }
+   },
+   {
+    "atividade": "t11",
+    "nome": "Assinar o instrumento pelas partes",
+    "inicio": "2026-04-16",
+    "fim": "2026-04-16",
+    "pecas": [
+     "Contrato Município de Minas do Leão (0582255)"
+    ],
+    "unidades": [
+     "CS"
+    ],
+    "horas_piso": 0.75,
+    "horas_teto": 0.78,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 5.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "CS": 5.0
+    }
+   },
+   {
+    "atividade": "t13",
+    "nome": "Comunicar prestador e unidades internas",
+    "inicio": "2026-04-30",
+    "fim": "2026-04-30",
+    "pecas": [
+     "Encaminhamento 1374 (0582312)"
+    ],
+    "unidades": [
+     "DG"
+    ],
+    "horas_piso": 0.16,
+    "horas_teto": 0.69,
+    "perdas": [],
+    "n": 7,
+    "execucao_du": 0.0,
+    "espera_antes_du": 9.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DG": 9.0
+    }
+   }
+  ]
+ },
+ "Nova_Brescia": {
+  "processo": "Nova_Brescia",
+  "inicio": "2025-02-28",
+  "fim": "2025-03-21",
+  "lead_du": 13.0,
+  "lead_ate_assinatura_du": 0.0,
+  "n_documentos": 10,
+  "n_agergs": 8,
+  "n_externos": 2,
+  "n_encaminhamentos": 0,
+  "unidades": [
+   "AGERGS-ND",
+   "CS",
+   "DAF",
+   "DG",
+   "DTI",
+   "EXT"
+  ],
+  "passagens": 6,
+  "retornos": 1,
+  "horas_piso": 4.0,
+  "horas_teto": 6.8,
+  "espera_entre_atividades_du": 8.0,
+  "execucao_atividades_du": 5.0,
+  "terceiros_du": 2.0,
+  "inicio_sem_anexos": "2025-02-28",
+  "caminho": [
+   "t11",
+   "t13",
+   "t12",
+   "t13",
+   "t15"
+  ],
+  "ocorrencias": [
+   {
+    "atividade": "t11",
+    "nome": "Assinar o instrumento pelas partes",
+    "inicio": "2025-02-28",
+    "fim": "2025-02-28",
+    "pecas": [
+     "Contrato de Regulação Nova Bréscia (0486419)"
+    ],
+    "unidades": [
+     "CS"
+    ],
+    "horas_piso": 1.45,
+    "horas_teto": 2.23,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t13",
+    "nome": "Comunicar prestador e unidades internas",
+    "inicio": "2025-03-11",
+    "fim": "2025-03-11",
+    "pecas": [
+     "Encaminhamento 648 (0486420)"
+    ],
+    "unidades": [
+     "DG"
+    ],
+    "horas_piso": 0.14,
+    "horas_teto": 0.36,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 5.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DG": 5.0
+    }
+   },
+   {
+    "atividade": "t12",
+    "nome": "Publicar extrato no Diário Oficial",
+    "inicio": "2025-03-11",
+    "fim": "2025-03-14",
+    "pecas": [
+     "Encaminhamento 181 (0486440)",
+     "Extrato Contrato (0486689)",
+     "Publicação DOE 12/03/2025 Extrato (0486785)"
+    ],
+    "unidades": [
+     "DAF",
+     "AGERGS-ND",
+     "DTI"
+    ],
+    "horas_piso": 0.74,
+    "horas_teto": 1.47,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 3.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t13",
+    "nome": "Comunicar prestador e unidades internas",
+    "inicio": "2025-03-18",
+    "fim": "2025-03-20",
+    "pecas": [
+     "E-mail CORSAN (0488484)",
+     "Anexo Carta nº 682/2025 - Regulatório Técnico (0488485)",
+     "Ofício 72 (0488713)",
+     "E-mail envio do Ofício 72 e anexos à concessionária (0488737)"
+    ],
+    "unidades": [
+     "EXT",
+     "DG"
+    ],
+    "horas_piso": 0.68,
+    "horas_teto": 1.17,
+    "perdas": [],
+    "n": 2,
+    "execucao_du": 2.0,
+    "espera_antes_du": 2.0,
+    "espera_terceiros_du": 2.0,
+    "espera_antes_por_unidade": {
+     "EXT": 2.0
+    }
+   },
+   {
+    "atividade": "t15",
+    "nome": "Arquivar o processo",
+    "inicio": "2025-03-21",
+    "fim": "2025-03-21",
+    "pecas": [
+     "Termo de Arquivamento de Processo 76 (0488883)"
+    ],
+    "unidades": [
+     "DG"
+    ],
+    "horas_piso": 1.03,
+    "horas_teto": 1.53,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 1.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DG": 1.0
+    }
+   }
+  ]
+ },
+ "Panambi": {
+  "processo": "Panambi",
+  "inicio": "2018-07-09",
+  "fim": "2018-08-08",
+  "lead_du": 22.0,
+  "lead_ate_assinatura_du": 2.0,
+  "n_documentos": 13,
+  "n_agergs": 8,
+  "n_externos": 5,
+  "n_encaminhamentos": 4,
+  "unidades": [
+   "AGERGS-ND",
+   "CS",
+   "DAJ",
+   "DG",
+   "GP",
+   "MUN"
+  ],
+  "passagens": 9,
+  "retornos": 1,
+  "horas_piso": 3.4,
+  "horas_teto": 6.2,
+  "espera_entre_atividades_du": 20.0,
+  "execucao_atividades_du": 2.0,
+  "terceiros_du": 0,
+  "inicio_sem_anexos": "2018-07-09",
+  "caminho": [
+   "t1",
+   "t3",
+   "t5",
+   "t11",
+   "t10",
+   "t13",
+   "t3"
+  ],
+  "ocorrencias": [
+   {
+    "atividade": "t1",
+    "nome": "Solicitar delegação da regulação",
+    "inicio": "2018-07-09",
+    "fim": "2018-07-09",
+    "pecas": [
+     "Ofício 388/2018 (0189340)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t3",
+    "nome": "Complementar documentação e lei autorizativa",
+    "inicio": "2018-07-09",
+    "fim": "2018-07-11",
+    "pecas": [
+     "Lei Municipal 3041/2010 (0189341)",
+     "Lei Municipal Aditivo (0189355)",
+     "Documentação Contrato de Programa (0189356)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 2.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t5",
+    "nome": "Elaborar ou ajustar minuta do instrumento",
+    "inicio": "2018-07-11",
+    "fim": "2018-07-11",
+    "pecas": [
+     "Minuta de Convênio (0189423)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 1.41,
+    "horas_teto": 2.33,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t11",
+    "nome": "Assinar o instrumento pelas partes",
+    "inicio": "2018-07-11",
+    "fim": "2018-07-11",
+    "pecas": [
+     "Convênio (0190565)"
+    ],
+    "unidades": [
+     "CS"
+    ],
+    "horas_piso": 0.71,
+    "horas_teto": 0.8,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t10",
+    "nome": "Enviar minuta e tratar com município",
+    "inicio": "2018-07-23",
+    "fim": "2018-07-23",
+    "pecas": [
+     "Ofício 89 (0190570)"
+    ],
+    "unidades": [
+     "GP"
+    ],
+    "horas_piso": 0.35,
+    "horas_teto": 0.56,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 8.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "GP": 8.0
+    }
+   },
+   {
+    "atividade": "t13",
+    "nome": "Comunicar prestador e unidades internas",
+    "inicio": "2018-08-08",
+    "fim": "2018-08-08",
+    "pecas": [
+     "AR OF 89 (0192183)"
+    ],
+    "unidades": [
+     "AGERGS-ND"
+    ],
+    "horas_piso": 0.37,
+    "horas_teto": 0.9,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 12.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "AGERGS-ND": 12.0
+    }
+   },
+   {
+    "atividade": "t3",
+    "nome": "Complementar documentação e lei autorizativa",
+    "inicio": "2018-08-08",
+    "fim": "2018-08-08",
+    "pecas": [
+     "Contrato de Programa (0260551)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   }
+  ]
+ },
+ "Passa_Sete": {
+  "processo": "Passa_Sete",
+  "inicio": "2025-02-20",
+  "fim": "2025-03-14",
+  "lead_du": 14.0,
+  "lead_ate_assinatura_du": 0.0,
+  "n_documentos": 5,
+  "n_agergs": 5,
+  "n_externos": 0,
+  "n_encaminhamentos": 1,
+  "unidades": [
+   "AGERGS-ND",
+   "DG",
+   "DSI",
+   "DTI",
+   "GP"
+  ],
+  "passagens": 4,
+  "retornos": 0,
+  "horas_piso": 1.9,
+  "horas_teto": 3.0,
+  "espera_entre_atividades_du": 2.0,
+  "execucao_atividades_du": 12.0,
+  "terceiros_du": 0,
+  "inicio_sem_anexos": "2025-02-20",
+  "caminho": [
+   "t11",
+   "t13",
+   "t12"
+  ],
+  "ocorrencias": [
+   {
+    "atividade": "t11",
+    "nome": "Assinar o instrumento pelas partes",
+    "inicio": "2025-02-20",
+    "fim": "2025-02-20",
+    "pecas": [
+     "Contrato de Prestação de Serviços de Regulação (0482840)"
+    ],
+    "unidades": [
+     "AGERGS-ND"
+    ],
+    "horas_piso": 0.77,
+    "horas_teto": 0.77,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t13",
+    "nome": "Comunicar prestador e unidades internas",
+    "inicio": "2025-02-20",
+    "fim": "2025-03-12",
+    "pecas": [
+     "Memorando 52 (0482980)",
+     "Memorando DSI 86 (0487004)"
+    ],
+    "unidades": [
+     "GP",
+     "DSI"
+    ],
+    "horas_piso": 0.68,
+    "horas_teto": 1.58,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 12.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t12",
+    "nome": "Publicar extrato no Diário Oficial",
+    "inicio": "2025-03-14",
+    "fim": "2025-03-14",
+    "pecas": [
+     "Encaminhamento 198 (0487516)"
+    ],
+    "unidades": [
+     "DTI"
+    ],
+    "horas_piso": 0.31,
+    "horas_teto": 0.48,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 2.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DTI": 2.0
+    }
+   }
+  ]
+ },
+ "Passo_Fundo": {
+  "processo": "Passo_Fundo",
+  "inicio": "2025-05-23",
+  "fim": "2026-09-18",
+  "lead_du": 334.0,
+  "lead_ate_assinatura_du": 299.0,
+  "n_documentos": 99,
+  "n_agergs": 78,
+  "n_externos": 21,
+  "n_encaminhamentos": 16,
+  "unidades": [
+   "AGERGS-ND",
+   "CS",
+   "DAF",
+   "DAJ",
+   "DG",
+   "EXT",
+   "GP",
+   "MUN",
+   "PSE"
+  ],
+  "passagens": 64,
+  "retornos": 33,
+  "horas_piso": 35.8,
+  "horas_teto": 88.4,
+  "espera_entre_atividades_du": 242.0,
+  "execucao_atividades_du": 100.0,
+  "terceiros_du": 2.0,
+  "inicio_sem_anexos": "2025-05-23",
+  "caminho": [
+   "t2",
+   "t6",
+   "t16",
+   "t10",
+   "t16",
+   "t10",
+   "t13",
+   "t16",
+   "t3",
+   "t9",
+   "t16",
+   "t3",
+   "t13",
+   "t10",
+   "t6",
+   "t10",
+   "t3",
+   "t5",
+   "t13",
+   "t16",
+   "t10",
+   "t8",
+   "t5",
+   "t6",
+   "t7",
+   "t10",
+   "t5",
+   "t10",
+   "t16",
+   "t10",
+   "t5",
+   "t8",
+   "t16",
+   "t12",
+   "t16",
+   "t10",
+   "t13",
+   "t16",
+   "t8",
+   "t16",
+   "t11",
+   "t13",
+   "t12",
+   "t13",
+   "t12"
+  ],
+  "ocorrencias": [
+   {
+    "atividade": "t2",
+    "nome": "Autuar pedido e distribuir às unidades",
+    "inicio": "2025-05-23",
+    "fim": "2025-05-23",
+    "pecas": [
+     "Memorando GP 174 (0502019)"
+    ],
+    "unidades": [
+     "GP"
+    ],
+    "horas_piso": 0.16,
+    "horas_teto": 0.56,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t6",
+    "nome": "Analisar juridicamente o pedido",
+    "inicio": "2025-06-23",
+    "fim": "2025-06-23",
+    "pecas": [
+     "Informação PSE 105 (0507974)"
+    ],
+    "unidades": [
+     "PSE"
+    ],
+    "horas_piso": 1.43,
+    "horas_teto": 4.69,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 20.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "PSE": 20.0
+    }
+   },
+   {
+    "atividade": "t16",
+    "nome": "Ouvir o prestador sobre a minuta",
+    "inicio": "2025-07-29",
+    "fim": "2025-07-30",
+    "pecas": [
+     "Memorando GP 229 (0517299)",
+     "Ofício 216 (0517307)"
+    ],
+    "unidades": [
+     "GP",
+     "DG"
+    ],
+    "horas_piso": 0.68,
+    "horas_teto": 1.27,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 1.0,
+    "espera_antes_du": 26.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "GP": 26.0
+    }
+   },
+   {
+    "atividade": "t10",
+    "nome": "Enviar minuta e tratar com município",
+    "inicio": "2025-07-30",
+    "fim": "2025-07-30",
+    "pecas": [
+     "Ofício 398 (0517660)"
+    ],
+    "unidades": [
+     "GP"
+    ],
+    "horas_piso": 0.35,
+    "horas_teto": 0.58,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t16",
+    "nome": "Ouvir o prestador sobre a minuta",
+    "inicio": "2025-07-30",
+    "fim": "2025-07-30",
+    "pecas": [
+     "E-mail envio do Ofício 216 e anexos ao destinatário (0517796)",
+     "E-mail confirmação de recebimento do Ofício 216 (0517807)"
+    ],
+    "unidades": [
+     "DG",
+     "EXT"
+    ],
+    "horas_piso": 0.34,
+    "horas_teto": 0.57,
+    "perdas": [],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t10",
+    "nome": "Enviar minuta e tratar com município",
+    "inicio": "2025-07-30",
+    "fim": "2025-07-30",
+    "pecas": [
+     "Comprovante envio Ofício 398/2025-GP (0517817)"
+    ],
+    "unidades": [
+     "GP"
+    ],
+    "horas_piso": 0.36,
+    "horas_teto": 0.57,
+    "perdas": [],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t13",
+    "nome": "Comunicar prestador e unidades internas",
+    "inicio": "2025-08-14",
+    "fim": "2025-08-14",
+    "pecas": [
+     "Formulário CORSAN - Solicitação de acesso (0521289)"
+    ],
+    "unidades": [
+     "DG"
+    ],
+    "horas_piso": 0.36,
+    "horas_teto": 0.57,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 11.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DG": 11.0
+    }
+   },
+   {
+    "atividade": "t16",
+    "nome": "Ouvir o prestador sobre a minuta",
+    "inicio": "2025-08-15",
+    "fim": "2025-08-15",
+    "pecas": [
+     "E-mail CORSAN (0521534)"
+    ],
+    "unidades": [
+     "EXT"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 3,
+    "execucao_du": 0.0,
+    "espera_antes_du": 1.0,
+    "espera_terceiros_du": 1.0,
+    "espera_antes_por_unidade": {
+     "EXT": 1.0
+    }
+   },
+   {
+    "atividade": "t3",
+    "nome": "Complementar documentação e lei autorizativa",
+    "inicio": "2025-08-14",
+    "fim": "2025-08-14",
+    "pecas": [
+     "Anexo Carta nº 1490/2025 - Regulatório Técnico (0521535)"
+    ],
+    "unidades": [
+     "EXT"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t9",
+    "nome": "Autorizar celebração e inexigibilidade",
+    "inicio": "2025-08-15",
+    "fim": "2025-08-15",
+    "pecas": [
+     "Encaminhamento 2395 (0521824)"
+    ],
+    "unidades": [
+     "DG"
+    ],
+    "horas_piso": 1.06,
+    "horas_teto": 1.72,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t16",
+    "nome": "Ouvir o prestador sobre a minuta",
+    "inicio": "2025-08-25",
+    "fim": "2025-09-10",
+    "pecas": [
+     "Ofício 424 (0521840)",
+     "Comprovante de recebimento O.f 424/2025 (0523648)",
+     "E-mail CORSAN (0528460)"
+    ],
+    "unidades": [
+     "GP",
+     "EXT"
+    ],
+    "horas_piso": 0.35,
+    "horas_teto": 0.74,
+    "perdas": [
+     "prazo_concedido"
+    ],
+    "n": 4,
+    "execucao_du": 12.0,
+    "espera_antes_du": 6.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "GP": 6.0
+    }
+   },
+   {
+    "atividade": "t3",
+    "nome": "Complementar documentação e lei autorizativa",
+    "inicio": "2025-09-10",
+    "fim": "2025-09-10",
+    "pecas": [
+     "Anexo Carta n° 767/2025 - GP (0528461)"
+    ],
+    "unidades": [
+     "EXT"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [
+     "prazo_concedido"
+    ],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t13",
+    "nome": "Comunicar prestador e unidades internas",
+    "inicio": "2025-09-26",
+    "fim": "2025-09-26",
+    "pecas": [
+     "Formulário CORSAN- Solicitação de acesso (0532317)"
+    ],
+    "unidades": [
+     "DG"
+    ],
+    "horas_piso": 0.34,
+    "horas_teto": 0.56,
+    "perdas": [],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 12.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DG": 12.0
+    }
+   },
+   {
+    "atividade": "t10",
+    "nome": "Enviar minuta e tratar com município",
+    "inicio": "2025-09-28",
+    "fim": "2025-10-01",
+    "pecas": [
+     "Ofício 487 (0532423)",
+     "E-mail Gabinete Presidencia - Encaminha Ofício 487/25-GP (0532791)",
+     "E-mail GP encaminha Oficio 487 e Carta Corsan (0532894)",
+     "E-mail Confirmação de recebimento - Oficio 487 (0533603)",
+     "Manifestação - Município de P. Fundo (0542628)"
+    ],
+    "unidades": [
+     "GP",
+     "MUN"
+    ],
+    "horas_piso": 1.07,
+    "horas_teto": 2.21,
+    "perdas": [
+     "prazo_concedido",
+     "reiteracao",
+     "refazimento"
+    ],
+    "n": 3,
+    "execucao_du": 2.0,
+    "espera_antes_du": 1.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "GP": 1.0
+    }
+   },
+   {
+    "atividade": "t6",
+    "nome": "Analisar juridicamente o pedido",
+    "inicio": "2025-12-09",
+    "fim": "2025-12-09",
+    "pecas": [
+     "Informação PSE 231 (0547258)",
+     "Acolhimento PSE 224 (0549880)"
+    ],
+    "unidades": [
+     "DAJ",
+     "PSE"
+    ],
+    "horas_piso": 2.76,
+    "horas_teto": 11.73,
+    "perdas": [
+     "pedido_complementacao"
+    ],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 48.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DAJ": 48.0
+    }
+   },
+   {
+    "atividade": "t10",
+    "nome": "Enviar minuta e tratar com município",
+    "inicio": "2025-12-19",
+    "fim": "2025-12-19",
+    "pecas": [
+     "Ofício 690 (0552182)",
+     "E-mail Entrega à PGM Passo Fundo (0552580)"
+    ],
+    "unidades": [
+     "GP"
+    ],
+    "horas_piso": 0.69,
+    "horas_teto": 1.27,
+    "perdas": [],
+    "n": 4,
+    "execucao_du": 0.0,
+    "espera_antes_du": 8.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "GP": 8.0
+    }
+   },
+   {
+    "atividade": "t3",
+    "nome": "Complementar documentação e lei autorizativa",
+    "inicio": "2025-12-22",
+    "fim": "2025-12-22",
+    "pecas": [
+     "Anexo Ofício S/N - PGM Passo Fundo (0552744)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 3,
+    "execucao_du": 0.0,
+    "espera_antes_du": 1.0,
+    "espera_terceiros_du": 1.0,
+    "espera_antes_por_unidade": {
+     "MUN": 1.0
+    }
+   },
+   {
+    "atividade": "t5",
+    "nome": "Elaborar ou ajustar minuta do instrumento",
+    "inicio": "2026-01-06",
+    "fim": "2026-01-06",
+    "pecas": [
+     "Memorando PSE 195 (0554272)",
+     "Minuta de Contrato AGERGS-Passo Fundo (0554276)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 0.98,
+    "horas_teto": 4.24,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 9.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DAJ": 9.0
+    }
+   },
+   {
+    "atividade": "t13",
+    "nome": "Comunicar prestador e unidades internas",
+    "inicio": "2026-01-12",
+    "fim": "2026-01-12",
+    "pecas": [
+     "Distribuição Processo CS (0556966)"
+    ],
+    "unidades": [
+     "CS"
+    ],
+    "horas_piso": 0.38,
+    "horas_teto": 0.58,
+    "perdas": [],
+    "n": 3,
+    "execucao_du": 0.0,
+    "espera_antes_du": 4.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "CS": 4.0
+    }
+   },
+   {
+    "atividade": "t16",
+    "nome": "Ouvir o prestador sobre a minuta",
+    "inicio": "2026-02-04",
+    "fim": "2026-02-04",
+    "pecas": [
+     "Ofício 65 (0562475)"
+    ],
+    "unidades": [
+     "GP"
+    ],
+    "horas_piso": 0.41,
+    "horas_teto": 0.71,
+    "perdas": [],
+    "n": 5,
+    "execucao_du": 0.0,
+    "espera_antes_du": 17.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "GP": 17.0
+    }
+   },
+   {
+    "atividade": "t10",
+    "nome": "Enviar minuta e tratar com município",
+    "inicio": "2026-02-04",
+    "fim": "2026-02-05",
+    "pecas": [
+     "Ofício 66 (0562477)",
+     "Ofício 67 (0562803)"
+    ],
+    "unidades": [
+     "GP"
+    ],
+    "horas_piso": 0.85,
+    "horas_teto": 1.79,
+    "perdas": [],
+    "n": 5,
+    "execucao_du": 1.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t8",
+    "nome": "Deliberar sobre a celebração no Conselho",
+    "inicio": "2026-02-05",
+    "fim": "2026-03-30",
+    "pecas": [
+     "Manifestação representantes: Corsan e município de Passo Fundo (0566069)",
+     "Ata de Sessão do Conselho Superior 6/2026 (0577188)"
+    ],
+    "unidades": [
+     "CS",
+     "GP"
+    ],
+    "horas_piso": 1.93,
+    "horas_teto": 5.18,
+    "perdas": [
+     "sobrestamento"
+    ],
+    "n": 1,
+    "execucao_du": 35.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t5",
+    "nome": "Elaborar ou ajustar minuta do instrumento",
+    "inicio": "2026-04-14",
+    "fim": "2026-04-14",
+    "pecas": [
+     "Encaminhamento 71 (0578793)"
+    ],
+    "unidades": [
+     "CS"
+    ],
+    "horas_piso": 0.13,
+    "horas_teto": 0.45,
+    "perdas": [],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 10.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "CS": 10.0
+    }
+   },
+   {
+    "atividade": "t6",
+    "nome": "Analisar juridicamente o pedido",
+    "inicio": "2026-04-17",
+    "fim": "2026-04-17",
+    "pecas": [
+     "Informação PSE 89 (0579284)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 1.67,
+    "horas_teto": 9.57,
+    "perdas": [],
+    "n": 3,
+    "execucao_du": 0.0,
+    "espera_antes_du": 3.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DAJ": 3.0
+    }
+   },
+   {
+    "atividade": "t7",
+    "nome": "Emitir manifestação da Procuradoria Setorial",
+    "inicio": "2026-04-17",
+    "fim": "2026-04-17",
+    "pecas": [
+     "Acolhimento PSE 92 (0579665)"
+    ],
+    "unidades": [
+     "PSE"
+    ],
+    "horas_piso": 1.03,
+    "horas_teto": 1.27,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t10",
+    "nome": "Enviar minuta e tratar com município",
+    "inicio": "2026-04-17",
+    "fim": "2026-04-22",
+    "pecas": [
+     "Ofício 171 (0579703)",
+     "E-mail ofício 171 (0579760)",
+     "E-mail confirmação de entrega of. 171 (0579761)",
+     "E-mail informação PSE 89 (0579968)",
+     "E-mail Prefeitura de Passo Fundo (0583414)"
+    ],
+    "unidades": [
+     "CS",
+     "AGERGS-ND",
+     "MUN"
+    ],
+    "horas_piso": 1.33,
+    "horas_teto": 2.3,
+    "perdas": [],
+    "n": 6,
+    "execucao_du": 2.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t5",
+    "nome": "Elaborar ou ajustar minuta do instrumento",
+    "inicio": "2026-05-06",
+    "fim": "2026-05-18",
+    "pecas": [
+     "Memorando CS 23 (0583427)",
+     "Minuta NOVA minuta de contrato AGERGS - PassoFundo (0583428)"
+    ],
+    "unidades": [
+     "CS",
+     "AGERGS-ND"
+    ],
+    "horas_piso": 0.97,
+    "horas_teto": 3.18,
+    "perdas": [],
+    "n": 3,
+    "execucao_du": 8.0,
+    "espera_antes_du": 9.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "CS": 9.0
+    }
+   },
+   {
+    "atividade": "t10",
+    "nome": "Enviar minuta e tratar com município",
+    "inicio": "2026-05-06",
+    "fim": "2026-05-18",
+    "pecas": [
+     "Ofício 215 (0583435)",
+     "E-mail Ofício 215 (0583454)",
+     "E-mail concordância com NOVA Minuta (0583887)"
+    ],
+    "unidades": [
+     "CS",
+     "MUN"
+    ],
+    "horas_piso": 0.65,
+    "horas_teto": 1.18,
+    "perdas": [],
+    "n": 7,
+    "execucao_du": 8.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t16",
+    "nome": "Ouvir o prestador sobre a minuta",
+    "inicio": "2026-05-12",
+    "fim": "2026-05-12",
+    "pecas": [
+     "Ofício 252 (0584882)"
+    ],
+    "unidades": [
+     "CS"
+    ],
+    "horas_piso": 0.37,
+    "horas_teto": 0.77,
+    "perdas": [
+     "sobrestamento"
+    ],
+    "n": 6,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t10",
+    "nome": "Enviar minuta e tratar com município",
+    "inicio": "2026-05-12",
+    "fim": "2026-05-12",
+    "pecas": [
+     "Ofício 253 (0584883)",
+     "Ofício 254 (0584885)"
+    ],
+    "unidades": [
+     "CS"
+    ],
+    "horas_piso": 0.74,
+    "horas_teto": 1.52,
+    "perdas": [],
+    "n": 8,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t5",
+    "nome": "Elaborar ou ajustar minuta do instrumento",
+    "inicio": "2026-05-15",
+    "fim": "2026-05-15",
+    "pecas": [
+     "Minuta NOVA - Contrato AGERGS - PassoFundo (0585481)"
+    ],
+    "unidades": [
+     "CS"
+    ],
+    "horas_piso": 0.87,
+    "horas_teto": 0.87,
+    "perdas": [],
+    "n": 4,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t8",
+    "nome": "Deliberar sobre a celebração no Conselho",
+    "inicio": "2026-05-18",
+    "fim": "2026-05-18",
+    "pecas": [
+     "Voto Relatoria - Relatório (0586035)",
+     "Voto Relatoria - Fundamentação (0586037)",
+     "Resolução Decisória 889/2026 (0586040)"
+    ],
+    "unidades": [
+     "CS"
+    ],
+    "horas_piso": 3.59,
+    "horas_teto": 6.79,
+    "perdas": [
+     "sobrestamento"
+    ],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t16",
+    "nome": "Ouvir o prestador sobre a minuta",
+    "inicio": "2026-05-15",
+    "fim": "2026-05-15",
+    "pecas": [
+     "E-mail Corsan (0586130)",
+     "Documentação Memoriais Corsan (0586131)"
+    ],
+    "unidades": [
+     "EXT"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [
+     "sobrestamento"
+    ],
+    "n": 7,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t12",
+    "nome": "Publicar extrato no Diário Oficial",
+    "inicio": "2026-05-18",
+    "fim": "2026-05-18",
+    "pecas": [
+     "DOE (0586283)"
+    ],
+    "unidades": [
+     "CS"
+    ],
+    "horas_piso": 0.3,
+    "horas_teto": 0.45,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t16",
+    "nome": "Ouvir o prestador sobre a minuta",
+    "inicio": "2026-05-19",
+    "fim": "2026-05-19",
+    "pecas": [
+     "Ofício 262 (0586663)"
+    ],
+    "unidades": [
+     "CS"
+    ],
+    "horas_piso": 0.36,
+    "horas_teto": 0.73,
+    "perdas": [],
+    "n": 8,
+    "execucao_du": 0.0,
+    "espera_antes_du": 1.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "CS": 1.0
+    }
+   },
+   {
+    "atividade": "t10",
+    "nome": "Enviar minuta e tratar com município",
+    "inicio": "2026-05-19",
+    "fim": "2026-05-20",
+    "pecas": [
+     "Ofício 263 (0586670)",
+     "Ofício 264 (0586671)",
+     "E-mail confirmação recebimento of.263 (0586998)"
+    ],
+    "unidades": [
+     "CS",
+     "AGERGS-ND"
+    ],
+    "horas_piso": 1.08,
+    "horas_teto": 2.0,
+    "perdas": [],
+    "n": 9,
+    "execucao_du": 1.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t13",
+    "nome": "Comunicar prestador e unidades internas",
+    "inicio": "2026-05-20",
+    "fim": "2026-05-20",
+    "pecas": [
+     "Formulário Solicitação de Acesso - CORSAN (0587275)"
+    ],
+    "unidades": [
+     "EXT"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 4,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t16",
+    "nome": "Ouvir o prestador sobre a minuta",
+    "inicio": "2026-05-21",
+    "fim": "2026-05-21",
+    "pecas": [
+     "E-mail Solicitação de acesso ao Processo (0587276)"
+    ],
+    "unidades": [
+     "EXT"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 9,
+    "execucao_du": 0.0,
+    "espera_antes_du": 1.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "EXT": 1.0
+    }
+   },
+   {
+    "atividade": "t8",
+    "nome": "Deliberar sobre a celebração no Conselho",
+    "inicio": "2026-06-16",
+    "fim": "2026-06-16",
+    "pecas": [
+     "Ata sessão extraordinária 4/2026 (0593204)"
+    ],
+    "unidades": [
+     "GP"
+    ],
+    "horas_piso": 1.75,
+    "horas_teto": 3.26,
+    "perdas": [
+     "sobrestamento"
+    ],
+    "n": 3,
+    "execucao_du": 0.0,
+    "espera_antes_du": 17.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "GP": 17.0
+    }
+   },
+   {
+    "atividade": "t16",
+    "nome": "Ouvir o prestador sobre a minuta",
+    "inicio": "2026-05-20",
+    "fim": "2026-05-20",
+    "pecas": [
+     "E-mail confirmação recebimento of. 262 (0593651)"
+    ],
+    "unidades": [
+     "EXT"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 10,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t11",
+    "nome": "Assinar o instrumento pelas partes",
+    "inicio": "2026-07-30",
+    "fim": "2026-07-30",
+    "pecas": [
+     "Contrato de Contrato Passo Fundo - AGERGS (0605255)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 1.42,
+    "horas_teto": 1.42,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 32.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "MUN": 32.0
+    }
+   },
+   {
+    "atividade": "t13",
+    "nome": "Comunicar prestador e unidades internas",
+    "inicio": "2026-07-30",
+    "fim": "2026-09-04",
+    "pecas": [
+     "Encaminhamento 485 (0606769)",
+     "E-mail CORSAN - Solicitação de acesso (0607284)",
+     "Carta nº 142_2026-GP (0607285)",
+     "Encaminhamento 2707 (0607747)",
+     "Formulário Solicitação de Acesso (0617453)"
+    ],
+    "unidades": [
+     "GP",
+     "EXT",
+     "DG"
+    ],
+    "horas_piso": 0.63,
+    "horas_teto": 1.41,
+    "perdas": [],
+    "n": 5,
+    "execucao_du": 26.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t12",
+    "nome": "Publicar extrato no Diário Oficial",
+    "inicio": "2026-09-14",
+    "fim": "2026-09-14",
+    "pecas": [
+     "Súmula de Contrato Delegação (0619574)"
+    ],
+    "unidades": [
+     "GP"
+    ],
+    "horas_piso": 0.26,
+    "horas_teto": 0.48,
+    "perdas": [],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 5.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "GP": 5.0
+    }
+   },
+   {
+    "atividade": "t13",
+    "nome": "Comunicar prestador e unidades internas",
+    "inicio": "2026-09-14",
+    "fim": "2026-09-18",
+    "pecas": [
+     "Encaminhamento 649 (0620365)",
+     "Encaminhamento 802 (0620581)",
+     "E-mail CORSAN - Solicitação de Acesso aos autos (0621734)"
+    ],
+    "unidades": [
+     "GP",
+     "DAF",
+     "DG"
+    ],
+    "horas_piso": 0.64,
+    "horas_teto": 1.68,
+    "perdas": [
+     "refazimento"
+    ],
+    "n": 6,
+    "execucao_du": 4.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t12",
+    "nome": "Publicar extrato no Diário Oficial",
+    "inicio": "2026-09-18",
+    "fim": "2026-09-18",
+    "pecas": [
+     "Publicação DOE Súmula Contrato Delegação (0622193)"
+    ],
+    "unidades": [
+     "CS"
+    ],
+    "horas_piso": 0.26,
+    "horas_teto": 0.47,
+    "perdas": [
+     "refazimento"
+    ],
+    "n": 3,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   }
+  ]
+ },
+ "Salvador_do_Sul": {
+  "processo": "Salvador_do_Sul",
+  "inicio": "2018-09-04",
+  "fim": "2018-12-21",
+  "lead_du": 72.0,
+  "lead_ate_assinatura_du": 45.0,
+  "n_documentos": 13,
+  "n_agergs": 8,
+  "n_externos": 5,
+  "n_encaminhamentos": 3,
+  "unidades": [
+   "CS",
+   "DAJ",
+   "DG",
+   "EXT",
+   "MUN"
+  ],
+  "passagens": 8,
+  "retornos": 2,
+  "horas_piso": 4.8,
+  "horas_teto": 9.7,
+  "espera_entre_atividades_du": 72.0,
+  "execucao_atividades_du": 0,
+  "terceiros_du": 11.0,
+  "inicio_sem_anexos": "2018-09-04",
+  "caminho": [
+   "t1",
+   "t2",
+   "t3",
+   "t6",
+   "t5",
+   "t6",
+   "t11",
+   "t12",
+   "t3"
+  ],
+  "ocorrencias": [
+   {
+    "atividade": "t1",
+    "nome": "Solicitar delegação da regulação",
+    "inicio": "2018-09-04",
+    "fim": "2018-09-04",
+    "pecas": [
+     "Ofício 250/2018 (0196975)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t2",
+    "nome": "Autuar pedido e distribuir às unidades",
+    "inicio": "2018-09-06",
+    "fim": "2018-09-06",
+    "pecas": [
+     "Memorando 105 (0196984)"
+    ],
+    "unidades": [
+     "DG"
+    ],
+    "horas_piso": 0.13,
+    "horas_teto": 0.36,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 2.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DG": 2.0
+    }
+   },
+   {
+    "atividade": "t3",
+    "nome": "Complementar documentação e lei autorizativa",
+    "inicio": "2018-09-25",
+    "fim": "2018-09-25",
+    "pecas": [
+     "Anexo CNPJ Salvador do Sul (0199094)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 11.0,
+    "espera_terceiros_du": 11.0,
+    "espera_antes_por_unidade": {
+     "MUN": 11.0
+    }
+   },
+   {
+    "atividade": "t6",
+    "nome": "Analisar juridicamente o pedido",
+    "inicio": "2018-10-18",
+    "fim": "2018-10-18",
+    "pecas": [
+     "Informação - Diretoria de Assuntos Jurídicos nº 163/2018 (0201958)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 1.08,
+    "horas_teto": 2.54,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 16.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DAJ": 16.0
+    }
+   },
+   {
+    "atividade": "t5",
+    "nome": "Elaborar ou ajustar minuta do instrumento",
+    "inicio": "2018-10-18",
+    "fim": "2018-10-18",
+    "pecas": [
+     "Minuta de Convênio (0201966)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 1.41,
+    "horas_teto": 3.22,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t6",
+    "nome": "Analisar juridicamente o pedido",
+    "inicio": "2018-10-18",
+    "fim": "2018-10-18",
+    "pecas": [
+     "Acolhimento 148 (0202011)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 1.03,
+    "horas_teto": 1.27,
+    "perdas": [],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t11",
+    "nome": "Assinar o instrumento pelas partes",
+    "inicio": "2018-11-12",
+    "fim": "2018-11-12",
+    "pecas": [
+     "Convênio AGERGS / Salvador do Sul 12/11/2018 (0233940)"
+    ],
+    "unidades": [
+     "CS"
+    ],
+    "horas_piso": 0.73,
+    "horas_teto": 0.91,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 16.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "CS": 16.0
+    }
+   },
+   {
+    "atividade": "t12",
+    "nome": "Publicar extrato no Diário Oficial",
+    "inicio": "2018-11-12",
+    "fim": "2018-11-12",
+    "pecas": [
+     "Publicação DOE - Convênnio de Saneamento (0234254)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t3",
+    "nome": "Complementar documentação e lei autorizativa",
+    "inicio": "2018-12-21",
+    "fim": "2018-12-21",
+    "pecas": [
+     "Contrato Programa CORSAN CP290 21/12/2018 (0260545)",
+     "Lei Municipal 3145 03/09/2014 - Política saneamento (0278972)"
+    ],
+    "unidades": [
+     "EXT",
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 27.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "EXT": 27.0
+    }
+   }
+  ]
+ },
+ "Unistalda": {
+  "processo": "Unistalda",
+  "inicio": "2018-10-22",
+  "fim": "2019-08-09",
+  "lead_du": 199.0,
+  "lead_ate_assinatura_du": null,
+  "n_documentos": 12,
+  "n_agergs": 7,
+  "n_externos": 5,
+  "n_encaminhamentos": 3,
+  "unidades": [
+   "DAJ",
+   "DG",
+   "EXT",
+   "MUN"
+  ],
+  "passagens": 6,
+  "retornos": 3,
+  "horas_piso": 4.9,
+  "horas_teto": 7.6,
+  "espera_entre_atividades_du": 199.0,
+  "execucao_atividades_du": 0,
+  "terceiros_du": 0,
+  "inicio_sem_anexos": "2018-10-22",
+  "caminho": [
+   "t1",
+   "t6",
+   "t5",
+   "t6",
+   "t5",
+   "t12",
+   "t1",
+   "t3"
+  ],
+  "ocorrencias": [
+   {
+    "atividade": "t1",
+    "nome": "Solicitar delegação da regulação",
+    "inicio": "2018-10-22",
+    "fim": "2018-10-22",
+    "pecas": [
+     "Ofício 137/2018 - Unistalda (0203135)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t6",
+    "nome": "Analisar juridicamente o pedido",
+    "inicio": "2018-11-12",
+    "fim": "2018-11-12",
+    "pecas": [
+     "Informação - Diretoria de Assuntos Jurídicos 175/2018 (0204710)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 1.09,
+    "horas_teto": 2.36,
+    "perdas": [
+     "aguardando_outra_unidade"
+    ],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 14.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DAJ": 14.0
+    }
+   },
+   {
+    "atividade": "t5",
+    "nome": "Elaborar ou ajustar minuta do instrumento",
+    "inicio": "2018-11-12",
+    "fim": "2018-11-12",
+    "pecas": [
+     "Minuta Convênio Unistalda (0204712)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 1.41,
+    "horas_teto": 1.71,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t6",
+    "nome": "Analisar juridicamente o pedido",
+    "inicio": "2018-11-13",
+    "fim": "2018-11-13",
+    "pecas": [
+     "Acolhimento 161 (0205818)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 1.03,
+    "horas_teto": 1.26,
+    "perdas": [],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 1.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DAJ": 1.0
+    }
+   },
+   {
+    "atividade": "t5",
+    "nome": "Elaborar ou ajustar minuta do instrumento",
+    "inicio": "2018-11-19",
+    "fim": "2018-11-19",
+    "pecas": [
+     "Convênio AGERGS / Unistalda 2018 (0233944)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 0.93,
+    "horas_teto": 0.93,
+    "perdas": [],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 3.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DAJ": 3.0
+    }
+   },
+   {
+    "atividade": "t12",
+    "nome": "Publicar extrato no Diário Oficial",
+    "inicio": "2018-11-19",
+    "fim": "2018-11-19",
+    "pecas": [
+     "Publicação DOE - Convênnio de Saneamento (0234253)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t1",
+    "nome": "Solicitar delegação da regulação",
+    "inicio": "2019-08-09",
+    "fim": "2019-08-09",
+    "pecas": [
+     "Ofício GAB 88/2019 PREFEITURA MUNICIPAL DE UNISTALDA (0246664)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [
+     "reiteracao"
+    ],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 181.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "MUN": 181.0
+    }
+   },
+   {
+    "atividade": "t3",
+    "nome": "Complementar documentação e lei autorizativa",
+    "inicio": "2019-08-09",
+    "fim": "2019-08-09",
+    "pecas": [
+     "AR PREFEITURA DE UNISTALDA (0252973)",
+     "Contrato Programa CORSAN CP299 Unistalda (0260540)"
+    ],
+    "unidades": [
+     "MUN",
+     "EXT"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   }
+  ]
+ },
+ "Vila_nova_do_Sul": {
+  "processo": "Vila_nova_do_Sul",
+  "inicio": "2019-09-17",
+  "fim": "2020-01-16",
+  "lead_du": 82.0,
+  "lead_ate_assinatura_du": 29.0,
+  "n_documentos": 17,
+  "n_agergs": 12,
+  "n_externos": 5,
+  "n_encaminhamentos": 5,
+  "unidades": [
+   "AGERGS-ND",
+   "DAJ",
+   "DG",
+   "MUN"
+  ],
+  "passagens": 8,
+  "retornos": 3,
+  "horas_piso": 6.1,
+  "horas_teto": 12.0,
+  "espera_entre_atividades_du": 81.0,
+  "execucao_atividades_du": 1.0,
+  "terceiros_du": 53.0,
+  "inicio_sem_anexos": "2019-09-17",
+  "caminho": [
+   "t1",
+   "t10",
+   "t3",
+   "t10",
+   "t6",
+   "t5",
+   "t6",
+   "t10",
+   "t11",
+   "t12"
+  ],
+  "ocorrencias": [
+   {
+    "atividade": "t1",
+    "nome": "Solicitar delegação da regulação",
+    "inicio": "2019-09-17",
+    "fim": "2019-09-17",
+    "pecas": [
+     "E-mail Vila Nova do Sul para AGERGS (0247843)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t10",
+    "nome": "Enviar minuta e tratar com município",
+    "inicio": "2019-09-17",
+    "fim": "2019-09-17",
+    "pecas": [
+     "E-mail AGERGS para Vila Nova do Sul (0247844)"
+    ],
+    "unidades": [
+     "AGERGS-ND"
+    ],
+    "horas_piso": 0.34,
+    "horas_teto": 0.34,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t3",
+    "nome": "Complementar documentação e lei autorizativa",
+    "inicio": "2019-09-17",
+    "fim": "2019-09-17",
+    "pecas": [
+     "Lei Municipal 1665 03/09/2019 - Autoriza convênios (0247845)",
+     "Contrato Concessão CORSAN Vila Nova do Sul 12/1998 (0247847)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t10",
+    "nome": "Enviar minuta e tratar com município",
+    "inicio": "2019-09-18",
+    "fim": "2019-09-19",
+    "pecas": [
+     "E-mail solicitando dados para confecção minuta (0248080)",
+     "E-mail resposta DADOS (0248229)"
+    ],
+    "unidades": [
+     "DAJ",
+     "MUN"
+    ],
+    "horas_piso": 0.34,
+    "horas_teto": 0.58,
+    "perdas": [],
+    "n": 2,
+    "execucao_du": 1.0,
+    "espera_antes_du": 1.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DAJ": 1.0
+    }
+   },
+   {
+    "atividade": "t6",
+    "nome": "Analisar juridicamente o pedido",
+    "inicio": "2019-09-23",
+    "fim": "2019-09-23",
+    "pecas": [
+     "Informação - Diretoria de Assuntos Jurídicos 233/2019 (0248340)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 1.15,
+    "horas_teto": 3.35,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 1.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DAJ": 1.0
+    }
+   },
+   {
+    "atividade": "t5",
+    "nome": "Elaborar ou ajustar minuta do instrumento",
+    "inicio": "2019-09-23",
+    "fim": "2019-09-23",
+    "pecas": [
+     "Minuta CONVÊNIO AGERGS X VILA NOVA DO SUL RS (0248344)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 1.41,
+    "horas_teto": 3.03,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t6",
+    "nome": "Analisar juridicamente o pedido",
+    "inicio": "2019-09-23",
+    "fim": "2019-09-23",
+    "pecas": [
+     "Acolhimento 225 (0248356)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 1.05,
+    "horas_teto": 1.3,
+    "perdas": [],
+    "n": 2,
+    "execucao_du": 0.0,
+    "espera_antes_du": 0.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {}
+   },
+   {
+    "atividade": "t10",
+    "nome": "Enviar minuta e tratar com município",
+    "inicio": "2019-09-24",
+    "fim": "2019-09-24",
+    "pecas": [
+     "E-mail resposta minuta (0248614)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 0.35,
+    "horas_teto": 0.57,
+    "perdas": [
+     "aguardando_outra_unidade"
+    ],
+    "n": 3,
+    "execucao_du": 0.0,
+    "espera_antes_du": 1.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DAJ": 1.0
+    }
+   },
+   {
+    "atividade": "t11",
+    "nome": "Assinar o instrumento pelas partes",
+    "inicio": "2019-10-29",
+    "fim": "2019-10-29",
+    "pecas": [
+     "Convênio AGERGS / Vila Nova do Sul 29/10/2019 (0261429)"
+    ],
+    "unidades": [
+     "DAJ"
+    ],
+    "horas_piso": 0.73,
+    "horas_teto": 0.73,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 25.0,
+    "espera_terceiros_du": 0.0,
+    "espera_antes_por_unidade": {
+     "DAJ": 25.0
+    }
+   },
+   {
+    "atividade": "t12",
+    "nome": "Publicar extrato no Diário Oficial",
+    "inicio": "2020-01-16",
+    "fim": "2020-01-16",
+    "pecas": [
+     "Anexo Publicação DOE 16/01/2020 Convênio AGERGS (0261593)"
+    ],
+    "unidades": [
+     "MUN"
+    ],
+    "horas_piso": 0.0,
+    "horas_teto": 0.0,
+    "perdas": [],
+    "n": 1,
+    "execucao_du": 0.0,
+    "espera_antes_du": 53.0,
+    "espera_terceiros_du": 53.0,
+    "espera_antes_por_unidade": {
+     "MUN": 53.0
+    }
+   }
+  ]
+ }
+}

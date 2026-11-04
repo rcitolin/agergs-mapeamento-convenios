@@ -1,0 +1,93 @@
+{
+  "processo": "Alecrim",
+  "numero_sei": "13.3900.00759-4",
+  "municipio": "Alecrim",
+  "instrumento": "convenio_delegacao",
+  "servico": "agua_esgoto",
+  "prestador": "CORSAN (contrato de programa CP259, 28/01/2014; texto ilegível)",
+  "fundamento_legal": [
+    "Lei Estadual 10.931/1997",
+    "Lei Federal 11.445/2007",
+    "Lei Municipal 2.355/2013",
+    "Lei Federal 11.107/2005 e Decreto 6.017/2007 (citados na Lei Municipal 2.355/2013)",
+    "Lei Federal 8.666/1993 (citada no convênio)",
+    "Lei Estadual 11.075/1998 (citada no convênio)"
+  ],
+  "situacao_final": "assinado_sem_publicacao_no_processo",
+  "evidencia_situacao": "seq 3: convida a compor a mesa do Conselho Superior, para assinatura do convênio entre o",
+  "marcos": [
+    {
+      "marco": "lei_autorizativa",
+      "seq": 5,
+      "data": "2013-11-01"
+    },
+    {
+      "marco": "pedido_municipio",
+      "seq": 1,
+      "data": "2013-11-05"
+    },
+    {
+      "marco": "comunicacao_prestador",
+      "seq": 2,
+      "data": "2013-11-20"
+    },
+    {
+      "marco": "assinatura_municipio",
+      "seq": 3,
+      "data": "2013-12-11"
+    },
+    {
+      "marco": "assinatura_agergs",
+      "seq": 6,
+      "data": "2013-12-11"
+    }
+  ],
+  "sequencia_etapas": [
+    "lei_autorizativa",
+    "solicitacao_municipio",
+    "comunicacao_prestador",
+    "assinatura_instrumento",
+    "tratativa_com_municipio",
+    "documento_externo_anexo"
+  ],
+  "unidades_envolvidas": [
+    "Prefeitura Municipal de Alecrim (Gabinete do Prefeito)",
+    "Câmara de Vereadores de Alecrim",
+    "Conselho Superior da AGERGS",
+    "Presidência da AGERGS",
+    "Assessoria do Conselho (AGERGS)",
+    "Expediente/Protocolo (AGERGS)",
+    "CORSAN (prestador)",
+    "FAMURS (interveniente no convênio)"
+  ],
+  "desvios_e_retrabalho": [
+    {
+      "descricao": "Contrato de programa CORSAN sem texto legível: data e cláusulas não conferidas",
+      "seq": [
+        7
+      ],
+      "evidencia": "Contrato Programa CORSAN CP259 Alecrim 28/01/2014"
+    },
+    {
+      "descricao": "Convênio assinado em 11/12/2013 com vigência ligada a contrato de programa datado de 28/01/2014 (dependência, não retrabalho)",
+      "seq": [
+        6,
+        7
+      ],
+      "evidencia": "do contrato de programa celebrado entre o MUNiCíPIO e a CORSAN"
+    }
+  ],
+  "gargalos_percebidos": [
+    "Assinatura marcada só após a confirmação da CORSAN (seq 2, 20/11/2013)",
+    "Nenhuma peça de publicação no processo (seq 3 e 6 registram a assinatura)",
+    "Contrato CORSAN ilegível no arquivo (seq 7)"
+  ],
+  "documentos_exigidos_do_municipio": [
+    "Ofício de solicitação do convênio (seq 1)",
+    "Lei municipal autorizativa (seq 5)",
+    "Contrato de programa com a CORSAN (seq 7)",
+    "Plano Municipal de Saneamento Básico (seq 8)"
+  ],
+  "diferencas_vs_padrao": "Não há parecer jurídico, manifestação da PGE, minuta nem aprovação formal do Conselho Superior no processo; a assinatura ocorreu em sessão do Conselho (seq 3). A lei municipal (01/11/2013) veio antes do pedido (05/11/2013). Não há publicação registrada.",
+  "observacoes": "Oito peças, 189 páginas. Convênio lido em início, fim e trechos-chave; plano só início e índice; contrato CORSAN sem texto legível. assinaturas.csv não tem linhas de assinatura para Alecrim, por isso não há signatário registrado."
+}

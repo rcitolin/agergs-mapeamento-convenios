@@ -1,0 +1,149 @@
+{
+  "processo": "Mapituba",
+  "numero_sei": "000212-39.00/19-7",
+  "municipio": "Mampituba/RS",
+  "instrumento": "convenio_delegacao",
+  "servico": "agua_esgoto",
+  "prestador": "DEMAEM (Departamento Municipal de Água e Esgoto de Mampituba), prestação direta pelo município",
+  "fundamento_legal": [
+    "Lei Estadual 10.931/1997 (art. 4º, XI) e Lei Estadual 11.075/1998",
+    "Lei Federal 11.445/2007 (art. 8º)",
+    "Lei Federal 8.666/1993 (citada na minuta)",
+    "Lei Municipal 115/1999 (cria o DEMAEM)",
+    "Lei Municipal 720/2013 (institui o PMSB)",
+    "Lei municipal autorizativa da delegação (número em branco nas minutas; não editada no processo)",
+    "Lei Orgânica do município: competência da Câmara para autorizar convênios"
+  ],
+  "situacao_final": "aguardando_municipio",
+  "evidencia_situacao": "seq 33: encaminho a sugestão de minuta de Convênio e de Projeto de Lei",
+  "marcos": [
+    {
+      "marco": "pedido_municipio",
+      "seq": 28,
+      "data": "2018-12-13"
+    },
+    {
+      "marco": "abertura",
+      "seq": 12,
+      "data": "2019-02-18"
+    },
+    {
+      "marco": "parecer_juridico",
+      "seq": 17,
+      "data": "2019-03-19"
+    },
+    {
+      "marco": "aprovacao_conselho",
+      "seq": 21,
+      "data": "2019-04-10"
+    },
+    {
+      "marco": "minuta_enviada",
+      "seq": 25,
+      "data": "2019-05-06"
+    },
+    {
+      "marco": "minuta_enviada",
+      "seq": 27,
+      "data": "2019-08-28"
+    },
+    {
+      "marco": "minuta_enviada",
+      "seq": 30,
+      "data": "2019-12-04"
+    },
+    {
+      "marco": "minuta_enviada",
+      "seq": 33,
+      "data": "2020-08-19"
+    }
+  ],
+  "sequencia_etapas": [
+    "solicitacao_municipio",
+    "tratativa_com_municipio",
+    "encaminhamento_interno",
+    "analise_tecnica",
+    "analise_economico_financeira",
+    "encaminhamento_interno",
+    "analise_juridica",
+    "encaminhamento_interno",
+    "deliberacao_conselho_superior",
+    "encaminhamento_interno",
+    "encaminhamento_interno",
+    "elaboracao_minuta",
+    "envio_minuta_ao_municipio",
+    "encaminhamento_interno",
+    "envio_minuta_ao_municipio",
+    "envio_minuta_ao_municipio",
+    "encaminhamento_interno",
+    "revisao_ajuste_minuta",
+    "envio_minuta_ao_municipio",
+    "tratativa_com_municipio"
+  ],
+  "unidades_envolvidas": [
+    "Diretoria-Geral",
+    "Diretoria de Qualidade",
+    "Diretoria de Tarifas",
+    "Diretoria de Assuntos Jurídicos",
+    "Assessoria da Diretoria-Geral",
+    "Conselho Superior",
+    "Gabinete da Presidência",
+    "Município (Prefeitura e DEMAEM)"
+  ],
+  "desvios_e_retrabalho": [
+    {
+      "descricao": "Minutas de convênio e de lei remetidas quatro vezes ao município (mai/2019, ago/2019, dez/2019, ago/2020) sem assinatura.",
+      "seq": [
+        25,
+        27,
+        30,
+        33
+      ],
+      "evidence": "Retomando os contatos feitos outrora"
+    },
+    {
+      "descricao": "Ata 24/2019 do Conselho Superior, que aprova a celebração, sem texto legível na cópia digitalizada.",
+      "seq": [
+        20
+      ],
+      "evidence": "Ata de Sessão do Conselho Superior 24/2019 (0226181)"
+    },
+    {
+      "descricao": "DJ cita o Encaminhamento 278 com número de documento errado (0219551 é o balancete; o correto é 0219844) e o Decreto 003/2016 com data 05/01/2013.",
+      "seq": [
+        17,
+        12
+      ],
+      "evidence": "Por meio do Encaminhamento nº 278/2019 (doc. SEI 0219551)"
+    },
+    {
+      "descricao": "Lacuna de cerca de sete meses (jan a ago/2020) sem movimentação e sem lei municipal no processo.",
+      "seq": [
+        29,
+        31
+      ],
+      "evidence": "para providências relativas ao email 0261221"
+    },
+    {
+      "descricao": "Expediente de 13/01/2020 pede publicar a documentação anexa, sem registro de publicação no processo.",
+      "seq": [
+        29
+      ],
+      "evidence": "bem como publicar a documentação anexa"
+    }
+  ],
+  "gargalos_percebidos": [
+    "Assinatura depende de lei municipal que não aparece no processo (seq 25, 33).",
+    "Conselho Superior: 22 dias entre o encaminhamento da DG (seq 19, 19/03/2019) e o retorno com a Ata (seq 21, 10/04/2019).",
+    "Taxa: DT recomenda declinar ou 2% (seq 14); a DJ relata manifestação favorável da DQ, que não aparece expressa no memorando (seq 13 e 17)."
+  ],
+  "documentos_exigidos_do_municipio": [
+    "Lei municipal autorizando a delegação da regulação à AGERGS (seq 24, 31)",
+    "Comunicação à AGERGS da promulgação e publicação da lei (seq 25)",
+    "Número da lei municipal preenchido nas minutas (seq 23, 32)",
+    "Assinatura do Prefeito no convênio (seq 23, 32)",
+    "Documentação técnica do DEMAEM: planos de saneamento, tarifa, balancete, regulamento (seq 2-11, 16, 28)"
+  ],
+  "diferencas_vs_padrao": "O pedido partiu do município (seq 28), não de um prestador regulado. A análise foi em cascata (DT, DQ, DJ), com estudo de receita e taxa de 2% e deliberação do Conselho Superior (seq 20-21) antes da minuta. A minuta depende de lei municipal que não aparece no processo. Não há assinatura, publicação nem encerramento. Trata-se de prestação direta pelo DEMAEM, sem contrato com prestador.",
+  "observacoes": "O rótulo do processo ('Mapituba') difere do município ('Mampituba'). Docs 1 e 20 sem texto legível. Anexos 2-9, 35-38 (PMSB, capa 2013) e 10-11, 16 não analisados em detalhe. CPF, RG, telefones e e-mails omitidos. Comunicações com o município em contas de e-mail privadas (seq 27, 28, 33)."
+}

@@ -1,0 +1,106 @@
+{
+  "processo": "Jaguari",
+  "numero_sei": "000972-39.00/19-5",
+  "municipio": "Jaguari",
+  "instrumento": "convenio_delegacao",
+  "servico": "agua_esgoto",
+  "prestador": "CORSAN",
+  "fundamento_legal": [
+    "Lei Estadual 10.931/1997",
+    "Lei Estadual 11.075/1998",
+    "Lei Federal 11.445/2007",
+    "Lei Federal 8.666/1993",
+    "Lei Municipal 3.298/2019",
+    "Resolução 1032 do Conselho Superior da AGERGS"
+  ],
+  "situacao_final": "assinado_e_publicado",
+  "evidencia_situacao": "SÚMULA CONVÊNIOS SANEAMENTO (seq 11)",
+  "marcos": [
+    {
+      "marco": "lei_autorizativa",
+      "seq": 1,
+      "data": "2019-07-16"
+    },
+    {
+      "marco": "pedido_municipio",
+      "seq": 1,
+      "data": "2019-08-01"
+    },
+    {
+      "marco": "abertura",
+      "seq": 1,
+      "data": "2019-08-01"
+    },
+    {
+      "marco": "parecer_juridico",
+      "seq": 6,
+      "data": "2019-08-08"
+    },
+    {
+      "marco": "minuta_enviada",
+      "seq": 9,
+      "data": "2019-08-19"
+    },
+    {
+      "marco": "publicacao",
+      "seq": 11,
+      "data": "2019-11-06"
+    }
+  ],
+  "sequencia_etapas": [
+    "lei_autorizativa",
+    "solicitacao_municipio",
+    "autuacao_abertura",
+    "encaminhamento_interno",
+    "analise_juridica",
+    "elaboracao_minuta",
+    "analise_juridica",
+    "encaminhamento_interno",
+    "revisao_ajuste_minuta",
+    "publicacao_extrato",
+    "envio_minuta_ao_municipio",
+    "documento_externo_anexo"
+  ],
+  "unidades_envolvidas": [
+    "Gabinete do Prefeito de Jaguari",
+    "Gabinete da Presidência da AGERGS",
+    "Diretoria-Geral",
+    "Diretoria de Assuntos Jurídicos",
+    "Diretoria de Qualidade",
+    "CORSAN",
+    "FAMURS",
+    "Diário Oficial do Estado"
+  ],
+  "desvios_e_retrabalho": [
+    {
+      "descricao": "Instrução exigida pela DJ (Contrato de Programa CORSAN e Termo de Cooperação) reiterada pela DG antes de atendida",
+      "seq": [
+        6,
+        9
+      ],
+      "evidencia": "Lembramos que deve o processo ser instruído pelo Gabinete da Presidência com o Termo de"
+    },
+    {
+      "descricao": "Súmula publicada em 06/11/2019 antes da juntada do Contrato de Programa CORSAN, em 20/11/2019",
+      "seq": [
+        11,
+        13
+      ],
+      "evidencia": "Contrato Programa CORSAN CP296 20/11/2019"
+    }
+  ],
+  "gargalos_percebidos": [
+    "Sem registro no processo de assinatura nem de deliberação do Conselho Superior entre 29/08 e 06/11/2019 (seq 10, 11).",
+    "Ofício (seq 2) e Contrato CORSAN (seq 13) em imagem: conteúdo não verificado.",
+    "AR de correspondência ao prefeito ilegível: entrega não comprovada (seq 12)."
+  ],
+  "documentos_exigidos_do_municipio": [
+    "Ofício de solicitação do Prefeito (seq 2)",
+    "Projeto e Lei Municipal 3.298/2019 autorizativa (seq 1, 7)",
+    "Contrato de Programa com a CORSAN (exigido pela DJ, seq 6 e 13)",
+    "Planos de Trabalho ajustados anualmente (seq 7)",
+    "Assinatura do Prefeito no convênio (seq 10)"
+  ],
+  "diferencas_vs_padrao": "Segue o fluxo padrão (pedido, parecer jurídico, minuta, acolhimento, revisão, publicação), mas o Contrato de Programa CORSAN exigido pela DJ só foi juntado após a publicação, não há deliberação do Conselho Superior no processo e a DG precisou reiterar a instrução.",
+  "observacoes": "Situação 'assinado_e_publicado' é inferida da súmula publicada (seq 11): não há assinatura eletrônica do convênio no processo. Docs 002, 012 e 013 sem texto legível. Data da Lei 3.298 (16/07/2019) vem da minuta (seq 7). Horas são hipótese."
+}

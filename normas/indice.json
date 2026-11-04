@@ -1,0 +1,92 @@
+[
+  {
+    "id": "lei_11445_2007",
+    "norma": "Lei Federal 11.445/2007 (saneamento básico; texto consolidado com Lei 14.026/2020)",
+    "url_fonte": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2007/lei/l11445.htm",
+    "arquivo": "lei_11445_2007.txt",
+    "data_download": "2026-11-04",
+    "ok": true,
+    "observacao": "Planalto, texto consolidado. Arts. 8, 8-A, 8-B, 9, 21, 23, 25-A conferidos."
+  },
+  {
+    "id": "lei_14133_2021",
+    "norma": "Lei Federal 14.133/2021 (licitações e contratos)",
+    "url_fonte": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm",
+    "arquivo": "lei_14133_2021.txt",
+    "data_download": "2026-11-04",
+    "ok": true,
+    "observacao": "Planalto. Arts. 74 (inexigibilidade), 184 (aplicação subsidiária) e 184-A (convênios com a União) conferidos."
+  },
+  {
+    "id": "lei_14026_2020",
+    "norma": "Lei Federal 14.026/2020 (novo marco do saneamento)",
+    "url_fonte": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l14026.htm",
+    "arquivo": "lei_14026_2020.txt",
+    "data_download": "2026-11-04",
+    "ok": true,
+    "observacao": "Planalto. Texto de alteração da Lei 11.445 e da Lei 9.984 (ANA)."
+  },
+  {
+    "id": "lei_11107_2005",
+    "norma": "Lei Federal 11.107/2005 (consórcios públicos)",
+    "url_fonte": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11107.htm",
+    "arquivo": "lei_11107_2005.txt",
+    "data_download": "2026-11-04",
+    "ok": true,
+    "observacao": "Planalto, texto integral. Norma geral de consórcios públicos (base legal dos convênios de cooperação entre entes)."
+  },
+  {
+    "id": "decreto_6017_2007",
+    "norma": "Decreto 6.017/2007 (regulamenta a Lei 11.107/2005)",
+    "url_fonte": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2007/decreto/d6017.htm",
+    "arquivo": "decreto_6017_2007.txt",
+    "data_download": "2026-11-04",
+    "ok": true,
+    "observacao": "Planalto. Obtido com URL _ato2007-2010 (a URL _ato2004-2006 retornou 404)."
+  },
+  {
+    "id": "lei_9784_1999",
+    "norma": "Lei Federal 9.784/1999 (processo administrativo federal)",
+    "url_fonte": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm",
+    "arquivo": "lei_9784_1999.txt",
+    "data_download": "2026-11-04",
+    "ok": true,
+    "observacao": "Planalto. Aplicável subsidiariamente só à Administração federal; usar como referência de princípios."
+  },
+  {
+    "id": "lei_rs_10931_1997",
+    "norma": "Lei RS 10.931/1997 (cria a AGERGS) - texto original",
+    "url_fonte": "https://www.legisweb.com.br/legislacao/?id=153701",
+    "arquivo": "lei_rs_10931_1997_agergs.txt",
+    "data_download": "2026-11-04",
+    "ok": true,
+    "observacao": "Fonte NAO oficial (LegisWeb; DOE-RS 10/01/1997 nao acessado). Marcada como REVOGADA pela Lei RS 16.266/2024. Arts. 7 e 8 com redacao da Lei 11.292/1998. Conferir com DOE-RS / AL-RS."
+  },
+  {
+    "id": "lei_rs_16266_2024",
+    "norma": "Lei RS 16.266/2024 (AGERGS vigente, revoga a Lei 10.931/1997)",
+    "url_fonte": "https://www.normasbrasil.com.br/norma/lei-16266-2024-rs_471327.html",
+    "arquivo": "lei_rs_16266_2024_agergs_vigente.txt",
+    "data_download": "2026-11-04",
+    "ok": true,
+    "observacao": "Fonte secundaria (normasbrasil), nao oficial. Art. 2 trata da regulacao de servicos de titularidade municipal delegados a AGERGS por instrumento convenial ou contratual. Conferir com DOE-RS / AL-RS."
+  },
+  {
+    "id": "lei_rs_15612_2021",
+    "norma": "Lei RS 15.612/2021 (processo administrativo no RS)",
+    "url_fonte": "https://www.legisweb.com.br/legislacao/?id=413912",
+    "arquivo": "lei_rs_15612_2021_processo_adm.txt",
+    "data_download": "2026-11-04",
+    "ok": true,
+    "observacao": "Fonte NAO oficial (LegisWeb). Texto integral obtido, sem conferencia com DOE-RS/AL-RS."
+  },
+  {
+    "id": "ana_res_177_2024_nr4",
+    "norma": "Resolução ANA 177/2024 (aprova NR 4/2024, governança de ERIs)",
+    "url_fonte": "https://www.lex.com.br/resolucao-ana-no-177-de-12-de-janeiro-de-2024/",
+    "arquivo": "resolucao_ana_177_2024_NR4_parcial.txt",
+    "data_download": "2026-11-04",
+    "ok": false,
+    "observacao": "Apenas preambulo e arts. 1-2 da resolucao (LEX). O ANEXO (texto da NR 4/2024) e exclusivo para assinantes e NAO foi obtido. Pendente: manual gov.br https://www.gov.br/ana/pt-br/assuntos/saneamento-basico/Normativos-publicados-pela-ANA/manual-nr4-final.pdf (manual, nao a norma) ou DOU. Nao e sobre delegacao; a delegacao esta na NR 9/2024 (Res. ANA 211/2024), nao baixada."
+  }
+]
