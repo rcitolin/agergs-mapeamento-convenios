@@ -1,0 +1,137 @@
+[
+ {
+  "agencia": "AGIR (SC)",
+  "pratica": "Ingresso de novo município por pedido formal + aprovação em Assembleia",
+  "etapa": "gatilho",
+  "descricao": "Gatilho: pedido formal do município ao órgão de direção; Assembleia Geral aprova; só então se orientam as demais etapas.",
+  "url": "https://www.agir.sc.gov.br/uploads/legislacao/5701/pGHHWju3s05PjmonymiI5MkSK7bS51Si.pdf",
+  "trecho_literal": "É facultado o ingresso de novos municípios participantes no Consórcio Público AGIR a qualquer tempo, mediante pedido formal a seu órgão de direção administrativa, o qual, uma vez aprovado na Assembleia Geral",
+  "confianca": "alta"
+ },
+ {
+  "agencia": "AGIR (SC)",
+  "pratica": "Pacote de instrumentos pós-aprovação do ingresso",
+  "etapa": "formalizacao",
+  "descricao": "Após aprovação: lei de ratificação, dotação orçamentária, termo aditivo ao contrato de consórcio, contrato de programa e contrato de rateio.",
+  "url": "https://www.agir.sc.gov.br/uploads/legislacao/5701/pGHHWju3s05PjmonymiI5MkSK7bS51Si.pdf",
+  "trecho_literal": "Aprovado o ingresso do novo consorciado, este providenciará a Lei Municipal de Ratificação do Protocolo de Intenções, a inclusão da dotação orçamentária [...], a assinatura do termo aditivo ao Contrato de Consórcio Público, a subscrição do Contrato de Programa e a celebração do Contrato de Rateio.",
+  "confianca": "alta"
+ },
+ {
+  "agencia": "AGIR (SC)",
+  "pratica": "Reservas na lei de ratificação exigem aceite dos consorciados",
+  "etapa": "analise",
+  "descricao": "Se a lei municipal condiciona cláusulas do protocolo, o ingresso depende de aceitação dos demais entes.",
+  "url": "https://www.agir.sc.gov.br/uploads/legislacao/5701/pGHHWju3s05PjmonymiI5MkSK7bS51Si.pdf",
+  "trecho_literal": "Na hipótese de a lei de ratificação prever reservas para afastar ou condicionar a vigência de cláusulas, parágrafos, incisos ou alíneas do Protocolo de Intenções, o consorciamento do município dependerá da aceitação destas reservas pelos demais Entes",
+  "confianca": "alta"
+ },
+ {
+  "agencia": "AGIR (SC)",
+  "pratica": "Quem decide: Assembleia Geral homologa ingresso tardio",
+  "etapa": "decisao",
+  "descricao": "Ratificação em até 2 anos da subscrição é automática; depois disso depende de homologação da Assembleia Geral.",
+  "url": "https://www.agir.sc.gov.br/uploads/legislacao/5701/pGHHWju3s05PjmonymiI5MkSK7bS51Si.pdf",
+  "trecho_literal": "A ratificação realizada após dois (2) anos da subscrição do Protocolo de Intenções dependerá de homologação da Assembleia Geral do Consórcio Público AGIR.",
+  "confianca": "alta"
+ },
+ {
+  "agencia": "ARIS (SC)",
+  "pratica": "Lei municipal ratifica protocolo e autoriza ingresso; taxas instituídas na mesma lei",
+  "etapa": "formalizacao",
+  "descricao": "Exemplo Abelardo Luz (consolidada): lei autoriza ingresso no consórcio ARIS nos termos do protocolo e institui taxas de regulação. Texto do protocolo/rito atual da ARIS NÃO localizado (site aris.sc.gov.br com erro de certificado).",
+  "url": "https://planejamentourbano.cincatarina.sc.gov.br/CMS/Media/abelardoluzpmsb/docs/Legislação/Lei Municipal nº 1.942 2009 - Agência Reguladora.pdf",
+  "trecho_literal": "Fica autorizado o ingresso do Município de Abelardo Luz no consórcio público denominado de Agência Reguladora Intermunicipal de Saneamento (ARIS), nos termos do Protocolo de Intenções em anexo.",
+  "confianca": "media"
+ },
+ {
+  "agencia": "AGERGS (RS)",
+  "pratica": "Lei municipal autoriza convênio de delegação à AGERGS com minuta anexa",
+  "etapa": "gatilho",
+  "descricao": "Exemplo Taquari (2012): lei autorizativa precede o convênio; minuta integra a lei. Convênio acoplado a contrato de programa com a CORSAN.",
+  "url": "https://taquari.rs.gov.br/uploads/norma/16736/Lei_3421.pdf",
+  "trecho_literal": "Fica o Município de Taquari autorizado a firmar Convênio com vistas a delegar à Agência Estadual de Regulação dos Serviços Públicos Delegados do Rio Grande do Sul - AGERGS a regulação dos serviços públicos delegados de abastecimento de água potável e de esgotamento sanitário, conforme minuta anexa.",
+  "confianca": "alta"
+ },
+ {
+  "agencia": "AGERGS (RS)",
+  "pratica": "Atribuições delegadas e plano de trabalho anual",
+  "etapa": "pos_assinatura",
+  "descricao": "Fiscalização conforme Planos de Trabalho ajustados anualmente entre as partes e parte integrante do convênio.",
+  "url": "https://taquari.rs.gov.br/uploads/norma/16736/Lei_3421.pdf",
+  "trecho_literal": "fiscalizar a prestação do serviço, nos termos definidos nos Planos de Trabalho ajustados anualmente entre as partes, que fará parte integrante do Convênio;",
+  "confianca": "alta"
+ },
+ {
+  "agencia": "AGEPAR (PR)",
+  "pratica": "Ofício do prefeito via eProtocolo, com documentos do serviço",
+  "etapa": "entradas",
+  "descricao": "Entrada: ofício do prefeito ao Diretor-Presidente, obrigatoriamente pelo eProtocolo, indicando os serviços; anexar minutas de edital/contrato/estudos quando houver.",
+  "url": "https://www.agepar.pr.gov.br/sites/default/arquivos_restritos/files/documento/2023-07/Guia%20para%20Novos%20Conve%CC%82nios.pdf",
+  "trecho_literal": "Municípios interessados em firmar Convênio com a Agepar devem encaminhar Ofício do Prefeito ao Diretor-Presidente desta Agência, obrigatoriamente pelo sistema eProtocolo, indicando os serviços de interesse para que a Agepar regule.",
+  "confianca": "alta"
+ },
+ {
+  "agencia": "AGEPAR (PR)",
+  "pratica": "Minuta sugestiva de convênio anexa à Resolução 41/2024",
+  "etapa": "formalizacao",
+  "descricao": "Existe minuta-padrão (anexo da Res. 41/2024) a ser preenchida com dados do município; procedimento detalhado no art. 3º da resolução (texto não obtido).",
+  "url": "https://www.agepar.pr.gov.br/Pagina/Residuos-Solidos-e-Limpeza-Urbana",
+  "trecho_literal": "o qual deverá estar acompanhado da minuta de Convênio sugestiva da Agepar",
+  "confianca": "media"
+ },
+ {
+  "agencia": "AGEPAR (PR)",
+  "pratica": "Resolução 41/2024 disciplina procedimento de formalização",
+  "etapa": "formalizacao",
+  "descricao": "Norma própria padroniza o rito de convênios de regulação de saneamento (LC 222/2020, art. 2º, III).",
+  "url": "https://www.agepar.pr.gov.br/Pagina/Apresentacao-Saneamento-Basico?field_endereco_locality=Ibema",
+  "trecho_literal": "Disciplina os procedimentos para a formalização de convênios de regulação dos serviços públicos de saneamento básico",
+  "confianca": "media"
+ },
+ {
+  "agencia": "AGEPAR (PR)",
+  "pratica": "Base legal: delegação consta do convênio de cooperação",
+  "etapa": "formalizacao",
+  "descricao": "LC PR 222/2020 art. 5º §2º exige que a delegação conste de convênio de cooperação.",
+  "url": "https://www.legisweb.com.br/legislacao/?id=394765",
+  "trecho_literal": "a delegação das competências de regulação e fiscalização deverá constar do Convênio de Cooperação",
+  "confianca": "media"
+ },
+ {
+  "agencia": "AGEPAR (PR)",
+  "pratica": "Vigência do convênio atrelada ao contrato do serviço (Cascavel)",
+  "etapa": "pos_assinatura",
+  "descricao": "Prazo do convênio = prazo do contrato com o prestador + período para obrigações adicionais.",
+  "url": "https://www.parana.pr.gov.br/aen/Noticia/Com-convenio-Agepar-vai-regular-e-fiscalizar-servico-de-coleta-de-lixo-em-Cascavel",
+  "trecho_literal": "O acordo terá duração de 23 anos",
+  "confianca": "media"
+ },
+ {
+  "agencia": "AGESAN-RS",
+  "pratica": "LACUNA: rito de adesão não publicado",
+  "etapa": "gatilho",
+  "descricao": "Site é consórcio público; páginas Protocolo de Intenções e Convênios só listam PDFs escaneados (sem OCR disponível); nenhum checklist, formulário ou SLA encontrado.",
+  "url": "https://agesan-rs.com.br/documentacao/protocollo-de-intencoes/",
+  "trecho_literal": "",
+  "confianca": "baixa"
+ },
+ {
+  "agencia": "AGERGS (RS)",
+  "pratica": "LACUNA: sem passo a passo, minuta-padrão ou SLA na página de saneamento",
+  "etapa": "gatilho",
+  "descricao": "Página só traz painel de municípios regulados e diretrizes de fiscalização; rito de delegação não descrito.",
+  "url": "https://www.agergs.rs.gov.br/saneamento",
+  "trecho_literal": "",
+  "confianca": "baixa"
+ },
+ {
+  "agencia": "ARIS/CISAM (SC)",
+  "pratica": "LACUNA: protocolo atual da ARIS e CISAM-Sul não obtidos",
+  "etapa": "gatilho",
+  "descricao": "aris.sc.gov.br falhou (certificado); cisamsul.sc.gov.br não resolveu. Nenhum SLA ou checklist localizado. Protocolo ARISB-MG (outra entidade, MG) obtido mas fora do escopo Sul.",
+  "url": "https://www.aris.sc.gov.br",
+  "trecho_literal": "",
+  "confianca": "baixa"
+ }
+]

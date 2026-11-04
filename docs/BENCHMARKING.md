@@ -81,3 +81,5 @@ Práticas documentadas de outras agências e de fontes oficiais que orientam o T
 - ANA: página oficial com a lista de entidades reguladoras que adotaram NRs e SNIRH não abertas (URLs tentadas deram 404); NR 4 não verificada.
 - Nenhuma fonte lida reporta ganho numérico (tempo/custo) das práticas; ganho_reportado=null em todas. Prazos citados (30 dias de publicação; 5 dias úteis SEI) são regras, não ganhos.
 - Observação de método: trechos de leis (Lei 14.026, Lei 14.133, Lei MG 25.669) foram extraídos via WebFetch (modelo resumidor) com acentos restaurados; recomenda-se conferência manual do trecho na fonte. Trechos de PDFs (BM-01,02,03,05,07) foram conferidos em texto extraído por pdftotext.
+
+> Orientação breve de boas práticas (gatilhos, entradas, análises e saídas), com pesquisa adicional em outras agências: [BENCHMARKING_BOAS_PRATICAS.md](BENCHMARKING_BOAS_PRATICAS.md).
