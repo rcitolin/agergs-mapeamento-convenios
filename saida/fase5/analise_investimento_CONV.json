@@ -1,0 +1,1255 @@
+{
+ "premissas": {
+  "volume": 20,
+  "custo_hora": 57.69,
+  "taxa": 0.085,
+  "horizonte": 5,
+  "manutencao": 0.2,
+  "custo_hora_dev": 150,
+  "produtividade": 0.5,
+  "operacao": 3700,
+  "trabalho_novo": [
+   12,
+   36
+  ],
+  "fator_vp": 3.9406,
+  "hipotese": true
+ },
+ "investimento": {
+  "componentes": [
+   [
+    "Plataforma: integração SEI-RS, ambiente, trilha de auditoria",
+    160
+   ],
+   [
+    "Configuração de 13 atividades (16 h cada)",
+    208
+   ],
+   [
+    "Verificação de conformidade",
+    100
+   ],
+   [
+    "Extração de dados de documentos",
+    80
+   ],
+   [
+    "Redação assistida de minuta",
+    80
+   ],
+   [
+    "Classificação e triagem",
+    60
+   ],
+   [
+    "Busca de precedentes e normas",
+    60
+   ],
+   [
+    "Automação de tramitação (RPA no SEI)",
+    40
+   ],
+   [
+    "Sumarização e linha do tempo",
+    40
+   ],
+   [
+    "Adequação LGPD e segurança (HIPÓTESE)",
+    40
+   ],
+   [
+    "Monitoramento de prazos e alertas",
+    24
+   ],
+   [
+    "Painel e indicadores",
+    24
+   ]
+  ],
+  "validacao_reais": 3461,
+  "com_produtividade": 72161,
+  "sem_produtividade": 140861,
+  "sem_sistema": 5769,
+  "sem_sistema_manutencao": 923,
+  "norma": 7154
+ },
+ "tarefas": {
+  "t1": {
+   "atual": {
+    "ocorr_caso": 0.722,
+    "h_ocorr": [
+     0.0,
+     0.0
+    ],
+    "h_ano_min": 0.0,
+    "h_ano_med": 0.0,
+    "h_ano_max": 0.0
+   },
+   "sem_sistema": {
+    "ocorr_caso": 0.722,
+    "h_ocorr": [
+     0.0,
+     0.0
+    ],
+    "h_ano_min": 0.0,
+    "h_ano_med": 0.0,
+    "h_ano_max": 0.0
+   },
+   "automatizado": {
+    "ocorr_caso": 0.722,
+    "h_ocorr": [
+     0.0,
+     0.0
+    ],
+    "h_ano_min": 0.0,
+    "h_ano_med": 0.0,
+    "h_ano_max": 0.0
+   },
+   "norma": {
+    "ocorr_caso": 0.722,
+    "h_ocorr": [
+     0.0,
+     0.0
+    ],
+    "h_ano_min": 0.0,
+    "h_ano_med": 0.0,
+    "h_ano_max": 0.0
+   }
+  },
+  "t2": {
+   "atual": {
+    "ocorr_caso": 0.5,
+    "h_ocorr": [
+     0.167,
+     0.43
+    ],
+    "h_ano_min": 1.7,
+    "h_ano_med": 3.0,
+    "h_ano_max": 4.3
+   },
+   "sem_sistema": {
+    "ocorr_caso": 1,
+    "h_ocorr": [
+     0.25,
+     0.5
+    ],
+    "h_ano_min": 5.0,
+    "h_ano_med": 7.5,
+    "h_ano_max": 10.0
+   },
+   "automatizado": {
+    "ocorr_caso": 1,
+    "h_ocorr": [
+     0.15,
+     0.3
+    ],
+    "h_ano_min": 3.0,
+    "h_ano_med": 4.5,
+    "h_ano_max": 6.0
+   },
+   "norma": {
+    "ocorr_caso": 1,
+    "h_ocorr": [
+     0.25,
+     0.5
+    ],
+    "h_ano_min": 5.0,
+    "h_ano_med": 7.5,
+    "h_ano_max": 10.0
+   }
+  },
+  "t3": {
+   "atual": {
+    "ocorr_caso": 1.389,
+    "h_ocorr": [
+     0.0,
+     0.0
+    ],
+    "h_ano_min": 0.0,
+    "h_ano_med": 0.0,
+    "h_ano_max": 0.0
+   },
+   "sem_sistema": {
+    "ocorr_caso": 0.5,
+    "h_ocorr": [
+     0.3,
+     0.5
+    ],
+    "h_ano_min": 3.0,
+    "h_ano_med": 4.0,
+    "h_ano_max": 5.0
+   },
+   "automatizado": {
+    "ocorr_caso": 0.5,
+    "h_ocorr": [
+     0.2,
+     0.4
+    ],
+    "h_ano_min": 2.0,
+    "h_ano_med": 3.0,
+    "h_ano_max": 4.0
+   },
+   "norma": {
+    "ocorr_caso": 0.5,
+    "h_ocorr": [
+     0.3,
+     0.5
+    ],
+    "h_ano_min": 3.0,
+    "h_ano_med": 4.0,
+    "h_ano_max": 5.0
+   }
+  },
+  "t4": {
+   "atual": {
+    "ocorr_caso": 0.111,
+    "h_ocorr": [
+     1.32,
+     2.455
+    ],
+    "h_ano_min": 2.9,
+    "h_ano_med": 4.2,
+    "h_ano_max": 5.5
+   },
+   "sem_sistema": {
+    "ocorr_caso": 0.111,
+    "h_ocorr": [
+     1.32,
+     2.455
+    ],
+    "h_ano_min": 2.9,
+    "h_ano_med": 4.2,
+    "h_ano_max": 5.5
+   },
+   "automatizado": {
+    "ocorr_caso": 0.111,
+    "h_ocorr": [
+     1.32,
+     2.455
+    ],
+    "h_ano_min": 2.9,
+    "h_ano_med": 4.2,
+    "h_ano_max": 5.5
+   },
+   "norma": {
+    "ocorr_caso": 0.111,
+    "h_ocorr": [
+     1.32,
+     2.455
+    ],
+    "h_ano_min": 2.9,
+    "h_ano_med": 4.2,
+    "h_ano_max": 5.5
+   }
+  },
+  "t5": {
+   "atual": {
+    "ocorr_caso": 1.056,
+    "h_ocorr": [
+     1.203,
+     2.024
+    ],
+    "h_ano_min": 25.4,
+    "h_ano_med": 34.1,
+    "h_ano_max": 42.7
+   },
+   "sem_sistema": {
+    "ocorr_caso": 1,
+    "h_ocorr": [
+     0.6,
+     1.2
+    ],
+    "h_ano_min": 12.0,
+    "h_ano_med": 18.0,
+    "h_ano_max": 24.0
+   },
+   "automatizado": {
+    "ocorr_caso": 1,
+    "h_ocorr": [
+     0.4,
+     0.8
+    ],
+    "h_ano_min": 8.0,
+    "h_ano_med": 12.0,
+    "h_ano_max": 16.0
+   },
+   "norma": {
+    "ocorr_caso": 1,
+    "h_ocorr": [
+     0.6,
+     1.2
+    ],
+    "h_ano_min": 12.0,
+    "h_ano_med": 18.0,
+    "h_ano_max": 24.0
+   }
+  },
+  "t16": {
+   "atual": {
+    "ocorr_caso": 0.944,
+    "h_ocorr": [
+     0.278,
+     0.495
+    ],
+    "h_ano_min": 5.3,
+    "h_ano_med": 7.3,
+    "h_ano_max": 9.3
+   },
+   "sem_sistema": {
+    "ocorr_caso": 1,
+    "h_ocorr": [
+     0.2,
+     0.4
+    ],
+    "h_ano_min": 4.0,
+    "h_ano_med": 6.0,
+    "h_ano_max": 8.0
+   },
+   "automatizado": {
+    "ocorr_caso": 1,
+    "h_ocorr": [
+     0.15,
+     0.3
+    ],
+    "h_ano_min": 3.0,
+    "h_ano_med": 4.5,
+    "h_ano_max": 6.0
+   },
+   "norma": {
+    "ocorr_caso": 1,
+    "h_ocorr": [
+     0.2,
+     0.4
+    ],
+    "h_ano_min": 4.0,
+    "h_ano_med": 6.0,
+    "h_ano_max": 8.0
+   }
+  },
+  "t6": {
+   "atual": {
+    "ocorr_caso": 1.111,
+    "h_ocorr": [
+     1.369,
+     3.583
+    ],
+    "h_ano_min": 30.4,
+    "h_ano_med": 55.0,
+    "h_ano_max": 79.6
+   },
+   "sem_sistema": {
+    "ocorr_caso": 1,
+    "h_ocorr": [
+     0.6,
+     1.8
+    ],
+    "h_ano_min": 12.0,
+    "h_ano_med": 24.0,
+    "h_ano_max": 36.0
+   },
+   "automatizado": {
+    "ocorr_caso": 1,
+    "h_ocorr": [
+     0.5,
+     1.5
+    ],
+    "h_ano_min": 10.0,
+    "h_ano_med": 20.0,
+    "h_ano_max": 30.0
+   },
+   "norma": {
+    "ocorr_caso": 1,
+    "h_ocorr": [
+     0.6,
+     1.8
+    ],
+    "h_ano_min": 12.0,
+    "h_ano_med": 24.0,
+    "h_ano_max": 36.0
+   }
+  },
+  "t7": {
+   "atual": {
+    "ocorr_caso": 0.111,
+    "h_ocorr": [
+     1.03,
+     1.275
+    ],
+    "h_ano_min": 2.3,
+    "h_ano_med": 2.6,
+    "h_ano_max": 2.8
+   },
+   "sem_sistema": {
+    "ocorr_caso": 0.2,
+    "h_ocorr": [
+     1.03,
+     1.275
+    ],
+    "h_ano_min": 4.1,
+    "h_ano_med": 4.6,
+    "h_ano_max": 5.1
+   },
+   "automatizado": {
+    "ocorr_caso": 0.2,
+    "h_ocorr": [
+     1.03,
+     1.275
+    ],
+    "h_ano_min": 4.1,
+    "h_ano_med": 4.6,
+    "h_ano_max": 5.1
+   },
+   "norma": {
+    "ocorr_caso": 0.2,
+    "h_ocorr": [
+     1.03,
+     1.275
+    ],
+    "h_ano_min": 4.1,
+    "h_ano_med": 4.6,
+    "h_ano_max": 5.1
+   }
+  },
+  "t8": {
+   "atual": {
+    "ocorr_caso": 0.333,
+    "h_ocorr": [
+     1.933,
+     3.91
+    ],
+    "h_ano_min": 12.9,
+    "h_ano_med": 19.5,
+    "h_ano_max": 26.1
+   },
+   "sem_sistema": {
+    "ocorr_caso": 0.4,
+    "h_ocorr": [
+     1.933,
+     3.91
+    ],
+    "h_ano_min": 15.5,
+    "h_ano_med": 23.4,
+    "h_ano_max": 31.3
+   },
+   "automatizado": {
+    "ocorr_caso": 0.4,
+    "h_ocorr": [
+     1.547,
+     3.128
+    ],
+    "h_ano_min": 12.4,
+    "h_ano_med": 18.7,
+    "h_ano_max": 25.0
+   },
+   "norma": {
+    "ocorr_caso": 0.2,
+    "h_ocorr": [
+     1.933,
+     3.91
+    ],
+    "h_ano_min": 7.7,
+    "h_ano_med": 11.7,
+    "h_ano_max": 15.6
+   }
+  },
+  "t9": {
+   "atual": {
+    "ocorr_caso": 0.056,
+    "h_ocorr": [
+     1.06,
+     1.72
+    ],
+    "h_ano_min": 1.2,
+    "h_ano_med": 1.5,
+    "h_ano_max": 1.9
+   },
+   "sem_sistema": {
+    "ocorr_caso": 1,
+    "h_ocorr": [
+     0.3,
+     0.6
+    ],
+    "h_ano_min": 6.0,
+    "h_ano_med": 9.0,
+    "h_ano_max": 12.0
+   },
+   "automatizado": {
+    "ocorr_caso": 1,
+    "h_ocorr": [
+     0.2,
+     0.4
+    ],
+    "h_ano_min": 4.0,
+    "h_ano_med": 6.0,
+    "h_ano_max": 8.0
+   },
+   "norma": {
+    "ocorr_caso": 0,
+    "h_ocorr": [
+     0,
+     0
+    ],
+    "h_ano_min": 0,
+    "h_ano_med": 0.0,
+    "h_ano_max": 0
+   }
+  },
+  "t10": {
+   "atual": {
+    "ocorr_caso": 1.611,
+    "h_ocorr": [
+     0.499,
+     0.873
+    ],
+    "h_ano_min": 16.1,
+    "h_ano_med": 22.1,
+    "h_ano_max": 28.1
+   },
+   "sem_sistema": {
+    "ocorr_caso": 0,
+    "h_ocorr": [
+     0,
+     0
+    ],
+    "h_ano_min": 0,
+    "h_ano_med": 0.0,
+    "h_ano_max": 0
+   },
+   "automatizado": {
+    "ocorr_caso": 0,
+    "h_ocorr": [
+     0,
+     0
+    ],
+    "h_ano_min": 0,
+    "h_ano_med": 0.0,
+    "h_ano_max": 0
+   },
+   "norma": {
+    "ocorr_caso": 0,
+    "h_ocorr": [
+     0,
+     0
+    ],
+    "h_ano_min": 0,
+    "h_ano_med": 0.0,
+    "h_ano_max": 0
+   }
+  },
+  "t11": {
+   "atual": {
+    "ocorr_caso": 0.722,
+    "h_ocorr": [
+     0.903,
+     1.158
+    ],
+    "h_ano_min": 13.0,
+    "h_ano_med": 14.9,
+    "h_ano_max": 16.7
+   },
+   "sem_sistema": {
+    "ocorr_caso": 1,
+    "h_ocorr": [
+     0.3,
+     0.5
+    ],
+    "h_ano_min": 6.0,
+    "h_ano_med": 8.0,
+    "h_ano_max": 10.0
+   },
+   "automatizado": {
+    "ocorr_caso": 1,
+    "h_ocorr": [
+     0.25,
+     0.4
+    ],
+    "h_ano_min": 5.0,
+    "h_ano_med": 6.5,
+    "h_ano_max": 8.0
+   },
+   "norma": {
+    "ocorr_caso": 1,
+    "h_ocorr": [
+     0.3,
+     0.5
+    ],
+    "h_ano_min": 6.0,
+    "h_ano_med": 8.0,
+    "h_ano_max": 10.0
+   }
+  },
+  "t12": {
+   "atual": {
+    "ocorr_caso": 0.833,
+    "h_ocorr": [
+     0.272,
+     0.528
+    ],
+    "h_ano_min": 4.5,
+    "h_ano_med": 6.7,
+    "h_ano_max": 8.8
+   },
+   "sem_sistema": {
+    "ocorr_caso": 1,
+    "h_ocorr": [
+     0.15,
+     0.3
+    ],
+    "h_ano_min": 3.0,
+    "h_ano_med": 4.5,
+    "h_ano_max": 6.0
+   },
+   "automatizado": {
+    "ocorr_caso": 1,
+    "h_ocorr": [
+     0.1,
+     0.2
+    ],
+    "h_ano_min": 2.0,
+    "h_ano_med": 3.0,
+    "h_ano_max": 4.0
+   },
+   "norma": {
+    "ocorr_caso": 1,
+    "h_ocorr": [
+     0.15,
+     0.3
+    ],
+    "h_ano_min": 3.0,
+    "h_ano_med": 4.5,
+    "h_ano_max": 6.0
+   }
+  },
+  "t13": {
+   "atual": {
+    "ocorr_caso": 1.278,
+    "h_ocorr": [
+     0.396,
+     0.893
+    ],
+    "h_ano_min": 10.1,
+    "h_ano_med": 16.5,
+    "h_ano_max": 22.8
+   },
+   "sem_sistema": {
+    "ocorr_caso": 1,
+    "h_ocorr": [
+     0.2,
+     0.4
+    ],
+    "h_ano_min": 4.0,
+    "h_ano_med": 6.0,
+    "h_ano_max": 8.0
+   },
+   "automatizado": {
+    "ocorr_caso": 1,
+    "h_ocorr": [
+     0.1,
+     0.2
+    ],
+    "h_ano_min": 2.0,
+    "h_ano_med": 3.0,
+    "h_ano_max": 4.0
+   },
+   "norma": {
+    "ocorr_caso": 1,
+    "h_ocorr": [
+     0.2,
+     0.4
+    ],
+    "h_ano_min": 4.0,
+    "h_ano_med": 6.0,
+    "h_ano_max": 8.0
+   }
+  },
+  "t14": {
+   "atual": {
+    "ocorr_caso": 0.111,
+    "h_ocorr": [
+     0.265,
+     0.825
+    ],
+    "h_ano_min": 0.6,
+    "h_ano_med": 1.2,
+    "h_ano_max": 1.8
+   },
+   "sem_sistema": {
+    "ocorr_caso": 0.111,
+    "h_ocorr": [
+     0.265,
+     0.825
+    ],
+    "h_ano_min": 0.6,
+    "h_ano_med": 1.2,
+    "h_ano_max": 1.8
+   },
+   "automatizado": {
+    "ocorr_caso": 0.111,
+    "h_ocorr": [
+     0.265,
+     0.825
+    ],
+    "h_ano_min": 0.6,
+    "h_ano_med": 1.2,
+    "h_ano_max": 1.8
+   },
+   "norma": {
+    "ocorr_caso": 0.111,
+    "h_ocorr": [
+     0.265,
+     0.825
+    ],
+    "h_ano_min": 0.6,
+    "h_ano_med": 1.2,
+    "h_ano_max": 1.8
+   }
+  },
+  "t15": {
+   "atual": {
+    "ocorr_caso": 0.111,
+    "h_ocorr": [
+     0.58,
+     0.98
+    ],
+    "h_ano_min": 1.3,
+    "h_ano_med": 1.7,
+    "h_ano_max": 2.2
+   },
+   "sem_sistema": {
+    "ocorr_caso": 1,
+    "h_ocorr": [
+     0.2,
+     0.4
+    ],
+    "h_ano_min": 4.0,
+    "h_ano_med": 6.0,
+    "h_ano_max": 8.0
+   },
+   "automatizado": {
+    "ocorr_caso": 1,
+    "h_ocorr": [
+     0.1,
+     0.2
+    ],
+    "h_ano_min": 2.0,
+    "h_ano_med": 3.0,
+    "h_ano_max": 4.0
+   },
+   "norma": {
+    "ocorr_caso": 1,
+    "h_ocorr": [
+     0.2,
+     0.4
+    ],
+    "h_ano_min": 4.0,
+    "h_ano_med": 6.0,
+    "h_ano_max": 8.0
+   }
+  },
+  "out": {
+   "atual": {
+    "ocorr_caso": 1,
+    "h_ocorr": [
+     0.649,
+     1.928
+    ],
+    "h_ano_min": 13.0,
+    "h_ano_med": 25.8,
+    "h_ano_max": 38.6
+   },
+   "sem_sistema": {
+    "ocorr_caso": 1,
+    "h_ocorr": [
+     0.649,
+     1.928
+    ],
+    "h_ano_min": 13.0,
+    "h_ano_med": 25.8,
+    "h_ano_max": 38.6
+   },
+   "automatizado": {
+    "ocorr_caso": 1,
+    "h_ocorr": [
+     0.454,
+     1.349
+    ],
+    "h_ano_min": 9.1,
+    "h_ano_med": 18.0,
+    "h_ano_max": 27.0
+   },
+   "norma": {
+    "ocorr_caso": 1,
+    "h_ocorr": [
+     0.649,
+     1.928
+    ],
+    "h_ano_min": 13.0,
+    "h_ano_med": 25.8,
+    "h_ano_max": 38.6
+   }
+  }
+ },
+ "totais": {
+  "atual": {
+   "min": {
+    "horas": 140.7,
+    "reais": 8115,
+    "fte": 0.078,
+    "concentrado": 75.1
+   },
+   "med": {
+    "horas": 216.0,
+    "reais": 12461,
+    "fte": 0.12,
+    "concentrado": 116.9
+   },
+   "max": {
+    "horas": 291.3,
+    "reais": 16807,
+    "fte": 0.162,
+    "concentrado": 158.6
+   }
+  },
+  "sem_sistema": {
+   "min": {
+    "horas": 95.1,
+    "reais": 5486,
+    "fte": 0.053,
+    "concentrado": 52.5
+   },
+   "med": {
+    "horas": 152.2,
+    "reais": 8778,
+    "fte": 0.085,
+    "concentrado": 83.2
+   },
+   "max": {
+    "horas": 209.2,
+    "reais": 12070,
+    "fte": 0.116,
+    "concentrado": 113.8
+   }
+  },
+  "automatizado": {
+   "min": {
+    "horas": 82.1,
+    "reais": 4736,
+    "fte": 0.046,
+    "concentrado": 41.4
+   },
+   "med": {
+    "horas": 136.3,
+    "reais": 7860,
+    "fte": 0.076,
+    "concentrado": 65.5
+   },
+   "max": {
+    "horas": 190.4,
+    "reais": 10984,
+    "fte": 0.106,
+    "concentrado": 89.6
+   }
+  },
+  "norma": {
+   "min": {
+    "horas": 81.4,
+    "reais": 4693,
+    "fte": 0.045,
+    "concentrado": 38.8
+   },
+   "med": {
+    "horas": 131.5,
+    "reais": 7584,
+    "fte": 0.073,
+    "concentrado": 62.5
+   },
+   "max": {
+    "horas": 181.6,
+    "reais": 10476,
+    "fte": 0.101,
+    "concentrado": 86.2
+   }
+  }
+ },
+ "comparacoes": {
+  "sem_sistema_x_atual": {
+   "min": {
+    "horas": 45.6,
+    "reais": 2630,
+    "fte": 0.0253,
+    "vpl": 956,
+    "payback_meses": 40.6
+   },
+   "med": {
+    "horas": 63.8,
+    "reais": 3683,
+    "fte": 0.0355,
+    "vpl": 5108,
+    "payback_meses": 25.1
+   },
+   "max": {
+    "horas": 82.1,
+    "reais": 4737,
+    "fte": 0.0456,
+    "vpl": 9260,
+    "payback_meses": 18.2
+   }
+  },
+  "automatizado_x_atual": {
+   "min": {
+    "horas": 58.6,
+    "reais": 3379,
+    "fte": 0.0325,
+    "com_produtividade": {
+     "vpl": -130300,
+     "payback_anos": null,
+     "teto": -708,
+     "margem": 10.786,
+     "custo_hora_liberada": 622.27
+    },
+    "sem_produtividade": {
+     "vpl": -253144,
+     "payback_anos": null,
+     "teto": -708,
+     "margem": 20.013,
+     "custo_hora_liberada": 1154.55
+    }
+   },
+   "med": {
+    "horas": 79.7,
+    "reais": 4601,
+    "fte": 0.0443,
+    "com_produtividade": {
+     "vpl": -125484,
+     "payback_anos": null,
+     "teto": 1985,
+     "margem": 7.921,
+     "custo_hora_liberada": 456.99
+    },
+    "sem_produtividade": {
+     "vpl": -248329,
+     "payback_anos": null,
+     "teto": 1985,
+     "margem": 14.697,
+     "custo_hora_liberada": 847.89
+    }
+   },
+   "max": {
+    "horas": 100.9,
+    "reais": 5823,
+    "fte": 0.0561,
+    "com_produtividade": {
+     "vpl": -120669,
+     "payback_anos": null,
+     "teto": 4678,
+     "margem": 6.259,
+     "custo_hora_liberada": 361.08
+    },
+    "sem_produtividade": {
+     "vpl": -243513,
+     "payback_anos": null,
+     "teto": 4678,
+     "margem": 11.613,
+     "custo_hora_liberada": 669.94
+    }
+   }
+  },
+  "automatizado_x_sem_sistema": {
+   "min": {
+    "horas": 13.0,
+    "reais": 749,
+    "fte": 0.0072,
+    "com_produtividade": {
+     "vpl": -140662,
+     "payback_anos": null,
+     "teto": -6503,
+     "margem": 48.644,
+     "custo_hora_liberada": 2806.29
+    },
+    "sem_produtividade": {
+     "vpl": -263506,
+     "payback_anos": null,
+     "teto": -6503,
+     "margem": 90.254,
+     "custo_hora_liberada": 5206.73
+    }
+   },
+   "med": {
+    "horas": 15.9,
+    "reais": 918,
+    "fte": 0.0088,
+    "com_produtividade": {
+     "vpl": -139999,
+     "payback_anos": null,
+     "teto": -6132,
+     "margem": 39.72,
+     "custo_hora_liberada": 2291.43
+    },
+    "sem_produtividade": {
+     "vpl": -262843,
+     "payback_anos": null,
+     "teto": -6132,
+     "margem": 73.695,
+     "custo_hora_liberada": 4251.46
+    }
+   },
+   "max": {
+    "horas": 18.8,
+    "reais": 1086,
+    "fte": 0.0105,
+    "com_produtividade": {
+     "vpl": -139335,
+     "payback_anos": null,
+     "teto": -5761,
+     "margem": 33.562,
+     "custo_hora_liberada": 1936.2
+    },
+    "sem_produtividade": {
+     "vpl": -262180,
+     "payback_anos": null,
+     "teto": -5761,
+     "margem": 62.27,
+     "custo_hora_liberada": 3592.38
+    }
+   }
+  },
+  "norma_x_atual": {
+   "min": {
+    "horas": 59.3,
+    "reais": 3422,
+    "fte": 0.033,
+    "vpl": 2693,
+    "payback_meses": 34.4
+   },
+   "med": {
+    "horas": 84.5,
+    "reais": 4877,
+    "fte": 0.047,
+    "vpl": 8426,
+    "payback_meses": 21.7
+   },
+   "max": {
+    "horas": 109.7,
+    "reais": 6331,
+    "fte": 0.061,
+    "vpl": 14159,
+    "payback_meses": 15.9
+   }
+  }
+ },
+ "estresse_horas": {
+  "automatizado_x_atual": -49.7,
+  "automatizado_x_sem_sistema": -95.3,
+  "sem_sistema_x_atual": -68.6
+ },
+ "sensibilidade": [
+  {
+   "premissa": "custo_hora",
+   "valor": 40,
+   "investimento": 72161,
+   "economia": 636,
+   "vpl": -141107,
+   "teto": -6752
+  },
+  {
+   "premissa": "custo_hora",
+   "valor": 57.69,
+   "investimento": 72161,
+   "economia": 918,
+   "vpl": -139999,
+   "teto": -6132
+  },
+  {
+   "premissa": "custo_hora",
+   "valor": 115.38,
+   "investimento": 72161,
+   "economia": 1835,
+   "vpl": -136383,
+   "teto": -4110
+  },
+  {
+   "premissa": "volume",
+   "valor": 10,
+   "investimento": 72161,
+   "economia": -234,
+   "vpl": -144534,
+   "teto": -8669
+  },
+  {
+   "premissa": "volume",
+   "valor": 20,
+   "investimento": 72161,
+   "economia": 918,
+   "vpl": -139999,
+   "teto": -6132
+  },
+  {
+   "premissa": "volume",
+   "valor": 40,
+   "investimento": 72161,
+   "economia": 3220,
+   "vpl": -130927,
+   "teto": -1059
+  },
+  {
+   "premissa": "volume",
+   "valor": 80,
+   "investimento": 72161,
+   "economia": 7824,
+   "vpl": -112783,
+   "teto": 9088
+  },
+  {
+   "premissa": "volume",
+   "valor": 330,
+   "investimento": 72161,
+   "economia": 36600,
+   "vpl": 614,
+   "teto": 72505
+  },
+  {
+   "premissa": "horizonte",
+   "valor": 3,
+   "investimento": 72161,
+   "economia": 918,
+   "vpl": -116128,
+   "teto": -4704
+  },
+  {
+   "premissa": "horizonte",
+   "valor": 5,
+   "investimento": 72161,
+   "economia": 918,
+   "vpl": -139999,
+   "teto": -6132
+  },
+  {
+   "premissa": "horizonte",
+   "valor": 10,
+   "investimento": 72161,
+   "economia": 918,
+   "vpl": -185113,
+   "teto": -7896
+  },
+  {
+   "premissa": "taxa",
+   "valor": 0.05,
+   "investimento": 72161,
+   "economia": 918,
+   "vpl": -146692,
+   "teto": -6456
+  },
+  {
+   "premissa": "taxa",
+   "valor": 0.085,
+   "investimento": 72161,
+   "economia": 918,
+   "vpl": -139999,
+   "teto": -6132
+  },
+  {
+   "premissa": "taxa",
+   "valor": 0.12,
+   "investimento": 72161,
+   "economia": 918,
+   "vpl": -134217,
+   "teto": -5828
+  },
+  {
+   "premissa": "adesao",
+   "valor": 0.5,
+   "investimento": 72161,
+   "economia": -234,
+   "vpl": -144534,
+   "teto": -8669
+  },
+  {
+   "premissa": "adesao",
+   "valor": 0.75,
+   "investimento": 72161,
+   "economia": 342,
+   "vpl": -142266,
+   "teto": -7400
+  },
+  {
+   "premissa": "adesao",
+   "valor": 1.0,
+   "investimento": 72161,
+   "economia": 918,
+   "vpl": -139999,
+   "teto": -6132
+  },
+  {
+   "premissa": "produtividade",
+   "valor": 0,
+   "investimento": 140861,
+   "economia": 918,
+   "vpl": -262843,
+   "teto": -6132
+  },
+  {
+   "premissa": "produtividade",
+   "valor": 0.5,
+   "investimento": 72161,
+   "economia": 918,
+   "vpl": -139999,
+   "teto": -6132
+  },
+  {
+   "premissa": "produtividade",
+   "valor": 0.7,
+   "investimento": 44681,
+   "economia": 918,
+   "vpl": -90861,
+   "teto": -6132
+  },
+  {
+   "premissa": "custo_hora_dev",
+   "valor": 100,
+   "investimento": 49261,
+   "economia": 918,
+   "vpl": -99050,
+   "teto": -6132
+  },
+  {
+   "premissa": "custo_hora_dev",
+   "valor": 150,
+   "investimento": 72161,
+   "economia": 918,
+   "vpl": -139999,
+   "teto": -6132
+  },
+  {
+   "premissa": "custo_hora_dev",
+   "valor": 220,
+   "investimento": 104221,
+   "economia": 918,
+   "vpl": -197326,
+   "teto": -6132
+  },
+  {
+   "premissa": "operacao",
+   "valor": 0,
+   "investimento": 72161,
+   "economia": 918,
+   "vpl": -125418,
+   "teto": 2022
+  },
+  {
+   "premissa": "operacao",
+   "valor": 3700,
+   "investimento": 72161,
+   "economia": 918,
+   "vpl": -139999,
+   "teto": -6132
+  },
+  {
+   "premissa": "operacao",
+   "valor": 7400,
+   "investimento": 72161,
+   "economia": 918,
+   "vpl": -154579,
+   "teto": -14286
+  }
+ ]
+}

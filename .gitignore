@@ -3,3 +3,5 @@ __pycache__/
 textos/
 dados/docs/
 publicacao/
+relatorio/node_modules/
+relatorio/render/*.jpg

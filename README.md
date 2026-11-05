@@ -25,6 +25,7 @@ com os servidores**. Com 18 casos, as medianas ainda são instáveis.
 | Quanto se cumpre da lei? | Parecer jurídico antes da assinatura em 50% dos casos; autorização formal em 16,7%; publicação em 66,7%; publicação em até 10 du em 20%; decisão em até 30 dias da instrução em 33,3%; inexigibilidade nos autos em 0% dos contratos | `saida/fase3/conformidade_CONV.json` |
 | Quanto se ganha? | Lead mediano simulado (cenário esperado): 31,0 du na fase 1 (−58,4%), 26,2 du na fase 2 (−64,8%), 24,6 du na fase 3 (−67,0%); faixa de −47,5% a −78,3% na fase 3 | `saida/fase3/resultado_tobe_CONV.json` |
 | É bom piloto de automação com IA? | Não como piloto de automação completa: nota 60,0 (P01 de referência: 80,0), e os portões de volume, procedimento e padrão falham. O ganho vem das fases 1 e 2 (fluxo e regras) | `saida/fase4/matriz_automacao_CONV.json` |
+| Vale desenvolver o sistema? | Não. Com 20 casos/ano, o sistema acrescenta 15,9 h/ano (R$ 918) à alternativa sem sistema, contra R$ 18.132/ano de operação e manutenção: VPL em 5 anos de −R$ 140.000, sem payback. Os ganhos rápidos sem sistema têm VPL de +R$ 5.108 e payback de 25 meses | `saida/fase5/analise_investimento_CONV.json`, `docs/ANALISE_INVESTIMENTO.md` |
 
 O achado do caso de referência se repete: **o tempo é espera, não trabalho**. A fase 1 do TO-BE (kit de adesão,
 minuta padrão com parecer referencial, dono do processo e prazos, publicação e comunicado em prazo fixo) responde
@@ -36,7 +37,9 @@ pela maior parte do ganho, sem tecnologia nova.
    substantivas, contra 85% exigidos. As divergências estão em `saida/auditoria/auditoria_classificador_CONV.json`. Três já foram corrigidas e justificadas
    em `dados/correcoes_rotulos.json`. Por isso o processo está como *indicativo*, não *procedimento*.
 2. **Normas estaduais de fonte secundária** (Leis RS 16.266/2024 e 15.612/2021): conferir no DOE-RS.
-3. **Volume anual e custo-hora**: hipóteses (5 celebrações/ano; R$ 55 a 121/h). Trocar em `scripts/fase3_agergs.py`.
+3. **Volume anual e custo-hora**: o diagnóstico usa hipóteses (5 celebrações/ano; R$ 55 a 121/h), em
+   `scripts/fase3_agergs.py`. A análise de investimento usa os valores informados pelo gestor (20 casos/ano, incluindo
+   aditivos; R$ 57,69/h), em `scripts/analise_investimento.py`.
 4. **Dono do processo** (DAI, como propõe o processo orientativo) e **escolha do piloto de automação**: decisão da gestão.
 
 ## Mapa
@@ -51,8 +54,11 @@ pela maior parte do ganho, sem tecnologia nova.
 | `scripts/pipeline_agergs.py` | Fichas + ancoragem, esforço, linha do tempo, fatos, procedimento, fase 0 | `trilhas.py`, `fichas_trabalho.py`, `fatos.py`, `procedimento.py` |
 | `scripts/gerar_bpmn_agergs.py` | BPMN 2.0 e visualizador, com o gerador do repositório | `gerar_bpmn.py` |
 | `scripts/fase3_agergs.py` | Auditoria às cegas, normas, conformidade, validador da avaliação, linha de base, TO-BE, controles, priorização | `verificar_normas.py`, `conformidade.py`, `validar_avaliacao.py`, `linha_base.py`, `validar_tobe.py`, `simular_tobe.py`, `validar_controles.py`, `priorizacao_automacao.py` |
+| `scripts/analise_investimento.py` | Análise de investimento: atual × sem sistema × automatizado, VPL, payback, teto, estresse e sensibilidade | — |
+| `scripts/relatorio_figuras.py` | Figuras e números do relatório final (`relatorio/fig/`, `relatorio/dados_relatorio.json`) | — |
 | `saida/` | Todas as saídas: `fichas_trabalho.*`, `processos_indicadores.csv`, `estadias.csv`, `Mapeamento_AGERGS_Celebracao.xlsx`, `bpmn/`, `fase2/`, `fase3/`, `fase4/`, `auditoria/` | `saida/` |
 | `docs/` | Relatórios; `docs/bpmn/index.html` (diagramas); `docs/site/index.html` (site navegável) | `docs/` |
+| `relatorio/` | Relatório final em Word (`Relatorio_Celebracao_Convenios_AGERGS.docx`) e PDF (`render/`), gerados por `gerar_docx.js` a partir de `dados_relatorio.json` e `fig/` | — |
 
 ## Publicação e dados pessoais
 
@@ -82,6 +88,13 @@ python3 scripts/fase3_agergs.py
 ```bash
 python3 scripts/gerar_bpmn_agergs.py
 ```
+
+```bash
+python3 scripts/analise_investimento.py
+```
+
+O relatório em Word se refaz com `python3 scripts/relatorio_figuras.py` e, dentro de `relatorio/`, `npm install` e
+`node gerar_docx.js`.
 
 O gerador do BPMN usa o repositório de referência: clone `mapeamento-processos-sei` como `metodologia-repo/`
 na pasta ao lado desta. `scripts/base_documentos.py` refaz a base a partir dos PDFs, que não estão aqui.
